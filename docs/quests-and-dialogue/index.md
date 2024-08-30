@@ -33,4 +33,8 @@ Narrative also has an active Discord community with lots of helpful people:
 
 [Discord invite](https://discord.gg/qyVJmpQ2Pn)
 
-_Note, you will need to verify your purchase by leaving a question OR review on at least 1 of the Narrative products to gain access to all the Discord’s Narrative channels._
+:::note
+
+You will need to verify your purchase by leaving a question OR review on at least 1 of the Narrative products to gain access to all the Discord’s Narrative channels.
+
+:::
