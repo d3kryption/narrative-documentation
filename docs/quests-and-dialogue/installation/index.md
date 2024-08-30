@@ -1,3 +1,7 @@
+---
+sidebar_label: 'Installation'
+---
+
 # Installation
 
 To get started, we will be using the Narrative Tutorial Template project and Unreal Engine version 5.3. This template is a duplication of the Third Person template and contains a bunch of pre-setup features such as Metahumans to make this tutorial easier.

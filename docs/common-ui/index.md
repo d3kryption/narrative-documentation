@@ -13,10 +13,10 @@ Narrative products all come packaged with amazing UI made to work with any platf
 
 **A: It allows us to do some amazing stuff we couldn't otherwise:**
 
-You can now use any gamepad you like with Narrative UI's since we're using Common UI
-You can change the styling of every single Narrative UI in your game by changing a single asset instead of spending hours manually changing them all individually
-UI changes and bug fixes we make do will be applied across all Narrative products
-It keeps your packaged game size smaller since all fonts and icons are stored in 1 plugin rather than having a bunch of duplicates
+- You can now use any gamepad you like with Narrative UI's since we're using Common UI
+- You can change the styling of every single Narrative UI in your game by changing a single asset instead of spending hours manually changing them all individually
+- UI changes and bug fixes we make do will be applied across all Narrative products
+- It keeps your packaged game size smaller since all fonts and icons are stored in 1 plugin rather than having a bunch of duplicates
 
 A detailed video guide is also available here:
 

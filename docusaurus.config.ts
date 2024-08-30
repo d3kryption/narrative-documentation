@@ -35,10 +35,11 @@ const config: Config = {
       {
         docs: {
           sidebarPath: './sidebars.ts',
+          routeBasePath: '/',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/d3kryption/documentation-test',
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -50,6 +51,11 @@ const config: Config = {
   themeConfig: {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
+    colorMode: {
+      defaultMode: 'dark',
+      disableSwitch: false,
+      respectPrefersColorScheme: false,
+    },
     navbar: {
       title: 'Narrative Tools Inc',
       logo: {
@@ -57,27 +63,21 @@ const config: Config = {
         src: 'img/logo.svg',
       },
       items: [
-        {
-          type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
-          position: 'left',
-          label: 'Docs',
-        },
       ],
     },
     footer: {
       style: 'dark',
       links: [
         {
-          title: 'Docs',
+          title: 'Products',
           items: [
             {
               label: 'Quests & Dialogue',
-              to: '/docs/quests-and-dialogue/',
+              to: '/quests-and-dialogue/',
             },
             {
               label: 'Common UI',
-              to: '/docs/common-ui/',
+              to: '/common-ui/',
             },
           ],
         },
