@@ -9,9 +9,17 @@ sidebar_position: 1
 
 Welcome to the Narrative 3.5 quick start guide. This guide will show you how to create your first quest and dialogue with Narrative. After this guide, you will know how to add Narrative to your game with all the necessary functionality.
 
-_A note, Narrative is a big system. There are lots of moving parts that you can slowly work your way up to as and when you need them._
+:::note
 
-_Another note, Narrative 3.5 and future updates rely upon the FREE plugin Narrative Common UI. If you use Narrative 3.4 or lower, you do not need Common UI._
+Narrative is a big system. There are lots of moving parts that you can slowly work your way up to as and when you need them.
+
+:::
+
+:::note
+
+Narrative 3.5 and future updates rely upon the FREE plugin Narrative Common UI. If you use Narrative 3.4 or lower, you do not need Common UI.
+
+:::
 
 A video guide is also available here:
 
