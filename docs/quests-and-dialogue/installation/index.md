@@ -18,8 +18,8 @@ Extract the project then download Narrative from the Epic Marketplace and you ca
 
 ![Plugins folder 2](/img/installed_plugins_folder_2.jpg)
 
-Make sure to enable Narrative 3 and Narrative Common UI by going to edit->Plugins, and checking the box next to Narrative 3 and Narrative Common UI. (you may have to restart Unreal)
+Make sure to enable Narrative 3 and Narrative Common UI by going to edit -> Plugins, and checking the box next to Narrative 3 and Narrative Common UI. (you may have to restart Unreal)
 
 ![Installed plugins](/img/installed_plugins.jpg)
 
-We are now ready to use Narrative.
+We are now ready to configure Narrative.
