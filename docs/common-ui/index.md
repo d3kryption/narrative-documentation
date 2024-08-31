@@ -1,6 +1,5 @@
 ---
 sidebar_label: 'Common UI'
-sidebar_position: 4
 ---
 
 # Common UI

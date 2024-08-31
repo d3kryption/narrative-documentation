@@ -8,10 +8,10 @@ Using Narrative Common UI is really simple. Now any UI Menus you want to the scr
 
 In this example, we have set up the TAB key or the Gamepad top button to open the  inventory menu.
 
-![AddingMenus.png](/img/common-ui/AddingMenus.png)
+![AddingMenus.jpg](/img/common-ui/AddingMenus.jpg)
 
-![AddingMenus.png](/img/common-ui/InventoryPC.png)
+![AddingMenus.jpg](/img/common-ui/InventoryPC.jpg)
 
 If we start using an Xbox controller, Narrative Common UI will automatically swap the input keys to Xbox ones.
 
-![AddingMenus.png](/img/common-ui/InventoryConsole.png)
+![AddingMenus.jpg](/img/common-ui/InventoryConsole.jpg)

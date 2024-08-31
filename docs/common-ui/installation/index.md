@@ -8,11 +8,11 @@ To get started, you need to download the Narrative Common UI from the Epic Marke
 
 Make sure to enable the Narrative Common UI plugin by going to edit->Plugins, and checking the box next to Narrative Common UI. (you may have to restart Unreal)
 
-![InstalledPlugins](/img/common-ui/InstalledPlugins.png)
+![InstalledPlugins](/img/common-ui/InstalledPlugins.jpg)
 
 Then close Unreal and open your projects folder and navigate to the config folder. You should see your games' DefaultGame.ini file.
 
-![DefaultGameIni.png](/img/common-ui/DefaultGameIni.png)
+![DefaultGameIni.jpg](/img/common-ui/DefaultGameIni.jpg)
 
 In your DefaultGame.ini, add the following sections and save.
 
@@ -33,7 +33,7 @@ bCanChangeGamepadType=True
 
 Your DefaultGame.ini should now look something like this.
 
-![ViewportChange.png](/img/common-ui/ViewportChange.png)
+![ViewportChange.jpg](/img/common-ui/ViewportChange.jpg)
 
 Start your project and go to edit then Project Settings and search for a viewport. Find the Game Viewport Client Class set it to be “CommonUI viewport client”.
 

@@ -1,11 +1,10 @@
 ---
 sidebar_label: 'Quests & Dialogue'
-sidebar_position: 1
 ---
 
 # Quests & Dialogue
 
-![Quests & Dialogue Intro](/img/image105.png)
+![Quests & Dialogue Intro](/img/image105.jpg)
 
 Welcome to the Narrative 3.5 quick start guide. This guide will show you how to create your first quest and dialogue with Narrative. After this guide, you will know how to add Narrative to your game with all the necessary functionality.
 
