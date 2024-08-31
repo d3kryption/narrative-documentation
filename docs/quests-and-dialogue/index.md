@@ -16,24 +16,18 @@ Narrative is a big system. There are lots of moving parts that you can slowly wo
 
 :::note
 
-Narrative 3.5 and future updates rely upon the FREE plugin Narrative Common UI. If you use Narrative 3.4 or lower, you do not need Common UI.
+Narrative 3.5 and future updates rely upon the FREE plugin [Narrative Common UI](/common-ui). If you use Narrative 3.4 or lower, you do not need Common UI.
 
 :::
 
 A video guide is also available here:
 
-[Video Guide](https://www.youtube.com/watch?v=azheylJrvvk)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/azheylJrvvk?si=gZ2jHjDn_jSkTzVC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 An upgrade video guide is also available here to move to Common UI:
 
-[Upgrade video guide](https://www.youtube.com/watch?v=lvH2QrYpOrs)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/lvH2QrYpOrs?si=aariosVEUHKhc_Yr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 Narrative also has an active Discord community with lots of helpful people:
 
 [Discord invite](https://discord.gg/qyVJmpQ2Pn)
-
-:::note
-
-You will need to verify your purchase by leaving a question OR review on at least 1 of the Narrative products to gain access to all the Discord’s Narrative channels.
-
-:::

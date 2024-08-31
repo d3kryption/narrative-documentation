@@ -1,6 +1,6 @@
 ---
 sidebar_label: 'Narrative Suite Integrations'
-sidebar_position: 1
+sidebar_position: 4
 ---
 
 # Narrative Suite Integrations

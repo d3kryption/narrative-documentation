@@ -72,12 +72,16 @@ const config: Config = {
           title: 'Products',
           items: [
             {
-              label: 'Quests & Dialogue',
-              to: '/quests-and-dialogue/',
-            },
-            {
               label: 'Common UI',
               to: '/common-ui/',
+            },
+            {
+              label: 'Interaction',
+              to: '/interaction/',
+            },
+            {
+              label: 'Quests & Dialogue',
+              to: '/quests-and-dialogue/',
             },
           ],
         },

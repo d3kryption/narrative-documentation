@@ -10,20 +10,14 @@ Welcome to the Narrative Interaction quick start guide. This guide will show you
 
 :::note
 
-Narrative Interaction relies upon the FREE plugin Narrative Common UI.
+Narrative Interaction relies upon the FREE plugin [Narrative Common UI](/common-ui).
 
 :::
 
 Detailed video guides are also available here:
 
-[Video guide](https://www.youtube.com/watch?v=VDCu9ulTaJc)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/VDCu9ulTaJc?si=pEhFAB4cBuPIf9OB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 Narrative also has an active Discord community with lots of helpful people:
 
 [Discord invite link](https://discord.gg/qyVJmpQ2Pn)
-
-:::note
-
-You will need to verify your purchase by leaving a question on at least 1 of the Narrative products to gain access to all the Discord’s Narrative channels.
-
-:::

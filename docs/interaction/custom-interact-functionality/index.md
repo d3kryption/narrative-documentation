@@ -1,6 +1,6 @@
 ---
 sidebar_label: 'Custom interact functionality'
-sidebar_position: 1
+sidebar_position: 3
 ---
 
 # Custom interact functionality

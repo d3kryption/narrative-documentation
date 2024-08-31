@@ -9,7 +9,7 @@ To set up a simple HUD, open your Content Drawer, right click -> user interface 
 
 Open the HUD and add a **WBP Interaction Widget**. Align this however you want to.
 
-Finally, go back into your [Player Controller](/player-controller/index.md), and on begin play, create the widget, promote it to a variable then add it to the viewport.
+Finally, go back into your [Player Controller](../../player-controller/index.md), and on begin play, create the widget, promote it to a variable then add it to the viewport.
 
 ![create-hud.jpg](/img/interaction/create-hud.jpg)
 

@@ -1,9 +1,9 @@
 ---
-sidebar_label: 'Collision not working'
-sidebar_position: 1
+sidebar_label: 'Collision settings'
+sidebar_position: 5
 ---
 
-# Collision not working
+# Collision settings
 
 Narrative Interaction works by firing a line trace from the center of the camera forward. This line trace is set to detect anything that is set to block Visibility Traces. 
 
