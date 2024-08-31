@@ -1,6 +1,6 @@
 ---
-sidebar_label: 'Interactions'
+sidebar_label: 'Interaction'
 ---
 
-# Interactions
+# Interaction
 

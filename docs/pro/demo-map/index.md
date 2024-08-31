@@ -15,7 +15,7 @@ As soon as you start the game, you will see a brief [loading screen](../ui/loadi
 
 Define how many [save slots](../saving/index.md) you want to allow the players to jump between games. Everything is saved, the entire world. Inventories, characters, equipment, states all of it. Highly customisable.
 
-![save-slots.png](..%2F..%2F..%2Fstatic%2Fimg%2Fpro%2Fdemo-map%2Fsave-slots.png)
+![save-slots.png](/img/pro/demo-map/save-slots.png)
 
 ## Settlements
 
@@ -25,7 +25,7 @@ Once loading has completed, you will instantly discover your [current location](
 
 Create bandit camps where enemies will attack you on sight.
 
-![settlement-banditcamps.png](..%2F..%2F..%2Fstatic%2Fimg%2Fpro%2Fdemo-map%2Fsettlement-banditcamps.png)
+![settlement-banditcamps.png](/img/pro/demo-map/settlement-banditcamps.png)
 
 ## Navigator
 
@@ -35,15 +35,15 @@ You will also see the [compass](../ui/navigator/compass.md) and [minimap](../ui/
 
 If you start the quest, there is also [on screen markers](../ui/navigator/onscreenmarker.md)
 
-![navigator-onscreenmarker.png](..%2F..%2F..%2Fstatic%2Fimg%2Fpro%2Fdemo-map%2Fnavigator-onscreenmarker.png)
+![navigator-onscreenmarker.png](/img/pro/demo-map/navigator-onscreenmarker.png)
 
 If you enter your menu, you have a [world map](../ui/navigator/worldmap.md) where you can see your entire map, place markers or see [points of interest](../navigator/pointsofinterest.md).
 
-![navigator-pointsofinterest.png](..%2F..%2F..%2Fstatic%2Fimg%2Fpro%2Fdemo-map%2Fnavigator-pointsofinterest.png)
+![navigator-pointsofinterest.png](/img/pro/demo-map/navigator-pointsofinterest.png)
 
 [Fast travel screen](../ui/navigator/fasttravelscreen.md) to hide teleporting
 
-![navigator-fasttravelloading.png](..%2F..%2F..%2Fstatic%2Fimg%2Fpro%2Fdemo-map%2Fnavigator-fasttravelloading.png)
+![navigator-fasttravelloading.png](/img/pro/demo-map/navigator-fasttravelloading.png)
 
 ## Inventory
 
@@ -55,7 +55,7 @@ Pressing the **TAB** key will show you your [inventory](../ui/inventory/index.md
 
 Easily create lootable actors where you can take or give loot. You can loot anything from chests to bad guys.
 
-![inventory-looting.png](..%2F..%2F..%2Fstatic%2Fimg%2Fpro%2Fdemo-map%2Finventory-looting.png)
+![inventory-looting.png](/img/pro/demo-map/inventory-looting.png)
 
 ### Trading
 
@@ -89,49 +89,49 @@ The gameplay tab inside the Settings menu allows you to easily add gameplay opti
 
 Lootable bodies are really easy to add in.
 
-![interaction-bodies.png](..%2F..%2F..%2Fstatic%2Fimg%2Fpro%2Fdemo-map%2Finteraction-bodies.png)
+![interaction-bodies.png](/img/pro/demo-map/interaction-bodies.png)
 
 ## Dialogue
 
 Full [dialogue system](../dialogue/index.md) supported with flexible options, camera, lighting, sound and sequences.
 
-![dialogue.png](..%2F..%2F..%2Fstatic%2Fimg%2Fpro%2Fdemo-map%2Fdialogue.png)
-
+![dialogue.png](/img/pro/demo-map/dialogue.png)
+d3kryption
 ### Seamless transitions
 
 Create [AAA quality transitions](../dialogue/index.md) when moving between gameplay and dialogue with ease.
 
-![dialogue-transistions.png](..%2F..%2F..%2Fstatic%2Fimg%2Fpro%2Fdemo-map%2Fdialogue-transistions.png)
+![dialogue-transistions.png](/img/pro/demo-map/dialogue-transistions.png)
 
 ## Quests
 
 Highly customisable [quest system](../quests/index.md) to create quests that interact with anything in the world. Enemies, looting, pickups, dialogue all supported.
 
-![quests.png](..%2F..%2F..%2Fstatic%2Fimg%2Fpro%2Fdemo-map%2Fquests.png)
+![quests.png](/img/pro/demo-map/quests.png)
 
 ### Journal
 
 Detailed [quest journal](../quests/quest-journal.md) to show you all past and present quests. Let your players [track quests](../quests/index.md), see objectives and what they've done.
 
-![quests-questjournal.png](..%2F..%2F..%2Fstatic%2Fimg%2Fpro%2Fdemo-map%2Fquests-questjournal.png)
+![quests-questjournal.png](/img/pro/demo-map/quests-questjournal.png)
 
 ### Optional quests
 
 Some objectives just aren't required but are nice to have. Optional quests are built into the quest system with a tick of a box.
 
-![questts-optional.png](..%2F..%2F..%2Fstatic%2Fimg%2Fpro%2Fdemo-map%2Fquestts-optional.png)
+![questts-optional.png](/img/pro/demo-map/questts-optional.png)
 
 ## AI
 
 AI behaviour built in that can be used as friendly or enemy. Can be used from dialogue, quests or many other methods.
 
-![ai.png](..%2F..%2F..%2Fstatic%2Fimg%2Fpro%2Fdemo-map%2Fai.png)
+![ai.png](/img/pro/demo-map/ai.png)
 
 ### Companions / followers
 
 Easily turn NPC's into companions who follow you anywhere you go. Fast travelling, battle, dialogue. All ready and built in.
 
-![companions.png](..%2F..%2F..%2Fstatic%2Fimg%2Fpro%2Fdemo-map%2Fcompanions.png)
+![companions.png](/img/pro/demo-map/companions.png)
 
 ## Equipment
 
@@ -141,11 +141,11 @@ Any weapons you pick up can be [equipped](../inventory/equipment/index.md) to yo
 
 Easy to use pickups for equipment or quest items.
 
-![equipment-armourpickup.png](..%2F..%2F..%2Fstatic%2Fimg%2Fpro%2Fdemo-map%2Fequipment-armourpickup.png)
+![equipment-armourpickup.png](/img/pro/demo-map/equipment-armourpickup.png)
 
 Live preview of your character when equipping armour and weapons.
 
-![equipment-livepreview.png](..%2F..%2F..%2Fstatic%2Fimg%2Fpro%2Fdemo-map%2Fequipment-livepreview.png)
+![equipment-livepreview.png](/img/pro/demo-map/equipment-livepreview.png)
 
 ### Weapons
 
@@ -159,7 +159,7 @@ An [integrated weapons system](../inventory/equipment/weapons/index.md) is avail
 
 Narrative Pro features fully licenced armour created ready to be used. Modular and multi-material ready to be adapted.
 
-![licencedarmour.png](..%2F..%2F..%2Fstatic%2Fimg%2Fpro%2Fdemo-map%2Flicencedarmour.png)
+![licencedarmour.png](/img/pro/demo-map/licencedarmour.png)
 
 ## Abilities
 
@@ -167,15 +167,15 @@ Full [skill tree and ability system](../abilities/index.md) using Unreal's fanta
 
 Unlockable abilities, skills all fully customisable to meet your games requirement. 
 
-![abilities.png](..%2F..%2F..%2Fstatic%2Fimg%2Fpro%2Fdemo-map%2Fabilities.png)
+![abilities.png](/img/pro/demo-map/abilities.png)
 
 Levels driven by XP that can be granted by quests, dialogue or anything you need.
 
-![abilities-levels.png](..%2F..%2F..%2Fstatic%2Fimg%2Fpro%2Fdemo-map%2Fabilities-levels.png)
+![abilities-levels.png](/img/pro/demo-map/abilities-levels.png)
 
 [Videos](../abilities/movies.md) can be provided to show the users exactly what each skill will do.
 
-![abuilities-skillvideos.png](..%2F..%2F..%2Fstatic%2Fimg%2Fpro%2Fdemo-map%2Fabuilities-skillvideos.png)
+![abuilities-skillvideos.png](/img/pro/demo-map/abuilities-skillvideos.png)
 
 ## Books
 
