@@ -96,7 +96,7 @@ Lootable bodies are really easy to add in.
 Full [dialogue system](../dialogue/index.md) supported with flexible options, camera, lighting, sound and sequences.
 
 ![dialogue.png](/img/pro/demo-map/dialogue.png)
-d3kryption
+
 ### Seamless transitions
 
 Create [AAA quality transitions](../dialogue/index.md) when moving between gameplay and dialogue with ease.
