@@ -13,19 +13,19 @@ The dialogue node is the base node that contains all the details you want in the
 
 ## Dialogue Node Properties
 
-| Name                | Type                                                          | Description                                                                                                                                    |
-|---------------------|---------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------|
-| Line                | [FDialogueLine](./index#dialogue-line)                        | The dialogue line associated with this node.                                                                                                   |
-| AlternativeLines    | TArray\<[FDialogueLine](./index#dialogue-line)\>              | If alternative lines are added in here, narrative will randomly select either the main line or one of the alternatives.                        |
-| OnDialogueFinished  | FOnDialogueNodeFinishedPlaying                                | Delegate that is called when the dialogue node finishes playing.                                                                               |
-| PlayedLine          | [FDialogueLine](./index#dialogue-line)                        | The last line the dialogue node played.                                                                                                        |
-| NPCReplies          | TArray\<[UDialogueNode_NPC](./index#npc-dialogue-line)\>      | Array of NPC replies for debugging purposes.                                                                                                   |
-| PlayerReplies       | TArray\<[UDialogueNode_Player](./index#npc-dialogue-player)\> | Array of player replies for debugging purposes.                                                                                                |
-| OnPlayNodeFuncName  | FName                                                         | Name of custom event to call when this node is reached.                                                                                        |
-| DirectedAtSpeakerID | FName                                                         | The ID of the speaker we are saying this line to. Can be left empty.                                                                           |
-| bIsSkippable        | bool                                                          | Should pressing the enter key allow this line to be skipped?                                                                                   |
-| Conditions          | TArray\<[UNarrativeCondition](../conditions)\>                | Conditions are functions that run before this node is pending selection and contain boolean returns that allow this node to be run or ignored. |
-| Events              | TArray\<[UNarrativeEvent](../events)\>                        | Events are functions that can run at specific states on [quests](../quests) & [dialogue](../dialogue).                                         |
+| Name                | Type                                                             | Description                                                                                                                                    |
+|---------------------|------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------|
+| Line                | [FDialogueLine](./index.md#dialogue-line)                        | The dialogue line associated with this node.                                                                                                   |
+| AlternativeLines    | TArray\<[FDialogueLine](./index.md#dialogue-line)\>              | If alternative lines are added in here, narrative will randomly select either the main line or one of the alternatives.                        |
+| OnDialogueFinished  | FOnDialogueNodeFinishedPlaying                                   | Delegate that is called when the dialogue node finishes playing.                                                                               |
+| PlayedLine          | [FDialogueLine](./index.md#dialogue-line)                        | The last line the dialogue node played.                                                                                                        |
+| NPCReplies          | TArray\<[UDialogueNode_NPC](./index.md#npc-dialogue-line)\>      | Array of NPC replies for debugging purposes.                                                                                                   |
+| PlayerReplies       | TArray\<[UDialogueNode_Player](./index.md#npc-dialogue-player)\> | Array of player replies for debugging purposes.                                                                                                |
+| OnPlayNodeFuncName  | FName                                                            | Name of custom event to call when this node is reached.                                                                                        |
+| DirectedAtSpeakerID | FName                                                            | The ID of the speaker we are saying this line to. Can be left empty.                                                                           |
+| bIsSkippable        | bool                                                             | Should pressing the enter key allow this line to be skipped?                                                                                   |
+| Conditions          | TArray\<[UNarrativeCondition](../../conditions)\>                | Conditions are functions that run before this node is pending selection and contain boolean returns that allow this node to be run or ignored. |
+| Events              | TArray\<[UNarrativeEvent](../../events)\>                        | Events are functions that can run at specific states on [quests](../../quests) & [dialogue](../../dialogue).                                   |
 
 ## Dialogue Line
 
@@ -37,15 +37,15 @@ These are seperated from the Node as during dialogue, you only need the base set
 
 ### Properties
 
-| Name                    | Type                                              | Description                                                                                                                       |
-|-------------------------|---------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
-| Text                    | FText                                             | The text for this dialogue node.                                                                                                  |
-| Duration                | ELineDuration                                     | The duration the line should play for.                                                                                            |
-| DurationSecondsOverride | float                                             | The overridden seconds the line should play for.                                                                                  |
-| DialogueSound           | USoundBase                                        | If a dialogue sound is selected, narrative will automatically play the sound for you in 3D space, at the location of the speaker. |
-| DialogueMontage         | UAnimMontage                                      | Narrative will play this montage on the first skeletal mesh component found on your speaker with the tag "Body" added to it.      |
-| FacialAnimation         | UAnimMontage                                      | Narrative will play this montage on the first skeletal mesh component found on your speaker with the tag "Face" added to it.      |
-| Shot                    | [UNarrativeDialogueSequence](./dialogue-sequence) | Shot to play for this line. Overrides speaker shot if one is set.                                                                 |
+| Name                    | Type                                               | Description                                                                                                                       |
+|-------------------------|----------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
+| Text                    | FText                                              | The text for this dialogue node.                                                                                                  |
+| Duration                | ELineDuration                                      | The duration the line should play for.                                                                                            |
+| DurationSecondsOverride | float                                              | The overridden seconds the line should play for.                                                                                  |
+| DialogueSound           | USoundBase                                         | If a dialogue sound is selected, narrative will automatically play the sound for you in 3D space, at the location of the speaker. |
+| DialogueMontage         | UAnimMontage                                       | Narrative will play this montage on the first skeletal mesh component found on your speaker with the tag "Body" added to it.      |
+| FacialAnimation         | UAnimMontage                                       | Narrative will play this montage on the first skeletal mesh component found on your speaker with the tag "Face" added to it.      |
+| Shot                    | [UNarrativeDialogueSequence](../dialogue-sequence) | Shot to play for this line. Overrides speaker shot if one is set.                                                                 |
 
 
 ## NPC Dialogue Line
@@ -58,9 +58,9 @@ NPC's have specific extra fields for added functionality that the player does no
 
 ### Properties
 
-| Name               | Type                                              | Description                                                                                                           |
-|--------------------|---------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------|
-| SelectingReplyShot | [UNarrativeDialogueSequence](./dialogue-sequence) | The [UNarrativeDialogueSequence](./dialogue-sequence/) that will be used while the user is selecting a player option. |
+| Name               | Type                                               | Description                                                                                                            |
+|--------------------|----------------------------------------------------|------------------------------------------------------------------------------------------------------------------------|
+| SelectingReplyShot | [UNarrativeDialogueSequence](../dialogue-sequence) | The [UNarrativeDialogueSequence](../dialogue-sequence) that will be used while the user is selecting a player option. |
 
 
 ## Player Dialogue Line
@@ -73,9 +73,9 @@ Player's have specific extra fields for added functionality that the NPC does no
 
 ### Properties
 
-| Name        | Type  | Description                                                                                                                                                               |
-|-------------|-------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| OptionText  | FText | The shortened text to display for dialogue option when it shows up in the list of available responses. If left empty narrative will just use the main text.               |
-| HintText    | FText | Optional hint text after the option text, ie (Lie, Persuade, Begin Quest) If left empty narrative will see if events have hint text.                                      |
-| bAutoSelect | bool  | If true, this dialogue option will be automatically selected instead of the player having to select it from the UI as long as all [conditions](../conditions.md) are met. |
+| Name        | Type  | Description                                                                                                                                                                  |
+|-------------|-------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| OptionText  | FText | The shortened text to display for dialogue option when it shows up in the list of available responses. If left empty narrative will just use the main text.                  |
+| HintText    | FText | Optional hint text after the option text, ie (Lie, Persuade, Begin Quest) If left empty narrative will see if events have hint text.                                         |
+| bAutoSelect | bool  | If true, this dialogue option will be automatically selected instead of the player having to select it from the UI as long as all [conditions](../../conditions.md) are met. |
 
