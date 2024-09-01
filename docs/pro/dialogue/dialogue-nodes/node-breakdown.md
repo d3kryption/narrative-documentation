@@ -77,5 +77,5 @@ Player's have specific extra fields for added functionality that the NPC does no
 |-------------|-------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | OptionText  | FText | The shortened text to display for dialogue option when it shows up in the list of available responses. If left empty narrative will just use the main text.                  |
 | HintText    | FText | Optional hint text after the option text, ie (Lie, Persuade, Begin Quest) If left empty narrative will see if events have hint text.                                         |
-| bAutoSelect | bool  | If true, this dialogue option will be automatically selected instead of the player having to select it from the UI as long as all [conditions](../../conditions.md) are met. |
+| bAutoSelect | bool  | If true, this dialogue option will be automatically selected instead of the player having to select it from the UI as long as all [conditions](../../conditions) are met. |
 
