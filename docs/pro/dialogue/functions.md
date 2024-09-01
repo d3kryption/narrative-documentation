@@ -6,7 +6,7 @@ sidebar_label: 'Functions'
 
 Dialogue contains a bunch of functions to help you use dialogue in any way you need.
 
-If you import the [Tales Component](../Tales-component), you can view the list of functions supported.
+If you import the [Tales Component](../tales-component), you can view the list of functions supported.
 
 ## Begin Dialogue
 
@@ -21,7 +21,7 @@ This function tells Narrative to start the specified dialogue. It will return a 
 | Name        | Type                                   | Description                                                                                 |
 |-------------|----------------------------------------|---------------------------------------------------------------------------------------------|
 | In          | exec                                   |                                                                                             |
-| Target      | [UTalesComponent](../Tales-component)  | The Narrative component to try and start the dialogue on.                                   |
+| Target      | [UTalesComponent](../tales-component)  | The Narrative component to try and start the dialogue on.                                   |
 | Dialogue    | TSubclassOf\<[UDialogue](./index.md)\> | The dialogue class that you want to play.                                                   |
 | StartFromID | FName                                  | The ID the dialogue should start playing from, if empty will play from root node.           |
 | Priority    | int32                                  | The priority we want to play this dialogue at. -1 means use the dialogues default priority. |
