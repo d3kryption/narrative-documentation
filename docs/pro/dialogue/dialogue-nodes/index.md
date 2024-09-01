@@ -28,7 +28,7 @@ Now you can select the node to enter its details in the **Details** panel.
 
 :::note
 
-The default node comes with some starting text. This can work for some dialogue, but it's much more flexible to keep the first node empty, so you can use [conditions](../../conditions) later.
+The default node comes with some starting text. This can work for some dialogue, but it's much more flexible to keep the first node empty, so you can use [conditions](../../conditions/) later.
 
 :::
 
@@ -59,7 +59,7 @@ Each node has many variables that make it work. They are defined below.
 | OnPlayNodeFuncName      | FName                                                                      | Name of custom event to call when this node is reached.                                                                                                                                             |
 | DirectedAtSpeakerID     | FName                                                                      | The ID of the speaker we are saying this line to. Can be left empty.                                                                                                                                |
 | bIsSkippable            | bool                                                                       | Should pressing the enter key allow this line to be skipped?                                                                                                                                        |
-| conditions              | TArray\<[UNarrativeCondition](../../conditions)\>                          | conditions are functions that run before this node is pending selection and contain boolean returns that allow this node to be run or ignored.                                                      |
+| conditions              | TArray\<[UNarrativeCondition](../../conditions/)\>                          | conditions are functions that run before this node is pending selection and contain boolean returns that allow this node to be run or ignored.                                                      |
 | Events                  | TArray\<[UNarrativeEvent](../../events)\>                                  | Events are functions that can run at specific states on [quests](../../quests) & [dialogue](../../dialogue).                                                                                        |
 
 
@@ -71,7 +71,7 @@ To see a complete breakdown of the variables and how the nodes work, please see 
 
 ## Auto-selection
 
-Player options have an additional property to allow them to be auto-selected. This will tell Narrative to skip rendering the option and select the first Player option that is valid and can be taken. (See [conditional dialogue](../../conditions))
+Player options have an additional property to allow them to be auto-selected. This will tell Narrative to skip rendering the option and select the first Player option that is valid and can be taken. (See [conditional dialogue](../../conditions/))
 
 This is a great option for when you want the player's character to say something but the user does not have to select it.
 

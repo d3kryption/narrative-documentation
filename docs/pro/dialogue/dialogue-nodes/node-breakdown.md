@@ -24,7 +24,7 @@ The dialogue node is the base node that contains all the details you want in the
 | OnPlayNodeFuncName  | FName                                                            | Name of custom event to call when this node is reached.                                                                                        |
 | DirectedAtSpeakerID | FName                                                            | The ID of the speaker we are saying this line to. Can be left empty.                                                                           |
 | bIsSkippable        | bool                                                             | Should pressing the enter key allow this line to be skipped?                                                                                   |
-| Conditions          | TArray\<[UNarrativeCondition](../../conditions)\>                | Conditions are functions that run before this node is pending selection and contain boolean returns that allow this node to be run or ignored. |
+| Conditions          | TArray\<[UNarrativeCondition](../../conditions/)\>                | Conditions are functions that run before this node is pending selection and contain boolean returns that allow this node to be run or ignored. |
 | Events              | TArray\<[UNarrativeEvent](../../events)\>                        | Events are functions that can run at specific states on [quests](../../quests) & [dialogue](../../dialogue).                                   |
 
 ## Dialogue Line
