@@ -49,7 +49,7 @@ This will return you a bool to whether calling BeginDialogue would successfully 
 
 | Name        | Type                                   | Description                                                                                 |
 |-------------|----------------------------------------|---------------------------------------------------------------------------------------------|
-| Target      | [UTalesComponent](../Tales-component)  | The Narrative component to try and start the dialogue on.                                   |
+| Target      | [UTalesComponent](../tales-component)  | The Narrative component to try and start the dialogue on.                                   |
 | Dialogue    | TSubclassOf\<[UDialogue](./index.md)\> | The dialogue class that you want to play.                                                   |
 | StartFromID | FName                                  | The ID the dialogue should start playing from, if empty will play from root node.           |
 | Priority    | int32                                  | The priority we want to play this dialogue at. -1 means use the dialogues default priority. |

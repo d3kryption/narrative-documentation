@@ -24,21 +24,21 @@ If you are working in a multi-player environment with multiple Narrative compone
 
 ### Output
 
-| Name         | Type                                  | Description                                 |
-|--------------|---------------------------------------|---------------------------------------------|
-| Return Value | [UTalesComponent](../Tales-component) | The Narrative component found on the actor. |
+| Name         | Type                          | Description                                 |
+|--------------|-------------------------------|---------------------------------------------|
+| Return Value | [UTalesComponent](./index.md) | The Narrative component found on the actor. |
 
 ## Get Narrative Component From Target
 
-Another method of getting hold of the [tales component](../Tales-component).
+Another method of getting hold of the [tales component](./index.md).
 
-This function allows you to specify which target you want to get the [Tales Component](../Tales-component) from.
+This function allows you to specify which target you want to get the [Tales Component](./index.md) from.
 
 ![get-narrative-component-from-target.png](/img/narrative-component/get-narrative-component-from-target.png)
 
 :::note
 
-This function is more useful for multiplayer games when you have multiple [Tales Components](../Tales-component). 
+This function is more useful for multiplayer games when you have multiple [Tales Components](./index.md). 
 
 If you are working in a single player environment, [GetNarrativeComponent](#get-narrative-component) is sufficient.
 
@@ -46,12 +46,12 @@ If you are working in a single player environment, [GetNarrativeComponent](#get-
 
 ### Inputs
 
-| Name   | Type   | Description                                                             |
-|--------|--------|-------------------------------------------------------------------------|
-| Target | AActor | The actor to try and find the [tales component](../Tales-component) on. |
+| Name   | Type   | Description                                                     |
+|--------|--------|-----------------------------------------------------------------|
+| Target | AActor | The actor to try and find the [tales component](./index.md) on. |
 
 ### Output
 
-| Name         | Type                                  | Description                                 |
-|--------------|---------------------------------------|---------------------------------------------|
-| Return Value | [UTalesComponent](../Tales-component) | The Narrative component found on the actor. |
+| Name         | Type                          | Description                                 |
+|--------------|-------------------------------|---------------------------------------------|
+| Return Value | [UTalesComponent](./index.md) | The Narrative component found on the actor. |

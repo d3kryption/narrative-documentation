@@ -28,7 +28,7 @@ Now you can select the node to enter its details in the **Details** panel.
 
 :::note
 
-The default node comes with some starting text. This can work for some dialogue, but it's much more flexible to keep the first node empty, so you can use [conditions](../conditions) later.
+The default node comes with some starting text. This can work for some dialogue, but it's much more flexible to keep the first node empty, so you can use [conditions](../../conditions) later.
 
 :::
 
@@ -38,7 +38,7 @@ Each node has many variables that make it work. They are defined below.
 
 | Name                    | Type                                                                       | Description                                                                                                                                                                                      |
 |-------------------------|----------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| SelectingReplyShot      | [UNarrativeDialogueSequence](./dialogue-sequence)                          | **(NPC node only)** The [UNarrativeDialogueSequence](./dialogue-sequence/) that will be used while the user is selecting a player option.                                                        |
+| SelectingReplyShot      | [UNarrativeDialogueSequence](../dialogue-sequence)                         | **(NPC node only)** The [UNarrativeDialogueSequence](./dialogue-sequence/) that will be used while the user is selecting a player option.                                                        |
 |                         |
 | OptionText              | FText                                                                      | **(Player node only)** The shortened text to display for dialogue option when it shows up in the list of available responses. If left empty narrative will just use the main text.               |
 | HintText                | FText                                                                      | **(Player node only)** Optional hint text after the option text, ie (Lie, Persuade, Begin Quest) If left empty narrative will see if events have hint text.                                      |
@@ -50,7 +50,7 @@ Each node has many variables that make it work. They are defined below.
 | DialogueSound           | USoundBase                                                                 | If a dialogue sound is selected, narrative will automatically play the sound for you in 3D space, at the location of the speaker.                                                                |
 | DialogueMontage         | UAnimMontage                                                               | Narrative will play this montage on the first skeletal mesh component found on your speaker with the tag "Body" added to it.                                                                     |
 | FacialAnimation         | UAnimMontage                                                               | Narrative will play this montage on the first skeletal mesh component found on your speaker with the tag "Face" added to it.                                                                     |
-| Shot                    | [UNarrativeDialogueSequence](./dialogue-sequence)                          | Shot to play for this line. Overrides speaker shot if one is set.                                                                                                                                |
+| Shot                    | [UNarrativeDialogueSequence](../dialogue-sequence)                         | Shot to play for this line. Overrides speaker shot if one is set.                                                                                                                                |
 | AlternativeLines        | TArray\<[FDialogueLine](./index#dialogue-line)\>                           | If alternative lines are added in here, narrative will randomly select either the main line or one of the alternatives.                                                                          |
 | OnDialogueFinished      | FOnDialogueNodeFinishedPlaying                                             | Delegate that is called when the dialogue node finishes playing.                                                                                                                                 |
 | PlayedLine              | [FDialogueLine](./index#dialogue-line)                                     | The last line the dialogue node played.                                                                                                                                                          |
@@ -60,7 +60,7 @@ Each node has many variables that make it work. They are defined below.
 | DirectedAtSpeakerID     | FName                                                                      | The ID of the speaker we are saying this line to. Can be left empty.                                                                                                                             |
 | bIsSkippable            | bool                                                                       | Should pressing the enter key allow this line to be skipped?                                                                                                                                     |
 | Conditions              | TArray\<[UNarrativeCondition](../../conditions)\>                          | Conditions are functions that run before this node is pending selection and contain boolean returns that allow this node to be run or ignored.                                                   |
-| Events                  | TArray\<[UNarrativeEvent](../../events)\>                                  | Events are functions that can run at specific states on [quests](../quests) & [dialogue](../dialogue).                                                                                           |
+| Events                  | TArray\<[UNarrativeEvent](../../events)\>                                  | Events are functions that can run at specific states on [quests](../../quests) & [dialogue](../../dialogue).                                                                                     |
 
 
 :::note
