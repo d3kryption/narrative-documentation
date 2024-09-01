@@ -52,7 +52,7 @@ The class defaults give you access to modify how your dialogue will work. It let
 | bAdjustPlayerTransform    | bool                                                                                                                                      | If enabled, we'll adjust the player to be at PlayerAutoAdjustTransform relative to the other speaker. Only used in 1-on-1 dialogue. |
 | DialogueCameraShake       | TSubclassOf\<[UCameraShakeBase](https://dev.epicgames.com/documentation/en-us/unreal-engine/API/Runtime/Engine/Camera/UCameraShakeBase)\> | Camera shake the dialogue camera will play.                                                                                         |
 | DialogueSoundAttenuation  | [USoundAttenuation](https://dev.epicgames.com/documentation/en-us/unreal-engine/API/Runtime/Engine/Sound/USoundAttenuation)               | The attenuation to use for dialogue lines.                                                                                          |
-| DefaultDialogueShot       | [UNarrativeDialogueSequence](../dialogue/dialogue-sequence.md)                                                                            | If a shot, its speaker, etc., doesn't have a shot, the dialogue will use this one as a default.                                     |
+| DefaultDialogueShot       | [UNarrativeDialogueSequence](./dialogue-sequence)                                                                                         | If a shot, its speaker, etc., doesn't have a shot, the dialogue will use this one as a default.                                     |
 
 ## Copy and pasting
 

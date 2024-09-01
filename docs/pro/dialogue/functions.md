@@ -14,7 +14,7 @@ The most used function in the entire dialogue system.
 
 This function tells Narrative to start the specified dialogue. It will return a bool if it can start or if it has failed for any reason (replication issues, no conditions passed)
 
-![dialogue-begin-dialogue.png](..%2F..%2F..%2Fstatic%2Fimg%2Fdialogue%2Fdialogue-begin-dialogue.png)
+![dialogue-begin-dialogue.png](/img/dialogue/dialogue-begin-dialogue.png)
 
 ### Inputs
 
@@ -43,7 +43,7 @@ The **HasDialogueAvailable** function executes the initialize method of the prov
 
 This will return you a bool to whether calling BeginDialogue would successfully enter the dialogue.
 
-![dialogue-has-dialogue-available.png](..%2F..%2F..%2Fstatic%2Fimg%2Fdialogue%2Fdialogue-has-dialogue-available.png)
+![dialogue-has-dialogue-available.png](/img/dialogue/dialogue-has-dialogue-available.png)
 
 ### Inputs
 

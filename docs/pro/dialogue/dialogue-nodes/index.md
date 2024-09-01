@@ -75,7 +75,7 @@ Player options have an additional property to allow them to be auto-selected. Th
 
 This is a great option for when you want the player's character to say something but the user does not have to select it.
 
-![dialogue-note-player-autoselect.png](..%2F..%2F..%2F..%2Fstatic%2Fimg%2Fdialogue%2Fline%2Fdialogue-note-player-autoselect.png)
+![dialogue-note-player-autoselect.png](/img/dialogue/line/dialogue-note-player-autoselect.png)
 
 ## Back-linking
 
@@ -83,7 +83,7 @@ Back linking is the ability to make circular dialogue; Going back up (across) to
 
 This is very useful for creating questions or returning to menu style dialogue.
 
-![dialogue_backlinking.png](..%2F..%2F..%2F..%2Fstatic%2Fimg%2Fdialogue%2Fdialogue_backlinking.png)
+![dialogue_backlinking.png](/img/dialogue/dialogue_backlinking.png)
 
 ## Colors
 
@@ -93,7 +93,7 @@ Go to **Edit** -> **Project Settings** -> **Narrative Dialogues - Editor**.
 
 Here you can see all the colours that you can change.
 
-![dialogue-default-colours.png](..%2F..%2F..%2F..%2Fstatic%2Fimg%2Fdialogue%2Fdialogue-default-colours.png)
+![dialogue-default-colours.png](/img/dialogue/dialogue-default-colours.png)
 
 ## Duration
 
@@ -109,33 +109,33 @@ graph TD;
 ### Get Line Duration
 The GetLineDuration node overwrites all duration settings. You can set this and customise any return duration you want.
 
-![dialogue-getlineduration.png](..%2F..%2F..%2F..%2Fstatic%2Fimg%2Fdialogue%2Fline%2Fdialogue-getlineduration.png)
+![dialogue-getlineduration.png](/img/dialogue/line/dialogue-getlineduration.png)
 
 ### Duration
 The Duration value can be set with some pre-defined values.
 
-![dialogue-duration.png](..%2F..%2F..%2F..%2Fstatic%2Fimg%2Fdialogue%2Fline%2Fdialogue-duration.png)
+![dialogue-duration.png](/img/dialogue/line/dialogue-duration.png)
 
 ### Audio duration
 The default value for the Duration Field is the audio length if audio has been provided.
 
-![dialogue-duration-audio.png](..%2F..%2F..%2F..%2Fstatic%2Fimg%2Fdialogue%2Fline%2Fdialogue-duration-audio.png)
+![dialogue-duration-audio.png](/img/dialogue/line/dialogue-duration-audio.png)
 
 ### Text length duration
 If no audio has been found, Narrative will default to the length of the text multiplied by the **Letters Per Second Line Duration value**.
 
 This value can be changed within **Edit** -> **Project Settings** -> **Narrative Dialogues - Gameplay**
 
-![dialouge-editor-timings.png](..%2F..%2F..%2F..%2Fstatic%2Fimg%2Fdialogue%2Fline%2Fdialouge-editor-timings.png)
+![dialouge-editor-timings.png](/img/dialogue/line/dialouge-editor-timings.png)
 
 ## Empty nodes
 
 **Empty nodes** are power tool to keep your dialogue organised. It's often used before a list of player options, so you can connect multiple entries into a single node instead of every player option, but it can be used to also just make the dialogue more readable.
 
-![dialogue-empty-nodes.png](..%2F..%2F..%2F..%2Fstatic%2Fimg%2Fdialogue%2Fdialogue-empty-nodes.png)
+![dialogue-empty-nodes.png](/img/dialogue/dialogue-empty-nodes.png)
 
 ### Compact nodes
 
 Sometimes empty nodes can be used to organise dialogue. You can tick a node's **Compact View** option in the details in order to change it into a smaller, closed version in the editor.
 
-![dialogue-compact-node.png](..%2F..%2F..%2F..%2Fstatic%2Fimg%2Fdialogue%2Fdialogue-compact-node.png)
+![dialogue-compact-node.png](/img/dialogue/dialogue-compact-node.png)
