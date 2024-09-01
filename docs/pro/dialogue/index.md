@@ -12,7 +12,9 @@ You can adjust anything from speakers, cameras, text, audio, sequences with a bu
 
 Create a new dialogue by right-clicking in the **Content Drawer** -> **Narrative** -> **Dialogue**.
 
-![creation-new-dialogue.png](..%2F..%2F..%2Fstatic%2Fimg%2Fdialogue%2Fcreation-new-dialogue.png)
+![creation-new-dialogue.png](/img/dialogue/creation-new-dialogue.png)
+
+### Tabs
 
 Here you will see two tabs. The **Dialogue Graph** and the **Event Graph**.
 
@@ -20,21 +22,25 @@ Here you will see two tabs. The **Dialogue Graph** and the **Event Graph**.
 
 **The Dialogue Graph** is how you build up the dialogue with **dialogue nodes**.
 
-Click the **Class Defaults button** at the top, and we can now populate the **Dialogues default settings**.
+![dialogue-graph.png](/img/pro/dialogue/dialogue-graph.png)
 
-![creation-default-settings-class.png](..%2F..%2F..%2Fstatic%2Fimg%2Fdialogue%2Fcreation-default-settings-class.png)
+### Class Defaults
+
+Click the **Class Defaults** button at the top, and we can now populate the **Dialogues default settings**.
+
+![creation-default-settings-class.png](/img/dialogue/creation-default-settings-class.png)
 
 The class defaults give you access to modify how your dialogue will work. It lets you change the speakers in the dialogue, camera settings, character settings and more.
 
-![creation-default-settings.png](..%2F..%2F..%2Fstatic%2Fimg%2Fdialogue%2Fcreation-default-settings.png)
+![creation-default-settings.png](/img/dialogue/creation-default-settings.png)
 
-## Dialogue Properties
+### Dialogue Properties
 
 | Name                      | Type                                                                                                                                      | Description                                                                                                                         |
 |---------------------------|-------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------|
 | Speakers                  | TArray\<[FSpeakerInfo](./speakers.md)\>                                                                                                   | All the NPC speakers in this dialogue.                                                                                              |
-| PlayerSpeakerInfo         | [FPlayerSpeakerInfo](./player-speaker.md)                                                                                                 | The speaker info for our player.                                                                                                    |
-| PartySpeakerInfo          | TArray\<[FPlayerSpeakerInfo](./player-speaker.md)\>                                                                                       | For parties, each player in the party gets their own speaker info.                                                                  |
+| PlayerSpeakerInfo         | [FPlayerSpeakerInfo](./speakers.md#player-speakers)                                                                                       | The speaker info for our player.                                                                                                    |
+| PartySpeakerInfo          | TArray\<[FPlayerSpeakerInfo](./speakers.md#player-speakers)\>                                                                             | For parties, each player in the party gets their own speaker info.                                                                  |
 | bFreeMovement             | bool                                                                                                                                      | If true, narrative UI won't show mouse cursor and set input mode to UI. You'll still be able to control your player.                |
 | bCanBeExited              | bool                                                                                                                                      | If false, default UI will disallow closing of the dialogue with ESC. You need to wait for it to end.                                |
 | bAutoRotateSpeakers       | bool                                                                                                                                      | If enabled, narrative will automatically rotate the speakers to face whoever is currently talking.                                  |
@@ -48,19 +54,36 @@ The class defaults give you access to modify how your dialogue will work. It let
 | DialogueSoundAttenuation  | [USoundAttenuation](https://dev.epicgames.com/documentation/en-us/unreal-engine/API/Runtime/Engine/Sound/USoundAttenuation)               | The attenuation to use for dialogue lines.                                                                                          |
 | DefaultDialogueShot       | [UNarrativeDialogueSequence](../dialogue/dialogue-sequence.md)                                                                            | If a shot, its speaker, etc., doesn't have a shot, the dialogue will use this one as a default.                                     |
 
+## Copy and pasting
 
+Dialogue can be a time-consuming task to write and often, writers will not use Unreal to write the story and script. Narrative supports a copy-and-paste standard to help create dialogue faster.
 
+You can create Dialogue simply by copying the speaker ID and text in the following format.
 
+```
+SpeakerID: Text
+```
 
+For example:
+```
+Reubs: Hey! Welcome to Narrative
+Dan: Thanks!
+Player: Who is Dan?
+Reubs: Everyone knows Dan! You just need to decrypt it...
+```
 
+Narrative will take this and automatically create the speakers if they do not exist, create all the nodes and joint them the best it can.
 
+Narrative does not let you import from Excel files, CSV’s or any other media.
 
+:::warning
 
+Copying and pasting dialogue nodes have been disabled until further notice. 
 
+It was causing corruption in assets and until it can be resolved up to the high Narrative standard, it has been removed.
 
-![blockeddialogueinteraction.png](..%2F..%2F..%2Fstatic%2Fimg%2Fpro%2Fdialogue%2Fblockeddialogueinteraction.png)
+:::
 
-Conditional dialogue based on quest states
 
 ## Player Name
 
@@ -70,7 +93,7 @@ Set the `Default Username` to the name you want for the player.
 
 :::note
 
-If you want to use the default username, leave this blank and it will load the platform name (steam username, PlayStation PSN) 
+If you want to use the default username, leave this blank, and it will load the platform name (steam username, PlayStation PSN) 
 
 You can also override this using the [ChangeName](https://dev.epicgames.com/documentation/en-us/unreal-engine/BlueprintAPI/Game/ChangeName?application_version=5.4) node.
 

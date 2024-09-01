@@ -12,7 +12,7 @@ It automatically takes care of unloading and loading to keep the game optimised.
 
 To add a new Settlement search your actors toolbox for `Settlement`. Drag this into your world where you want your area to be managed.
 
-![settlements-new.png](..%2F..%2F..%2Fstatic%2Fimg%2Fpro%2Fsettlements%2Fsettlements-new.png)
+![settlements-new.png](/img/pro/settlements/settlements-new.png)
 
 :::note
 
@@ -20,23 +20,23 @@ You can enable the **Place Actors** panel by going to **Window** -> **Place Acto
 
 :::
 
-![settlements-new-placed.png](..%2F..%2F..%2Fstatic%2Fimg%2Fpro%2Fsettlements%2Fsettlements-new-placed.png)
+![settlements-new-placed.png](/img/pro/settlements/settlements-new-placed.png)
 
 In the details panel, generate a new **Settlement GUID**. This is the unique id that the [save manager](../saving/index.md) will use as a reference. 
 
-![settlements-new-guid.png](..%2F..%2F..%2Fstatic%2Fimg%2Fpro%2Fsettlements%2Fsettlements-new-guid.png)
+![settlements-new-guid.png](/img/pro/settlements/settlements-new-guid.png)
 
 All Settlements require a Gameplay Tag in order to function. This helps connect actors back to the Settlement they belong to.
 
-![settlements-new-tag.png](..%2F..%2F..%2Fstatic%2Fimg%2Fpro%2Fsettlements%2Fsettlements-new-tag.png)
+![settlements-new-tag.png](/img/pro/settlements/settlements-new-tag.png)
 
 You can also set up this settlement as a [point of interest](../navigator/pointsofinterest.md) that can be discoverable.
 
-![settlements-new-POI.png](..%2F..%2F..%2Fstatic%2Fimg%2Fpro%2Fsettlements%2Fsettlements-new-POI.png)
+![settlements-new-POI.png](/img/pro/settlements/settlements-new-POI.png)
 
 Populate the **Settlement Display Name** which will be visible in the world, [points of interest](../navigator/pointsofinterest.md) and [world map](../ui/navigator/worldmap.md).
 
-![settlements-new-displayname.png](..%2F..%2F..%2Fstatic%2Fimg%2Fpro%2Fsettlements%2Fsettlements-new-displayname.png)
+![settlements-new-displayname.png](/img/pro/settlements/settlements-new-displayname.png)
 
 ### Spawns
 
@@ -52,13 +52,13 @@ This is just what spawns them and who they belong to if you send them back home 
 
 Simply populate the `NPC To Spawn` with the [NPC data asset](../npcs/index.md) you want to spawn.
 
-![spawns.png](..%2F..%2F..%2Fstatic%2Fimg%2Fpro%2Fsettlements%2Fspawns.png)
+![spawns.png](/img/pro/settlements/spawns.png)
 
 You can then position this transform from the Settlement root. Simply click the diamond shape icon and move it.
 
-![settlements-spawns-transform-premove.png](..%2F..%2F..%2Fstatic%2Fimg%2Fpro%2Fsettlements%2Fsettlements-spawns-transform-premove.png)
+![settlements-spawns-transform-premove.png](/img/pro/settlements/settlements-spawns-transform-premove.png)
 
-![settlements-spawns-transform-postmove.png](..%2F..%2F..%2Fstatic%2Fimg%2Fpro%2Fsettlements%2Fsettlements-spawns-transform-postmove.png)
+![settlements-spawns-transform-postmove.png](/img/pro/settlements/settlements-spawns-transform-postmove.png)
 
 :::note
 

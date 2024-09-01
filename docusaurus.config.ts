@@ -6,6 +6,10 @@ const config: Config = {
   title: 'Narrative',
   tagline: 'Narrative framework documentation',
   favicon: 'img/favicon.ico',
+  markdown: {
+    mermaid: true,
+  },
+  themes: ['@docusaurus/theme-mermaid'],
 
   // Set the production url of your site here
   url: 'https://your-docusaurus-site.example.com',

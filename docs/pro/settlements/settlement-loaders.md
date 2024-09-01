@@ -12,13 +12,13 @@ It links into [World Partition](https://dev.epicgames.com/documentation/en-us/un
 
 Adding a new Settlement Loader is as simple as dragging in the Settlement Loader actor into the world. 
 
-![loader-actor.png](..%2F..%2F..%2Fstatic%2Fimg%2Fpro%2Fsettlements%2Floader%2Floader-actor.png)
+![loader-actor.png](/img/pro/settlements/loader/loader-actor.png)
 
-![loader-actor-place.png](..%2F..%2F..%2Fstatic%2Fimg%2Fpro%2Fsettlements%2Floader%2Floader-actor-place.png)
+![loader-actor-place.png](/img/pro/settlements/loader/loader-actor-place.png)
 
 Then populating the **Settlement to Load** with the Gameplay tag from your [Settlement](../settlements/index.md).
 
-![loader-gameplaytag.png](..%2F..%2F..%2Fstatic%2Fimg%2Fpro%2Fsettlements%2Floader%2Floader-gameplaytag.png)
+![loader-gameplaytag.png](/img/pro/settlements/loader/loader-gameplaytag.png)
 
 ## Loading
 

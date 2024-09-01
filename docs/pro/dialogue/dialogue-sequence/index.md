@@ -6,6 +6,10 @@ sidebar_label: 'Dialogue Sequence'
 
 Encapsulates a Level Sequence, along with all extra data needed to play that level sequence in the context of a dialogue
 
+## Shots
+
+Narrative comes packaged with many [built-in shots](./shots.md) for you to use.
+
 ## Properties
 
 | Name                    | Type                                  | Description                                                                                                                                                        |

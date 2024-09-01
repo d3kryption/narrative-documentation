@@ -10,7 +10,7 @@ To change the default map the main menu goes to, go to **Edit** -> **Project Set
 
 Set the `Game Entry Map` to the map you want the main menu to use by default.
 
-![main-menu-default-game-map.png](..%2F..%2F..%2Fstatic%2Fimg%2Fpro%2Fmain-menu%2Fmain-menu-default-game-map.png)
+![main-menu-default-game-map.png](/img/pro/main-menu/main-menu-default-game-map.png)
 
 :::note
 

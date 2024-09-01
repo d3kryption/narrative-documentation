@@ -8,7 +8,7 @@ Narrative Pro has a new NPC Subsystem which handles the spawning, creation, find
 
 All NPC details are stored as data assets, then spawned and managed by the Subsystem.
 
-![npc-data-assets.png](..%2F..%2F..%2Fstatic%2Fimg%2Fpro%2Fnpcs%2Fnpc-data-assets.png)
+![npc-data-assets.png](/img/pro/npcs/npc-data-assets.png)
 
 ## Creating a new NPC
 
@@ -16,17 +16,17 @@ To create a new NPC, Narrative Pro comes packaged with a data asset type called 
 
 Open Your **Content Drawer** -> Go to the folder where you want to store **NPC Data Assets** -> Right Click -> **Miscellaneous** -> **Data Asset**
 
-![npc-new-data-asset.png](..%2F..%2F..%2Fstatic%2Fimg%2Fpro%2Fnpcs%2Fnpc-new-data-asset.png)
+![npc-new-data-asset.png](/img/pro/npcs/npc-new-data-asset.png)
 
 Select `NPCDefinition` and name it after your NPC. It will automatically populate some of the information based on the file name.
 
-![npc-new-data-asset-autofill.png](..%2F..%2F..%2Fstatic%2Fimg%2Fpro%2Fnpcs%2Fnpc-new-data-asset-autofill.png)
+![npc-new-data-asset-autofill.png](/img/pro/npcs/npc-new-data-asset-autofill.png)
 
 ## Spawning an NPC
 
 Using the NPC Manager you can spawn NPCs by getting the **Narrative NPC Subsystem** -> **Spawn NPC**
 
-![npc-spawning.png](..%2F..%2F..%2Fstatic%2Fimg%2Fpro%2Fnpcs%2Fnpc-spawning.png)
+![npc-spawning.png](/img/pro/npcs/npc-spawning.png)
 
 Another method of spawning NPC's into the world is to use [Settlements](../settlements)
 

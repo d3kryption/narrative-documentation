@@ -99,22 +99,6 @@ Under **Advanced** set the **Asset Manager Class** to `NarrativeAssetManager`
 
 ![assetmanagerclass.png](/img/pro/Installation/project-settings/assetmanagerclass.png)
 
-## Game Instance
-
-Go to **Engine** -> **Project - Maps & Modes** -> **Game Instance**
-
-Set the **Game Instance Class** to `NarrativeGameInstance`
-
-![gameinstance.png](/img/pro/Installation/project-settings/gameinstance.png)
-
-## Default Maps
-
-Go to **Engine** -> **Project - Maps & Modes** -> **Default Maps**
-
-Set the **Editor Startup Map** to `DemoMap` and set the **Game Default Map** to `MainMenu`
-
-![defaultmaps.png](/img/pro/Installation/project-settings/defaultmaps.png)
-
 ## Common UI
 
 Go to **Engine** -> **General Settings** -> **Default Classes**
@@ -164,3 +148,26 @@ Make sure you set the **Master** that belongs inside **NarrativePro**. Do **not*
 Set the **Default Base Sound Mix** to `MasterMix`
 
 ![mastermix.png](/img/pro/Installation/project-settings/mastermix.png)
+
+## Game Instance
+
+Go to **Project** -> **Maps & Modes** -> **Game Instance**
+
+Set the **Game Instance Class** to `NarrativeGameInstance`
+
+![gameinstance.png](/img/pro/Installation/project-settings/gameinstance.png)
+
+## Default Maps
+
+Go to **Project** -> **Maps & Modes** -> **Default Maps**
+
+Set the **Editor Startup Map** to `DemoMap` and set the **Game Default Map** to `MainMenu`
+
+![defaultmaps.png](/img/pro/Installation/project-settings/defaultmaps.png)
+
+## Default GameMode
+
+Go to **Project** -> **Maps & Modes** -> **Default GameMode**
+
+Set the **Default GameMode** to `BP_NarrativeGameMode`
+

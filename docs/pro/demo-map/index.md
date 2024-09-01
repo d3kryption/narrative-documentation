@@ -39,7 +39,7 @@ Easily turn NPC's into [companions](../ai/companions.md) who follow you anywhere
 
 [Books](../books/index.md) can easily be picked up and used to give the player lore or quests.
 
-![bookpickup.png](..%2F..%2F..%2Fstatic%2Fimg%2Fpro%2Fbooks%2Fbookpickup.png)
+![bookpickup.png](/img/pro/books/bookpickup.png)
 
 ## Dialogue
 
@@ -57,9 +57,9 @@ Create [AAA quality transitions](../dialogue/index.md) when moving between gamep
 
 Easily make NPC's follow you from a dialogue option
 
-![dialogue-companions.png](..%2F..%2F..%2Fstatic%2Fimg%2Fpro%2Fdemo-map%2Fdialogue-companions.png)
+![dialogue-companions.png](/img/pro/demo-map/dialogue-companions.png)
 
-![dialogue-companion-follow.png](..%2F..%2F..%2Fstatic%2Fimg%2Fpro%2Fdemo-map%2Fdialogue-companion-follow.png)
+![dialogue-companion-follow.png](/img/pro/demo-map/dialogue-companion-follow.png)
 
 ## Equipment
 
@@ -115,13 +115,13 @@ Easily create [lootable actors](../inventory/looting.md) where you can take or g
 
 Create [traders or shops](../inventory/trading.md) in your world, so you can buy and sell anything you want. Its as easy as adding a component and adding properties.
 
-![npc-trading-shop-ui.png](..%2F..%2F..%2Fstatic%2Fimg%2Fpro%2Finventory%2Fnpc-trading-shop-ui.png)
+![npc-trading-shop-ui.png](/img/pro/inventory/npc-trading-shop-ui.png)
 
 ### Quantity selector
 
 A nice easy to use quantity selector when looting or trading with shops to select your exact quantity.
 
-![inventory-quantitypicker.png](..%2F..%2F..%2Fstatic%2Fimg%2Fpro%2Finventory%2Finventory-quantitypicker.png)
+![inventory-quantitypicker.png](/img/pro/inventory/inventory-quantitypicker.png)
 
 ## Navigator
 
@@ -145,7 +145,7 @@ If you enter your menu, you have a [world map](../ui/navigator/worldmap.md) wher
 
 A new [NPC manager tool](../npcs/index.md) has been added, so you can manage every detail about your NPCs from data assets. Names, instances, classes, factions, dialogue, inventory, appearance all stated inside the data asset to make it really easy to track and use NPCs.
 
-![npc-data-assets.png](..%2F..%2F..%2Fstatic%2Fimg%2Fpro%2Fnpcs%2Fnpc-data-assets.png)
+![npc-data-assets.png](/img/pro/npcs/npc-data-assets.png)
 
 ## Pause menu
 
