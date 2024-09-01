@@ -5,7 +5,7 @@ sidebar_position: 1
 
 # Creating your HUD
 
-To set up a simple HUD, open your Content Drawer, right click -> user interface -> Widget Blueprint and name this WBP_HUD.
+To set up a simple HUD, open your **Content Drawer**, right click -> **user interface** -> **Widget Blueprint** and name this `WBP_HUD`.
 
 Open the HUD and add a **WBP Interaction Widget**. Align this however you want to.
 
