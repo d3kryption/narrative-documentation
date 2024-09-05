@@ -1,5 +1,6 @@
 ---
 sidebar_label: 'States'
+sidebar_position: 0
 ---
 
 # States
@@ -53,8 +54,11 @@ This means you can create tasks to fail such as a task to **Reach the castle bef
 | ID                | FText                                           | The unique ID of the state. Used for saving the quests position.                                                                               |
 | Description       | FText                                           | The description of the current state. Used more so as a overview of the current position.                                                      |
 | OnEnteredFuncName | bool                                            | Whether or not the state has has any additional function code bound to it. See [OnEnteredFuncName](./index.md#OnEnteredFuncName)               |
-| conditions        | TArray\<[UNarrativeCondition](../conditions/)\> | Conditions are functions that run before this node is pending selection and contain boolean returns that allow this node to be run or ignored. |
+| Conditions        | TArray\<[UNarrativeCondition](../conditions/)\> | Conditions are functions that run before this node is pending selection and contain boolean returns that allow this node to be run or ignored. |
 | Events            | TArray\<[UNarrativeEvent](../events)\>          | Events are functions that can run at specific states on [quests](./index.md) & [dialogue](../dialogue).                                        |
+| Branches          | TArray\<[UQuestBranch](../branches)\>           | Whether this branch is hidden from the player on the UI. Useful for hidden quest options in the quest logic.                                   |
+| StateNodeType     | [EStateNodeType](../states)                     | The state to go to if this branch is taken. The branch is ignored if this is null.                                                             |
+
 
 :::note
 
@@ -63,3 +67,11 @@ Quest conditions currently do not work. You can archive the same result using [b
 It has been left here since there is a discussion in the community to whether it should be made available or not.
 
 :::
+
+### EStateNodeType
+
+| Enum Value | Description                                                                                               |
+|------------|-----------------------------------------------------------------------------------------------------------|
+| Regular    | This is a regular state. Upon reaching it, the quest will be considered still in progress.                |
+| Success    | The quest will be completed when this state is reached.                                                   |
+| Failure    | The quest will be failed when this state is reached.                                                      |
