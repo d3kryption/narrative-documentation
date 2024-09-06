@@ -56,8 +56,8 @@ This means you can create tasks to fail such as a task to **Reach the castle bef
 | OnEnteredFuncName | bool                                            | Whether or not the state has has any additional function code bound to it. See [OnEnteredFuncName](./index.md#OnEnteredFuncName)               |
 | Conditions        | TArray\<[UNarrativeCondition](../conditions/)\> | Conditions are functions that run before this node is pending selection and contain boolean returns that allow this node to be run or ignored. |
 | Events            | TArray\<[UNarrativeEvent](../events)\>          | Events are functions that can run at specific states on [quests](./index.md) & [dialogue](../dialogue).                                        |
-| Branches          | TArray\<[UQuestBranch](../branches)\>           | Whether this branch is hidden from the player on the UI. Useful for hidden quest options in the quest logic.                                   |
-| StateNodeType     | [EStateNodeType](../states)                     | The state to go to if this branch is taken. The branch is ignored if this is null.                                                             |
+| Branches          | TArray\<[UQuestBranch](./branches.md)\>         | Whether this branch is hidden from the player on the UI. Useful for hidden quest options in the quest logic.                                   |
+| StateNodeType     | [EStateNodeType](./states.md)                   | The state to go to if this branch is taken. The branch is ignored if this is null.                                                             |
 
 
 :::note

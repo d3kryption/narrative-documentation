@@ -61,4 +61,4 @@ You can learn more about [Narrative Tasks](./tasks/index.md) here.
 | Events            | TArray\<[UNarrativeEvent](../events)\>          | Events are functions that can run at specific states on [quests](./index.md) & [dialogue](../dialogue).                                        |
 | QuestTasks        | TArray\<[UNarrativeTask](./tasks)\>             | Tasks needed to take this branch to its destination. Check Narrative/Content/DefaultTasks/ for examples and create custom tasks.               |
 | bHidden           | bool                                            | Whether this branch is hidden from the player on the UI. Useful for hidden quest options in the quest logic.                                   |
-| DestinationState  | [UQuestState](../states)                        | The state to go to if this branch is taken. The branch is ignored if this is null.                                                             |
+| DestinationState  | [UQuestState](./states.md)                      | The state to go to if this branch is taken. The branch is ignored if this is null.                                                             |

@@ -9,7 +9,7 @@ Tasks are objectives within your quest. Things that the player needs to accompli
 
 A branch can contain multiple tasks which all need to be completed before the branch can move to the next state.
 
-Narrative comes with a bunch of pre-defined [tasks](./tasks/index.md) to help you build your game.
+Narrative comes with a bunch of pre-defined [tasks](./index.md) to help you build your game.
 
 Narrative has two main types of tasks, a blueprint based task that allows you to combine all your task code into a single asset and data assets.
 

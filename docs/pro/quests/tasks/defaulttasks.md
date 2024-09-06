@@ -143,7 +143,7 @@ When the player needs to kill a specific enemy (or group of enemies) for the cur
 
 | Name        | Type                                                                                                             | Description                                                                                                                                 |
 |-------------|------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------|
-| EnemyToKill | [UNPCDefinition](../npcs/index.md)                                                                               | The enemy to kill is derived from a NPCs data asset.                                                                                        |
+| EnemyToKill | [UNPCDefinition](../../npcs/index.md)                                                                            | The enemy to kill is derived from a NPCs data asset.                                                                                        |
 | EventTag    | [FGameplayTag](https://dev.epicgames.com/documentation/en-us/unreal-engine/using-gameplay-tags-in-unreal-engine) | Just in case you have multiple of the same NPC data asset and need to narrow it down, you can enter a required tag the actor needs to have. |
 
 ## Move
