@@ -105,4 +105,4 @@ You can add Unreal's comments around your dialogue to organise them or make them
 
 Simply highlight your dialogue nodes and hit the **C** key to add the comment.
 
-![dialogue-comments.png](..%2F..%2F..%2Fstatic%2Fimg%2Fdialogue%2Fdialogue-comments.png)
+![dialogue-comments.png](/img/dialogue/dialogue-comments.png)

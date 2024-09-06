@@ -9,11 +9,11 @@ Narrative's branch system is the decision points for quests.
 
 If you want a linear quest where each objective is the only path you can take, then you will have a simple state / branch quest.
 
-![quest-logic-1.png](..%2F..%2F..%2Fstatic%2Fimg%2Fquests%2Fquest-logic-1.png)
+![quest-logic-1.png](/img/quests/quest-logic-1.png)
 
 However, many games like to have non-linear quests where the player can pick from different objectives to change the quest.
 
-![quest-logic-2.png](..%2F..%2F..%2Fstatic%2Fimg%2Fquests%2Fquest-logic-2.png)
+![quest-logic-2.png](/img/quests/quest-logic-2.png)
 
 A great example of linear vs non-linear quests.
 

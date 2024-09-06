@@ -11,7 +11,7 @@ The player will be presented with 1 or more tasks but at least one must be compl
 
 States must be connected to a branch and cannot be connected to other states.
 
-![quest-state.png](..%2F..%2F..%2Fstatic%2Fimg%2Fquests%2Fquest-state.png)
+![quest-state.png](/img/quests/quest-state.png)
 
 ## Quest Start
 
@@ -19,7 +19,7 @@ This is a locked state that is automatically added to your quest. It is the star
 
 It does not have any input, it always exists and cannot be deleted. Only one can exist per quest.
 
-![state-quest-start.png](..%2F..%2F..%2Fstatic%2Fimg%2Fquests%2Fstate-quest-start.png)
+![state-quest-start.png](/img/quests/state-quest-start.png)
 
 ## Quest State
 
@@ -27,7 +27,7 @@ The most common state. Most quests will have multiple states to guide the player
 
 It has 1 input node to come from a [branch](./branches.md) and 1 output node to connect to one or more [branches](./branches.md).
 
-![state-state.png](..%2F..%2F..%2Fstatic%2Fimg%2Fquests%2Fstate-state.png)
+![state-state.png](/img/quests/state-state.png)
 
 ## Quest Success
 
@@ -35,7 +35,7 @@ This state is used when you want to mark a quest as **successfully complete**.
 
 Once this state has been reached, the quest will no longer action any other tasks without you forgetting the quest and restarting it.
 
-![state-success.png](..%2F..%2F..%2Fstatic%2Fimg%2Fquests%2Fstate-success.png)
+![state-success.png](/img/quests/state-success.png)
 
 ## Quest Failure
 
@@ -45,7 +45,7 @@ Any task can set the quests progress to the failed state whether they have passe
 
 This means you can create tasks to fail such as a task to **Reach the castle before Reubs does** which tells the quest to either go to the Success state or Fail state depending on the outcome.
 
-![state-quest-fail.png](..%2F..%2F..%2Fstatic%2Fimg%2Fquests%2Fstate-quest-fail.png)
+![state-quest-fail.png](/img/quests/state-quest-fail.png)
 
 ## State Properties
 

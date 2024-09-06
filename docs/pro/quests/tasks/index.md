@@ -67,4 +67,4 @@ Tasks once setup are super easy to use.
 
 Simply select or create a [branch](../branches.md) then populate the tasks array with your task.
 
-![quest-tasks.png](..%2F..%2F..%2F..%2Fstatic%2Fimg%2Fquests%2Fquest-tasks.png)
+![quest-tasks.png](/img/quests/quest-tasks.png)
