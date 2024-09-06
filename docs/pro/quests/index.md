@@ -41,16 +41,6 @@ The class defaults give you access to modify how your quest will work. It lets y
 | Tracked           | bool                  | Whether or not the quest is marked as tracked. If tracked the navigation markers will be added, otherwise these will be hidden.                                                                                                              |
 | InheritableStates | TArray\<UQuestState\> | Inherited quest [states](./states.md). E.g. your parent quest could have a state called **RanOutOfTime** and that way any child quests could inherit the **RanOutOfTime** state instead of having to manually have one added to every quest. |
 
-## Copy and pasting
-
-:::warning
-
-Copying and pasting quest nodes have been disabled until further notice.
-
-It was causing corruption in assets and until it can be resolved up to the high Narrative standard, it has been removed.
-
-:::
-
 ## Quest Logic
 
 Understanding how quests work is the key to making AAA quests in no-time.
@@ -78,6 +68,11 @@ You enter the room (**state**) and wait. You then pick a door (**branch**) and g
 ![quest-logic-3.png](/img/quests/quest-logic-3.png)
 
 :::
+## Begin Quest
+
+The main function to start quests is the **Begin Quest** function built into the [Narrative Component](../tales-component).
+
+![quests-beginquest.png](/img/quests/quests-beginquest.png)
 
 ## Comments
 
@@ -87,8 +82,12 @@ Simply highlight your quest nodes and hit the **C** key to add the comment.
 
 ![quest-comments.png](/img/quests/quest-comments.png)
 
-## Begin Quest
+## Copy and pasting
 
-The main function to start quests is the **Begin Quest** function built into the [Narrative Component](../tales-component).
+:::warning
 
-![quests-beginquest.png](/img/quests/quests-beginquest.png)
+Copying and pasting quest nodes have been disabled until further notice.
+
+It was causing corruption in assets and until it can be resolved up to the high Narrative standard, it has been removed.
+
+:::

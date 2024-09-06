@@ -33,11 +33,11 @@ Data Tasks can be completed from any blueprint that has access to the [Narrative
 
 ### Properties
 
-| Name        | Type      | Description                                                                                                                                                                   |
-|-------------|-----------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Data Task   | UDataTask | This is which data task the task needs to check for before completing itself. For example, the data task could be PickupItem.                                                 |
-| Argument    | string    | This is which argument when the data task is completed that the task needs to be checked for. For example, the data task could be PickupItem and the argument would be Apple. |
-| Retroactive | bool      | Whether the task should look at previously completed nodes before completing this. Useful if you want to skip a task if the player has already done it.                       |
+| Name        | Type                    | Description                                                                                                                                                                   |
+|-------------|-------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Data Task   | [UDataTask](./index.md) | This is which data task the task needs to check for before completing itself. For example, the data task could be PickupItem.                                                 |
+| Argument    | string                  | This is which argument when the data task is completed that the task needs to be checked for. For example, the data task could be PickupItem and the argument would be Apple. |
+| Retroactive | bool                    | Whether the task should look at previously completed nodes before completing this. Useful if you want to skip a task if the player has already done it.                       |
 
 ## Complete Quest
 
