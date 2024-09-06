@@ -98,3 +98,11 @@ If you want to use the default username, leave this blank, and it will load the 
 You can also override this using the [ChangeName](https://dev.epicgames.com/documentation/en-us/unreal-engine/BlueprintAPI/Game/ChangeName?application_version=5.4) node.
 
 :::
+
+## Comments
+
+You can add Unreal's comments around your dialogue to organise them or make them easier to debug at a glance.
+
+Simply highlight your dialogue nodes and hit the **C** key to add the comment.
+
+![dialogue-comments.png](..%2F..%2F..%2Fstatic%2Fimg%2Fdialogue%2Fdialogue-comments.png)

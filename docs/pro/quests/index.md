@@ -81,4 +81,14 @@ You enter the room (**state**) and wait. You then pick a door (**branch**) and g
 
 ## Comments
 
-## OnEnteredFuncName
+You can add Unreal's comments around your quests to organise them or make them easier to debug at a glance.
+
+Simply highlight your quest nodes and hit the **C** key to add the comment.
+
+![quest-comments.png](..%2F..%2F..%2Fstatic%2Fimg%2Fquests%2Fquest-comments.png)
+
+## Begin Quest
+
+The main function to start quests is the **Begin Quest** function built into the [Narrative Component](../tales-component).
+
+![quests-beginquest.png](..%2F..%2F..%2Fstatic%2Fimg%2Fquests%2Fquests-beginquest.png)

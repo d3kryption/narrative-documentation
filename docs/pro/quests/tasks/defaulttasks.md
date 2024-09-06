@@ -1,5 +1,6 @@
 ---
 sidebar_label: 'Default Tasks'
+sidebar_position: 0
 ---
 
 # Default Tasks
