@@ -1,5 +1,6 @@
 ---
 sidebar_label: 'Default Events'
+sidebar_position: 0
 ---
 
 # Default Events
@@ -117,7 +118,7 @@ Gives a specified item and quantity to an NPC data asset, potentially as a quest
 | Item Class       | [FNarrativeItem](../inventory) | The class of the item to give.                      |
 | Quantity         | Int                            | The number of items to give.                        |
 | Check Visibility | Bool                           | Give only if the item is visible in the inventory.  |
-| NPC              | [NPC data asset](../npcs)      | The NPC data asset to which the item will be given. |
+| NPC              | [UNPCDefinition](../npcs)      | The NPC data asset to which the item will be given. |
 
 
 ## Give XP
@@ -140,7 +141,7 @@ Commands selected NPCs to attack the player, using the specified behaviour tree.
 | Name           | Type                              | Description                               |
 |----------------|-----------------------------------|-------------------------------------------|
 | Behaviour Tree | Behaviour Tree                    | The behaviour tree to run for the NPCs.   |
-| NPCsToEffect   | TArray([NPC data asset](../npcs)) | List of NPC data assets that will attack. |
+| NPCsToEffect   | TArray([UNPCDefinition](../npcs)) | List of NPC data assets that will attack. |
 
 
 ## NPC Behavior - Go to sequence start
@@ -152,7 +153,7 @@ Instructs selected NPCs to move to the starting point of a specified level seque
 | Name           | Type                              | Description                                            |
 |----------------|-----------------------------------|--------------------------------------------------------|
 | Behaviour Tree | Behaviour Tree                    | The behaviour tree to run for the NPCs.                |
-| NPCsToEffect   | TArray([NPC data asset](../npcs)) | List of NPC data assets to move.                       |
+| NPCsToEffect   | TArray([UNPCDefinition](../npcs)) | List of NPC data assets to move.                       |
 | Delay          | Float                             | Time to wait before NPCs arrive at the sequence start. |
 
 
@@ -165,7 +166,7 @@ Commands selected NPCs to return to their designated settlement location using t
 | Name           | Type                              | Description                                      |
 |----------------|-----------------------------------|--------------------------------------------------|
 | Behaviour Tree | Behaviour Tree                    | The behaviour tree to execute for the NPCs.      |
-| NPCsToEffect   | TArray([NPC data asset](../npcs)) | List of NPCs that will return to the settlement. |
+| NPCsToEffect   | TArray([UNPCDefinition](../npcs)) | List of NPCs that will return to the settlement. |
 | Destination    | Vector                            | The location of the settlement for the NPCs.     |
 
 
@@ -178,7 +179,7 @@ Commands selected NPCs to walk to a specified destination, with optional delay s
 | Name           | Type                              | Description                                        |
 |----------------|-----------------------------------|----------------------------------------------------|
 | Behaviour Tree | Behaviour Tree                    | The behaviour tree to run for the NPCs.            |
-| NPCsToEffect   | TArray([NPC data asset](../npcs)) | List of NPCs that will move to the destination.    |
+| NPCsToEffect   | TArray([UNPCDefinition](../npcs)) | List of NPCs that will move to the destination.    |
 | Destination    | Vector                            | The target location where NPCs will be sent.       |
 | Delay          | Float                             | How long the event waits before NPCs start moving. |
 
@@ -192,7 +193,7 @@ Instructs the selected NPCs to start following the player, acting as companions.
 | Name           | Type                              | Description                                 |
 |----------------|-----------------------------------|---------------------------------------------|
 | Behaviour Tree | Behaviour Tree                    | The behaviour tree to execute for the NPCs. |
-| NPCsToEffect   | TArray([NPC data asset](../npcs)) | List of NPCs that will follow the player.   |
+| NPCsToEffect   | TArray([UNPCDefinition](../npcs)) | List of NPCs that will follow the player.   |
 
 
 ## Play Narrative Sequence
@@ -204,7 +205,7 @@ Triggers a specific level sequence to play, involving selected NPCs.
 | Name                   | Type                              | Description                                            |
 |------------------------|-----------------------------------|--------------------------------------------------------|
 | SequencePlayerSettings | SequencePlayerSettings            | Settings that the sequencer will use for the sequence. |
-| NPCsToBind             | TArray([NPC data asset](../npcs)) | NPCs that will participate in the sequence.            |
+| NPCsToBind             | TArray([UNPCDefinition](../npcs)) | NPCs that will participate in the sequence.            |
 
 
 ## Print String
@@ -269,7 +270,7 @@ Applies a specific behaviour tree to selected NPCs to define their actions and A
 | Name           | Type                              | Description                                   |
 |----------------|-----------------------------------|-----------------------------------------------|
 | Behaviour Tree | Behaviour Tree                    | The behaviour tree to assign to the NPCs.     |
-| NPCsToEffect   | TArray([NPC data asset](../npcs)) | List of NPCs that will receive this behavior. |
+| NPCsToEffect   | TArray([UNPCDefinition](../npcs)) | List of NPCs that will receive this behavior. |
 
 
 ## Show Notification
@@ -293,4 +294,4 @@ Initiates a trading window with a specified NPC, useful for item exchanges or gi
 | Name      | Type                      | Description                                    |
 |-----------|---------------------------|------------------------------------------------|
 | SpeakerID | String                    | The specific ID of the NPC with whom to trade. |
-| NPC       | [NPC data asset](../npcs) | The NPC data asset to initiate trading with.   |
+| NPC       | [UNPCDefinition](../npcs) | The NPC data asset to initiate trading with.   |

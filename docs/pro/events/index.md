@@ -4,9 +4,9 @@ sidebar_label: 'Events'
 
 # Events
 
-Narrative events are a powerful tool that truly makes Narrative suit your game's requirements. Narrative is a framework that lets you expand upon its features and Events are one of the key ways to do it.
+Events are a powerful tool that truly makes Narrative suit your game's requirements. Narrative is a framework that lets you expand upon its features and Events are one of the key ways to do it.
 
-Narrative events are small portions of code (mainly generic and reusable, but they can also be specific) that allow you to run code from any node across Narrative; be it [Quests](../quests) or [Dialogue](../dialogue).
+They are small portions of code (mainly generic and reusable, but they can also be specific) that allow you to run code from any node across Narrative; be it [Quests](../quests) or [Dialogue](../dialogue).
 
 - Need a quest to start when you select a dialogue option? Add an event.
 - Need to give an item to your player after finishing a quest? Add an event.
@@ -42,11 +42,11 @@ Simply override `ExecuteEvent` and action your request.
 
 ## Properties
 
-| Name               | Type              | Description                                                                                              |
-|--------------------|-------------------|----------------------------------------------------------------------------------------------------------|
-| Refire On Load     | bool              | When the game loads back in, should we fire this event off again.                                        |
-| Event Runtime      | EEventRuntime     | Defines when the event should be executed.                                                               |
-| Party Event Policy | EPartyEventPolicy | Defines how events should be executed when the dialogue is playing as a party. Ignore if not in a party. |
+| Name               | Type                                              | Description                                                                                              |
+|--------------------|---------------------------------------------------|----------------------------------------------------------------------------------------------------------|
+| Refire On Load     | bool                                              | When the game loads back in, should we fire this event off again.                                        |
+| Event Runtime      | [EEventRuntime](./index.md#eeventruntime)         | Defines when the event should be executed.                                                               |
+| Party Event Policy | [EPartyEventPolicy](./index.md#epartyeventpolicy) | Defines how events should be executed when the dialogue is playing as a party. Ignore if not in a party. |
 
 ### EEventRuntime
 
