@@ -28,3 +28,52 @@
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+
+.cardContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.cardContainer div {
+  background-color: #333; /* Dark background */
+  border: 1px solid #444; /* Slightly lighter border for contrast */
+  border-radius: 8px;
+  padding: 20px;
+  width: calc(50% - 20px); /* Two cards per row */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.7); /* Darker shadow for better visibility */
+  color: #ddd; /* Light text color */
+  transition: transform 0.2s ease;
+}
+
+.cardContainer div:hover {
+  transform: translateY(-10px);
+}
+
+.cardContainer div h3 {
+  margin-top: 0;
+  font-size: 1.2em;
+  color: var(--ifm-breadcrumb-color-active);
+}
+
+.cardContainer div p {
+  font-size: 1em;
+  margin: 0;
+  line-height: 1.5;
+}
+
+.cardContainer div code {
+  background-color: #555; /* Slightly lighter background for code */
+  padding: 2px 4px;
+  border-radius: 4px;
+  color: #f8f8f2; /* Light text color for code */
+}
+
+/* Media Query for Medium Devices and Below */
+@media (max-width: 768px) {
+  .cardContainer div {
+    width: 100%; /* One card per row */
+  }
+}

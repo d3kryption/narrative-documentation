@@ -37,6 +37,12 @@ The settings we are about to set **must** be named the **exact** same name we st
 
 ## Collision
 
+:::note
+
+You must enter the collision profiles in the correct order. You **will** run into issues if they are mixed up.
+
+:::
+
 Go to **Engine** -> **Collision**
 
 ![engine-collision.png](/img/pro/Installation/project-settings/engine-collision.png)

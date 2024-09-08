@@ -199,6 +199,6 @@ Once loading has completed, you will instantly discover your [current location](
 
 ![settlements.png](/img/pro/demo-map/settlements.png)
 
-Create bandit camps where enemies will attack you on sight.
+Create [bandit camps](../settlements) where enemies will attack you on sight.
 
 ![settlement-banditcamps.png](/img/pro/demo-map/settlement-banditcamps.png)
