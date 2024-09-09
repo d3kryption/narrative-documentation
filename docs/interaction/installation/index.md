@@ -2,6 +2,7 @@
 sidebar_label: 'Installation'
 sidebar_position: 0
 ---
+import MustEnablePluginViewContent from '/src/components/must-enable-plugin-view-content.mdx'
 
 # Installation
 
@@ -18,3 +19,5 @@ Make sure to enable **Narrative Interaction** and **Narrative Common UI** by goi
 ![installation-plugins-activation.jpg](/img/interaction/installation-plugins-activation.jpg)
 
 We are now ready to configure Narrative Interaction.
+
+<MustEnablePluginViewContent/>

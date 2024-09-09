@@ -2,6 +2,7 @@
 sidebar_label: 'Installation'
 sidebar_position: 0
 ---
+import MustEnablePluginViewContent from '/src/components/discord-link.mdx'
 
 # Installation
 
@@ -17,7 +18,7 @@ C++ is not required, but it gives you the ability to debug any issues and make t
 
 :::
 
-Alternatively, you can get the download for the finished project here:~~~~
+Alternatively, you can get the download for the finished project here:
 
 [Project download link](https://drive.google.com/file/d/13DEqLIAsWdYjNCNcDfUGF7Dd_cP0adHG/view)
 
@@ -31,8 +32,4 @@ Make sure to enable **Narrative Pro** by going to edit -> Plugins, and checking 
 
 We are now ready to configure Narrative Pro.
 
-:::note 
-
-You need to enable plugin content to view Narrative Pro in your Content Browser. Open the **Content Browser** -> **Settings** -> **Show Plugin Content**
-
-:::
+<MustEnablePluginViewContent/>

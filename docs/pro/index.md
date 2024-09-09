@@ -2,6 +2,8 @@
 sidebar_label: 'Pro'
 ---
 
+import DiscordLink from '/src/components/discord-link.mdx'
+
 # Pro
 
 ![Introduction.jpg](/img/pro/introduction.png)
@@ -12,6 +14,4 @@ Detailed video guides are also available here:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/KCAqvnYe7_Y?si=hHmHWT-06wLNO5YO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-Narrative also has an active Discord community with lots of helpful people:
-
-[Discord invite link](https://discord.gg/qyVJmpQ2Pn)
+<DiscordLink></DiscordLink>
