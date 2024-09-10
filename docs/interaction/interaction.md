@@ -1,8 +1,7 @@
 ---
 sidebar_label: 'Interaction'
+sidebar_position: 1
 ---
-
-# Interaction
 
 Interaction is a full interactive component that lets you interact with actors in the world. From starting dialogue to opening chests.
 
@@ -16,7 +15,7 @@ The **Interaction** component is the driver that checks for all **Interactables*
 
 It is common to disable and enable an **interaction** component depending on your games state. For example a character during a cutscene will not want to interact with anything.
 
-This can easily be toggled using Unreal's built in Activate and Deactivate events..
+This can easily be toggled using Unreal's built in Activate and Deactivate events.
 
 ![interaction_activate.png](/img/interaction/interaction_activate.png)
 

@@ -78,7 +78,7 @@ const config: Config = {
             },
             {
               label: 'Interaction',
-              to: '/interaction/',
+              to: '/interaction_old/',
             },
             {
               label: 'Quests & Dialogue',

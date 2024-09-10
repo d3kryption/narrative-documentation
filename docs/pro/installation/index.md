@@ -2,7 +2,7 @@
 sidebar_label: 'Installation'
 sidebar_position: 0
 ---
-import MustEnablePluginViewContent from '/src/components/discord-link.mdx'
+import MustEnablePluginViewContent from '/src/components/must-enable-plugin-view-content.mdx'
 
 # Installation
 

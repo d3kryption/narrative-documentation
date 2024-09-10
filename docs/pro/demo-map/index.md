@@ -67,7 +67,7 @@ Any weapons you pick up can be [equipped](../inventory/equipment/index.md) to yo
 
 ![equipment.png](/img/pro/demo-map/equippment.png)
 
-Easy to use [pickups](../interaction/Pickups/index.md) for equipment or quest items.
+Easy to use [pickups](../interaction/interactables/default-interactables.md#item-pickup) for equipment or quest items.
 
 ![equipment-armourpickup.png](/img/pro/demo-map/equipment-armourpickup.png)
 
