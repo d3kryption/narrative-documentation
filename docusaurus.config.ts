@@ -78,11 +78,15 @@ const config: Config = {
             },
             {
               label: 'Interaction',
-              to: '/interaction_old/',
+              to: '/interaction/',
             },
             {
               label: 'Quests & Dialogue',
               to: '/quests-and-dialogue/',
+            },
+            {
+              label: 'Pro',
+              to: '/pro/',
             },
           ],
         },
