@@ -1,9 +1,9 @@
 ---
-sidebar_label: 'Interactable'
+sidebar_label: 'Interactable component'
 sidebar_position: 2
 ---
 
-# Interactable
+# Interactable component
 
 **Interactables** are components that you add to actors to give them interactable functionality.
 

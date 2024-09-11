@@ -1,7 +1,9 @@
 ---
-sidebar_label: 'Interaction'
+sidebar_label: 'Interaction component'
 sidebar_position: 1
 ---
+
+# Interaction component
 
 Interaction is a full interactive component that lets you interact with actors in the world. From starting dialogue to opening chests.
 

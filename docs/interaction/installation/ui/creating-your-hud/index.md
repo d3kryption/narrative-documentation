@@ -7,6 +7,12 @@ sidebar_position: 1
 
 To set up a simple HUD, open your **Content Drawer**, right click -> **user interface** -> **Widget Blueprint** and name this `WBP_HUD`.
 
+:::note
+
+If you already have an existing HUD, add it to that. It's much better for performance than having multiple HUD's rendering.
+
+:::
+
 Open the HUD and add a **WBP Interaction Widget**. Align this however you want to.
 
 Finally, go back into your [Player Controller](../../player-controller/index.md), and on begin play, create the widget, promote it to a variable then add it to the viewport.
