@@ -72,6 +72,6 @@ Add the widget **WBP_Navigator_ScreenSpaceMarkers**. This needs to be set to ful
 
 ### HUD display
 
-Finally, go back into your [Player Controller](../../player-controller/index.md), and on begin play, create the widget, promote it to a variable then add it to the viewport.
+Finally, go back into your [Player Controller](./player-controller.md), and on begin play, create the widget, promote it to a variable then add it to the viewport.
 
 <iframe src="https://blueprintue.com/render/zpfvq3f1/" width="100%" height="400" scrolling="no" allowfullscreen></iframe>

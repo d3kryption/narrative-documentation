@@ -19,6 +19,6 @@ If you already have an existing HUD, add it to that. It's much better for perfor
 
 Open the HUD and add a **WBP Interaction Widget**. Align this however you want to.
 
-Finally, go back into your [Player Controller](../../player-controller/index.md), and on begin play, create the widget, promote it to a variable then add it to the viewport.
+Finally, go back into your [Player Controller](./player-controller.md), and on begin play, create the widget, promote it to a variable then add it to the viewport.
 
 <iframe src="https://blueprintue.com/render/zpfvq3f1/" width="100%" height="400" scrolling="no" allowfullscreen></iframe>
