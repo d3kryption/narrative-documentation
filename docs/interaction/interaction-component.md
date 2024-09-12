@@ -13,6 +13,14 @@ For example, if you add the interactable, [Interactable_ItemPickup](./interactab
 
 The **Interaction** component is the driver that checks for all **Interactables**.
 
+## Setup
+
+To start using the interaction component you need to add two components.
+
+On your [PlayerController](./installation/player-controller.md) you need to add the NarrativeInteraction component.
+
+On your actor that you want to interact with, you need to add the [interactable component](./interactables) you wish to use.
+
 ## Activate / Deactivate
 
 It is common to disable and enable an **interaction** component depending on your games state. For example a character during a cutscene will not want to interact with anything.

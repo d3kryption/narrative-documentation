@@ -7,7 +7,7 @@ import NarrativeCommonUiLink from '/src/components/narrative-common-ui-link.mdx'
 
 # Navigator
 
-![introduction.png](..%2F..%2Fstatic%2Fimg%2Fnavigator%2Fintroduction.png)
+![introduction.png](/img/navigator/introduction.png)
 
 Welcome to the Narrative Navigator's quick start guide. This guide will show you how to setup all the navigation methods Navigator has to offer. After this guide, you will know how to add each component to your game with all the necessary functionality.
 

@@ -1,27 +1,30 @@
 ---
-sidebar_label: 'Creating your HUD'
-sidebar_position: 1
+sidebar_label: 'UI'
+sidebar_position: 3
 ---
-
 import ExistingHUD from '/src/components/existing-hud.mdx'
 
-# Creating your HUD
+# UI
+
+Narrative Navigator comes with several UI widgets to handle displaying the navigation info to the player. It can be added to your existing UI to keep it nice and clean.
+
+## Creating your HUD
 
 To set up a simple HUD, open your **Content Drawer**, right click -> **user interface** -> **Widget Blueprint** and name this `WBP_HUD`.
 
 <ExistingHUD />
 
-Open the HUD and add the [widgets](./index.md#navigator-widgets) you require.
+Open the HUD and add the [widgets](./ui#navigator-widgets) you require.
 
-## Navigator Widgets
+### Navigator Widgets
 
 Navigator comes with a series of widgets that you can use to customise your experience. These will be covered in more detail later in the docs.
 
-### Compass
+#### Compass
 
 This is the compass that sits normally at the top or bottom of the screen. Used as a replacement for a map by showing you what's in the direction you are facing.
 
-![compass.png](..%2F..%2F..%2F..%2F..%2Fstatic%2Fimg%2Fnavigator%2Fcompass.png)
+![compass.png](/img/navigator/compass.png)
 
 Add the widget **WBP_Navigator_Compass**. Some good default details are:
 
@@ -34,11 +37,11 @@ Add the widget **WBP_Navigator_Compass**. Some good default details are:
 | Size Y     | 60             |
 | Alignment  | 0.5, 0         |
 
-### Minimap
+#### Minimap
 
 This is the minimap that sits in the corner and gives the player a map surrounding their location.
 
-![minimap.png](..%2F..%2F..%2F..%2F..%2Fstatic%2Fimg%2Fnavigator%2Fminimap.png)
+![minimap.png](/img/navigator/minimap.png)
 
 Add the widget **WBP_Navigator_Map_Minimap**. Some good default details are:
 
@@ -51,23 +54,23 @@ Add the widget **WBP_Navigator_Map_Minimap**. Some good default details are:
 | Size Y     | 250        |
 | Alignment  | 1, 1       |
 
-### World map
+#### World map
 
 This is the world map widget that gives players access to view the entire map. It is not commonly added to the HUD but instead using the OpenMenu option via a key press instead.
 
-![introduction.png](..%2F..%2F..%2F..%2F..%2Fstatic%2Fimg%2Fnavigator%2Fintroduction.png)
+![introduction.png](/img/navigator/introduction.png)
 
 You do not need to add this as a widget. We will open this via an event later.
 
-### Screen Space markers
+#### Screen Space markers
 
 Screen space markers are the visible markers on screen in the player's viewport. They show in the 3d world.
 
-![screen-space-markers.png](..%2F..%2F..%2F..%2F..%2Fstatic%2Fimg%2Fnavigator%2Fscreen-space-markers.png)
+![screen-space-markers.png](/img/navigator/screen-space-markers.png)
 
 Add the widget **WBP_Navigator_ScreenSpaceMarkers**. This needs to be set to full screen and lowest priority order (put it at the top of your Hierarchy list).
 
-## HUD display
+### HUD display
 
 Finally, go back into your [Player Controller](../../player-controller/index.md), and on begin play, create the widget, promote it to a variable then add it to the viewport.
 

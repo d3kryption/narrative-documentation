@@ -1,9 +1,13 @@
 ---
-sidebar_label: 'Creating your HUD'
-sidebar_position: 1
+sidebar_label: 'UI'
+sidebar_position: 3
 ---
 
-# Creating your HUD
+# UI
+
+Narrative Interaction comes with a UI widget to handle displaying the current interaction info to the player. It can be added to your existing UI to keep it nice and clean.
+
+## Creating your HUD
 
 To set up a simple HUD, open your **Content Drawer**, right click -> **user interface** -> **Widget Blueprint** and name this `WBP_HUD`.
 
