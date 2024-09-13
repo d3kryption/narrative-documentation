@@ -5,7 +5,7 @@ sidebar_position: 0
 
 # Functions
 
-An Interactable component contains a bunch of functions to help you use dialogue in any way you need.
+An Interactable component contains a bunch of functions to help you use interaction plugin in any way you need.
 
 If you import the [Interactable Component](./index.md), you can view the list of functions supported.
 
