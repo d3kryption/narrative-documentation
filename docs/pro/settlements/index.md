@@ -82,3 +82,7 @@ You can also set a fixed position using the SpawnTransform property. (world loca
 ## Settlement Loaders
 
 Finally, add in a [Settlement Loader](./settlement-loaders.md) to load your Settlement into the world.
+
+## Discovering Settlements
+
+You may want to have a Settlement act like a discoverable location. You can easily do this on the [Settlment Loader](./settlement-loaders.md#discoverable-settlements). 

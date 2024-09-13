@@ -14,4 +14,4 @@ Another method that you can use, is to start the [behavior tree](https://dev.epi
 
 [BT_FollowPlayer](ai.md#bt_followplayer)
 
-![bt-starting.png](/img/npcs/bt-starting.png)
+![bt-starting.png](/img/pro/npcs/bt-starting.png)
