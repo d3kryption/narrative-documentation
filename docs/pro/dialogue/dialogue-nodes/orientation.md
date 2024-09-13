@@ -45,4 +45,4 @@ But Tales will play them from left to right. Meaning it would be checked
 
 If your dialogue is [horizontally set](./orientation.md#horizontal), then Tales will check the nodes [conditions](../../conditions) from top to bottom.
 
-![horizontal_dialogue_order.png](..%2F..%2F..%2F..%2Fstatic%2Fimg%2Fdialogue%2Fhorizontal_dialogue_order.png)
+![horizontal_dialogue_order.png](/img/dialogue/horizontal_dialogue_order.png)

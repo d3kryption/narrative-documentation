@@ -36,7 +36,7 @@ Each task has the below default properties. You can easily add extra variables t
 | bOptional           | bool                                                          | Whether or not this task is optional.                                         |
 | bHidden             | bool                                                          | Check this box to hide this task in the narrative UI.                         |
 | TickInterval        | float                                                         | Defines how often the task should tick. Set to 0 to disable ticking.          |
-| MarkerSettings      | [FTaskNavigationMarker](../../navigator/navigationmarkers.md) | Should we add a navigation marker to the world for the duration of this task. |
+| MarkerSettings      | [FTaskNavigationMarker](../../navigator/navigation-widgets/screen-space-markers.md) | Should we add a navigation marker to the world for the duration of this task. |
 | CurrentProgress     | int32                                                         | The current progress this task has made.                                      |
 | OwningComp          | [UNarrativeComponent](../../tales-component)                  | The narrative component that owns this task.                                  |
 | OwningPawn          | APawn                                                         | The pawn that owns this task.                                                 |

@@ -30,11 +30,11 @@ All Settlements require a Gameplay Tag in order to function. This helps connect 
 
 ![settlements-new-tag.png](/img/pro/settlements/settlements-new-tag.png)
 
-You can also set up this settlement as a [point of interest](../navigator/pointsofinterest.md) that can be discoverable.
+You can also set up this settlement as a [point of interest](../navigator/points-of-interest.md) that can be discoverable.
 
 ![settlements-new-POI.png](/img/pro/settlements/settlements-new-POI.png)
 
-Populate the **Settlement Display Name** which will be visible in the world, [points of interest](../navigator/pointsofinterest.md) and [world map](../ui/navigator/worldmap.md).
+Populate the **Settlement Display Name** which will be visible in the world, [points of interest](../navigator/points-of-interest.md) and [world map](../ui/navigator/worldmap.md).
 
 ![settlements-new-displayname.png](/img/pro/settlements/settlements-new-displayname.png)
 

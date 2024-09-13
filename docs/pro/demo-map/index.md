@@ -133,7 +133,7 @@ If you start the quest, there is also [on screen markers](../ui/navigator/onscre
 
 ![navigator-onscreenmarker.png](/img/pro/demo-map/navigator-onscreenmarker.png)
 
-If you enter your menu, you have a [world map](../ui/navigator/worldmap.md) where you can see your entire map, place markers or see [points of interest](../navigator/pointsofinterest.md).
+If you enter your menu, you have a [world map](../ui/navigator/worldmap.md) where you can see your entire map, place markers or see [points of interest](../navigator/points-of-interest.md).
 
 ![navigator-pointsofinterest.png](/img/pro/demo-map/navigator-pointsofinterest.png)
 
