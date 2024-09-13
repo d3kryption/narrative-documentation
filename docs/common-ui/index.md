@@ -8,7 +8,9 @@ import DiscordLink from '/src/components/discord-link.mdx'
 
 Welcome to the Narrative Common UI quick start guide. This guide will show you how to set up Narrative Common UI and Unreals Common UI into your project.
 
-Narrative products all come packaged with amazing UI made to work with any platform. If you plan on using any of the UI that comes with a Narrative product, like Narrative Inventories inventory menu, or Narrative 3's Quest Journal, you'll need to install this free plugin, as most UI that comes with Narrative tools is built using this plugin.
+Narrative products all come packaged with amazing UI made to work with any platform. 
+
+If you plan on using any of the UI that comes with a Narrative product, like Narrative Inventories inventory menu, or Narrative 3's Quest Journal, you'll need to install this free plugin, as most UI that comes with Narrative tools is built using this plugin.
 
 A detailed video guide is also available here:
 
