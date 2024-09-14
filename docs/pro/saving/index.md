@@ -18,15 +18,25 @@ When you are wanting to save or load, you can get the **Narrative Save Subsystem
 
 To save an actor using Narrative Pro is really easy.
 
-Firstly, open your actors blueprint and add the interface: 
+There are two interfaces you can use depending on what you want to save.
+
+### Actor interface
+
+If you want to save an actor with specific variables you can use the interface:
 
 ```
 Narrative Savable Actor
 ```
 
-Now you can populate a few main functions:
+Now you can populate a few main functions.
 
-### Set Actor GUID
+:::note
+
+The save actor interface will automatically save the **actors transform**, so you don't need to.
+
+:::
+
+#### Set Actor GUID
 
 Each savable actor requires a unique ID in order to create this uniqueness. A [GUID](https://devblogs.microsoft.com/oldnewthing/20080627-00/?p=21823) is a datatype that can give us this randomness.
 
@@ -38,23 +48,37 @@ You will need to create the variable `SavedGuid`. It can be called anything, but
 
 :::
 
-### Get Actor GUID
+#### Get Actor GUID
 
 Simply returns the GUID created above. Used to find the correct actor to load details into.
 
 ![load-guid.png](/img/saving/load-guid.png)
 
-### Load Single Actor
+#### Load Single Actor
 
 The **LoadSingleActor** function tells the **Narrative Save Subsystem** to [load](./loading.md) a specific actors' data. Commonly added to EventBeginPlay.
 
 ![load-single-actor.png](/img/saving/load-single-actor.png)
 
-### Save Single Actor
+#### Save Single Actor
 
 The **SingleSingleActor** function tells the **Narrative Save Subsystem** to save a specific actors' data. Commonly added to EventEndPlay.
 
 ![save-single-actor.png](/img/saving/save-single-actor.png)
+
+### Component interface
+
+If you are wanting to save a component then you can use the:
+
+```
+Narrative Savable Component
+```
+
+## Save Game property
+
+Any variable that you want to save you must mark it as **SaveGame** in the advanced menu.
+
+![saving-property.png](..%2F..%2F..%2Fstatic%2Fimg%2Fsaving%2Fsaving-property.png)
 
 ## C++
 
