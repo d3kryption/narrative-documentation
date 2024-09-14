@@ -53,14 +53,14 @@ An example could be a door quest which requires you to get 3 keys. To get each k
 
 ## Equip Item
 
-When an [item is equipped](../../inventory/equipment), complete this task. You can also check if the item is already equipped.
+When an [item is equipped](../../inventory/items/equipment), complete this task. You can also check if the item is already equipped.
 
 ### Properties
 
-| Name                 | Type                                          | Description                                                              |
-|----------------------|-----------------------------------------------|--------------------------------------------------------------------------|
-| ItemToEquip          | [item is equipped](../../inventory/equipment) | The item that needs to be equipped.                                      |
-| CheckAlreadyEquipped | bool                                          | Check if the item is currently equipped to the player and auto complete. |
+| Name                 | Type                                                | Description                                                              |
+|----------------------|-----------------------------------------------------|--------------------------------------------------------------------------|
+| ItemToEquip          | [item is equipped](../../inventory/items/equipment) | The item that needs to be equipped.                                      |
+| CheckAlreadyEquipped | bool                                                | Check if the item is currently equipped to the player and auto complete. |
 
 ## Find Item
 
@@ -117,7 +117,7 @@ A very common node which allows you to complete an objective when the player arr
 
 ## Holster / Unholser weapon
 
-The task is completed when the player holsters or unholsters their [weapon](../../inventory/equipment/weapons).
+The task is completed when the player holsters or unholsters their [weapon](../../inventory/items/equipment/weapons.md).
 
 ### Properties
 

@@ -83,7 +83,7 @@ Narrative Pro features fully licenced armour created ready to be used. Modular a
 
 ### Weapons
 
-An [integrated weapons system](../inventory/equipment/weapons/index.md) is available when you pick up weapons. You can customise it to meet all your weaponry needs.
+An [integrated weapons system](../inventory/items/equipment/weapons.md) is available when you pick up weapons. You can customise it to meet all your weaponry needs.
 
 ![weaponstats.png](/img/pro/demo-map/weaponstats.png)
 

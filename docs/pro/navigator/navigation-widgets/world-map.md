@@ -10,9 +10,7 @@ This is the world map widget that gives players access to view the entire map. I
 
 ## Usage
 
-To add the world map you need to first have completed the [Common UI HUD setup](../installation/common-ui.md).
-
-Now, you just need to call **OpenMenu** from a key press, passing the **W_NarrativeMenu_WorldMap** option.
+You just need to call **OpenMenu** from a key press, passing the **W_NarrativeMenu_WorldMap** option.
 
 <iframe src="https://blueprintue.com/render/c42mnyp6/" width="100%" height="400" scrolling="no" allowfullscreen></iframe>
 

@@ -69,9 +69,9 @@ Checks if a specific item is equipped by the player.
 
 ### Properties
 
-| Name      | Type                                | Description                                 |
-|-----------|-------------------------------------|---------------------------------------------|
-| ItemClass | [FItemClass](../inventory/items.md) | The class of the item to check if equipped. |
+| Name      | Type                             | Description                                 |
+|-----------|----------------------------------|---------------------------------------------|
+| ItemClass | [FItemClass](../inventory/items) | The class of the item to check if equipped. |
 
 ## Is Quest At State
 
