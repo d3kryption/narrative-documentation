@@ -77,6 +77,10 @@ Get the weight capacity of the inventory.
 
 Return true if we have a given amount of an item. bCheckVisibility will only look for items that are visible in the inventory.
 
+## On Begin Looting
+
+When the inventory detects a looting setup is in progress this function will run.
+
 ## Perform Loot Item
 
 Remove the item from us, and give it to the taker. Return how much of the item was able to be looted.

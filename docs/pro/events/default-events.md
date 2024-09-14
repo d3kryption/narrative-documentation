@@ -254,11 +254,11 @@ Changes the relationship attitude between two factions, altering their in-game b
 
 ### Properties
 
-| Name          | Type                                                            | Description                                     |
-|---------------|-----------------------------------------------------------------|-------------------------------------------------|
-| SourceFaction | [ENarrativeFactionID](../factions/index.md#enarrativefactionid) | The faction whose attitude is being changed.    |
-| TargetFaction | [ENarrativeFactionID](../factions/index.md#enarrativefactionid) | The faction towards whom the attitude is set.   |
-| NewAttitude   | [ENarrativeFactionID](../factions/index.md#eteamattitude)       | The new attitude to set for the source faction. |
+| Name          | Type                                                                       | Description                                     |
+|---------------|----------------------------------------------------------------------------|-------------------------------------------------|
+| SourceFaction | [ENarrativeFactionID](../factions/index.md#enarrativefactionid-properties) | The faction whose attitude is being changed.    |
+| TargetFaction | [ENarrativeFactionID](../factions/index.md#enarrativefactionid-properties) | The faction towards whom the attitude is set.   |
+| NewAttitude   | [ENarrativeFactionID](../factions/index.md#eteamattitude-properties)       | The new attitude to set for the source faction. |
 
 
 ## Set NPC Behaviour

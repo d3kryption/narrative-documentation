@@ -13,19 +13,19 @@ The dialogue node is the base node that contains all the details you want in the
 
 ## Dialogue Node Properties
 
-| Name                | Type                                                             | Description                                                                                                                                    |
-|---------------------|------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------|
-| Line                | [FDialogueLine](./index.md#dialogue-line)                        | The dialogue line associated with this node.                                                                                                   |
-| AlternativeLines    | TArray\<[FDialogueLine](./index.md#dialogue-line)\>              | If alternative lines are added in here, narrative will randomly select either the main line or one of the alternatives.                        |
-| OnDialogueFinished  | FOnDialogueNodeFinishedPlaying                                   | Delegate that is called when the dialogue node finishes playing.                                                                               |
-| PlayedLine          | [FDialogueLine](./index.md#dialogue-line)                        | The last line the dialogue node played.                                                                                                        |
-| NPCReplies          | TArray\<[UDialogueNode_NPC](./index.md#npc-dialogue-line)\>      | Array of NPC replies for debugging purposes.                                                                                                   |
-| PlayerReplies       | TArray\<[UDialogueNode_Player](./index.md#npc-dialogue-player)\> | Array of player replies for debugging purposes.                                                                                                |
-| OnPlayNodeFuncName  | FName                                                            | Name of custom event to call when this node is reached.                                                                                        |
-| DirectedAtSpeakerID | FName                                                            | The ID of the speaker we are saying this line to. Can be left empty.                                                                           |
-| bIsSkippable        | bool                                                             | Should pressing the enter key allow this line to be skipped?                                                                                   |
-| Conditions          | TArray\<[UNarrativeCondition](../../conditions/)\>                | Conditions are functions that run before this node is pending selection and contain boolean returns that allow this node to be run or ignored. |
-| Events              | TArray\<[UNarrativeEvent](../../events)\>                        | Events are functions that can run at specific states on [quests](../../quests) & [dialogue](../../dialogue).                                   |
+| Name                | Type                                                                      | Description                                                                                                                                    |
+|---------------------|---------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------|
+| Line                | [FDialogueLine](./node-breakdown.md#dialogue-line)                        | The dialogue line associated with this node.                                                                                                   |
+| AlternativeLines    | TArray\<[FDialogueLine](./index.md#dialogue-line)\>                       | If alternative lines are added in here, narrative will randomly select either the main line or one of the alternatives.                        |
+| OnDialogueFinished  | FOnDialogueNodeFinishedPlaying                                            | Delegate that is called when the dialogue node finishes playing.                                                                               |
+| PlayedLine          | [FDialogueLine](./index.md#dialogue-line)                                 | The last line the dialogue node played.                                                                                                        |
+| NPCReplies          | TArray\<[UDialogueNode_NPC](./node-breakdown.md#npc-dialogue-line)\>      | Array of NPC replies for debugging purposes.                                                                                                   |
+| PlayerReplies       | TArray\<[UDialogueNode_Player](./node-breakdown.md#npc-dialogue-player)\> | Array of player replies for debugging purposes.                                                                                                |
+| OnPlayNodeFuncName  | FName                                                                     | Name of custom event to call when this node is reached.                                                                                        |
+| DirectedAtSpeakerID | FName                                                                     | The ID of the speaker we are saying this line to. Can be left empty.                                                                           |
+| bIsSkippable        | bool                                                                      | Should pressing the enter key allow this line to be skipped?                                                                                   |
+| Conditions          | TArray\<[UNarrativeCondition](../../conditions/)\>                        | Conditions are functions that run before this node is pending selection and contain boolean returns that allow this node to be run or ignored. |
+| Events              | TArray\<[UNarrativeEvent](../../events)\>                                 | Events are functions that can run at specific states on [quests](../../quests) & [dialogue](../../dialogue).                                   |
 
 ## Dialogue Line
 

@@ -10,7 +10,7 @@ The dialogue node is the base node that contains all the details you want in the
 
 ## Creating a new node
 
-To create new nodes to add new lines to your dialogue, either right click in the [dialogue graph](./index.md#tabs) and select your speaker or drag from the pin you wish to connect from.
+To create new nodes to add new lines to your dialogue, either right click in the [dialogue graph](../index.md#tabs) and select your speaker or drag from the pin you wish to connect from.
 
 ![dialogue-node-creation.png](/img/dialogue/line/dialogue-node-creation.png)
 
@@ -28,7 +28,7 @@ Now you can select the node to enter its details in the **Details** panel.
 
 :::note
 
-The default node comes with some starting text. This can work for some dialogue, but it's much more flexible to keep the first node empty, so you can use [conditions](../../conditions/) later.
+The default node comes with some starting text. This can work for some dialogue, but it's much more flexible to keep the first node empty, so you can use [conditions](../../conditions) later.
 
 :::
 
@@ -51,7 +51,7 @@ Each node has many variables that make it work. They are defined below.
 | DialogueMontage         | UAnimMontage                                                               | Narrative will play this montage on the first skeletal mesh component found on your speaker with the tag "Body" added to it.                                                                     |
 | FacialAnimation         | UAnimMontage                                                               | Narrative will play this montage on the first skeletal mesh component found on your speaker with the tag "Face" added to it.                                                                     |
 | Shot                    | [UNarrativeDialogueSequence](../dialogue-sequence)                         | Shot to play for this line. Overrides speaker shot if one is set.                                                                                                                                |
-| AlternativeLines        | TArray\<[FDialogueLine](./index.md#dialogue-line)\>                        | If alternative lines are added in here, narrative will randomly select either the main line or one of the alternatives.                                                                          |
+| AlternativeLines        | TArray\<[FDialogueLine](./node-breakdown.md#dialogue-line)\>               | If alternative lines are added in here, narrative will randomly select either the main line or one of the alternatives.                                                                          |
 | OnDialogueFinished      | FOnDialogueNodeFinishedPlaying                                             | Delegate that is called when the dialogue node finishes playing.                                                                                                                                 |
 | PlayedLine              | [FDialogueLine](./index.md#dialogue-line)     f                            | The last line the dialogue node played.                                                                                                                                                          |
 | NPCReplies              | TArray\<[UDialogueNode_NPC](./node-breakdown.md#npc-dialogue-line)\>       | Array of NPC replies for debugging purposes.                                                                                                                                                     |

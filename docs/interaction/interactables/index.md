@@ -27,7 +27,7 @@ This can easily be toggled using Unreal's built in Activate and Deactivate event
 
 You can also link multiple Interaction components together to cause a chain reaction. 
 
-Either call [activate / deactivate](../index.md#activate--deactivate) on the **interactable**, or adjust the properties of the **interactable**.
+Either call [activate / deactivate](./index.md#activate--deactivate) on the **interactable**, or adjust the properties of the **interactable**.
 
 ## Multiplayer
 
