@@ -40,6 +40,8 @@ In this example, we have added a torso, legs and feet equipable slots.
 
 ![equipnment-map.png](/img/inventory/equipnment-map.png)
 
+## Auto equip
 
+Equitable items when added to an inventory have built in code that automatically equips them when added. 
 
-
+This is done via the function [Should use on add](./functions.md#should-use-on-add)
