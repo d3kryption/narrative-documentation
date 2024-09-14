@@ -1,5 +1,5 @@
 ---
-sidebar_label: 'Books'
+sidebar_label: 'Books - COMING SOON'
 ---
 
-# Books
+# Books - COMING SOON

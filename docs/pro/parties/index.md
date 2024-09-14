@@ -1,5 +1,5 @@
 ---
-sidebar_label: 'Parties'
+sidebar_label: 'Parties - COMING SOON'
 ---
 
-# Parties
+# Parties - COMING SOON

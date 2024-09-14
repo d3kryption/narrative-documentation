@@ -1,8 +1,8 @@
 ---
-sidebar_label: 'UI'
+sidebar_label: 'UI - COMING SOON'
 ---
 
-# UI
+# UI - COMING SOON
 
 Narrative Pro comes with a fully implemented UI system for you to use and modify how you need.
 

@@ -4,4 +4,6 @@ sidebar_label: 'Inventory'
 
 # Inventory
 
-![npc-inventory.png](/img/pro/inventory/npc-inventory.png)
+Inventory is a full setup inventory, looting, trading, equipment and item system built into Pro.
+
+![introduction.png](/img/inventory/introduction.png)

@@ -1,8 +1,8 @@
 ---
-sidebar_label: 'Factions'
+sidebar_label: 'Factions - COMING SOON'
 ---
 
-# Factions
+# Factions - COMING SOON
 
 ## ENarrativeFactionID
 
