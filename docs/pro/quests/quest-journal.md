@@ -12,4 +12,4 @@ You can even track and untrack quests to hide their state from the world.
 
 The Quest Journal contains a toggle for [Party Quests](../parties/quests.md) too.
 
-![quest-journal.png](..%2F..%2F..%2Fstatic%2Fimg%2Fquests%2Fjournal%2Fquest-journal.png)
+![quest-journal.png](/img/quests/journal/quest-journal.png)

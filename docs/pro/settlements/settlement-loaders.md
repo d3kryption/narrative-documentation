@@ -57,11 +57,11 @@ Be careful what you set the overlap to. Anything that overlaps will trigger the 
 
 Another optional feature is to check **Use Attach Parent Bound** under Rendering. This will automatically scale the collision to the size of the settlement.
 
-![use-attach-parent-bound.png](..%2F..%2F..%2Fstatic%2Fimg%2Fpro%2Fsettlements%2Floader%2Fuse-attach-parent-bound.png)
+![use-attach-parent-bound.png](/img/pro/settlements/loader/use-attach-parent-bound.png)
 
 Now walking into the settlements radius will discover the location. 
 
-![settlement-discovered.png](..%2F..%2F..%2Fstatic%2Fimg%2Fpro%2Fsettlements%2Floader%2Fsettlement-discovered.png)
+![settlement-discovered.png](/img/pro/settlements/loader/settlement-discovered.png)
 
 ### Fast travelling not working
 
@@ -69,7 +69,7 @@ Sometimes your fast travel to discovered settlements may not work. This normally
 
 Try dragging the settlement up from the ground so the player can spawn. 
 
-![fast-travelling-not-working.png](..%2F..%2F..%2Fstatic%2Fimg%2Fpro%2Fsettlements%2Floader%2Ffast-travelling-not-working.png)
+![fast-travelling-not-working.png](/img/pro/settlements/loader/fast-travelling-not-working.png)
 
 :::note
 
