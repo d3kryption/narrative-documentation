@@ -40,7 +40,7 @@ Standard Unreal sequences: By default, Unreal doesn't have a skip function, but 
 
 <div>
     <h3>Are quest items easy to flag?</h3>
-    <p>You define a new [NarrativeItem](./inventory/items.md) and populate it with your details. Then, use the [NarrativeTask](./quests/tasks) to check for the [inventory](./inventory) picking it up.</p>
+    <p>You define a new [NarrativeItem](./inventory/items/) and populate it with your details. Then, use the [NarrativeTask](./quests/tasks) to check for the [inventory](./inventory) picking it up.</p>
 </div>
 
 <div>

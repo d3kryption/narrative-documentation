@@ -47,11 +47,11 @@ Checks if a specific item is present in the player's inventory.
 
 ### Properties
 
-| Name             | Type                                | Description                                                    |
-|------------------|-------------------------------------|----------------------------------------------------------------|
-| ItemClass        | [FItemClass](../inventory/items.md) | The class of the item to check in the player's inventory.      |
-| Quantity         | int                                 | The number of items to check for in the inventory.             |
-| Check Visibility | bool                                | Whether to check only if the item is visible in the inventory. |
+| Name             | Type                              | Description                                                    |
+|------------------|-----------------------------------|----------------------------------------------------------------|
+| ItemClass        | [FItemClass](../inventory/items/) | The class of the item to check in the player's inventory.      |
+| Quantity         | int                               | The number of items to check for in the inventory.             |
+| Check Visibility | bool                              | Whether to check only if the item is visible in the inventory. |
 
 ## Is Following Player
 

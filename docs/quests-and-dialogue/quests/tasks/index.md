@@ -29,19 +29,18 @@ You then call `AddProgress` or `CompleteTask` when you want to update the task. 
 
 Each task has the below default properties. You can easily add extra variables to capture the data you require.
 
-| Name                | Type                                                          | Description                                                                   |
-|---------------------|---------------------------------------------------------------|-------------------------------------------------------------------------------|
-| RequiredQuantity    | int32                                                         | The number of times the task needs to be completed before the quest updates.  |
-| DescriptionOverride | FText                                                         | Override the auto-generated description of the task with a custom one.        |
-| bOptional           | bool                                                          | Whether or not this task is optional.                                         |
-| bHidden             | bool                                                          | Check this box to hide this task in the narrative UI.                         |
-| TickInterval        | float                                                         | Defines how often the task should tick. Set to 0 to disable ticking.          |
-| MarkerSettings      | [FTaskNavigationMarker](../../navigator/navigation-widgets/screen-space-markers.md) | Should we add a navigation marker to the world for the duration of this task. |
-| CurrentProgress     | int32                                                         | The current progress this task has made.                                      |
-| OwningComp          | [UNarrativeComponent](../../tales-component)                  | The narrative component that owns this task.                                  |
-| OwningPawn          | APawn                                                         | The pawn that owns this task.                                                 |
-| OwningController    | APlayerController                                             | The player controller that owns this task.                                    |
-| OwningQuest         | [UQuest](../../quests)                                        | The quest that owns this task.                                                |
+| Name                | Type                                                                                | Description                                                                   |
+|---------------------|-------------------------------------------------------------------------------------|-------------------------------------------------------------------------------|
+| RequiredQuantity    | int32                                                                               | The number of times the task needs to be completed before the quest updates.  |
+| DescriptionOverride | FText                                                                               | Override the auto-generated description of the task with a custom one.        |
+| bOptional           | bool                                                                                | Whether or not this task is optional.                                         |
+| bHidden             | bool                                                                                | Check this box to hide this task in the narrative UI.                         |
+| TickInterval        | float                                                                               | Defines how often the task should tick. Set to 0 to disable ticking.          |
+| CurrentProgress     | int32                                                                               | The current progress this task has made.                                      |
+| OwningComp          | [UNarrativeComponent](../../tales-component)                                        | The narrative component that owns this task.                                  |
+| OwningPawn          | APawn                                                                               | The pawn that owns this task.                                                 |
+| OwningController    | APlayerController                                                                   | The player controller that owns this task.                                    |
+| OwningQuest         | [UQuest](../../quests)                                                              | The quest that owns this task.                                                |
 
 ## Data tasks
 

@@ -14,6 +14,6 @@ To add trading to a blueprint you need to do two things.
 
 Set up the [looting functionality here](./index.md). 
 
-Then you can set the IsVendor property and the trading currenty on the [Inventory Component](../inventory-component/index.md#properties)
+Then you can set the IsVendor property and the trading currently on the [Inventory Component](../inventory-component/index.md#properties)
 
 ![npc-trading.png](/img/pro/inventory/npc-trading.png)

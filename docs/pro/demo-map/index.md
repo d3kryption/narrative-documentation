@@ -25,13 +25,13 @@ Unlockable abilities, skills all fully customisable to meet your games requireme
 
 ## AI
 
-[AI behaviour](../ai/index.md) built in that can be used as friendly or enemy. Can be used from dialogue, quests or many other methods.
+[AI behaviour](../npcs/ai.md) built in that can be used as friendly or enemy. Can be used from dialogue, quests or many other methods.
 
 ![ai.png](/img/pro/demo-map/ai.png)
 
 ### Companions / followers
 
-Easily turn NPC's into [companions](../ai/companions.md) who follow you anywhere you go. Fast travelling, battle, dialogue. All ready and built in.
+Easily turn NPC's into [companions](../npcs/followers.md) who follow you anywhere you go. Fast travelling, battle, dialogue. All ready and built in.
 
 ![companions.png](/img/pro/demo-map/companions.png)
 
@@ -63,7 +63,7 @@ Easily make NPC's follow you from a dialogue option
 
 ## Equipment
 
-Any weapons you pick up can be [equipped](../inventory/equipment/index.md) to your character, so they can be used in combat.
+Any weapons you pick up can be [equipped](../inventory/items/equipment) to your character, so they can be used in combat.
 
 ![equipment.png](/img/pro/demo-map/equippment.png)
 
@@ -107,13 +107,13 @@ Pressing the **TAB** key will show you your [inventory](../ui/inventory/index.md
 
 ### Looting
 
-Easily create [lootable actors](../inventory/looting.md) where you can take or give loot. You can loot anything from chests to bad guys.
+Easily create [lootable actors](../inventory/looting) where you can take or give loot. You can loot anything from chests to bad guys.
 
 ![inventory-looting.png](/img/pro/demo-map/inventory-looting.png)
 
 ### Trading / Shops
 
-Create [traders or shops](../inventory/trading.md) in your world, so you can buy and sell anything you want. Its as easy as adding a component and adding properties.
+Create [traders or shops](../inventory/looting/trading.md) in your world, so you can buy and sell anything you want. Its as easy as adding a component and adding properties.
 
 ![npc-trading-shop-ui.png](/img/pro/inventory/npc-trading-shop-ui.png)
 
