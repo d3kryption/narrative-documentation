@@ -5,7 +5,7 @@ sidebar_label: 'Inventory'
 import DiscordLink from '/src/components/discord-link.mdx'
 import NarrativeCommonUiLink from '/src/components/narrative-common-ui-link.mdx'
 
-# Inventory
+# Narrative Inventory Documentation
 
 ![introduction.webp](/img/inventory/introduction.webp)
 
@@ -18,3 +18,7 @@ Detailed video guides are also available here:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ZfvnQaNQRIo?si=63GsS9IZJKiLcpln" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 <DiscordLink></DiscordLink>
+
+## Purchase
+
+You can download [Narrative Inventory here](https://www.unrealengine.com/marketplace/en-US/product/narrative-inventory-networked-lightweight-inventory-system) from the Epic Marketplace.

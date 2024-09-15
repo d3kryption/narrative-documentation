@@ -12,10 +12,10 @@ const config: Config = {
   themes: ['@docusaurus/theme-mermaid'],
 
   // Set the production url of your site here
-  url: 'https://d3kryption.github.io/',
+  url: 'https://docs.narrativetools.io/',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/narrative-documentation/',
+  baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -58,9 +58,9 @@ const config: Config = {
       respectPrefersColorScheme: false,
     },
     navbar: {
-      title: 'Narrative Tools Inc',
+      title: 'Narrative Tools',
       logo: {
-        alt: 'Narrative Tools Inc Logo',
+        alt: 'Narrative Tools Logo',
         src: 'img/logo.svg',
       },
       items: [

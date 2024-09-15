@@ -4,7 +4,7 @@ sidebar_label: 'Common UI'
 
 import DiscordLink from '/src/components/discord-link.mdx'
 
-# Common UI
+# Narrative Common UI Documentation
 
 Welcome to the Narrative Common UI quick start guide. This guide will show you how to set up Narrative Common UI and Unreals Common UI into your project.
 
@@ -26,3 +26,7 @@ A: It allows us to do some amazing stuff we couldn't otherwise:
 - It keeps your packaged game size smaller since all fonts and icons are stored in 1 plugin rather than having a bunch of duplicates
 
 <DiscordLink></DiscordLink>
+
+## Purchase
+
+You can download [Narrative Common UI here](https://www.unrealengine.com/marketplace/en-US/product/narrative-common-ui) from the Epic Marketplace.
