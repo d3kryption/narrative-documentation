@@ -8,9 +8,9 @@ import MustEnablePluginViewContent from '/src/components/must-enable-plugin-view
 
 To get started, we will be using the Blank C++ template.
 
-![BlankProject.png](/img/pro/Installation/BlankProject.png)
+![BlankProject.webp](/img/pro/Installation/BlankProject.webp)
 
-![ProjectDefaults.png](/img/pro/Installation/ProjectDefaults.png)
+![ProjectDefaults.webp](/img/pro/Installation/ProjectDefaults.webp)
 
 :::note
 
@@ -24,11 +24,11 @@ Alternatively, you can get the download for the finished project here:
 
 Set up the project then download **Narrative Pro** from the Epic Marketplace and you can install it to the engine (default) or move it into your project's Plugins folder (you may have to create this folder).
 
-![PluginsFolder.png](/img/pro/Installation/PluginsFolder.png)
+![PluginsFolder.webp](/img/pro/Installation/PluginsFolder.webp)
 
 Make sure to enable **Narrative Pro** by going to edit -> Plugins, and checking the box next to **Narrative Pro**. (you may have to restart Unreal)
 
-![ProPluginsEnabled.png](/img/pro/Installation/ProPluginsEnabled.png)
+![ProPluginsEnabled.webp](/img/pro/Installation/ProPluginsEnabled.webp)
 
 We are now ready to configure Narrative Pro.
 

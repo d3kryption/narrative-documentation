@@ -15,7 +15,7 @@ For ease, you can download the config files here:
 
 Extract them inside your projects **Config** folder replacing all other files. You will have to restart Unreal.
 
-![downloadconfigs.png](/img/pro/Installation/project-settings/downloadconfigs.png)
+![downloadconfigs.webp](/img/pro/Installation/project-settings/downloadconfigs.webp)
 
 :::note
 
@@ -27,7 +27,7 @@ These config files should work in most instances. If they don't, try going throu
 
 Go to **Edit** -> **Project Settings**
 
-![editprojectsettings.png](/img/pro/Installation/project-settings/editprojectsettings.png)
+![editprojectsettings.webp](/img/pro/Installation/project-settings/editprojectsettings.webp)
 
 :::warning
 
@@ -45,11 +45,11 @@ You must enter the collision profiles in the correct order. You **will** run int
 
 Go to **Engine** -> **Collision**
 
-![engine-collision.png](/img/pro/Installation/project-settings/engine-collision.png)
+![engine-collision.webp](/img/pro/Installation/project-settings/engine-collision.webp)
 
 Click **New Trace Channel...**
 
-![new-trace-channel.png](/img/pro/Installation/project-settings/new-trace-channel.png)
+![new-trace-channel.webp](/img/pro/Installation/project-settings/new-trace-channel.webp)
 
 Set a new channel called:
 
@@ -59,7 +59,7 @@ NarrativeInteraction
 
 and the Default Response to **Ignore** then click **Accept**
 
-![new-trace-channel-interaction.png](/img/pro/Installation/project-settings/new-trace-channel-interaction.png)
+![new-trace-channel-interaction.webp](/img/pro/Installation/project-settings/new-trace-channel-interaction.webp)
 
 Set another new channel called:
 
@@ -69,7 +69,7 @@ NarrativeWeapon
 
 and the Default Response to **Block** then click **Accept**
 
-![new-trace-channel-weapon.png](/img/pro/Installation/project-settings/new-trace-channel-weapon.png)
+![new-trace-channel-weapon.webp](/img/pro/Installation/project-settings/new-trace-channel-weapon.webp)
 
 ## Surface Types
 
@@ -87,7 +87,7 @@ Then add another surface type into **SurfaceType1** called:
 Concrete
 ```
 
-![surface-types.png](/img/pro/Installation/project-settings/surface-types.png)
+![surface-types.webp](/img/pro/Installation/project-settings/surface-types.webp)
 
 ## Game Settings
 
@@ -95,7 +95,7 @@ Go to **Engine** -> **General Settings** -> **Default Classes**
 
 Under **Advanced** set the **Game User Settings Class** to `NarrativeGameUserSettings`
 
-![gameusersettings.png](/img/pro/Installation/project-settings/gameusersettings.png)
+![gameusersettings.webp](/img/pro/Installation/project-settings/gameusersettings.webp)
 
 ## Asset Manager
 
@@ -103,7 +103,7 @@ Go to **Engine** -> **General Settings** -> **Default Classes**
 
 Under **Advanced** set the **Asset Manager Class** to `NarrativeAssetManager`
 
-![assetmanagerclass.png](/img/pro/Installation/project-settings/assetmanagerclass.png)
+![assetmanagerclass.webp](/img/pro/Installation/project-settings/assetmanagerclass.webp)
 
 ## Common UI
 
@@ -111,7 +111,7 @@ Go to **Engine** -> **General Settings** -> **Default Classes**
 
 Set the **Game Viewport Client Class** to `CommonGameViewportClient`
 
-![ViewportChange.jpg](/img/common-ui/ViewportChange.jpg)
+![ViewportChange.webp](/img/common-ui/ViewportChange.webp)
 
 ### Input settings
 
@@ -125,7 +125,7 @@ Generic
 
 Then set the **Controller Data** for each device you want to support.
 
-![commoninputsettings.png](/img/pro/Installation/project-settings/commoninputsettings.png)
+![commoninputsettings.webp](/img/pro/Installation/project-settings/commoninputsettings.webp)
 
 ## Audio
 
@@ -141,11 +141,11 @@ Make sure you set the **Master** that belongs inside **NarrativePro**. Do **not*
 
 **Correct:**
 
-![goodmastersoundclass.png](/img/pro/Installation/project-settings/goodmastersoundclass.png)
+![goodmastersoundclass.webp](/img/pro/Installation/project-settings/goodmastersoundclass.webp)
 
 **Incorrect:**
 
-![badmastersoundclass.png](/img/pro/Installation/project-settings/badmastersoundclass.png)
+![badmastersoundclass.webp](/img/pro/Installation/project-settings/badmastersoundclass.webp)
 
 :::
 
@@ -153,7 +153,7 @@ Make sure you set the **Master** that belongs inside **NarrativePro**. Do **not*
 
 Set the **Default Base Sound Mix** to `MasterMix`
 
-![mastermix.png](/img/pro/Installation/project-settings/mastermix.png)
+![mastermix.webp](/img/pro/Installation/project-settings/mastermix.webp)
 
 ## Game Instance
 
@@ -161,7 +161,7 @@ Go to **Project** -> **Maps & Modes** -> **Game Instance**
 
 Set the **Game Instance Class** to `NarrativeGameInstance`
 
-![gameinstance.png](/img/pro/Installation/project-settings/gameinstance.png)
+![gameinstance.webp](/img/pro/Installation/project-settings/gameinstance.webp)
 
 ## Default Maps
 
@@ -169,7 +169,7 @@ Go to **Project** -> **Maps & Modes** -> **Default Maps**
 
 Set the **Editor Startup Map** to `DemoMap` and set the **Game Default Map** to `MainMenu`
 
-![defaultmaps.png](/img/pro/Installation/project-settings/defaultmaps.png)
+![defaultmaps.webp](/img/pro/Installation/project-settings/defaultmaps.webp)
 
 ## Default GameMode
 

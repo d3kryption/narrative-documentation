@@ -26,7 +26,7 @@ For example, a dialogue node saying “Thank you for helping me. The priceless r
 
 To use an event, simply select the node (quest or dialogue) and in the details screen, add as many events to your Events list as you require.
 
-![events-adding.png](/img/events/events-adding.png)
+![events-adding.webp](/img/events/events-adding.webp)
 
 ## Default Events
 

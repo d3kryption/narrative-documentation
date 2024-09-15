@@ -12,7 +12,7 @@ The save system has a function UI to allow you to create, save, load and delete 
 
 When you are wanting to save or load, you can get the **Narrative Save Subsystem**. This gives you access to all the functions you need to handle saving.
 
-![save-system.png](/img/saving/save-system.png)
+![save-system.webp](/img/saving/save-system.webp)
 
 ## Save an actor
 
@@ -40,7 +40,7 @@ The save actor interface will automatically save the **actors transform**, so yo
 
 Each savable actor requires a unique ID in order to create this uniqueness. A [GUID](https://devblogs.microsoft.com/oldnewthing/20080627-00/?p=21823) is a datatype that can give us this randomness.
 
-![saved-guid.png](/img/saving/saved-guid.png)
+![saved-guid.webp](/img/saving/saved-guid.webp)
 
 :::note
 
@@ -52,19 +52,19 @@ You will need to create the variable `SavedGuid`. It can be called anything, but
 
 Simply returns the GUID created above. Used to find the correct actor to load details into.
 
-![load-guid.png](/img/saving/load-guid.png)
+![load-guid.webp](/img/saving/load-guid.webp)
 
 #### Load Single Actor
 
 The **LoadSingleActor** function tells the **Narrative Save Subsystem** to [load](./loading.md) a specific actors' data. Commonly added to EventBeginPlay.
 
-![load-single-actor.png](/img/saving/load-single-actor.png)
+![load-single-actor.webp](/img/saving/load-single-actor.webp)
 
 #### Save Single Actor
 
 The **SingleSingleActor** function tells the **Narrative Save Subsystem** to save a specific actors' data. Commonly added to EventEndPlay.
 
-![save-single-actor.png](/img/saving/save-single-actor.png)
+![save-single-actor.webp](/img/saving/save-single-actor.webp)
 
 ### Component interface
 
@@ -78,7 +78,7 @@ Narrative Savable Component
 
 Any variable that you want to save you must mark it as **SaveGame** in the advanced menu.
 
-![saving-property.png](..%2F..%2F..%2Fstatic%2Fimg%2Fsaving%2Fsaving-property.png)
+![saving-property.webp](..%2F..%2F..%2Fstatic%2Fimg%2Fsaving%2Fsaving-property.webp)
 
 ## C++
 

@@ -8,7 +8,7 @@ The Character Appearance is a data asset that allows you to define how an NPC lo
 
 It lets you state all the meshes, materials and Grooms that build it up.
 
-![character-appearence-dataasset.png](..%2F..%2F..%2F..%2F..%2Fstatic%2Fimg%2Finventory%2Fcharacter-appearence-dataasset.png)
+![character-appearence-dataasset.webp](..%2F..%2F..%2F..%2F..%2Fstatic%2Fimg%2Finventory%2Fcharacter-appearence-dataasset.webp)
 
 ## Properties
 

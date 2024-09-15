@@ -7,7 +7,7 @@ import NarrativeCommonUiLink from '/src/components/narrative-common-ui-link.mdx'
 
 # Inventory
 
-![introduction.png](/img/inventory/introduction.png)
+![introduction.webp](/img/inventory/introduction.webp)
 
 Welcome to the Narrative Inventory's quick start guide. This guide will show you how to create your inventory, first items and equipment. After this guide, you will know how to add an inventory to your game with all the necessary functionality
 

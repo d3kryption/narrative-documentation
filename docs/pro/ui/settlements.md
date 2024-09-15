@@ -4,5 +4,5 @@ sidebar_label: 'Settlement'
 
 # Settlement
 
-![settlements.png](/img/pro/demo-map/settlements.png)
+![settlements.webp](/img/pro/demo-map/settlements.webp)
 

@@ -15,7 +15,7 @@ BP_Door
 
 Add a static mesh component and add a basic door frame, then another static mesh for the door.
 
-![door-example-blueprint](/img/interaction/door-example-blueprint.jpg)
+![door-example-blueprint](/img/interaction/door-example-blueprint.webp)
 
 Add a bool variable to determine whether its open or closed. We will call this one:
 
@@ -55,7 +55,7 @@ This is a really basic example to demonstrate NarrativeInteraction. It's advised
 
 :::
 
-![chaining-interactable-components-unlocked.jpg](/img/interaction/chaining-interactable-components-unlocked.jpg)
+![chaining-interactable-components-unlocked.webp](/img/interaction/chaining-interactable-components-unlocked.webp)
 
 ## Locked state
 
@@ -75,25 +75,25 @@ Now we can override `CanInteract` and get the doors locked state. Create a branc
 
 Create a button blueprint class then add a variable of type **BP_Door** to link to the correct door.
 
-![chaining-interactable-components-variable.jpg](/img/interaction/chaining-interactable-components-variable.jpg)
+![chaining-interactable-components-variable.webp](/img/interaction/chaining-interactable-components-variable.webp)
 
 Then add a Narrative interactable component and override the event **On Interacted**. 
 
 Get the door and then the doors interactable and set the **unlocked** property to true.
 
-![chaining-interactable-components-on-interacted-event.jpg](/img/interaction/chaining-interactable-components-on-interacted-event.jpg)
+![chaining-interactable-components-on-interacted-event.webp](/img/interaction/chaining-interactable-components-on-interacted-event.webp)
 
 Now when you run up to the door, it will be locked by default.
 
-![chaining-interactable-components-door.jpg](/img/interaction/chaining-interactable-components-door.jpg)
+![chaining-interactable-components-door.webp](/img/interaction/chaining-interactable-components-door.webp)
 
 But when you interact with the button.
 
-![chaining-interactable-components-unlock.jpg](/img/interaction/chaining-interactable-components-unlock.jpg)
+![chaining-interactable-components-unlock.webp](/img/interaction/chaining-interactable-components-unlock.webp)
 
 The door will now be unlocked.
 
-![chaining-interactable-components-unlocked.jpg](/img/interaction/chaining-interactable-components-unlocked.jpg)
+![chaining-interactable-components-unlocked.webp](/img/interaction/chaining-interactable-components-unlocked.webp)
 
 :::note
 
@@ -109,10 +109,10 @@ To set up the replication we will use the door example.
 
 Firstly disconnect the **Closed** set variable and set the **Replication** to be **RepNotify**.
 
-![door-interaction-multiplayer-repnotify.jpg](/img/interaction/door-interaction-multiplayer-repnotify.jpg)
+![door-interaction-multiplayer-repnotify.webp](/img/interaction/door-interaction-multiplayer-repnotify.webp)
 
 Override the OnRep_Open function and call your new **OpenDoor** event.
 
-![multiplayer-onrepopen.png](/img/interaction/multiplayer-onrepopen.png)
+![multiplayer-onrepopen.webp](/img/interaction/multiplayer-onrepopen.webp)
 
 Finally, open the class defaults for the interactable actor and choose Replicates in the details panel.

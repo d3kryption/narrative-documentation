@@ -6,25 +6,25 @@ sidebar_label: 'Dialogue Nodes'
 
 The dialogue node is the base node that contains all the details you want in the specific line and shot that is being played. Its generic and used for both the Player and NPCs lines.
 
-![dialogue-node-created.png](/img/dialogue/line/dialogue-node-created.png)
+![dialogue-node-created.webp](/img/dialogue/line/dialogue-node-created.webp)
 
 ## Creating a new node
 
 To create new nodes to add new lines to your dialogue, either right click in the [dialogue graph](../index.md#tabs) and select your speaker or drag from the pin you wish to connect from.
 
-![dialogue-node-creation.png](/img/dialogue/line/dialogue-node-creation.png)
+![dialogue-node-creation.webp](/img/dialogue/line/dialogue-node-creation.webp)
 
 :::note
 
 You can join multiple [speakers](../speakers.md#speakers) nodes together, but you cannot join multiple [player nodes](../speakers.md#player-speakers). You have to separate them by an empty speaker node.
 
-![speaker-nodes-joining.png](/img/dialogue/speaker-nodes-joining.png)
+![speaker-nodes-joining.webp](/img/dialogue/speaker-nodes-joining.webp)
 
 :::
 
 Now you can select the node to enter its details in the **Details** panel.
 
-![creation-node-details.png](/img/dialogue/creation-node-details.png)
+![creation-node-details.webp](/img/dialogue/creation-node-details.webp)
 
 :::note
 
@@ -75,7 +75,7 @@ Player options have an additional property to allow them to be auto-selected. Th
 
 This is a great option for when you want the player's character to say something but the user does not have to select it.
 
-![dialogue-note-player-autoselect.png](/img/dialogue/line/dialogue-note-player-autoselect.png)
+![dialogue-note-player-autoselect.webp](/img/dialogue/line/dialogue-note-player-autoselect.webp)
 
 ## Back-linking
 
@@ -83,7 +83,7 @@ Back linking is the ability to make circular dialogue; Going back up (across) to
 
 This is very useful for creating questions or returning to menu style dialogue.
 
-![dialogue_backlinking.png](/img/dialogue/dialogue_backlinking.png)
+![dialogue_backlinking.webp](/img/dialogue/dialogue_backlinking.webp)
 
 ## Colors
 
@@ -93,7 +93,7 @@ Go to **Edit** -> **Project Settings** -> **Narrative Dialogues - Editor**.
 
 Here you can see all the colours that you can change.
 
-![dialogue-default-colours.png](/img/dialogue/dialogue-default-colours.png)
+![dialogue-default-colours.webp](/img/dialogue/dialogue-default-colours.webp)
 
 ## Duration
 
@@ -109,33 +109,33 @@ graph TD;
 ### Get Line Duration
 The GetLineDuration node overwrites all duration settings. You can set this and customise any return duration you want.
 
-![dialogue-getlineduration.png](/img/dialogue/line/dialogue-getlineduration.png)
+![dialogue-getlineduration.webp](/img/dialogue/line/dialogue-getlineduration.webp)
 
 ### Duration
 The Duration value can be set with some pre-defined values.
 
-![dialogue-duration.png](/img/dialogue/line/dialogue-duration.png)
+![dialogue-duration.webp](/img/dialogue/line/dialogue-duration.webp)
 
 ### Audio duration
 The default value for the Duration Field is the audio length if audio has been provided.
 
-![dialogue-duration-audio.png](/img/dialogue/line/dialogue-duration-audio.png)
+![dialogue-duration-audio.webp](/img/dialogue/line/dialogue-duration-audio.webp)
 
 ### Text length duration
 If no audio has been found, Narrative will default to the length of the text multiplied by the **Letters Per Second Line Duration value**.
 
 This value can be changed within **Edit** -> **Project Settings** -> **Narrative Dialogues - Gameplay**
 
-![dialouge-editor-timings.png](/img/dialogue/line/dialouge-editor-timings.png)
+![dialouge-editor-timings.webp](/img/dialogue/line/dialouge-editor-timings.webp)
 
 ## Empty nodes
 
 **Empty nodes** are power tool to keep your dialogue organised. It's often used before a list of player options, so you can connect multiple entries into a single node instead of every player option, but it can be used to also just make the dialogue more readable.
 
-![dialogue-empty-nodes.png](/img/dialogue/dialogue-empty-nodes.png)
+![dialogue-empty-nodes.webp](/img/dialogue/dialogue-empty-nodes.webp)
 
 ### Compact nodes
 
 Sometimes empty nodes can be used to organise dialogue. You can tick a node's **Compact View** option in the details in order to change it into a smaller, closed version in the editor.
 
-![dialogue-compact-node.png](/img/dialogue/dialogue-compact-node.png)
+![dialogue-compact-node.webp](/img/dialogue/dialogue-compact-node.webp)

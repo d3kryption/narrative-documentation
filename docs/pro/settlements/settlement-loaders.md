@@ -12,13 +12,13 @@ It links into [World Partition](https://dev.epicgames.com/documentation/en-us/un
 
 Adding a new Settlement Loader is as simple as dragging in the Settlement Loader actor into the world. 
 
-![loader-actor.png](/img/pro/settlements/loader/loader-actor.png)
+![loader-actor.webp](/img/pro/settlements/loader/loader-actor.webp)
 
-![loader-actor-place.png](/img/pro/settlements/loader/loader-actor-place.png)
+![loader-actor-place.webp](/img/pro/settlements/loader/loader-actor-place.webp)
 
 Then populating the **Settlement to Load** with the Gameplay tag from your [Settlement](../settlements/index.md).
 
-![loader-gameplaytag.png](/img/pro/settlements/loader/loader-gameplaytag.png)
+![loader-gameplaytag.webp](/img/pro/settlements/loader/loader-gameplaytag.webp)
 
 ## Loading
 
@@ -43,11 +43,11 @@ Settlement Loaders contain collision code to enable this functionality, and it's
 
 Select your Settlement Loaders and add a type of collision. This can be a sphere, box or anything.
 
-![settlement-loaders-collision.png](/img/pro/settlements/loader/settlement-loaders-collision.png)
+![settlement-loaders-collision.webp](/img/pro/settlements/loader/settlement-loaders-collision.webp)
 
 Set your CollisionProfile to either **OverlapOnlyPawn** or a custom channel where only Pawns trigger the collision.
 
-![settlement-loaders-collision-setting.png](/img/pro/settlements/loader/settlement-loaders-collision-setting.png)
+![settlement-loaders-collision-setting.webp](/img/pro/settlements/loader/settlement-loaders-collision-setting.webp)
 
 :::warning
 
@@ -57,11 +57,11 @@ Be careful what you set the overlap to. Anything that overlaps will trigger the 
 
 Another optional feature is to check **Use Attach Parent Bound** under Rendering. This will automatically scale the collision to the size of the settlement.
 
-![use-attach-parent-bound.png](/img/pro/settlements/loader/use-attach-parent-bound.png)
+![use-attach-parent-bound.webp](/img/pro/settlements/loader/use-attach-parent-bound.webp)
 
 Now walking into the settlements radius will discover the location. 
 
-![settlement-discovered.png](/img/pro/settlements/loader/settlement-discovered.png)
+![settlement-discovered.webp](/img/pro/settlements/loader/settlement-discovered.webp)
 
 ### Fast travelling not working
 
@@ -69,7 +69,7 @@ Sometimes your fast travel to discovered settlements may not work. This normally
 
 Try dragging the settlement up from the ground so the player can spawn. 
 
-![fast-travelling-not-working.png](/img/pro/settlements/loader/fast-travelling-not-working.png)
+![fast-travelling-not-working.webp](/img/pro/settlements/loader/fast-travelling-not-working.webp)
 
 :::note
 

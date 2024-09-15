@@ -18,7 +18,7 @@ It is common to disable and enable an **interaction** component depending on you
 
 This can easily be toggled using Unreal's built in Activate and Deactivate events..
 
-![interaction_activate.png](/img/interaction/interaction_activate.png)
+![interaction_activate.webp](/img/interaction/interaction_activate.webp)
 
 ## Changing keys
 
@@ -26,11 +26,11 @@ By default, Narrative Interaction is set up to use the Gamepad Face Button Left 
 
 Inside the **NarrativeCommonUI** plugin folder there is a **CommonUIInputAction** asset called **DT_NarrativeInputActions**.
 
-![narrative-interaction-component-changingkeys.jpg](/img/interaction/narrative-interaction-component-changingkeys.jpg)
+![narrative-interaction-component-changingkeys.webp](/img/interaction/narrative-interaction-component-changingkeys.webp)
 
 Open this up and find the name of the key you wish to change. In this case, the Interact row name is going to handle the interact option. Select it and you can set the keyboard and gamepad input types.
 
-![narrative-interaction-component-changingkeys-datatable.jpg](/img/interaction/narrative-interaction-component-changingkeys-datatable.jpg)
+![narrative-interaction-component-changingkeys-datatable.webp](/img/interaction/narrative-interaction-component-changingkeys-datatable.webp)
 
 ## Properties
 

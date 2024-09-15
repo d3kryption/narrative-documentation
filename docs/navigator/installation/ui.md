@@ -24,7 +24,7 @@ Navigator comes with a series of widgets that you can use to customise your expe
 
 This is the compass that sits normally at the top or bottom of the screen. Used as a replacement for a map by showing you what's in the direction you are facing.
 
-![compass.png](/img/navigator/compass.png)
+![compass.webp](/img/navigator/compass.webp)
 
 Add the widget **WBP_Navigator_Compass**. Some good default details are:
 
@@ -41,7 +41,7 @@ Add the widget **WBP_Navigator_Compass**. Some good default details are:
 
 This is the minimap that sits in the corner and gives the player a map surrounding their location.
 
-![minimap.png](/img/navigator/minimap.png)
+![minimap.webp](/img/navigator/minimap.webp)
 
 Add the widget **WBP_Navigator_Map_Minimap**. Some good default details are:
 
@@ -58,7 +58,7 @@ Add the widget **WBP_Navigator_Map_Minimap**. Some good default details are:
 
 This is the world map widget that gives players access to view the entire map. It is not commonly added to the HUD but instead using the OpenMenu option via a key press instead.
 
-![introduction.png](/img/navigator/introduction.png)
+![introduction.webp](/img/navigator/introduction.webp)
 
 You do not need to add this as a widget. We will open this via an event later.
 
@@ -66,7 +66,7 @@ You do not need to add this as a widget. We will open this via an event later.
 
 Screen space markers are the visible markers on screen in the player's viewport. They show in the 3d world.
 
-![screen-space-markers.png](/img/navigator/screen-space-markers.png)
+![screen-space-markers.webp](/img/navigator/screen-space-markers.webp)
 
 Add the widget **WBP_Navigator_ScreenSpaceMarkers**. This needs to be set to full screen and lowest priority order (put it at the top of your Hierarchy list).
 

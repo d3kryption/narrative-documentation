@@ -14,11 +14,11 @@ Alternatively, you can get the download for the finished project here:
 
 Set up the template project then download **Narrative Interaction** and **Narrative Common UI** from the Epic Marketplace and you can install it to the engine (default) or move it into your project's Plugins folder (you may have to create this folder).
 
-![PluginsFolder.png](/img/pro/Installation/PluginsFolder.png)
+![PluginsFolder.webp](/img/pro/Installation/PluginsFolder.webp)
 
 Make sure to enable **Narrative Interaction** and **Narrative Common UI** by going to edit -> Plugins, and checking the box next to **Narrative Interaction** and **Narrative Common UI**. (you may have to restart Unreal)
 
-![installation-plugins-activation.jpg](/img/interaction/installation-plugins-activation.jpg)
+![installation-plugins-activation.webp](/img/interaction/installation-plugins-activation.webp)
 
 We are now ready to configure Narrative Interaction.
 

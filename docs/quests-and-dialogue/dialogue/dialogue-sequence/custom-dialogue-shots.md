@@ -15,7 +15,7 @@ You can add your own custom sequences to get the exact shot you want.
 
 This shot is used when you want to use a custom sequence asset you have created. Really useful for cutscene-based dialogue.
 
-![shots-level-sequence-asset.png](/img/dialogue/shots/shots-level-sequence-asset.png)
+![shots-level-sequence-asset.webp](/img/dialogue/shots/shots-level-sequence-asset.webp)
 
 ## Named binding error / warning
 

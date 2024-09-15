@@ -17,7 +17,7 @@ If you can’t find this, make sure the [Narrative Navigator plugin](./installat
 
 :::
 
-![navigation-componetn.png](/img/navigator/navigation-componetn.png)
+![navigation-componetn.webp](/img/navigator/navigation-componetn.webp)
 
 ## Saving & Loading
 
@@ -27,4 +27,4 @@ To start saving & loading, you can call the Save or Load functions from the **Na
 
 In this example, we save and load when we press the 1 and 2 keys.
 
-![save-load.png](/img/navigator/save-load.png)
+![save-load.webp](/img/navigator/save-load.webp)

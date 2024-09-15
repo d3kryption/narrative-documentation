@@ -17,13 +17,13 @@ There are multiple ways to get the inventory to what best suits the position you
 
 This node will be the most common method of getting the inventory. Simply drag from your actor and choose GetNarrativeInventoryFromTarget. This will give you the inventory from whichever target you are interacting with. Whether it's the chest you are looking at via the line trace or the shopkeeper you are trading with via the dialogue.
 
-![inventory-component-from-target.png](/img/inventory/inventory-component-from-target.png)
+![inventory-component-from-target.webp](/img/inventory/inventory-component-from-target.webp)
 
 ### Inventory Component
 
 On some occasions you will have direct access to the inventory component. For example, you could be at a vendor trying to buy and sell items but you could put some code that randomizes the inventory of the shopkeeper. This will most likely sit in the shop giving you direct access to the component.
 
-![inventory-component.png](/img/inventory/inventory-component.png)
+![inventory-component.webp](/img/inventory/inventory-component.webp)
 
 ## Saving & Loading
 
@@ -33,7 +33,7 @@ To start saving & loading, you can call the Save or Load functions from the **In
 
 In this example, we save and load when we press the 1 and 2 keys.
 
-![save-load.png](/img/inventory/save-load.png)
+![save-load.webp](/img/inventory/save-load.webp)
 
 :::note
 

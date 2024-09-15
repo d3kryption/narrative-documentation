@@ -6,7 +6,7 @@ sidebar_label: 'Animations'
 
 Each dialogue node contains two variables for playing animations on your characters: **Body Animation** and **Facial Animation**.
 
-![dialogue-animations.png](/img/dialogue/line/dialogue-animations.png)
+![dialogue-animations.webp](/img/dialogue/line/dialogue-animations.webp)
 
 ## Setup
 
@@ -19,7 +19,7 @@ To set up the facial skeletal meshes, find your skeletal mesh component that wil
 ```ini
 Face
 ``` 
-![dialogue-animation-face-tag.png](/img/dialogue/line/dialogue-animation-face-tag.png)
+![dialogue-animation-face-tag.webp](/img/dialogue/line/dialogue-animation-face-tag.webp)
 
 :::note
 
@@ -37,7 +37,7 @@ To set up the Body skeletal meshes, find your skeletal mesh component that will 
 Body
 ``` 
 
-![dialogue-animation-body-tag.png](/img/dialogue/line/dialogue-animation-body-tag.png)
+![dialogue-animation-body-tag.webp](/img/dialogue/line/dialogue-animation-body-tag.webp)
 
 ## Animation Blueprint changes
 
@@ -47,7 +47,7 @@ Create an Animation Blueprint by Right-clicking in your **Content Drawer** -> **
 
 Open the **AnimGraph** and add a DefaultSlot node at some stage of the animation.
 
-![dialogue-animation-blueprint-defualtslot.png](/img/dialogue/line/dialogue-animation-blueprint-defualtslot.png)
+![dialogue-animation-blueprint-defualtslot.webp](/img/dialogue/line/dialogue-animation-blueprint-defualtslot.webp)
 
 :::note
 

@@ -7,7 +7,7 @@ import NarrativeCommonUiLink from '/src/components/narrative-common-ui-link.mdx'
 
 # Quests & Dialogue
 
-![Quests & Dialogue Intro](/img/image105.jpg)
+![Quests & Dialogue Intro](/img/image105.webp)
 
 Welcome to the Narrative Quests & Dialogue quick start guide. This guide will show you how to create your first quest and dialogue with Narrative. After this guide, you will know how to add Narrative to your game with all the necessary functionality.
 

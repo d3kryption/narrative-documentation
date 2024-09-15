@@ -15,7 +15,7 @@ If you already have a custom PlayerState, you can skip this step and go to [Comp
 
 Simply right-click in your Content Drawer, select Blueprint Class and choose **Player State**. We will name this **BP_PlayerState**.
 
-![player-controller-pick-parent-class.jpg](/img/inventory/player-state.png)
+![player-controller-pick-parent-class.webp](/img/inventory/player-state.webp)
 
 Now open the **BP_ThirdPersonGameMode** and set the Player State class to your newly created **BP_PlayerState**.
 
@@ -23,7 +23,7 @@ Now open the **BP_ThirdPersonGameMode** and set the Player State class to your n
 
 This highly depends on what your game is and how you want it to work.
 
-The Narrative Inventory component has been created so you can create an inventory, anywhere, on any blueprint. You simply assign the component to the blueprint.
+The Narrative Inventory component has been created, so you can create an inventory, anywhere, on any blueprint. You simply assign the component to the blueprint.
 
 If you want a chest to store items, give the blueprint an inventory, set its friendly name to be Chest and set its default items.
 

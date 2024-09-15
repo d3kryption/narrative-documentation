@@ -6,4 +6,4 @@ sidebar_label: 'Inventory'
 
 Inventory is a full setup inventory, looting, trading, equipment and item system built into Pro.
 
-![introduction.png](/img/inventory/introduction.png)
+![introduction.webp](/img/inventory/introduction.webp)

@@ -9,7 +9,7 @@ One small change we need to make in order for Gameplay Cues to work, is to trans
 
 Open your **Content Drawer** and navigate to **Plugins** -> **Narrative Pro Content** -> **Abilities**
 
-![gameplaycuelocation.png](/img/pro/Installation/gameplaycues/gameplaycuelocation.png)
+![gameplaycuelocation.webp](/img/pro/Installation/gameplaycues/gameplaycuelocation.webp)
 
 Click and drag the **Cues** folder into your **Content** folder.
 

@@ -14,7 +14,7 @@ For example, you could have the high ranking gang of the **Tunnel Snakes** with 
 
 The game state controls all alliances between all factions. It allows you to set which factions are friendly, neutral or hostel to one another.
 
-![gamestate-faction.png](..%2F..%2F..%2Fstatic%2Fimg%2Ffactions%2Fgamestate-faction.png)
+![gamestate-faction.webp](..%2F..%2F..%2Fstatic%2Fimg%2Ffactions%2Fgamestate-faction.webp)
 
 ## ENarrativeFactionID Properties
 

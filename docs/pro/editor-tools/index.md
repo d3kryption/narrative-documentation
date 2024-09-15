@@ -14,7 +14,7 @@ Narrative Pro comes featured with some built in commands to help speed up dev.
 
 The give currency command allows you to add a specific currency amount to the player.
 
-![cheatmanager-givecurrency.png](/img/pro/editor-tools/cheatmanager-givecurrency.png)
+![cheatmanager-givecurrency.webp](/img/pro/editor-tools/cheatmanager-givecurrency.webp)
 
 #### Inputs
 
@@ -26,7 +26,7 @@ The give currency command allows you to add a specific currency amount to the pl
 
 The give skill points command allows you to add a specific skill point amount to the player.
 
-![cheatmanager-giveskillpoints.png](/img/pro/editor-tools/cheatmanager-giveskillpoints.png)
+![cheatmanager-giveskillpoints.webp](/img/pro/editor-tools/cheatmanager-giveskillpoints.webp)
 
 #### Inputs
 

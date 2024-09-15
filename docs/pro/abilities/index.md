@@ -12,7 +12,7 @@ Narrative Pro features a built-in difficulty system that you can use across all 
 
 You can change the selected difficulty inside the main menu
 
-![abilities-difficulty.png](/img/abilities/abilities-difficulty.png)
+![abilities-difficulty.webp](/img/abilities/abilities-difficulty.webp)
 
 ### ENarrativeGameplayDifficulty
 

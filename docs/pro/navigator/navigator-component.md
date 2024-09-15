@@ -15,4 +15,4 @@ To start saving & loading, you can call the Save or Load functions from the **Na
 
 In this example, we save and load when we press the 1 and 2 keys.
 
-![save-load.png](/img/navigator/save-load.png)
+![save-load.webp](/img/navigator/save-load.webp)
