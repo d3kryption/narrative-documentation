@@ -76,3 +76,19 @@
     width: 100%; /* One card per row */
   }
 }
+
+.code-block-error-line {
+  background-color: #ff000020;
+  display: block;
+  margin: 0 calc(-1 * var(--ifm-pre-padding));
+  padding: 0 var(--ifm-pre-padding);
+  border-left: 3px solid #ff000080;
+}
+
+.code-block-added-line {
+  background-color: rgba(0, 255, 21, 0.13);
+  display: block;
+  margin: 0 calc(-1 * var(--ifm-pre-padding));
+  padding: 0 var(--ifm-pre-padding);
+  border-left: 3px solid rgba(0, 255, 51, 0.5);
+}
