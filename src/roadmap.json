@@ -1,0 +1,58 @@
+[
+    {
+        "product": "Pro",
+        "year": 2024,
+        "quarter": 4,
+        "type": "Feature",
+        "name": "Magic system V1",
+        "desc": "A first version magic system consisting of Fire, Electric using hands or wands. Animations, SFX and FX all included."
+    },
+    {
+        "product": "Pro",
+        "year": 2024,
+        "quarter": 4,
+        "type": "Misc",
+        "name": "Save system meta data",
+        "desc": "Any saves will now contain metadata such as the date of save, level and character name."
+    },
+    {
+        "product": "Pro",
+        "year": 2024,
+        "quarter": 4,
+        "type": "Bugfix",
+        "name": "Main menu controller",
+        "desc": "Main menu can now be used fully with controller."
+    },
+    {
+        "product": "Pro",
+        "year": 2024,
+        "quarter": 2,
+        "type": "Bugfix",
+        "name": "Quater 2 Test",
+        "desc": "Main menu can now be used fully with controller."
+    },
+    {
+        "product": "Pro",
+        "year": 2024,
+        "quarter": 1,
+        "type": "Bugfix",
+        "name": "Quater 1 Test",
+        "desc": "Main menu can now be used fully with controller."
+    },
+    {
+        "product": "Pro",
+        "year": 2025,
+        "quarter": 1,
+        "type": "Feature",
+        "name": "Combat animation overhaul",
+        "desc": "Improving all animations across melee combat to make it far better."
+    },
+    {
+        "product": "Inventory",
+        "year": 2024,
+        "quarter": 4,
+        "type": "Feature",
+        "name": "2.0.0 release",
+        "desc": "Inventory version 2.0.0 major release."
+    }
+]

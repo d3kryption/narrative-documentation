@@ -15,6 +15,7 @@
   --ifm-color-primary-lightest: #3cad6e;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  --border-color: #3f3a3a;
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
@@ -91,4 +92,108 @@
   margin: 0 calc(-1 * var(--ifm-pre-padding));
   padding: 0 var(--ifm-pre-padding);
   border-left: 3px solid rgba(0, 255, 51, 0.5);
+}
+
+.card {
+  margin-bottom:2rem;
+  border: 1px solid var(--border-color);
+}
+
+.card-header {
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  width:100%;
+  flex-direction: column;
+}
+
+.card__header {
+  padding-left:0;
+  padding-right:0;
+}
+
+.card-header p, .card-header h3{
+  margin: 0;
+}
+
+.avatar__type {
+  border: 1px solid black;
+  border-left: 0;
+  border-right: 0;
+  padding:0.2rem 0.4rem;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.avatar__type span {
+  font-size: .8rem;
+}
+
+.avatar__type svg {
+  margin-right:0.2rem;
+}
+
+.avatar__type.feature {
+  color: var(--ifm-breadcrumb-color-active);
+  border-color: var(--ifm-breadcrumb-color-active);
+}
+
+.avatar__type.misc {
+  color: var(--fbc-blue-60);
+  border-color: var(--fbc-blue-60);
+}
+
+.avatar__type.bugfix {
+  color: var(--ifm-color-danger);
+  border-color: var(--ifm-color-danger);
+}
+
+.container.columns {
+  border: 1px solid var(--border-color);
+  border-top: 0;
+  border-radius: .5rem;
+}
+
+.container.columns h2 {
+  border-top: 1px solid var(--border-color);
+  border-bottom: 1px solid var(--border-color);
+  padding: 1rem;
+}
+
+.container.columns .column:first-child h2 {
+  border-radius: .5rem 0 0 .5rem;
+}
+
+.container.columns .column:last-child h2 {
+  border-radius: 0 .5rem .5rem 0;
+}
+
+.container.columns .column:first-child {
+  border-radius: .5rem 0 0 .5rem;
+}
+
+.container.columns .column:last-child {
+  border-radius: 0 .5rem .5rem 0;
+}
+
+.container.columns .column {
+  padding: 0;
+}
+
+.container.columns .column:not(:last-child) {
+  border-right: 1px solid var(--border-color);
+}
+
+.container.columns .column-children {
+  padding: 0 var(--ifm-spacing-horizontal);
+}
+
+.container.columns .column:nth-child(odd) {
+  background-color: #1a1a1a;
+}
+
+.container.columns .column:nth-child(even) {
+  background-color: #000;
 }

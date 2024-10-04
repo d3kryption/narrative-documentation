@@ -1,0 +1,15 @@
+import RoadmapCard from '/src/components/roadmap-card.mdx'
+
+export function GetCards({data}) {
+	let cards = [];
+
+    data.forEach((item) => {
+		cards.push(
+			<RoadmapCard name={item.name} desc={item.desc} type={item.type}></RoadmapCard>
+		)
+	});
+
+	return cards;
+}
+
+<GetCards data={props.data}></GetCards>

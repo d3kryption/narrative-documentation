@@ -1,0 +1,30 @@
+import RoadmapColumns from '/src/components/roadmap-columns.mdx';
+
+export function getNextQuarters() {
+    const date = new Date(); // current date
+    const currentYear = date.getFullYear();
+    const currentMonth = date.getMonth(); // 0-indexed: Jan = 0, Feb = 1, ..., Dec = 11
+
+    // Calculate the current quarter (1: Jan-Mar, 2: Apr-Jun, 3: Jul-Sep, 4: Oct-Dec)
+    const currentQuarter = Math.floor(currentMonth / 3) + 1;
+
+    // Array to store the next 3 quarters
+    const nextQuarters = [];
+
+    // Loop to get the next 3 quarters
+    for (let i = 0; i < 4; i++) {
+        // Calculate the quarter and year for the next i quarters
+        const nextQuarter = (currentQuarter + i - 1) % 4 + 1;
+        const nextYear = currentYear + Math.floor((currentQuarter + i - 1) / 4);
+
+        nextQuarters.push({
+            quarter: nextQuarter,
+            year: nextYear,
+            header: `Q${nextQuarter} - ${nextYear} ${i === 0 ? '(current)' : ''}`
+        });
+    }
+
+    return nextQuarters;
+}
+
+<RoadmapColumns columns={getNextQuarters()}></RoadmapColumns>

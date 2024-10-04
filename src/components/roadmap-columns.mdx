@@ -1,0 +1,65 @@
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+import RoadmapDetails from '/src/components/roadmap-details.mdx'
+import Columns from '/src/components/Columns';
+import Column from '/src/components/Column';
+import RoadmapData from '/src/roadmap.json'
+
+export function loopQuarters(data, product) {
+    let columns = [];
+    let dataFound = false;
+
+    data.forEach((item) => {
+
+        const productRoadmap = RoadmapData?.filter((card) => card.product === product && card.year === item.year && card.quarter === item.quarter);
+
+        const hasItems = !!productRoadmap.length
+
+        if (hasItems)
+            dataFound = true;
+
+        const roadmapDetails = hasItems ? (
+                <RoadmapDetails data={productRoadmap}></RoadmapDetails>
+            )
+            :
+            'No updates planned'
+
+        columns.push(
+            <Column className='text--left' header={item.header}>
+                {roadmapDetails}
+            </Column>
+        )
+    })
+
+    if (dataFound)
+        return (
+            <Columns>
+                {columns}
+            </Columns>
+        )
+
+    return (
+        <div>
+            <p>No planned work for this module.</p>
+            <p>Feel free to recommend ideas in the <a href="https://discord.gg/qyVJmpQ2Pn">Discord</a>!</p>
+        </div>
+    )
+}
+
+<Tabs>
+    <TabItem value="pro" label="Pro" default>
+        {loopQuarters(props.columns, "Pro")}
+    </TabItem>
+    <TabItem value="interaction" label="Interaction">
+        {loopQuarters(props.columns, "Interaction")}
+    </TabItem>
+    <TabItem value="inventory" label="Inventory">
+        {loopQuarters(props.columns, "Inventory")}
+    </TabItem>
+    <TabItem value="tales" label="Tales">
+        {loopQuarters(props.columns, "Tales")}
+    </TabItem>
+    <TabItem value="navigator" label="Navigator">
+        {loopQuarters(props.columns, "Navigator")}
+    </TabItem>
+</Tabs>
