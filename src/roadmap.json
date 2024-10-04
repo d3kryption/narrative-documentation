@@ -54,5 +54,221 @@
         "type": "Feature",
         "name": "2.0.0 release",
         "desc": "Inventory version 2.0.0 major release."
+    },
+    {
+        "product": "Inventory",
+        "year": 2024,
+        "quarter": 4,
+        "type": "Feature",
+        "name": "Loot Tables",
+        "desc": "Loot tables added for better item management."
+    },
+    {
+        "product": "Inventory",
+        "year": 2024,
+        "quarter": 4,
+        "type": "Feature",
+        "name": "Data Asset for Narrative Item Collections",
+        "desc": "Added DataAsset to bundle items."
+    },
+    {
+        "product": "Inventory",
+        "year": 2024,
+        "quarter": 4,
+        "type": "Feature",
+        "name": "Soft References for Items",
+        "desc": "Soft references now used for items."
+    },
+    {
+        "product": "Inventory",
+        "year": 2024,
+        "quarter": 4,
+        "type": "Feature",
+        "name": "Give Default Items Function",
+        "desc": "New function to give default items."
+    },
+    {
+        "product": "Inventory",
+        "year": 2024,
+        "quarter": 4,
+        "type": "Feature",
+        "name": "Equip and Unequip Montages",
+        "desc": "Added equip/unequip montages."
+    },
+    {
+        "product": "Inventory",
+        "year": 2024,
+        "quarter": 4,
+        "type": "Feature",
+        "name": "Loot Source on End Looting",
+        "desc": "Added loot source on end looting."
+    },
+    {
+        "product": "Inventory",
+        "year": 2024,
+        "quarter": 4,
+        "type": "Feature",
+        "name": "Gameplay Tags for Narrative Items",
+        "desc": "Added gameplay tags to items."
+    },
+    {
+        "product": "Inventory",
+        "year": 2024,
+        "quarter": 4,
+        "type": "Feature",
+        "name": "Item Stats Struct",
+        "desc": "Updated ItemStats to a struct."
+    },
+    {
+        "product": "Inventory",
+        "year": 2024,
+        "quarter": 4,
+        "type": "Feature",
+        "name": "Description Override in Blueprints",
+        "desc": "Blueprints can now override description."
+    },
+    {
+        "product": "Inventory",
+        "year": 2024,
+        "quarter": 4,
+        "type": "Feature",
+        "name": "Auto-Use Item",
+        "desc": "Added bool to auto-use items."
+    },
+    {
+        "product": "Inventory",
+        "year": 2024,
+        "quarter": 4,
+        "type": "Feature",
+        "name": "Set Inventory Name Function",
+        "desc": "New function to set inventory name."
+    },
+    {
+        "product": "Inventory",
+        "year": 2024,
+        "quarter": 4,
+        "type": "Feature",
+        "name": "Throwable Weapon Slot",
+        "desc": "Added throwable weapon slot."
+    },
+    {
+        "product": "Inventory",
+        "year": 2024,
+        "quarter": 4,
+        "type": "Feature",
+        "name": "Use Sound for Narrative Items",
+        "desc": "Added sound when items are used."
+    },
+    {
+        "product": "Inventory",
+        "year": 2024,
+        "quarter": 4,
+        "type": "Feature",
+        "name": "Vendor Inventory Merge",
+        "desc": "Merged vendor and regular inventories."
+    },
+    {
+        "product": "Inventory",
+        "year": 2024,
+        "quarter": 4,
+        "type": "Bugfix",
+        "name": "BPC_HasItem Soft Classes",
+        "desc": "Updated BPC_HasItem to use soft classes."
+    },
+    {
+        "product": "Inventory",
+        "year": 2024,
+        "quarter": 4,
+        "type": "Bugfix",
+        "name": "Interactable_Loot_Locked Soft References",
+        "desc": "Updated Interactable_Loot_Locked soft references."
+    },
+    {
+        "product": "Inventory",
+        "year": 2024,
+        "quarter": 4,
+        "type": "Bugfix",
+        "name": "Interactable_Loot Soft References",
+        "desc": "Updated Interactable_Loot soft references."
+    },
+    {
+        "product": "Inventory",
+        "year": 2024,
+        "quarter": 4,
+        "type": "Bugfix",
+        "name": "Redirector Fixes",
+        "desc": "Fixed several redirectors."
+    },
+    {
+        "product": "Inventory",
+        "year": 2024,
+        "quarter": 4,
+        "type": "Bugfix",
+        "name": "Vendor Equippable Items Fix",
+        "desc": "Vendors won't show equipped items."
+    },
+    {
+        "product": "Inventory",
+        "year": 2024,
+        "quarter": 4,
+        "type": "Bugfix",
+        "name": "Inventory Save Fail",
+        "desc": "Inventory now returns false if save fails."
+    },
+    {
+        "product": "Inventory",
+        "year": 2024,
+        "quarter": 4,
+        "type": "Misc",
+        "name": "Hotbar Delay Note",
+        "desc": "Hotbar delayed; not ready yet."
+    },
+    {
+        "product": "Navigator",
+        "year": 2024,
+        "quarter": 4,
+        "type": "Feature",
+        "name": "Layered map tiles",
+        "desc": "Levels can now contain multiple map tiles."
+    },
+    {
+        "product": "Navigator",
+        "year": 2024,
+        "quarter": 4,
+        "type": "Bugfix",
+        "name": "Controller fixes",
+        "desc": "More fixes for controllers in world map."
+    },
+    {
+        "product": "Inventory",
+        "year": 2025,
+        "quarter": 1,
+        "type": "Bugfix",
+        "name": "Equipment Cloth Physics",
+        "desc": "Cloth Physics will now show in the inventory screen."
+    },
+    {
+        "product": "Inventory",
+        "year": 2025,
+        "quarter": 2,
+        "type": "Feature",
+        "name": "Hotbar",
+        "desc": "Inventory hotbar for quick switching equipment / items."
+    },
+    {
+        "product": "Inventory",
+        "year": 2025,
+        "quarter": 1,
+        "type": "Feature",
+        "name": "Remove single item function",
+        "desc": "A function to remove a single item with a quantity."
+    },
+    {
+        "product": "Interaction",
+        "year": 2024,
+        "quarter": 4,
+        "type": "Bugfix",
+        "name": "All interactions will be checked",
+        "desc": "When finding an interaction, every interaction will be checked rather than skipping at the first one."
     }
 ]
