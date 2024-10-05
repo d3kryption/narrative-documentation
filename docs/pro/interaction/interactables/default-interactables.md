@@ -23,7 +23,7 @@ This intractable component, not to be confused with the Loot Lockable allows you
 
 This intractable component is for looting a lockable actor. If the actor is locked if you don’t have the correct key or requirements, you can use this to check that.
 
-## Quests & Dialogue
+## Tales
 
 ### Begin Dialogue
 

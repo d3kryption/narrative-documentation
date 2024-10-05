@@ -32,7 +32,7 @@ Every tool you need for a great game in one plugin - Maps, Quests, Dialogue, Wea
 
 ![narrative-pro.webp](/img/narrative-pro.webp)
 
-### Quests & Dialogue
+### Tales
 A Node-Based Quest and Dialogue System made to work with any type of game. Networked right out of the box.
 
 ![narrative-quests-dialogue.webp](/img/narrative-quests-dialogue.webp)

@@ -93,8 +93,8 @@ const config: Config = {
               to: '/pro/',
             },
             {
-              label: 'Quests & Dialogue',
-              to: '/quests-and-dialogue/',
+              label: 'Tales',
+              to: '/tales/',
             },
           ],
         },
