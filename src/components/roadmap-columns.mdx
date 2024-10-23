@@ -11,7 +11,7 @@ export function loopQuarters(data, product) {
 
     data.forEach((item) => {
 
-        const productRoadmap = RoadmapData?.filter((card) => card.product === product && card.year === item.year && card.quarter === item.quarter);
+        const productRoadmap = RoadmapData?.filter((card) => card.product.includes(product) && card.year === item.year && card.quarter === item.quarter);
 
         const hasItems = !!productRoadmap.length
 

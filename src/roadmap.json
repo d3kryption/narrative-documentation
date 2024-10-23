@@ -1,6 +1,6 @@
 [
     {
-        "product": "Pro",
+        "product": ["Pro"],
         "year": 2024,
         "quarter": 4,
         "type": "Feature",
@@ -8,7 +8,7 @@
         "desc": "A first version magic system consisting of Fire, Electric using hands or wands. Animations, SFX and FX all included."
     },
     {
-        "product": "Pro",
+        "product": ["Pro"],
         "year": 2024,
         "quarter": 4,
         "type": "Misc",
@@ -16,7 +16,7 @@
         "desc": "Any saves will now contain metadata such as the date of save, level and character name."
     },
     {
-        "product": "Pro",
+        "product": ["Pro"],
         "year": 2024,
         "quarter": 4,
         "type": "Bugfix",
@@ -24,7 +24,7 @@
         "desc": "Main menu can now be used fully with controller."
     },
     {
-        "product": "Pro",
+        "product": ["Pro"],
         "year": 2024,
         "quarter": 2,
         "type": "Bugfix",
@@ -32,7 +32,7 @@
         "desc": "Main menu can now be used fully with controller."
     },
     {
-        "product": "Pro",
+        "product": ["Pro"],
         "year": 2024,
         "quarter": 1,
         "type": "Bugfix",
@@ -40,15 +40,79 @@
         "desc": "Main menu can now be used fully with controller."
     },
     {
-        "product": "Pro",
-        "year": 2025,
-        "quarter": 1,
+        "product": ["Pro"],
+        "year": 2024,
+        "quarter": 4,
         "type": "Feature",
         "name": "Combat animation overhaul",
         "desc": "Improving all animations across melee combat to make it far better."
     },
     {
-        "product": "Inventory",
+        "product": ["Pro"],
+        "year": 2024,
+        "quarter": 4,
+        "type": "Feature",
+        "name": "Character creator V1",
+        "desc": "A new character creation system has been added to allow you to create a custom character for your game."
+    },
+    {
+        "product": ["Pro"],
+        "year": 2024,
+        "quarter": 4,
+        "type": "Misc",
+        "name": "Default player name",
+        "desc": "You can now set the players name in the project settings instead of using the ChangeName node."
+    },
+    {
+        "product": ["Pro", "Tales"],
+        "year": 2025,
+        "quarter": 1,
+        "type": "Feature",
+        "name": "Improved dialogue camera",
+        "desc": "A new camera system will be implemented making dialogue cameras far easier and higher quality."
+    },
+    {
+        "product": ["Pro", "Tales"],
+        "year": 2025,
+        "quarter": 1,
+        "type": "Feature",
+        "name": "Dialogue lighting system",
+        "desc": "A new lighting system will be implemented making lighting dialogue scenes far easier."
+    },
+    {
+        "product": ["Tales"],
+        "year": 2025,
+        "quarter": 1,
+        "type": "Feature",
+        "name": "Product rename - Tales",
+        "desc": "The Narrative Quests & Dialogues product will be renamed to Narrative Tales."
+    },
+    {
+        "product": ["Tales"],
+        "year": 2024,
+        "quarter": 4,
+        "type": "Feature",
+        "name": "3.6.0 release",
+        "desc": "Quests & Dialogue version 3.6.0 major release."
+    },
+    {
+        "product": ["Tales"],
+        "year": 2024,
+        "quarter": 4,
+        "type": "Bugfix",
+        "name": "Events will not run on load",
+        "desc": "When loading a save game, events will now no longer run on each node."
+    },
+    {
+        "product": ["Tales"],
+        "year": 2024,
+        "quarter": 4,
+        "type": "Feature",
+        "name": "Event loading option",
+        "desc": "When loading a save game, events now have the option to choose whether they load every time or not."
+    },
+    {
+        "product": ["Inventory"],
         "year": 2024,
         "quarter": 4,
         "type": "Feature",
@@ -56,7 +120,7 @@
         "desc": "Inventory version 2.0.0 major release."
     },
     {
-        "product": "Inventory",
+        "product": ["Inventory"],
         "year": 2024,
         "quarter": 4,
         "type": "Feature",
@@ -64,7 +128,7 @@
         "desc": "Loot tables added for better item management."
     },
     {
-        "product": "Inventory",
+        "product": ["Inventory"],
         "year": 2024,
         "quarter": 4,
         "type": "Feature",
@@ -72,7 +136,7 @@
         "desc": "Added DataAsset to bundle items."
     },
     {
-        "product": "Inventory",
+        "product": ["Inventory"],
         "year": 2024,
         "quarter": 4,
         "type": "Feature",
@@ -80,7 +144,7 @@
         "desc": "Soft references now used for items."
     },
     {
-        "product": "Inventory",
+        "product": ["Inventory"],
         "year": 2024,
         "quarter": 4,
         "type": "Feature",
@@ -88,7 +152,7 @@
         "desc": "New function to give default items."
     },
     {
-        "product": "Inventory",
+        "product": ["Inventory"],
         "year": 2024,
         "quarter": 4,
         "type": "Feature",
@@ -96,7 +160,7 @@
         "desc": "Added equip/unequip montages."
     },
     {
-        "product": "Inventory",
+        "product": ["Inventory"],
         "year": 2024,
         "quarter": 4,
         "type": "Feature",
@@ -104,7 +168,7 @@
         "desc": "Added loot source on end looting."
     },
     {
-        "product": "Inventory",
+        "product": ["Inventory"],
         "year": 2024,
         "quarter": 4,
         "type": "Feature",
@@ -112,7 +176,7 @@
         "desc": "Added gameplay tags to items."
     },
     {
-        "product": "Inventory",
+        "product": ["Inventory"],
         "year": 2024,
         "quarter": 4,
         "type": "Feature",
@@ -120,7 +184,7 @@
         "desc": "Updated ItemStats to a struct."
     },
     {
-        "product": "Inventory",
+        "product": ["Inventory"],
         "year": 2024,
         "quarter": 4,
         "type": "Feature",
@@ -128,7 +192,7 @@
         "desc": "Blueprints can now override description."
     },
     {
-        "product": "Inventory",
+        "product": ["Inventory"],
         "year": 2024,
         "quarter": 4,
         "type": "Feature",
@@ -136,7 +200,7 @@
         "desc": "Added bool to auto-use items."
     },
     {
-        "product": "Inventory",
+        "product": ["Inventory"],
         "year": 2024,
         "quarter": 4,
         "type": "Feature",
@@ -144,7 +208,7 @@
         "desc": "New function to set inventory name."
     },
     {
-        "product": "Inventory",
+        "product": ["Inventory"],
         "year": 2024,
         "quarter": 4,
         "type": "Feature",
@@ -152,7 +216,7 @@
         "desc": "Added throwable weapon slot."
     },
     {
-        "product": "Inventory",
+        "product": ["Inventory"],
         "year": 2024,
         "quarter": 4,
         "type": "Feature",
@@ -160,7 +224,7 @@
         "desc": "Added sound when items are used."
     },
     {
-        "product": "Inventory",
+        "product": ["Inventory"],
         "year": 2024,
         "quarter": 4,
         "type": "Feature",
@@ -168,7 +232,7 @@
         "desc": "Merged vendor and regular inventories."
     },
     {
-        "product": "Inventory",
+        "product": ["Inventory"],
         "year": 2024,
         "quarter": 4,
         "type": "Bugfix",
@@ -176,7 +240,7 @@
         "desc": "Updated BPC_HasItem to use soft classes."
     },
     {
-        "product": "Inventory",
+        "product": ["Inventory"],
         "year": 2024,
         "quarter": 4,
         "type": "Bugfix",
@@ -184,7 +248,7 @@
         "desc": "Updated Interactable_Loot_Locked soft references."
     },
     {
-        "product": "Inventory",
+        "product": ["Inventory"],
         "year": 2024,
         "quarter": 4,
         "type": "Bugfix",
@@ -192,7 +256,7 @@
         "desc": "Updated Interactable_Loot soft references."
     },
     {
-        "product": "Inventory",
+        "product": ["Inventory"],
         "year": 2024,
         "quarter": 4,
         "type": "Bugfix",
@@ -200,7 +264,7 @@
         "desc": "Fixed several redirectors."
     },
     {
-        "product": "Inventory",
+        "product": ["Inventory"],
         "year": 2024,
         "quarter": 4,
         "type": "Bugfix",
@@ -208,7 +272,7 @@
         "desc": "Vendors won't show equipped items."
     },
     {
-        "product": "Inventory",
+        "product": ["Inventory"],
         "year": 2024,
         "quarter": 4,
         "type": "Bugfix",
@@ -216,7 +280,7 @@
         "desc": "Inventory now returns false if save fails."
     },
     {
-        "product": "Inventory",
+        "product": ["Inventory"],
         "year": 2024,
         "quarter": 4,
         "type": "Misc",
@@ -224,7 +288,7 @@
         "desc": "Hotbar delayed; not ready yet."
     },
     {
-        "product": "Navigator",
+        "product": ["Navigator"],
         "year": 2024,
         "quarter": 4,
         "type": "Feature",
@@ -232,7 +296,7 @@
         "desc": "Levels can now contain multiple map tiles."
     },
     {
-        "product": "Navigator",
+        "product": ["Navigator"],
         "year": 2024,
         "quarter": 4,
         "type": "Bugfix",
@@ -240,7 +304,7 @@
         "desc": "More fixes for controllers in world map."
     },
     {
-        "product": "Inventory",
+        "product": ["Inventory"],
         "year": 2025,
         "quarter": 1,
         "type": "Bugfix",
@@ -248,7 +312,7 @@
         "desc": "Cloth Physics will now show in the inventory screen."
     },
     {
-        "product": "Inventory",
+        "product": ["Inventory"],
         "year": 2025,
         "quarter": 2,
         "type": "Feature",
@@ -256,7 +320,7 @@
         "desc": "Inventory hotbar for quick switching equipment / items."
     },
     {
-        "product": "Inventory",
+        "product": ["Inventory"],
         "year": 2025,
         "quarter": 1,
         "type": "Feature",
@@ -264,7 +328,7 @@
         "desc": "A function to remove a single item with a quantity."
     },
     {
-        "product": "Interaction",
+        "product": ["Interaction"],
         "year": 2024,
         "quarter": 4,
         "type": "Bugfix",
