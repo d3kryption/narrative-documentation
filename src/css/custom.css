@@ -197,3 +197,72 @@
 .container.columns .column:nth-child(even) {
   background-color: #000;
 }
+
+.tabs__item {
+  margin-top:0 !important;
+}
+
+.tabs {
+  flex-direction: row;
+}
+
+.tab-select-group {
+  border: 0;
+  background: none;
+  width: 100%;
+  height: 100%;
+
+  border-bottom: 3px solid transparent;
+  border-radius: var(--ifm-global-radius);
+  padding: var(--ifm-tabs-padding-vertical) var(--ifm-tabs-padding-horizontal);
+  transition: background-color var(--ifm-transition-fast) var(--ifm-transition-timing-default);
+
+  font-weight: var(--ifm-font-weight-bold);
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.p-0 {
+  padding:0;
+}
+
+.mb-2 {
+  margin-bottom: 0.5rem
+}
+
+.desc-list {
+  margin-top:0.5rem;
+  padding-left: 0.5rem;
+}
+
+@media (min-width: 576px) {
+  .tabs {
+    flex-direction: column;
+  }
+
+  .tab-select-group {
+    text-align: left;
+  }
+}
+
+@media (min-width: 768px) {
+  .tabs {
+    flex-direction: column;
+  }
+
+  .tab-select-group {
+    text-align: left;
+  }
+}
+
+@media (min-width: 992px) {
+
+  .tabs {
+    flex-direction: row;
+  }
+
+  .tab-select-group {
+    text-align: center;
+  }
+}

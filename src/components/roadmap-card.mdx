@@ -1,50 +1,66 @@
 import Card from '/src/components/Card';
 import CardHeader from '/src/components/Card/CardHeader';
 import CardBody from '/src/components/Card/CardBody';
-import { Icon } from '@iconify/react';
+import {Icon} from '@iconify/react';
 
 export function GetIcon({type}) {
-	switch(type.toLowerCase()) {
-		case "feature":
-			return (
-							<div className='avatar__type feature'>
-								<Icon icon="ic:round-star" height="20"></Icon>
-								<span>Feature</span>
-							</div>
-					)
-		case "misc":
-			return (
-							<div className='avatar__type misc'>
-								<Icon icon="fa6-solid:box-open" height="20"></Icon>
-                                <span>Misc</span>
-							</div>
-					)
-		case "bugfix":
-			return (
-							<div className='avatar__type bugfix'>
-								<Icon icon="mdi:bug" height="20"></Icon>
-                                <span>Bug fix</span>
-							</div>
-					)
-	}
+    switch (type.toLowerCase()) {
+        case "feature":
+            return (
+                <div className='avatar__type feature'>
+                    <Icon icon="ic:round-star" height="20"></Icon>
+                    <span>Feature</span>
+                </div>
+            )
+        case "misc":
+            return (
+                <div className='avatar__type misc'>
+                    <Icon icon="fa6-solid:box-open" height="20"></Icon>
+                    <span>Misc</span>
+                </div>
+            )
+        case "bugfix":
+            return (
+                <div className='avatar__type bugfix'>
+                    <Icon icon="mdi:bug" height="20"></Icon>
+                    <span>Bug fix</span>
+                </div>
+            )
+    }
+}
+
+export function DescList({items}) {
+    console.log(items)
+    if (!items)
+        return ''
+
+    return (<ul className={'desc-list'}>
+        {
+            items.map((listItem) => {
+                return <li>{listItem}</li>
+            })
+        }
+    </ul>)
 }
 
 <Card>
-	<CardHeader>
-	  <div className='avatar avatar--vertical'>
-		<div className='avatar__intro card-header'>
-		  <div className='avatar__name'>
-			  <label>{props.name}</label>
-		  </div>
-		<GetIcon type={props.type}></GetIcon>
-		</div>
-	  </div>
-	</CardHeader>
-	<CardBody
-	  style={{ backgroundColor: 'black' , color:'silver'}}
-	  className='padding-vert--md'
-	  textAlign='left'
-	>
-	  {props.desc}
-	</CardBody>
+    <CardHeader>
+        <div className='avatar avatar--vertical'>
+            <div className='avatar__intro card-header'>
+                <div className='avatar__name'>
+                    <label>{props.item.name}</label>
+                </div>
+                <GetIcon type={props.item.type}></GetIcon>
+            </div>
+        </div>
+    </CardHeader>
+    <CardBody
+        style={{backgroundColor: 'black', color: 'silver'}}
+        className='padding-vert--md'
+        textAlign='left'
+    >
+        {props.item.desc}
+
+        <DescList items={props.item.descList}></DescList>
+    </CardBody>
 </Card>

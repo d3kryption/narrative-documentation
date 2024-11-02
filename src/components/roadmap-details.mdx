@@ -5,7 +5,7 @@ export function GetCards({data}) {
 
     data.forEach((item, index) => {
 		cards.push(
-			<RoadmapCard name={item.name} desc={item.desc} type={item.type} key={index}></RoadmapCard>
+			<RoadmapCard item={item} key={index}></RoadmapCard>
 		)
 	});
 

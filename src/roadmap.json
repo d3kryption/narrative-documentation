@@ -48,7 +48,7 @@
         "desc": "Improving all animations across melee combat to make it far better."
     },
     {
-        "product": ["Pro"],
+        "product": ["Pro - Character Creator"],
         "year": 2024,
         "quarter": 4,
         "type": "Feature",
@@ -93,7 +93,23 @@
         "quarter": 4,
         "type": "Feature",
         "name": "3.6.0 release",
-        "desc": "Quests & Dialogue version 3.6.0 major release."
+        "desc": "Quests & Dialogue version 3.6.0 major release.",
+        "descList": ["Replaced StartFromID with Params",
+            "Optimised a bunch of blueprints",
+            "Using soft classes instead of hard references in C++",
+            "Unused return bool removed from Narrative Events",
+            "Tidied up UI blueprint code",
+            "Added Set/Get speaker code to C++",
+            "Added PreQuestStarted event that runs before BeginQuest runs",
+            "Added SetTracked function to track / untrack quests",
+            "Refire event on load bool",
+            "Added dialogue priority to block lower priority dialogue from starting",
+            "Added player adjust transform to stop the player from moving",
+            "Added Sound attenuation to change how sound is played",
+            "Added gameplay tags",
+            "UpdatedSequence player to new GetSequencePlayer",
+            "Cleaned up unused C++ references"
+        ]
     },
     {
         "product": ["Tales"],

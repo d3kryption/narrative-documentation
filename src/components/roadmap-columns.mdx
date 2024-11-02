@@ -1,106 +1,180 @@
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
 import RoadmapDetails from '/src/components/roadmap-details.mdx'
 import Columns from '/src/components/Columns';
 import Column from '/src/components/Column';
 import RoadmapData from '/src/roadmap.json'
+import {useState} from "react";
 
-export function loopQuarters(data, product) {
-    let columns = [];
-    let dataFound = false;
+export function Tabs(columns) {
 
-    data.forEach((item, index) => {
+    // load the headings sorted, dynamic
+    function SetProductTabHeadings() {
+        // default products
+        let tabs = [
+            { product: "Pro", subTabs: [] },
+            { product: "Interaction", subTabs: [] },
+            { product: "Inventory", subTabs: [] },
+            { product: "Tales", subTabs: [] },
+            { product: "Navigator", subTabs: [] },
+            { product: "Common UI", subTabs: [] },
+        ]
 
-        const productRoadmap = RoadmapData?.filter((card) => card.product.includes(product) && card.year === item.year && card.quarter === item.quarter);
+        // find any custom product names and add them
+        RoadmapData?.forEach(item => {
+            // does the product already exist in the list?
+            item.product.forEach(product => {
+                // check if the item is a child item
+                const parentItem = product.split(' - ')[0];
+                let productExist = undefined;
 
-        const hasItems = !!productRoadmap.length
+                // if a parent item needs to be found, add that as a subTab
+                if (product.indexOf("-") !== -1) {
+                    productExist = tabs.find(x => x.product === parentItem);
 
-        if (hasItems)
-            dataFound = true;
+                    if (productExist)
+                        productExist.subTabs.push(product)
+                    else {
+                        tabs.push({
+                                product: parentItem,
+                                subTabs: [product]
+                            }
+                        )
+                    }
 
-        const roadmapDetails = hasItems ? (
-                <RoadmapDetails data={productRoadmap}></RoadmapDetails>
+                    return
+                }
+
+                // no sub tabs, add parent level if required
+                productExist = tabs.find(x => x.product === product);
+
+                if (!productExist) {
+                    tabs.push({
+                            product: product,
+                            subTabs: []
+                        }
+                    )
+                }
+            })
+        })
+
+        // sort the tabs alphabetically
+        tabs = tabs.sort((a, b) => a.product > b.product ? 1 : -1)
+
+        return tabs
+    }
+
+    const tabHeadings = SetProductTabHeadings()
+
+    // store the active tab
+    const [activeTab, setActiveTab] = useState(tabHeadings[0].product);
+
+    // generate each column
+    function loopQuarters(data, product) {
+        let columns = [];
+        let dataFound = false;
+
+        data.forEach((item, index) => {
+
+            const productRoadmap = RoadmapData?.filter((card) => card.product.includes(product) && card.year === item.year && card.quarter === item.quarter);
+
+            const hasItems = !!productRoadmap.length
+
+            if (hasItems)
+                dataFound = true;
+
+            const roadmapDetails = hasItems ? (
+                    <RoadmapDetails data={productRoadmap}></RoadmapDetails>
+                )
+                :
+                'No updates planned at the moment.'
+
+            columns.push(
+                <Column className='text--left' header={item.header} key={index}>
+                    {roadmapDetails}
+                </Column>
             )
-            :
-            'No updates planned at the moment.'
+        })
 
-        columns.push(
-            <Column className='text--left' header={item.header} key={index}>
-                {roadmapDetails}
-            </Column>
-        )
-    })
+        if (dataFound)
+            return (
+                <Columns>
+                    {columns}
+                </Columns>
+            )
 
-    if (dataFound)
         return (
-            <Columns>
-                {columns}
-            </Columns>
+            <div>
+                <p>No planned work for this module.</p>
+                <p>Feel free to recommend ideas in the <a href="https://discord.gg/qyVJmpQ2Pn">Discord</a>!</p>
+            </div>
         )
+    }
+
+    function TabButton({index, row}) {
+        return (
+            <li
+                key={index}
+                className={`tabs__item ${activeTab === row.product ? 'tabs__item--active' : ''}`}
+                onClick={() => setActiveTab(row.product)}
+            >
+                {row.product}
+            </li>
+        )
+    }
+
+    function TabDropdown({index, row}) {
+        const [activeDropdownTab, setActiveDropdownTab] = useState(activeTab);
+
+        function dropdownSelected(tab) {
+            setActiveDropdownTab(tab);
+            setActiveTab(tab);
+        }
+
+        return (
+            <li
+                key={index}
+                className={`tabs__item p-0 ${activeTab === row.product || row.subTabs.includes(activeTab) ? 'tabs__item--active' : ''}`}
+            >
+                <select
+                    className={"tab-select-group"}
+                    defaultValue={activeDropdownTab}
+                >
+                    <option
+                        value={row.product}
+                        onClick={() => dropdownSelected(row.product)}
+                    >
+                        {row.product}
+                    </option>
+
+                    {row.subTabs.map((subTab, index) => (
+                        <option
+                            key={index}
+                            className={'tabs__item'}
+                            value={subTab}
+                            onClick={() => dropdownSelected(subTab)}
+                        >
+                            {subTab}
+                        </option>
+                    ))
+                    }
+                </select>
+            </li>
+        )
+    }
 
     return (
-        <div>
-            <p>No planned work for this module.</p>
-            <p>Feel free to recommend ideas in the <a href="https://discord.gg/qyVJmpQ2Pn">Discord</a>!</p>
-        </div>
+        <>
+            <ul className="tabs">
+                {tabHeadings.map((row, index) => {
+                    return (!row.subTabs.length && <TabButton index={index} key={index} row={row}></TabButton>) ||
+                        (row.subTabs.length && <TabDropdown index={index} key={index} row={row}></TabDropdown>)
+                })}
+            </ul>
+
+            <div key={activeTab}>
+                {loopQuarters(columns.columns, activeTab)}
+            </div>
+        </>
     )
 }
 
-export function GetProductTabs(columns) {
-    // default products
-    let tabs = [
-        {
-            product: "pro",
-            name: "Pro"
-        },
-        {
-            product: "interaction",
-            name: "Interaction"
-        },
-        {
-            product: "inventory",
-            name: "Inventory"
-        },
-        {
-            product: "tales",
-            name: "Tales"
-        },
-        {
-            product: "navigator",
-            name: "Navigator"
-        },
-        {
-            product: "commonui",
-            name: "Common UI"
-        },
-    ]
-
-    // find any custom product names and add them
-    RoadmapData?.forEach(item => {
-        item.product.forEach(product => {
-            if (!tabs.find(x => x.name === product))
-            {
-                tabs.push(
-                    {
-                        product: product.toLowerCase(),
-                        name: product
-                    }
-                )
-            }
-        })
-    })
-
-    // sort the tabs alphabetically
-    tabs = tabs.sort((a, b) => a.product > b.product ? 1 : -1)
-
-    // return the new tabs
-    return tabs.map((row, index) =>
-        <TabItem value={row.product} label={row.name} key={index} default>
-            {loopQuarters(columns, row.name)}
-        </TabItem>
-    )
-}
-
-<Tabs>
-    {GetProductTabs(props.columns)}
-</Tabs>
+<Tabs columns={props.columns}></Tabs>
