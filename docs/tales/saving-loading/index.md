@@ -14,7 +14,7 @@ On single player games, you will normally have a single Narrative component.
 
 To save a Narrative component, find a reference to the component then call the Save function.
 
-![saving.webp](/img/quests-and-dialogue/saving/saving.webp)
+<iframe src="https://blueprintue.com/render/k7ntc3nf/" width="100%" height="400" scrolling="no" allowfullscreen></iframe>
 
 ### Inputs
 
@@ -36,13 +36,13 @@ On multiplayer games, it's common to have a [Narrative component](../tales-compo
 
 Here is one of many methods you can do it using [Narrative Parties](../parties/index.md):
 
-![saving-multiplayer.webp](/img/quests-and-dialogue/saving/saving-multiplayer.webp)
+<iframe src="https://blueprintue.com/render/hh3s4p0q/" width="100%" height="400" scrolling="no" allowfullscreen></iframe>
 
 ## Loading
 
 To load a Narrative component, find a reference to the component then call the Load function.
 
-![loading.webp](/img/quests-and-dialogue/saving/loading.webp)
+<iframe src="https://blueprintue.com/render/wsb9i2s_/" width="100%" height="400" scrolling="no" allowfullscreen></iframe>
 
 ### Inputs
 
@@ -55,7 +55,7 @@ To load a Narrative component, find a reference to the component then call the L
 
 ## Changing levels
 
-Narrative only exists within the current level. It has been created this way for performance since you don't need the Narrative component loaded on every single level (main menu, credits etc...).
+The [Narrative component](../tales-component/index.md) only exists within the current level. It has been created this way for performance since you don't need the Narrative component loaded on every single level (main menu, credits etc...).
 
 However, many games have multiple levels that the player can change between where the Narrative component needs to transport its data across.
 
@@ -67,11 +67,11 @@ There are a few common ways to do it displayed below.
 
 One common method is to have a dedicated save file where you keep reusing the name, when you are transporting between levels.
 
-![saving-level-change-method-1.webp](/img/quests-and-dialogue/saving/saving-level-change-method-1.webp)
+<iframe src="https://blueprintue.com/render/50c8dltd/" width="100%" height="400" scrolling="no" allowfullscreen></iframe>
 
 Then simply load it on the [Level Blueprint](https://dev.epicgames.com/documentation/en-us/unreal-engine/level-blueprint-in-unreal-engine?application_version=5.4).
-0
-![loading-level-change-method-1.webp](/img/quests-and-dialogue/saving/loading-level-change-method-1.webp)
+
+<iframe src="https://blueprintue.com/render/1tvxiiv2/" width="100%" height="400" scrolling="no" allowfullscreen></iframe>
 
 :::note
 
