@@ -14,13 +14,11 @@ To create a new loot table, **Right Click** in the **Content Drawer** -> **Misce
 
 Select the **LootTableRow** data structure. 
 
-![loot-table-row.webp](..%2F..%2F..%2Fstatic%2Fimg%2Finventory%2Floot-tables%2Floot-table-row.webp)
+![loot-table-row.webp](//img/inventory/loot-tables/loot-table-row.webp)
 
 You can now populate all the items the Loot Table needs to use.
 
-![loot-table-empty.webp](..%2F..%2F..%2Fstatic%2Fimg%2Finventory%2Floot-tables%2Floot-table-empty.webp)
-
-
+![loot-table-empty.webp](//img/inventory/loot-tables/loot-table-empty.webp)
 
 ## LootTableRow Properties
 

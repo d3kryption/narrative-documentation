@@ -16,8 +16,8 @@ Modify this so it shows the cursor then sets the input mode to **Game and UI**.
 
 ### Old code
 
-![keep-cursor-after-menu-close-old.png](/img/common-ui/faqs/keep-cursor-after-menu-close-old.png)
+![keep-cursor-after-menu-close-old.webp](/img/common-ui/faqs/keep-cursor-after-menu-close-old.webp)
 
 ### New code
 
-![keep-cursor-after-menu-close-new.png](/img/common-ui/faqs/keep-cursor-after-menu-close-new.png)
+![keep-cursor-after-menu-close-new.webp](/img/common-ui/faqs/keep-cursor-after-menu-close-new.webp)

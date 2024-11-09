@@ -12,21 +12,21 @@ These are great to expand lore or to hide clues or other aspects of your game.
 
 To create a book, Right-click in the **Content Drawer** -> **Blueprint Class** -> **BI_NarrativeBook**.
 
-![creation.png](..%2F..%2F..%2Fstatic%2Fimg%2Fbooks%2Fcreation.png)
+![creation.webp](//img/books/creation.webp)
 
 You can now select Class Defaults and add all the pages you require your book to have.
 
-![book-pages.png](..%2F..%2F..%2Fstatic%2Fimg%2Fbooks%2Fbook-pages.png)
+![book-pages.webp](//img/books/book-pages.webp)
 
 For each page in your book, you need to provide a texture that will render what you need.
 
 You can do this by finding a page texture in the **Content Drawer** -> **Right-click** -> **Asset Actions** -> **Export**.
 
-![books-export.png](..%2F..%2F..%2Fstatic%2Fimg%2Fbooks%2Fbooks-export.png)
+![books-export.webp](//img/books/books-export.webp)
 
 Selecting the item in the world or the players inventory will now allow you to read the book.
 
-![book-read.png](..%2F..%2F..%2Fstatic%2Fimg%2Fbooks%2Fbook-read.png)
+![book-read.webp](//img/books/book-read.webp)
 
 ## Properties
 

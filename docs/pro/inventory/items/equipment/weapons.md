@@ -22,7 +22,7 @@ The Ranged weapon item type is used for anything that has ranged attacks such as
 
 To create a ranged weapon item, you can **Right-Click** in your **Content Drawer** -> **Blueprint Class** -> **Ranged Weapon Item**.
 
-![ranged-weapon-items.png](..%2F..%2F..%2F..%2F..%2Fstatic%2Fimg%2Finventory%2Fweapons%2Franged-weapon-items.png)
+![ranged-weapon-items.webp](//img/inventory/weapons/ranged-weapon-items.webp)
 
 ## Properties
 

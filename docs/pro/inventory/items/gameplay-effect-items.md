@@ -10,7 +10,7 @@ Gameplay Effect Items are regular Narrative Items that are intended to work for 
 
 Right-click in the **Content Drawer** -> **Narrative** -> **Narrative Items** -> **Gameplay Effect Item**.
 
-![gameplay-effect-items.png](..%2F..%2F..%2F..%2Fstatic%2Fimg%2Finventory%2Fgameplay-effect-items.png)
+![gameplay-effect-items.webp](//img/inventory/gameplay-effect-items.webp)
 
 Now you can choose what [gameplay effect](../../abilities/gameplay-effects.md) and values you want to apply.
 
@@ -22,7 +22,7 @@ You can set the Gameplay Effect Class to [GE_ItemGameplayEffect](../../abilities
 
 Finally, set the value to the amount of health you want to increase.
 
-![increasing-health](..%2F..%2F..%2F..%2Fstatic%2Fimg%2Finventory%2Fgameplay-effect-items%2Fincreasing-health)
+![increasing-health](//img/inventory/gameplay-effect-items/increasing-health)
 
 ## Decreasing health over time
 
@@ -34,7 +34,7 @@ The first has a gameplay tag `SetByCaller.Health` and a value of how much you wa
 
 The second  has a gameplay tag `SetByCaller.Duration` and a value of how long (in seconds) you want it to last.
 
-![decreasing-health-over-time](..%2F..%2F..%2F..%2Fstatic%2Fimg%2Finventory%2Fgameplay-effect-items%2Fdecreasing-health-over-time)
+![decreasing-health-over-time](//img/inventory/gameplay-effect-items/decreasing-health-over-time)
 
 ## Properties
 

@@ -78,7 +78,7 @@ Narrative Savable Component
 
 Any variable that you want to save you must mark it as **SaveGame** in the advanced menu.
 
-![saving-property.webp](..%2F..%2F..%2Fstatic%2Fimg%2Fsaving%2Fsaving-property.webp)
+![saving-property.webp](//img/saving/saving-property.webp)
 
 ## C++
 
