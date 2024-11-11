@@ -30,8 +30,10 @@ export function Tabs(columns) {
                 if (product.indexOf("-") !== -1) {
                     productExist = tabs.find(x => x.product === parentItem);
 
-                    if (productExist)
-                        productExist.subTabs.push(product)
+                    if (productExist) {
+                        if (!productExist.subTabs.includes(product))
+                            productExist.subTabs.push(product)
+                    }
                     else {
                         tabs.push({
                                 product: parentItem,
@@ -57,7 +59,15 @@ export function Tabs(columns) {
         })
 
         // sort the tabs alphabetically
-        tabs = tabs.sort((a, b) => a.product > b.product ? 1 : -1)
+        tabs = tabs.map((tab) => {
+            // sort sub tabs
+            if (tab.subTabs)
+                tab.subTabs = tab.subTabs.sort((a, b) => a > b ? 1 : -1)
+
+            return tab
+        })
+        // now sort main tabs
+        .sort((a, b) => a.product > b.product ? 1 : -1)
 
         return tabs
     }
@@ -122,11 +132,11 @@ export function Tabs(columns) {
     }
 
     function TabDropdown({index, row}) {
-        const [activeDropdownTab, setActiveDropdownTab] = useState(activeTab);
+        const [activeDropdownTab, setActiveDropdownTab] = useState(activeTab === row.product || row.subTabs.includes(activeTab) ? activeTab : row.product);
 
         function dropdownSelected(tab) {
-            setActiveDropdownTab(tab);
             setActiveTab(tab);
+            setActiveDropdownTab(tab);
         }
 
         return (
@@ -134,29 +144,38 @@ export function Tabs(columns) {
                 key={index}
                 className={`tabs__item p-0 ${activeTab === row.product || row.subTabs.includes(activeTab) ? 'tabs__item--active' : ''}`}
             >
-                <select
+                <div
                     className={"tab-select-group"}
-                    defaultValue={activeDropdownTab}
+                    onClick={() => dropdownSelected(row.product)}
                 >
-                    <option
-                        value={row.product}
-                        onClick={() => dropdownSelected(row.product)}
+                    {activeTab === row.product || row.subTabs.includes(activeTab) ? activeTab : activeDropdownTab}
+                </div>
+                <div className="select-wrapper">
+                    <div className="select-div"></div>
+                    <select
+                        defaultValue={activeDropdownTab}
+                        onChange={(e) => dropdownSelected(e.target.selectedOptions[0].value)}
                     >
-                        {row.product}
-                    </option>
-
-                    {row.subTabs.map((subTab, index) => (
                         <option
-                            key={index}
-                            className={'tabs__item'}
-                            value={subTab}
-                            onClick={() => dropdownSelected(subTab)}
+                            value={row.product}
+                            onClick={() => dropdownSelected(row.product)}
                         >
-                            {subTab}
+                            {row.product}
                         </option>
-                    ))
-                    }
-                </select>
+
+                        {row.subTabs.map((subTab, index) => (
+                            <option
+                                key={index}
+                                className={'tabs__item'}
+                                value={subTab}
+                                onClick={() => dropdownSelected(subTab)}
+                            >
+                                {subTab}
+                            </option>
+                        ))
+                        }
+                    </select>
+                </div>
             </li>
         )
     }

@@ -1,83 +1,11 @@
 [
     {
-        "product": ["Pro"],
-        "year": 2024,
-        "quarter": 4,
-        "type": "Feature",
-        "name": "Magic system V1",
-        "desc": "A first version magic system consisting of Fire, Electric using hands or wands. Animations, SFX and FX all included."
-    },
-    {
-        "product": ["Pro"],
-        "year": 2024,
-        "quarter": 4,
-        "type": "Misc",
-        "name": "Save system meta data",
-        "desc": "Any saves will now contain metadata such as the date of save, level and character name."
-    },
-    {
-        "product": ["Pro"],
-        "year": 2024,
-        "quarter": 4,
-        "type": "Bugfix",
-        "name": "Main menu controller",
-        "desc": "Main menu can now be used fully with controller."
-    },
-    {
-        "product": ["Pro"],
-        "year": 2024,
-        "quarter": 2,
-        "type": "Bugfix",
-        "name": "Quater 2 Test",
-        "desc": "Main menu can now be used fully with controller."
-    },
-    {
-        "product": ["Pro"],
-        "year": 2024,
-        "quarter": 1,
-        "type": "Bugfix",
-        "name": "Quater 1 Test",
-        "desc": "Main menu can now be used fully with controller."
-    },
-    {
-        "product": ["Pro"],
-        "year": 2024,
-        "quarter": 4,
-        "type": "Feature",
-        "name": "Combat animation overhaul",
-        "desc": "Improving all animations across melee combat to make it far better."
-    },
-    {
-        "product": ["Pro - Character Creator"],
-        "year": 2024,
-        "quarter": 4,
-        "type": "Feature",
-        "name": "Character creator V1",
-        "desc": "A new character creation system has been added to allow you to create a custom character for your game."
-    },
-    {
-        "product": ["Pro"],
-        "year": 2024,
-        "quarter": 4,
-        "type": "Misc",
-        "name": "Default player name",
-        "desc": "You can now set the players name in the project settings instead of using the ChangeName node."
-    },
-    {
-        "product": ["Pro", "Tales"],
+        "product": ["Tales"],
         "year": 2025,
         "quarter": 1,
         "type": "Feature",
         "name": "Improved dialogue camera",
         "desc": "A new camera system will be implemented making dialogue cameras far easier and higher quality."
-    },
-    {
-        "product": ["Pro", "Tales"],
-        "year": 2025,
-        "quarter": 1,
-        "type": "Feature",
-        "name": "Dialogue lighting system",
-        "desc": "A new lighting system will be implemented making lighting dialogue scenes far easier."
     },
     {
         "product": ["Tales"],
@@ -350,5 +278,322 @@
         "type": "Bugfix",
         "name": "All interactions will be checked",
         "desc": "When finding an interaction, every interaction will be checked rather than skipping at the first one."
+    },
+    {
+        "product": ["Pro"],
+        "year": 2024,
+        "quarter": 4,
+        "type": "Feature",
+        "name": "1.1 release",
+        "desc": "Pro version 1.1.0 major release.",
+        "descList": [
+            "Radial Menus will now be included with the plugin.",
+            "Save Metadata has been added, and save slots show additional details like username and location.",
+            "Settings menu has gamepad support, FOV slider, and more improvements.",
+            "Numerous bugfixes make the plugin more stable.",
+            "Factions now use Gameplay Tags instead of a C++ Enum/Data Asset.",
+            "NPC Subsystem now caches both Player and NPC characters for quick access.",
+            "Narrative Events allow defining targets for flexible inventory operations.",
+            "Conditions allow targets, so conditions work for NPCs and Characters.",
+            "Events/Conditions can target NPCs, Players, or Both.",
+            "Character Definitions have been improved, and the Game Mode assigns player definitions for multiplayer.",
+            "NPC Definitions support random levels and scalable attributes.",
+            "Character Definitions now include OwnedTags for setting character states.",
+            "Character Creator is customizable with options for clothing, hair, morph targets, and more.",
+            "Premade characters are included with the Character Creator.",
+            "Character Creator allows mesh customization and morph targets.",
+            "Character Creator supports Metahuman groom assets.",
+            "Character Info option allows setting username in creator menu.",
+            "Game creation can load the character creator at different points.",
+            "Time of Day system has been added.",
+            "Time of Day system includes a skybox that updates lighting.",
+            "Time of Day settings are configurable in Project Settings.",
+            "Async nodes allow scripting items like alarms with Time of Day events.",
+            "Advance Time node allows RPG-like wait feature.",
+            "Combat updates include Attack Tokens, Combat UI, and Magic Weapons.",
+            "Magic weapons now include effects and visuals for different weapon types.",
+            "Melee Combat includes out-of-the-box animations.",
+            "Weapon slots support has been added with Gameplay Tags.",
+            "A weapon wheel is added to manage multiple weapon slots.",
+            "Combat UI improvements add damage numbers and health bars.",
+            "AI improvements include NPC Activities for saved blackboard states.",
+            "NPC Activities manage saved blackboard and behavior tree states.",
+            "NPC Schedules allow time-based NPC activities.",
+            "Settlement Schedules define activities for groups of NPCs.",
+            "Inventory Quick Use menu allows quick access to favorited items.",
+            "Inventory items are now automatically saved with specified variables."
+        ]
+    },
+    {
+        "product": ["Pro"],
+        "year": 2024,
+        "quarter": 4,
+        "type": "Feature",
+        "name": "Radial Menus",
+        "desc": "Radial Menus are now included with the plugin. We'll be shipping two - a Weapon Wheel and a Quick Use Wheel, and users can create their own."
+    },
+    {
+        "product": ["Pro"],
+        "year": 2024,
+        "quarter": 4,
+        "type": "Feature",
+        "name": "Save Metadata",
+        "desc": "Save Metadata has been added. Save slots now show additional details such as username, in-game location, and time of save."
+    },
+    {
+        "product": ["Pro"],
+        "year": 2024,
+        "quarter": 4,
+        "type": "Feature",
+        "name": "Settings Menu",
+        "desc": "Settings menu has been improved with gamepad support, an FOV slider, and more enhancements."
+    },
+    {
+        "product": ["Pro"],
+        "year": 2024,
+        "quarter": 4,
+        "type": "Bugfix",
+        "name": "Bugfixes",
+        "desc": "Numerous bugfixes have been implemented, making the plugin more stable."
+    },
+    {
+        "product": ["Pro"],
+        "year": 2024,
+        "quarter": 4,
+        "type": "Feature",
+        "name": "Factions",
+        "desc": "Factions now use Gameplay Tags instead of a C++ Enum/Data Asset, making them lightweight and easier to manage."
+    },
+    {
+        "product": ["Pro"],
+        "year": 2024,
+        "quarter": 4,
+        "type": "Feature",
+        "name": "NPC Subsystem",
+        "desc": "The NPC Subsystem caches Player and NPC characters for quick access, and may be renamed to Character Subsystem in future updates."
+    },
+    {
+        "product": ["Pro - Narrative Events / Conditions"],
+        "year": 2024,
+        "quarter": 4,
+        "type": "Feature",
+        "name": "Targeting",
+        "desc": "Events and Conditions now allow defining a target, enabling actions like AddItemToInventory and checks like HasItem or HasCurrency to apply to both NPCs and Characters."
+    },
+    {
+        "product": ["Pro - Narrative Events / Conditions"],
+        "year": 2024,
+        "quarter": 4,
+        "type": "Feature",
+        "name": "Target Specification",
+        "desc": "Events and Conditions can specify whether they should target NPCs, Players, or Both, and the targets dropdown menu adjusts accordingly."
+    },
+    {
+        "product": ["Pro - Narrative Events / Conditions"],
+        "year": 2024,
+        "quarter": 4,
+        "type": "Feature",
+        "name": "Flexible Application",
+        "desc": "Narrative Events and Conditions are now more flexible, allowing consistent application of game logic across different target types."
+    },
+    {
+        "product": ["Pro"],
+        "year": 2024,
+        "quarter": 4,
+        "type": "Feature",
+        "name": "Events - Target",
+        "desc": "Narrative Events now allow targeting, enabling events like AddItemToInventory for both NPCs and Characters."
+    },
+    {
+        "product": ["Pro"],
+        "year": 2024,
+        "quarter": 4,
+        "type": "Feature",
+        "name": "Conditions - Target",
+        "desc": "Conditions can now specify targets, so conditions like HasItem and HasCurrency apply to NPCs and Characters."
+    },
+    {
+        "product": ["Pro - Character Creator"],
+        "year": 2024,
+        "quarter": 4,
+        "type": "Feature",
+        "name": "Character Creator",
+        "desc": "Character Creator is now available with customizable options including clothing, hair, material parameters, morph targets, and more."
+    },
+    {
+        "product": ["Pro - Character Creator"],
+        "year": 2024,
+        "quarter": 4,
+        "type": "Feature",
+        "name": "Included Assets",
+        "desc": "No need to import Metahumans - we include a premade male and female character with items and morphs."
+    },
+    {
+        "product": ["Pro - Character Creator"],
+        "year": 2024,
+        "quarter": 4,
+        "type": "Feature",
+        "name": "Mesh Options",
+        "desc": "Mesh options in the Character Creator are configurable with custom material parameters and morph targets."
+    },
+    {
+        "product": ["Pro - Character Creator"],
+        "year": 2024,
+        "quarter": 4,
+        "type": "Feature",
+        "name": "Grooms",
+        "desc": "Character Creator now supports Metahuman groom assets for added customization."
+    },
+    {
+        "product": ["Pro - Character Creator"],
+        "year": 2024,
+        "quarter": 4,
+        "type": "Feature",
+        "name": "Character Info",
+        "desc": "The Character Info option in the creator allows setting a username directly from the creator menu."
+    },
+    {
+        "product": ["Pro - Character Creator"],
+        "year": 2024,
+        "quarter": 4,
+        "type": "Feature",
+        "name": "Launching",
+        "desc": "Settings allow control over whether the Character Creator loads at the start or after an intro cinematic."
+    },
+    {
+        "product": ["Pro - Time of Day"],
+        "year": 2024,
+        "quarter": 4,
+        "type": "Feature",
+        "name": "Overview",
+        "desc": "Time of Day system has been added to the plugin."
+    },
+    {
+        "product": ["Pro - Time of Day"],
+        "year": 2024,
+        "quarter": 4,
+        "type": "Feature",
+        "name": "Sky",
+        "desc": "The Time of Day system includes a skybox (BP_NarrativeSky) that updates lighting based on time. An Ultra Dynamic Sky swap video is available."
+    },
+    {
+        "product": ["Pro - Time of Day"],
+        "year": 2024,
+        "quarter": 4,
+        "type": "Feature",
+        "name": "Time",
+        "desc": "Time of Day settings are configurable in Project Settings, allowing day/night length, sunset/rise times, and more."
+    },
+    {
+        "product": ["Pro - Time of Day"],
+        "year": 2024,
+        "quarter": 4,
+        "type": "Feature",
+        "name": "Scripting",
+        "desc": "Async nodes allow scripting items like alarms, streetlamps, and other events tied to Time of Day."
+    },
+    {
+        "product": ["Pro - Time of Day"],
+        "year": 2024,
+        "quarter": 4,
+        "type": "Feature",
+        "name": "Advance Time",
+        "desc": "The Advance Time node adds an RPG-like 'Wait' feature, adjusting the game's time."
+    },
+    {
+        "product": ["Pro - Combat"],
+        "year": 2024,
+        "quarter": 4,
+        "type": "Feature",
+        "name": "Overview",
+        "desc": "Combat system updates include Attack Tokens, Combat UI, Magic Weapons, and more."
+    },
+    {
+        "product": ["Pro - Combat"],
+        "year": 2024,
+        "quarter": 4,
+        "type": "Feature",
+        "name": "Magic Weapons",
+        "desc": "Magic weapons include new visuals for weapon types like wands, with lightning and fireball effects."
+    },
+    {
+        "product": ["Pro - Combat"],
+        "year": 2024,
+        "quarter": 4,
+        "type": "Feature",
+        "name": "Melee Combat",
+        "desc": "Melee Combat now includes out-of-the-box animations, eliminating the need for additional melee assets."
+    },
+    {
+        "product": ["Pro - Combat"],
+        "year": 2024,
+        "quarter": 4,
+        "type": "Feature",
+        "name": "Weapon Slots",
+        "desc": "Weapon slots now use Gameplay Tags, allowing easy expansion without C++ changes."
+    },
+    {
+        "product": ["Pro - Combat"],
+        "year": 2024,
+        "quarter": 4,
+        "type": "Feature",
+        "name": "Weapon Wheel",
+        "desc": "A procedurally generated weapon wheel allows switching between multiple weapon slots seamlessly."
+    },
+    {
+        "product": ["Pro - Combat"],
+        "year": 2024,
+        "quarter": 4,
+        "type": "Feature",
+        "name": "Combat UI",
+        "desc": "Combat UI improvements include damage numbers and health bars, with toggling options in project settings."
+    },
+    {
+        "product": ["Pro - AI"],
+        "year": 2024,
+        "quarter": 4,
+        "type": "Feature",
+        "name": "Overview",
+        "desc": "Massive improvements to AI, including NPC Activities that save blackboard and behavior tree state."
+    },
+    {
+        "product": ["Pro - AI"],
+        "year": 2024,
+        "quarter": 4,
+        "type": "Feature",
+        "name": "Activities",
+        "desc": "NPC Activities manage behavior serialization, automatically saving and loading blackboard and tree states."
+    },
+    {
+        "product": ["Pro - AI"],
+        "year": 2024,
+        "quarter": 4,
+        "type": "Feature",
+        "name": "NPC Schedules",
+        "desc": "NPC Schedules use the Time of Day system for timed activities, like NPC sleep and work cycles."
+    },
+    {
+        "product": ["Pro - AI"],
+        "year": 2024,
+        "quarter": 4,
+        "type": "Feature",
+        "name": "Settlement Schedules",
+        "desc": "Schedules can define group activities at the settlement level, synchronizing NPC interactions."
+    },
+    {
+        "product": ["Pro - Inventory"],
+        "year": 2024,
+        "quarter": 4,
+        "type": "Feature",
+        "name": "Quick Use",
+        "desc": "Favorited items can now be quickly accessed via the Quick Use Radial menu."
+    },
+    {
+        "product": ["Pro - Inventory"],
+        "year": 2024,
+        "quarter": 4,
+        "type": "Feature",
+        "name": "Save Metadata",
+        "desc": "Inventory items are now automatically saved with specified variables, maintaining save persistence."
     }
 ]

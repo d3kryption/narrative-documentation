@@ -35,8 +35,8 @@ export function DescList({items}) {
 
     return (<ul className={'desc-list'}>
         {
-            items.map((listItem) => {
-                return <li>{listItem}</li>
+            items.map((listItem, index) => {
+                return <li key={index}>{listItem}</li>
             })
         }
     </ul>)

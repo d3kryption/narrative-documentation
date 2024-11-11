@@ -42,7 +42,7 @@ Events within dialogue & quests have an enum property called `Party Event Policy
 Changing this property will allow you to customise how events run for your dialogue or quests.
 
 ![events.webp](/img/quests-and-dialogue/parties/events.webp)
-
+ 
 | Enumerator Name   | Description                                                                                                                           |
 |-------------------|---------------------------------------------------------------------------------------------------------------------------------------|
 | Party             | This event will run on the party component for the quest. Perfect for spawning quest actors for the party.                            |
