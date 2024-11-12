@@ -595,5 +595,21 @@
         "type": "Feature",
         "name": "Save Metadata",
         "desc": "Inventory items are now automatically saved with specified variables, maintaining save persistence."
+    },
+    {
+        "product": ["Pro", "Tales", "Inventory", "Common UI", "Navigator", "Interaction"],
+        "year": 2024,
+        "quarter": 4,
+        "type": "Misc",
+        "name": "Unreal 5.5 release",
+        "desc": "This product will now be updated to support Unreal 5.5."
+    },
+    {
+        "product": ["Common UI"],
+        "year": 2024,
+        "quarter": 4,
+        "type": "Bugfix",
+        "name": "Missing images",
+        "desc": "The missing images T_vingette and T_Mark will be fixed."
     }
 ]
