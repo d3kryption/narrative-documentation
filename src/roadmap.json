@@ -36,7 +36,8 @@
             "Added Sound attenuation to change how sound is played",
             "Added gameplay tags",
             "UpdatedSequence player to new GetSequencePlayer",
-            "Cleaned up unused C++ references"
+            "Cleaned up unused C++ references",
+            "Hint texts will now use GetStringVariable"
         ]
     },
     {

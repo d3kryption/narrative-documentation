@@ -13,7 +13,7 @@ export function Tabs(columns) {
             { product: "Pro", subTabs: [] },
             { product: "Interaction", subTabs: [] },
             { product: "Inventory", subTabs: [] },
-            { product: "Tales", subTabs: [] },
+            { product: "Tales", subTabs: [], oldName: "Tales (Quests & Dialogue)" },
             { product: "Navigator", subTabs: [] },
             { product: "Common UI", subTabs: [] },
         ]
@@ -126,7 +126,7 @@ export function Tabs(columns) {
                 className={`tabs__item ${activeTab === row.product ? 'tabs__item--active' : ''}`}
                 onClick={() => setActiveTab(row.product)}
             >
-                {row.product}
+                {row.oldName ?? row.product}
             </li>
         )
     }

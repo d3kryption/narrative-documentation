@@ -1,5 +1,5 @@
 ---
-sidebar_label: 'Tales'
+sidebar_label: 'Tales (Quests & Dialogue)'
 ---
 
 import DiscordLink from '/src/components/discord-link.mdx'
