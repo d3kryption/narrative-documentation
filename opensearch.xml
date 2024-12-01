@@ -4,8 +4,8 @@
   <ShortName>Narrative</ShortName>
   <Description>Search Narrative</Description>
   <InputEncoding>UTF-8</InputEncoding>
-  <Image width="16" height="16" type="image/x-icon">https://docs.narrativetools.io/img/favicon.ico</Image>
-  <Url type="text/html" method="get" template="https://docs.narrativetools.io/search?q={searchTerms}"/>
-  <Url type="application/opensearchdescription+xml" rel="self" template="https://docs.narrativetools.io/opensearch.xml" />
-  <moz:SearchForm>https://docs.narrativetools.io/</moz:SearchForm>
+  <Image width="16" height="16" type="image/x-icon">https://docs.narrativetools.io/narrative-documentation/img/favicon.ico</Image>
+  <Url type="text/html" method="get" template="https://docs.narrativetools.io/narrative-documentation/search?q={searchTerms}"/>
+  <Url type="application/opensearchdescription+xml" rel="self" template="https://docs.narrativetools.io/narrative-documentation/opensearch.xml" />
+  <moz:SearchForm>https://docs.narrativetools.io/narrative-documentation/</moz:SearchForm>
 </OpenSearchDescription>
