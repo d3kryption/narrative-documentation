@@ -3,6 +3,8 @@ sidebar_label: 'Introduction'
 sidebar_position: 0
 ---
 
+import DiscordLink from '/src/components/discord-link.mdx'
+
 # Introduction
 
 Welcome to the Narrative Documentation. Throughout this guide, you will have access to the core documentation for all Narrative products.
@@ -36,3 +38,5 @@ Every tool you need for a great game in one plugin - Maps, Quests, Dialogue, Wea
 A Node-Based Quest and Dialogue System made to work with any type of game. Networked right out of the box.
 
 ![narrative-quests-dialogue.webp](/img/narrative-quests-dialogue.webp)
+
+<DiscordLink></DiscordLink>

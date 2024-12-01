@@ -2,7 +2,6 @@
 sidebar_label: 'Tales (Quests & Dialogue)'
 ---
 
-import DiscordLink from '/src/components/discord-link.mdx'
 import NarrativeCommonUiLink from '/src/components/narrative-common-ui-link.mdx'
 
 # Narrative Tales Documentation
@@ -20,8 +19,6 @@ A video guide is also available here:
 An upgrade video guide is also available here to move to Common UI:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/lvH2QrYpOrs?si=aariosVEUHKhc_Yr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-<DiscordLink></DiscordLink>
 
 ## Purchase
 

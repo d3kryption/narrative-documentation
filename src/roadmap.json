@@ -300,6 +300,7 @@
             "Character Definitions have been improved, and the Game Mode assigns player definitions for multiplayer.",
             "NPC Definitions support random levels and scalable attributes.",
             "Character Definitions now include OwnedTags for setting character states.",
+            "Characters will now focus less on Metahuman's structures and instead be more generic.",
             "Character Creator is customizable with options for clothing, hair, morph targets, and more.",
             "Premade characters are included with the Character Creator.",
             "Character Creator allows mesh customization and morph targets.",

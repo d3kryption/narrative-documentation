@@ -1,11 +1,13 @@
 ---
-sidebar_label: 'Demo Map'
+sidebar_label: 'Pro''s Features'
 sidebar_position: 1
 ---
 
-# Demo Map
+# Pro's Features
 
 Narrative Pro comes packaged with a demo map containing all the features included.
+
+Below is a list of all the features.
 
 ## Abilities
 

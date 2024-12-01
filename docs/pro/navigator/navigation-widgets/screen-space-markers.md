@@ -6,17 +6,17 @@ sidebar_label: 'Screen Space markers'
 
 Screen space markers are the visible markers on screen in the player's viewport. They show in the 3d world.
 
-![screen-space-markers.webp](/img/navigator/screen-space-markers.webp)
+![screen-space-markers.webp](/img/pro/navigator/screen-space-markers.webp)
 
 ## Adding markers
 
 Markers are super easy to add. Simply select your actor or blueprint and add the component **Navigation Marker**.
 
-![navigator-marker.webp](/img/navigator/navigator-marker.webp)
+![navigator-marker.webp](/img/pro/navigator/navigator-marker.webp)
 
 After that it will work right out of the box across all Navigator UI widgets.
 
-![navigatior-marker-demo.webp](/img/navigator/navigatior-marker-demo.webp)
+![navigatior-marker-demo.webp](/img/pro/navigator/navigatior-marker-demo.webp)
 
 You can add markers to any actor you wish. Commonly, you may add a marker to your player or enemies.
 
