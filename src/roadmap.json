@@ -37,7 +37,8 @@
             "Added gameplay tags",
             "UpdatedSequence player to new GetSequencePlayer",
             "Cleaned up unused C++ references",
-            "Hint texts will now use GetStringVariable"
+            "Hint texts will now use GetStringVariable",
+            "Added back in cross platform support"
         ]
     },
     {
