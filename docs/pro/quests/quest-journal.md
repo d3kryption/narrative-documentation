@@ -10,6 +10,6 @@ Whether its past or present quests, the player has the option to view all the de
 
 You can even track and untrack quests to hide their state from the world.
 
-The Quest Journal contains a toggle for [Party Quests](../parties/quests.md) too.
+The Quest Journal contains a toggle for [Party Quests](../parties/dialogue-and-quests.md#quests) too.
 
 ![quest-journal.webp](/img/quests/journal/pro-quest-journal.webp)
