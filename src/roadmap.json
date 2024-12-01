@@ -245,6 +245,14 @@
         "year": 2024,
         "quarter": 4,
         "type": "Bugfix",
+        "name": "NT_GoToPointOInterest task",
+        "desc": "NT_GoToPointOInterest was re-written to be more efficient."
+    },
+    {
+        "product": ["Navigator"],
+        "year": 2024,
+        "quarter": 4,
+        "type": "Bugfix",
         "name": "Controller fixes",
         "desc": "More fixes for controllers in world map."
     },
