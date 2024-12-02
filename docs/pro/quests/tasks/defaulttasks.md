@@ -117,7 +117,7 @@ A very common node which allows you to complete an objective when the player arr
 
 ## Holster / Unholser weapon
 
-The task is completed when the player holsters or unholsters their [weapon](../../inventory/items/equipment/weapons.md).
+The task is completed when the player holsters or unholsters their [weapon](../../inventory/items/equipment/weapons/weapons.md).
 
 ### Properties
 

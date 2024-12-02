@@ -29,12 +29,12 @@ To create a ranged weapon item, you can **Right-Click** in your **Content Drawer
 | Property Name                     | Type                                              | Description                                                     |
 |-----------------------------------|---------------------------------------------------|-----------------------------------------------------------------|
 | WeaponAnimLayer                   | TSubclassOf\<UAnimInstance\>                      | Anim BP we'll apply to the owner when the weapon is unholstered |
-| WeaponVisualClass                 | TSubclassOf\<[BP_WeaponVisual](./weapon-visual)\> | Weapon visual actor to spawn                                    |
+| WeaponVisualClass                 | TSubclassOf\<[BP_WeaponVisual](weapon-visual.md)\> | Weapon visual actor to spawn                                    |
 | WeaponVisualAttachBone            | FName                                             | Weapon visual bone to attach to                                 |
 | WeaponVisualHolsteredAttachBone   | FName                                             | Weapon visual bone to attach to for holstered state             |
 | WeaponVisualAttachOffset          | FTransform                                        | Weapon visual offset from attach                                |
 | WeaponVisualHolsteredAttachOffset | FTransform                                        | Weapon visual offset from attach for holster                    |
-| Config                            | [WeaponConfig](./weapons.md#config-properties)    | The configuration for the current weapon.                       |
+| Config                            | [WeaponConfig](weapons.mdonfig-properties)    | The configuration for the current weapon.                       |
 | AttackDamage                      | float                                             | Base damage this weapon should do                               |
 | RequiredAmmo                      | TSoftClassPtr\<UAmmoItem\>                        | Ammo item class for this weapon                                 |
 | ClipSize                          | int32                                             | The amount of ammo loaded into the clip of the weapon           |

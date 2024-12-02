@@ -1,8 +1,8 @@
 ---
-sidebar_label: 'Weapon Visual'
+sidebar_label: 'Visual'
 ---
 
-# Weapon Visual
+# Visual
 
 The weapon visual blueprint class (**BP_WeaponVisual**) allows you to define how your weapon looks when it's attached to the player.
 
