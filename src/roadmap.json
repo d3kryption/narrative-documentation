@@ -54,6 +54,14 @@
         "desc": "When loading a save game, events will now no longer run on each node."
     },
     {
+        "product": ["Tales", "Pro - Tales"],
+        "year": 2025,
+        "quarter": 1,
+        "type": "Feature",
+        "name": "Conditional dialogue lines",
+        "desc": "Dialogue lines can now use conditions instead of dialogue nodes"
+    },
+    {
         "product": ["Tales"],
         "year": 2024,
         "quarter": 4,
