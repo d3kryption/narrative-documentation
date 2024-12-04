@@ -636,6 +636,53 @@
         "desc": "Tales 3.6 changes how events work and these plugins require very minor changes. (Just refresh the events)"
     },
     {
+        "product": ["Inventory"],
+        "year": 2024,
+        "quarter": 4,
+        "type": "Misc",
+        "name": "2.0.1",
+        "descList": [
+            "Support for Unreal 5.5",
+            "Support for Tales 3.6.0"
+        ]
+    },
+    {
+        "product": ["Navigator"],
+        "year": 2024,
+        "quarter": 4,
+        "type": "Misc",
+        "name": "1.1.1 release",
+        "descList": [
+            "Support for Unreal 5.5",
+            "Task bug fixes",
+            "Controller fixes on world map",
+            "Support for Tales 3.6.0"
+        ]
+    },
+    {
+        "product": ["Common UI"],
+        "year": 2024,
+        "quarter": 4,
+        "type": "Misc",
+        "name": "1.4.1 Release",
+        "descList": [
+            "Support for Unreal 5.5",
+            "Fixed bugs with missing images"
+        ]
+    },
+    {
+        "product": ["Interaction"],
+        "year": 2024,
+        "quarter": 4,
+        "type": "Misc",
+        "name": "1.2.1 Release",
+        "descList": [
+            "Support for Unreal 5.5",
+            "Support for Tales 3.6.0",
+            "All interactions will be checked"
+        ]
+    },
+    {
         "product": ["Common UI"],
         "year": 2024,
         "quarter": 4,
