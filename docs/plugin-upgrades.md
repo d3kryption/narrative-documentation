@@ -1,5 +1,5 @@
 ---
-sidebar_label: 'Plugin Upgrades'
+sidebar_label: 'Manual Plugin Upgrades'
 ---
 
 # Plugin Upgrades
@@ -94,7 +94,7 @@ The key parameters are:
 
 ```bash
 
-./RunUAT.bat -Plugin="YourPluginLocation/YourPlugin.uplugin" -Package="YourOutputLocation" -TargetPlatforms="Win64"
+./RunUAT.bat BuildPlugin -Plugin="YourPluginLocation/YourPlugin.uplugin" -Package="YourOutputLocation" -TargetPlatforms="Win64"
 
 ```
 
@@ -102,7 +102,7 @@ The key parameters are:
 
 ```bash
 
-./RunUAT.sh -Plugin="YourPluginLocation/YourPlugin.uplugin" -Package="YourOutputLocation" -TargetPlatforms="Linux"
+./RunUAT.sh BuildPlugin -Plugin="YourPluginLocation/YourPlugin.uplugin" -Package="YourOutputLocation" -TargetPlatforms="Linux"
 
 ```
 
@@ -110,7 +110,7 @@ The key parameters are:
 
 ```bash
 
-./RunUAT.sh -Plugin="YourPluginLocation/YourPlugin.uplugin" -Package="YourOutputLocation" -TargetPlatforms="Mac"
+./RunUAT.sh BuildPlugin -Plugin="YourPluginLocation/YourPlugin.uplugin" -Package="YourOutputLocation" -TargetPlatforms="Mac"
 
 ```
 

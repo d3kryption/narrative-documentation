@@ -4,6 +4,15 @@ sidebar_label: 'Changelog'
 
 # Changelog
 
+## Version 2.0.1
+
+### Features
+- Updated to Unreal 5.5
+- Narrative Quests & Dialogue 3.6 update integration
+- 
+### Bugfixes/Misc
+- Fixed missing textures bug (T_Vignette, T_Marker)
+
 ## Version 2.0.0
 
 You can see the [code changes](./version-2.0.0.md) here.
@@ -39,10 +48,10 @@ You can see the [code changes](./version-2.0.0.md) here.
 
 ### Features
 
-* "How much would you like to drop/buy/sell/take/store?" modal dialog that opens, allowing gamepads and mouse/keyboard better control over how much of an item they want to drop
-* On Gamepad, you'll now be able to scroll through an items description using the right thumbstick. This is useful for items with longer descriptions where the entire description doesn't fit inside the item inspector.
-* Hotbar support
-* GroomComponents (hair) will now render correct in the inventory window
+-"How much would you like to drop/buy/sell/take/store?" modal dialog that opens, allowing gamepads and mouse/keyboard better control over how much of an item they want to drop
+- On Gamepad, you'll now be able to scroll through an items description using the right thumbstick. This is useful for items with longer descriptions where the entire description doesn't fit inside the item inspector.
+- Hotbar support
+- GroomComponents (hair) will now render correct in the inventory window
 
 ### Bugfixes/Misc
-* Fix issue where you could carry 1 more item than the capacity you had set in your Inventory Component****
+-Fix issue where you could carry 1 more item than the capacity you had set in your Inventory Component****
