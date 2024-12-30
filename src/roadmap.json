@@ -303,11 +303,11 @@
     },
     {
         "product": ["Pro"],
-        "year": 2024,
-        "quarter": 4,
+        "year": 2025,
+        "quarter": 1,
         "type": "Feature",
-        "name": "1.1 release",
-        "desc": "Pro version 1.1.0 major release.",
+        "name": "1.1 release - LATE",
+        "desc": "Pro version 1.1.0 major release. Late due to delayed upload & Epic validation times.",
         "descList": [
             "Radial Menus will now be included with the plugin.",
             "Save Metadata has been added, and save slots show additional details like username and location.",
@@ -648,10 +648,10 @@
     },
     {
         "product": ["Navigator"],
-        "year": 2024,
-        "quarter": 4,
+        "year": 2025,
+        "quarter": 1,
         "type": "Misc",
-        "name": "1.1.1 release",
+        "name": "1.1.1 release - LATE",
         "descList": [
             "Support for Unreal 5.5",
             "Task bug fixes",
@@ -668,6 +668,16 @@
         "descList": [
             "Support for Unreal 5.5",
             "Fixed bugs with missing images"
+        ]
+    },
+    {
+        "product": ["Common UI"],
+        "year": 2024,
+        "quarter": 4,
+        "type": "Misc",
+        "name": "1.4.2 Release",
+        "descList": [
+            "Added key icons for mouse / thumbstick movement"
         ]
     },
     {
