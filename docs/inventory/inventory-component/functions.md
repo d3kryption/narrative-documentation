@@ -147,4 +147,4 @@ Return the price we'll sell the given item for.
 
 ## Give Default Items
 
-Instead of calling this automatically on beginplay we let designers call this when they like.
+Instead of calling this automatically on Event Begin Play we let designers call this when they like.

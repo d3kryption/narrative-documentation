@@ -8,22 +8,20 @@ def convert_image_to_webp(image_path):
         img.save(webp_path, 'webp')
     os.remove(image_path)
 
-def search_and_convert_images(folder_path, exclude_filenames=None):
-    """Recursively searches for .jpg and .webp files, converts them to .webp, and removes the originals."""
+def convert_images_in_current_directory(folder_path, exclude_filenames=None):
+    """Converts .jpg and .png files in the current directory to .webp and removes the originals."""
     if exclude_filenames is None:
         exclude_filenames = []
 
-    for root, _, files in os.walk(folder_path):
-        for file in files:
-            if (file.lower().endswith(('.jpg', '.png')) and
-                file not in exclude_filenames):
-                print(file)
-                
-                file_path = os.path.join(root, file)
-                convert_image_to_webp(file_path)
+    for file in os.listdir(folder_path):
+        if (file.lower().endswith(('.jpg', '.png')) and
+            file not in exclude_filenames):
+            print(f"Converting: {file}")
+            file_path = os.path.join(folder_path, file)
+            convert_image_to_webp(file_path)
 
 if __name__ == "__main__":
-    folder_to_search = "/home/jackhannibalmarioripper/Documents/Websites/narrative-docs/static/img/plugin-upgrades/"  # Replace with your target folder path
+    folder_to_search = os.path.dirname(os.path.abspath(__file__))  # Use the script's directory
     excluded_files = ['android-chrome-192x192.webp', 'android-chrome-512x512.webp', 'apple-touch-icon.webp', 'docusaurus.webp', 'docusaurus-social-card.jpg', 'favicon.ico', 'favicon-16x16.webp', 'favicon-32x32.webp']  # Add any filenames you want to exclude
-    search_and_convert_images(folder_to_search, exclude_filenames=excluded_files)
+    convert_images_in_current_directory(folder_to_search, exclude_filenames=excluded_files)
 
