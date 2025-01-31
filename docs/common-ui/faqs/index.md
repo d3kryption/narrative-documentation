@@ -16,6 +16,10 @@ import React from 'react';
     <p>You will need to combine the Input Data Tables and either rebind your existing one or the Narrative Widgets.</p>
 </div>
 <div>
+    <h3>How to remove the action buttons at the bottom of dialogue?</h3>
+    <p>Open `WBP_NarrativeHUD` and set its Visibility property to **Collapsed**.</p>
+</div>
+<div>
     <h3>Why do I have to install a separate plugin just to use my Narrative products UI?</h3>
     <p>It allows us to do some amazing stuff we couldn't otherwise:</p>
     <ul>
