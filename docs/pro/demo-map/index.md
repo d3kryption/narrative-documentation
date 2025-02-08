@@ -43,17 +43,21 @@ Easily turn NPC's into [companions](../npcs/followers.md) who follow you anywher
 
 ![bookpickup.webp](/img/pro/books/bookpickup.webp)
 
+![book-example.webp](/img/pro/demo-map/book-example.webp)
+
+## Character Creator
+
+A builtin fully usable Character Creator to allow your users to customise their player in game. Easily modify the character via Morph Targets and meshes.
+
+![character_creator.webp](/img/pro/demo-map/character_creator.webp)
+
+![character_creator_2.webp](/img/pro/demo-map/character_creator_2.webp)
+
 ## Dialogue
 
 Full [dialogue system](../dialogue/index.md) supported with flexible options, camera, lighting, sound and sequences.
 
 ![dialogue.webp](/img/pro/demo-map/dialogue.webp)
-
-### Seamless transitions
-
-Create [AAA quality transitions](../dialogue/index.md) when moving between gameplay and dialogue with ease.
-
-![dialogue-transistions.webp](/img/pro/demo-map/dialogue-transistions.webp)
 
 ### Companions
 
@@ -62,6 +66,12 @@ Easily make NPC's follow you from a dialogue option
 ![dialogue-companions.webp](/img/pro/demo-map/dialogue-companions.webp)
 
 ![dialogue-companion-follow.webp](/img/pro/demo-map/dialogue-companion-follow.webp)
+
+### Seamless transitions
+
+Create [AAA quality transitions](../dialogue/index.md) when moving between gameplay and dialogue with ease.
+
+![dialogue-transistions.webp](/img/pro/demo-map/dialogue-transistions.webp)
 
 ## Equipment
 
@@ -101,6 +111,12 @@ An [integrated weapons system](../inventory/items/equipment/weapons/weapons.md) 
 
 ![interaction-bodies.webp](/img/pro/demo-map/interaction-bodies.webp)
 
+## Interaction Slots
+
+A replacement for Unreal's Smart Objects, that is fully replicated allowing you to assign capacities to interactable objects.
+
+![interaction-slots.webp](/img/pro/demo-map/interaction-slots.webp)
+
 ## Inventory
 
 Pressing the **TAB** key will show you your [inventory](../ui/inventory/index.md).
@@ -113,17 +129,17 @@ Easily create [lootable actors](../inventory/looting) where you can take or give
 
 ![inventory-looting.webp](/img/pro/demo-map/inventory-looting.webp)
 
-### Trading / Shops
-
-Create [traders or shops](../inventory/looting/trading.md) in your world, so you can buy and sell anything you want. Its as easy as adding a component and adding properties.
-
-![npc-trading-shop-ui.webp](/img/pro/inventory/npc-trading-shop-ui.webp)
-
 ### Quantity selector
 
 A nice easy to use quantity selector when looting or trading with shops to select your exact quantity.
 
 ![inventory-quantitypicker.webp](/img/pro/inventory/inventory-quantitypicker.webp)
+
+### Trading / Shops
+
+Create [traders or shops](../inventory/looting/trading.md) in your world, so you can buy and sell anything you want. Its as easy as adding a component and adding properties.
+
+![npc-trading-shop-ui.webp](/img/pro/inventory/npc-trading-shop-ui.webp)
 
 ## Navigator
 
@@ -148,6 +164,12 @@ If you enter your menu, you have a [world map](../ui/navigator/worldmap.md) wher
 A new [NPC manager tool](../npcs/index.md) has been added, so you can manage every detail about your NPCs from data assets. Names, instances, classes, factions, dialogue, inventory, appearance all stated inside the data asset to make it really easy to track and use NPCs.
 
 ![npc-data-assets.webp](/img/pro/npcs/npc-data-assets.webp)
+
+## NPC schedules
+
+A new tool allowing you to schedule NPC's to perform certain tasks at specific times or in specific weather making your world come alive.
+
+![npc-schedules.webp](/img/pro/demo-map/npc-schedules.webp)
 
 ## Pause menu
 
@@ -204,3 +226,9 @@ Once loading has completed, you will instantly discover your [current location](
 Create [bandit camps](../settlements) where enemies will attack you on sight.
 
 ![settlement-banditcamps.webp](/img/pro/demo-map/settlement-banditcamps.webp)
+
+## Time & Weather
+
+A builtin and easy to use Time and Weather system to allow you to create time based quests and give NPC's schedules.
+
+![narrative-time-and-weather.webp](/img/pro/demo-map/narrative-time-and-weather.webp)

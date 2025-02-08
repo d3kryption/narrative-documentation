@@ -35,89 +35,58 @@ The settings we are about to set **must** be named the **exact** same name we st
 
 :::
 
-## Collision
+## Project -> Maps & Modes
 
-:::note
+Set the **Default GameMode** to `BP_NarrativeGameMode`
 
-You must enter the collision profiles in the correct order. You **will** run into issues if they are mixed up.
+![default_gamemode.webp](/img/pro/Installation/default_gamemode.webp)
 
-:::
+Set the **Editor Startup Map** to `DemoMap` and set the **Game Default Map** to `MainMenu`
 
-Go to **Engine** -> **Collision**
+![defaultmaps.webp](/img/pro/Installation/project-settings/defaultmaps.webp)
 
-![engine-collision.webp](/img/pro/Installation/project-settings/engine-collision.webp)
+Set the **Game Instance Class** to `BP_NarrativeGameInstance`
 
-Click **New Trace Channel...**
+![gameinstance.webp](/img/pro/Installation/project-settings/gameinstance.webp)
 
-![new-trace-channel.webp](/img/pro/Installation/project-settings/new-trace-channel.webp)
 
-Set a new channel called:
-
-```ini
-NarrativeInteraction
-```
-
-and the Default Response to **Ignore** then click **Accept**
-
-![new-trace-channel-interaction.webp](/img/pro/Installation/project-settings/new-trace-channel-interaction.webp)
-
-Set another new channel called:
-
-```ini
-NarrativeWeapon
-```
-
-and the Default Response to **Block** then click **Accept**
-
-![new-trace-channel-weapon.webp](/img/pro/Installation/project-settings/new-trace-channel-weapon.webp)
-
-## Surface Types
-
-Go to **Engine** -> **Physics** -> **Physical Surface**
-
-Add a surface type into **SurfaceType1** called:
-
-```ini
-Character
-```
-
-Then add another surface type into **SurfaceType1** called:
-
-```ini
-Concrete
-```
-
-![surface-types.webp](/img/pro/Installation/project-settings/surface-types.webp)
-
-## Game Settings
-
-Go to **Engine** -> **General Settings** -> **Default Classes**
-
-Under **Advanced** set the **Game User Settings Class** to `NarrativeGameUserSettings`
-
-![gameusersettings.webp](/img/pro/Installation/project-settings/gameusersettings.webp)
-
-## Asset Manager
-
-Go to **Engine** -> **General Settings** -> **Default Classes**
+## Engine -> General Settings -> Asset Manager
 
 Under **Advanced** set the **Asset Manager Class** to `NarrativeAssetManager`
 
 ![assetmanagerclass.webp](/img/pro/Installation/project-settings/assetmanagerclass.webp)
 
-## Common UI
+## Engine -> Collision
 
-Go to **Engine** -> **General Settings** -> **Default Classes**
+:::note
+
+You must enter the collision profiles in the correct **order**. You **will** run into issues if they are mixed up.
+
+:::
+
+Click **New Trace Channel...**
+
+![new-trace-channel.webp](/img/pro/Installation/project-settings/new-trace-channel.webp)
+
+Set a new channel for each of the rows below:
+
+| Name                 | Default Response | Description                                     |
+|----------------------|------------------|-------------------------------------------------|
+| NarrativeInteraction | Ignore           | Allows an actor to be detected as interactable. |
+| NarrativeWeapon      | Block            | Allows weapons to detect actors.                |
+| NarrativeClimbable   | Ignore           | Allows actors to receive climbing traces.       |
+
+## Engine -> General Settings -> Common UI
 
 Set the **Game Viewport Client Class** to `CommonGameViewportClient`
 
 ![ViewportChange.webp](/img/common-ui/ViewportChange.webp)
 
-### Input settings
+### Game -> Common Input Settings
 
-Go to **Game** -> **Common Input Settings** -> **Input**
+Set the input data to be `BP_NarrativeInputData`.
 
-Inside the **Platform Input** for each platform you want to support, open up the sub menu and set **Default Gamepad Name** to be:
+Then inside the **Platform Input** for each platform you want to support, open up the sub menu and set **Default Gamepad Name** to be:
 
 ```ini
 Generic
@@ -127,53 +96,50 @@ Then set the **Controller Data** for each device you want to support.
 
 ![commoninputsettings.webp](/img/pro/Installation/project-settings/commoninputsettings.webp)
 
-## Audio
+## Engine -> Narrative - Save System
 
-Go to **Engine** -> **Audio** -> **Audio**
+If you want to use Narratives built in CharacterCreator, set the Save Game Class to `NarrativeSaveWithCreatorData`.
+
+Otherwise, leave this as `NarrativeSave`.
+
+![save-game-class.webp](/img/pro/Installation/project-settings/save-game-class.webp)
+
+## Engine -> Audio
 
 ### Sound Classes
 
-Set the **Default Sound Class** and the **Default Media Sound Class** to `Master`
+Set the **Default Sound Class** and the **Default Media Sound Class** to `Narrative_Master`
 
-:::note
+![sound-class-masters.webp](/img/pro/Installation/project-settings/sound-class-masters.webp)
 
-Make sure you set the **Master** that belongs inside **NarrativePro**. Do **not** use the **Master** inside **Engine**
-
-**Correct:**
-
-![goodmastersoundclass.webp](/img/pro/Installation/project-settings/goodmastersoundclass.webp)
-
-**Incorrect:**
-
-![badmastersoundclass.webp](/img/pro/Installation/project-settings/badmastersoundclass.webp)
-
-:::
-
-### Sound Mix
-
-Set the **Default Base Sound Mix** to `MasterMix`
+Set the **Default Base Sound Mix** to `Narrative_MasterMix`
 
 ![mastermix.webp](/img/pro/Installation/project-settings/mastermix.webp)
 
-## Game Instance
 
-Go to **Project** -> **Maps & Modes** -> **Game Instance**
+## Engine -> General Settings -> Default Classes -> Advanced
 
-Set the **Game Instance Class** to `NarrativeGameInstance`
+Set the **Game User Settings Class** to `NarrativeGameUserSettings`
 
-![gameinstance.webp](/img/pro/Installation/project-settings/gameinstance.webp)
+![gameusersettings.webp](/img/pro/Installation/project-settings/gameusersettings.webp)
 
-## Default Maps
 
-Go to **Project** -> **Maps & Modes** -> **Default Maps**
+## Engine -> Physics -> Physical Surface
 
-Set the **Editor Startup Map** to `DemoMap` and set the **Game Default Map** to `MainMenu`
+Add a surface type into **SurfaceType1** called:
 
-![defaultmaps.webp](/img/pro/Installation/project-settings/defaultmaps.webp)
+```ini
+Character
+```
 
-## Default GameMode
+Then add another surface type into **SurfaceType2** called:
 
-Go to **Project** -> **Maps & Modes** -> **Default GameMode**
+```ini
+Concrete
+```
 
-Set the **Default GameMode** to `BP_NarrativeGameMode`
+![surface-types.webp](/img/pro/Installation/project-settings/surface-types.webp)
 
+## Restart
+
+With the above changes, you now need to restart your editor.

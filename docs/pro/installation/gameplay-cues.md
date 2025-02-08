@@ -17,6 +17,6 @@ Click and drag the **Cues** folder into your **Content** folder.
 
 :::note
 
-The reason we need to move the folder, is at the time of creation (2024/08/31), Epic **GameplayAbilitySystem (GAS)** does not allow **GameplayCues** to exist inside the **Plugins** folder.
+The reason we need to move the folder, is at the time of creation (2025/02/01), Epic **GameplayAbilitySystem (GAS)** does not allow **GameplayCues** to exist inside the **Plugins** folder.
 
 :::
