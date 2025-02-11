@@ -46,6 +46,12 @@ Allows you to skip time by an incremental amount. Useful for testing time or del
 |------|----------------------------------------|----------------------------------------------|
 | Time | int32                                  | The amount of time to advance by in minutes. |
 
+### ShowDebug - TimeOfDay
+
+The show debug time of day command allows you to view [Narrative Sky](../narrative-sky/index.md) information in the editor.
+
+![show-debug-time-of-day.webp](/img/pro/editor-tools/show-debug-time-of-day.webp)
+
 
 ## C++
 
