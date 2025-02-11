@@ -358,7 +358,7 @@
     {
         "product": ["Interaction"],
         "year": 2025,
-        "quarter": 2,
+        "quarter": 1,
         "type": "Feature",
         "name": "Draw trace debug",
         "desc": "A editor only boolean has been added to the interaction to now draw the traces making it easier to visualise where the trace is hitting."
@@ -659,13 +659,21 @@
         "year": 2025,
         "quarter": 1,
         "type": "Misc",
-        "name": "1.1.1 release - LATE",
+        "name": "1.1.1 release",
         "descList": [
             "Support for Unreal 5.5",
             "Task bug fixes",
             "Controller fixes on world map",
             "Support for Tales 3.6.0"
         ]
+    },
+    {
+        "product": ["Navigator"],
+        "year": 2025,
+        "quarter": 2,
+        "type": "Feature",
+        "name": "Layers",
+        "desc": "The navigator layers system will allow you to change maps per location such as interiors."
     },
     {
         "product": ["Common UI"],
@@ -707,5 +715,40 @@
         "type": "Bugfix",
         "name": "Missing images",
         "desc": "The missing images T_vingette and T_Mark will be fixed."
+    },
+    {
+        "product": ["Common UI"],
+        "year": 2025,
+        "quarter": 2,
+        "type": "Feature",
+        "name": "Enhanced Input Support / Docs",
+        "desc": "Looking at the ability to add Enhanced Input support or documentation how to easily upgrade."
+    },
+    {
+        "product": ["Common UI"],
+        "year": 2025,
+        "quarter": 2,
+        "type": "Feature",
+        "name": "Common UI Migration Docs",
+        "desc": "If using another plugin / system with CommonUI, you cannot have multiple CommonUI setups. These docs will guide how to migrate to another input."
+    },
+    {
+        "product": ["Common UI"],
+        "year": 2025,
+        "quarter": 2,
+        "type": "Feature",
+        "name": "Pro Styles Migration",
+        "desc": "Migrating the Pro styling system to Narrative Common UI"
+    },
+    {
+        "product": ["Pro"],
+        "year": 2025,
+        "quarter": 2,
+        "type": "Feature",
+        "name": "Pro updates 1.2",
+        "descList": [
+            "Quest conditions per tasks as well as branch",
+            "NPC Spawning improvements - Better visualisation, easier workflow"
+        ]
     }
 ]

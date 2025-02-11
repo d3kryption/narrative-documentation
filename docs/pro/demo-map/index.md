@@ -47,7 +47,7 @@ Easily turn NPC's into [companions](../npcs/followers.md) who follow you anywher
 
 ## Character Creator
 
-A builtin fully usable Character Creator to allow your users to customise their player in game. Easily modify the character via Morph Targets and meshes.
+A builtin fully usable Character Creator to allow your users to customise their player in game. Easily modify the character via [Morph Targets and meshes](../inventory/items/equipment/character-appearance.md).
 
 ![character_creator.webp](/img/pro/demo-map/character_creator.webp)
 
