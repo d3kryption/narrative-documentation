@@ -8,4 +8,4 @@ When this widget is created, it removes input from the game so the player has to
 
 The only purpose of this is to show the players selection options.
 
-![player-options.webp](/img/quests-and-dialogue/ui/player-options.webp)
+![player-options.webp](//img/quests-and-dialogue/ui/player-options.webp)

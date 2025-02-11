@@ -7,7 +7,7 @@ import NarrativeCommonUiLink from '/src/components/narrative-common-ui-link.mdx'
 
 # Navigator
 
-![introduction.webp](/img/pro/navigator/introduction.webp)
+![introduction.webp](//img/pro/navigator/introduction.webp)
 
 Navigator is a full map system that allows you to create world maps, minimaps, compasses and on screen markers with ease.
 

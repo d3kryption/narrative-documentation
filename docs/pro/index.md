@@ -4,7 +4,7 @@ sidebar_label: 'Pro'
 
 # Narrative Pro Documentation
 
-![Introduction.webp](/img/pro/introduction.webp)
+![Introduction.webp](//img/pro/introduction.webp)
 
 Welcome to the Narrative Pro quick start guide. This guide will show you how to set up Narrative Pro and configure your game. After this guide, you will have a fully working demo with all the necessary functionality.
 

@@ -67,4 +67,4 @@ Tasks once setup are super easy to use.
 
 Simply select or create a [branch](../branches.md) then populate the tasks array with your task.
 
-![quest-tasks.webp](/img/quests/quest-tasks.webp)
+![quest-tasks.webp](//img/quests/quest-tasks.webp)

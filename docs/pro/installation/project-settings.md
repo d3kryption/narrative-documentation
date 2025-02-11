@@ -11,11 +11,11 @@ In order to make Narrative Pro work, we need to change some settings on the proj
 
 For ease, you can download the config files here:
 
-[Config Files](/img/pro/Installation/NarrativeProConfig.zip)
+[Config Files](//img/pro/Installation/NarrativeProConfig.zip)
 
 Extract them inside your projects **Config** folder replacing all other files. You will have to restart Unreal.
 
-![downloadconfigs.webp](/img/pro/Installation/project-settings/downloadconfigs.webp)
+![downloadconfigs.webp](//img/pro/Installation/project-settings/downloadconfigs.webp)
 
 :::note
 
@@ -27,7 +27,7 @@ These config files should work in most instances. If they don't, try going throu
 
 Go to **Edit** -> **Project Settings**
 
-![editprojectsettings.webp](/img/pro/Installation/project-settings/editprojectsettings.webp)
+![editprojectsettings.webp](//img/pro/Installation/project-settings/editprojectsettings.webp)
 
 :::warning
 
@@ -39,22 +39,22 @@ The settings we are about to set **must** be named the **exact** same name we st
 
 Set the **Default GameMode** to `BP_NarrativeGameMode`
 
-![default_gamemode.webp](/img/pro/Installation/default_gamemode.webp)
+![default_gamemode.webp](//img/pro/Installation/default_gamemode.webp)
 
 Set the **Editor Startup Map** to `DemoMap` and set the **Game Default Map** to `MainMenu`
 
-![defaultmaps.webp](/img/pro/Installation/project-settings/defaultmaps.webp)
+![defaultmaps.webp](//img/pro/Installation/project-settings/defaultmaps.webp)
 
 Set the **Game Instance Class** to `BP_NarrativeGameInstance`
 
-![gameinstance.webp](/img/pro/Installation/project-settings/gameinstance.webp)
+![gameinstance.webp](//img/pro/Installation/project-settings/gameinstance.webp)
 
 
 ## Engine -> General Settings -> Asset Manager
 
 Under **Advanced** set the **Asset Manager Class** to `NarrativeAssetManager`
 
-![assetmanagerclass.webp](/img/pro/Installation/project-settings/assetmanagerclass.webp)
+![assetmanagerclass.webp](//img/pro/Installation/project-settings/assetmanagerclass.webp)
 
 ## Engine -> Collision
 
@@ -66,7 +66,7 @@ You must enter the collision profiles in the correct **order**. You **will** run
 
 Click **New Trace Channel...**
 
-![new-trace-channel.webp](/img/pro/Installation/project-settings/new-trace-channel.webp)
+![new-trace-channel.webp](//img/pro/Installation/project-settings/new-trace-channel.webp)
 
 Set a new channel for each of the rows below:
 
@@ -80,7 +80,7 @@ Set a new channel for each of the rows below:
 
 Set the **Game Viewport Client Class** to `CommonGameViewportClient`
 
-![ViewportChange.webp](/img/common-ui/ViewportChange.webp)
+![ViewportChange.webp](//img/common-ui/ViewportChange.webp)
 
 ### Game -> Common Input Settings
 
@@ -94,7 +94,7 @@ Generic
 
 Then set the **Controller Data** for each device you want to support.
 
-![commoninputsettings.webp](/img/pro/Installation/project-settings/commoninputsettings.webp)
+![commoninputsettings.webp](//img/pro/Installation/project-settings/commoninputsettings.webp)
 
 ## Engine -> Narrative - Save System
 
@@ -102,7 +102,7 @@ If you want to use Narratives built in CharacterCreator, set the Save Game Class
 
 Otherwise, leave this as `NarrativeSave`.
 
-![save-game-class.webp](/img/pro/Installation/project-settings/save-game-class.webp)
+![save-game-class.webp](//img/pro/Installation/project-settings/save-game-class.webp)
 
 ## Engine -> Audio
 
@@ -110,18 +110,18 @@ Otherwise, leave this as `NarrativeSave`.
 
 Set the **Default Sound Class** and the **Default Media Sound Class** to `Narrative_Master`
 
-![sound-class-masters.webp](/img/pro/Installation/project-settings/sound-class-masters.webp)
+![sound-class-masters.webp](//img/pro/Installation/project-settings/sound-class-masters.webp)
 
 Set the **Default Base Sound Mix** to `Narrative_MasterMix`
 
-![mastermix.webp](/img/pro/Installation/project-settings/mastermix.webp)
+![mastermix.webp](//img/pro/Installation/project-settings/mastermix.webp)
 
 
 ## Engine -> General Settings -> Default Classes -> Advanced
 
 Set the **Game User Settings Class** to `NarrativeGameUserSettings`
 
-![gameusersettings.webp](/img/pro/Installation/project-settings/gameusersettings.webp)
+![gameusersettings.webp](//img/pro/Installation/project-settings/gameusersettings.webp)
 
 
 ## Engine -> Physics -> Physical Surface
@@ -138,7 +138,7 @@ Then add another surface type into **SurfaceType2** called:
 Concrete
 ```
 
-![surface-types.webp](/img/pro/Installation/project-settings/surface-types.webp)
+![surface-types.webp](//img/pro/Installation/project-settings/surface-types.webp)
 
 ## Restart
 

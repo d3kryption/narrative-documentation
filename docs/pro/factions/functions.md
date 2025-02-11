@@ -10,7 +10,7 @@ The Factions system features a bunch of functions that allow you to get or set t
 
 Allows you to get the current relationship of two factions.
 
-![get-faction-attitude-towrads-faction.webp](/img/pro/factions/get-faction-attitude-towrads-faction.webp)
+![get-faction-attitude-towrads-faction.webp](//img/pro/factions/get-faction-attitude-towrads-faction.webp)
 
 ### Inputs
 
@@ -29,7 +29,7 @@ Allows you to get the current relationship of two factions.
 
 Allows you to get the current relationship of multiple factions at once.
 
-![get-faction-attitudes-towrads-faction.webp](/img/pro/factions/get-faction-attitudes-towrads-faction.webp)
+![get-faction-attitudes-towrads-faction.webp](//img/pro/factions/get-faction-attitudes-towrads-faction.webp)
 
 ### Inputs
 
@@ -48,7 +48,7 @@ Allows you to get the current relationship of multiple factions at once.
 
 Allows you to set the current relationship of a faction.
 
-![set-faction-attitude.webp](/img/pro/factions/set-faction-attitude.webp)
+![set-faction-attitude.webp](//img/pro/factions/set-faction-attitude.webp)
 
 ### Inputs
 

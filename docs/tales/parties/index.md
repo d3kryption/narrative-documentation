@@ -20,7 +20,7 @@ A common place is the game state since this will be available to all players.
 
 Another option is to create a replicated actor and add the Narrative Party component to it.
 
-![game-state-parties.webp](/img/quests-and-dialogue/parties/game-state-parties.webp)
+![game-state-parties.webp](//img/quests-and-dialogue/parties/game-state-parties.webp)
 
 ### Adding players to the party
 

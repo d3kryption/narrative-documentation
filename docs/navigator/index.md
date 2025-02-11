@@ -6,7 +6,7 @@ import NarrativeCommonUiLink from '/src/components/narrative-common-ui-link.mdx'
 
 # Narrative Navigator Documentation
 
-![introduction.webp](/img/navigator/introduction.webp)
+![introduction.webp](//img/navigator/introduction.webp)
 
 Welcome to the Narrative Navigator's quick start guide. This guide will show you how to setup all the navigation methods Navigator has to offer. After this guide, you will know how to add each component to your game with all the necessary functionality.
 

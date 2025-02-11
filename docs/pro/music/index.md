@@ -13,4 +13,4 @@ You can set the to play in each relevant area:
 - `Combat Music Sound Wave`
 - `Main Menu Sound Wave`
 
-![game-sounds.webp](/img/pro/music/game-sounds.webp)
+![game-sounds.webp](//img/pro/music/game-sounds.webp)

@@ -36,19 +36,19 @@ Make sure you use the Narrative - Get Time of Day function. Not the UDS one.
 
 We need to allow UDS Weather to be saved. Open **Ultra_Dynamic_Weather** and add the interface for saving, [Narrative Savable Actor](../saving/index.md).
 
-![savable-actor.webp](/img/pro/narrative-sky/intergrations/savable-actor.webp)
+![savable-actor.webp](//img/pro/narrative-sky/intergrations/savable-actor.webp)
 
 Now open the construction script, and add the **Create Save Guid** function, then promote the **Out Guid** to a variable.  
 
-![create-save-guid.webp](/img/pro/narrative-sky/intergrations/create-save-guid.webp)
+![create-save-guid.webp](//img/pro/narrative-sky/intergrations/create-save-guid.webp)
 
 Go into the Interfaces section and search for the **GetActorGuid** function. Connect your new **Out Guid** variable.
 
-![uds-weather-guid.webp](/img/pro/narrative-sky/intergrations/uds-weather-guid.webp)
+![uds-weather-guid.webp](//img/pro/narrative-sky/intergrations/uds-weather-guid.webp)
 
 Finally, to save the weather, select the **Weather** variable from the variables section, then inside the **Details** panel, under **Advanced** tick **Save Game**.
 
-![uds-weather-savegame.webp](/img/pro/narrative-sky/intergrations/uds-weather-savegame.webp)
+![uds-weather-savegame.webp](//img/pro/narrative-sky/intergrations/uds-weather-savegame.webp)
 
 ### Events
 

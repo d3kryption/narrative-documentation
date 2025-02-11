@@ -10,7 +10,7 @@ The equipment component is the component to use if you would like to attach item
 
 To start using the equipment component, simply add the equipment component to your character that requires equipable items.
 
-![equipment-component.webp](/img/inventory/equipment-component.webp)
+![equipment-component.webp](//img/inventory/equipment-component.webp)
 
 Typically, equipping items works best if your mesh is split into multiple segments. Commonly the split is Feet, Legs, Body and Face.
 
@@ -30,7 +30,7 @@ Earlier versions of Unreal Engine called the Leader Pose the Master Pose.
 
 :::
 
-![equipment-init.webp](/img/inventory/equipment-init.webp)
+![equipment-init.webp](//img/inventory/equipment-init.webp)
 
 Finally, you need to tell the equipment which meshes are bound to which equipment slots. Drag out from the Clothing Meshes property and choose Make Map.
 
@@ -38,7 +38,7 @@ Now for each equipable slot you have, set the key to the slot type and the mesh 
 
 In this example, we have added a torso, legs and feet equipable slots.
 
-![equipnment-map.webp](/img/inventory/equipnment-map.webp)
+![equipnment-map.webp](//img/inventory/equipnment-map.webp)
 
 
 

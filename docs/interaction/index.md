@@ -6,7 +6,7 @@ import NarrativeCommonUiLink from '/src/components/narrative-common-ui-link.mdx'
 
 # Narrative Interaction Documentation
 
-![Introduction.webp](/img/interaction/Introduction.webp)
+![Introduction.webp](//img/interaction/Introduction.webp)
 
 Welcome to the Narrative Interaction quick start guide. This guide will show you how to create your first interaction. After this guide, you will know how to add interaction to your game with all the necessary functionality.
 

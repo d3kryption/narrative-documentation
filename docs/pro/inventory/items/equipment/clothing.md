@@ -4,7 +4,7 @@ sidebar_label: 'Clothing'
 
 # Clothing
 
-Clothing is a child class of the [Narrative Item](../index.md) and features some more properties and functions to allow you to create equipable clothing.
+Clothing is a child class of the [Narrative Item](../index.md) and features some more properties and functions to allow you to create equippable clothing.
 
 ## Properties
 

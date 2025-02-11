@@ -16,13 +16,13 @@ It will show you the details of the Plugin.
 
 The key line to change is the **Engine Version**.
 
-![engine-version-uplugin.webp](/img/plugin-upgrades/engine-version-uplugin.webp)
+![engine-version-uplugin.webp](//img/plugin-upgrades/engine-version-uplugin.webp)
 
 Set this to your Unreal Engines **MINOR** version. You do not need to add the **PATCH** version.
 
 For example, `5.3.3` would be `5.3.0`. This allows it to work with any 5.3 versions of Unreal.
 
-![versioning.webp](/img/plugin-upgrades/versioning.webp)
+![versioning.webp](//img/plugin-upgrades/versioning.webp)
 
 ## Project plugin
 
@@ -30,7 +30,7 @@ Sometimes the easiest way to upgrade a plugin is to simply move it into your pro
 
 Open your project in a **File Explorer** and **next to** the **Content** folder create a folder called `Plugins`.
 
-![plugins-folder.webp](/img/plugin-upgrades/plugins-folder.webp)
+![plugins-folder.webp](//img/plugin-upgrades/plugins-folder.webp)
 
 Cut the plugin from your Engine (or other project) and paste it into this folder.
 
@@ -48,7 +48,7 @@ Now try opening your project. Sometimes, Unreal can automatically build the plug
 
 You may see an error about Unreal requiring to build the plugins. This is normal, just click **Yes**.
 
-![unreal-build-plugins.webp](/img/plugin-upgrades/unreal-build-plugins.webp)
+![unreal-build-plugins.webp](//img/plugin-upgrades/unreal-build-plugins.webp)
 
 :::
 
@@ -60,7 +60,7 @@ A popular method is to use an existing C++ based Project and build the plugin th
 
 Follow the steps [above](./plugin-upgrades.md#project-plugin).
 
-![generate-vs-code-files.webp](/img/plugin-upgrades/generate-vs-code-files.webp)
+![generate-vs-code-files.webp](//img/plugin-upgrades/generate-vs-code-files.webp)
 
 Instead of opening the project, now generate the Visual Studio Code Files then open the .SLN file in JetBrains Rider or Visual Studio.
 

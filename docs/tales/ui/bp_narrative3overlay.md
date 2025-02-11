@@ -16,13 +16,13 @@ The quests section starts within the **TaskBox** VerticalBox.
 
 The **QuestUpdatedSubtext** is a TextBlock which shows the current quest state. Updated, Started, Failed or Succeeded.
 
-![quest-updated-subtext.webp](/img/quests-and-dialogue/ui/bp_narrative3overlay/quest-updated-subtext.webp)
+![quest-updated-subtext.webp](//img/quests-and-dialogue/ui/bp_narrative3overlay/quest-updated-subtext.webp)
 
 ### Quest Updated Text
 
 The **Quest Updated Text** is a TextBlock which shows the current quest name that you set in the [Class Defaults](../quests/index.md#class-defaults).
 
-![quest-updated-text.webp](/img/quests-and-dialogue/ui/bp_narrative3overlay/quest-updated-text.webp)
+![quest-updated-text.webp](//img/quests-and-dialogue/ui/bp_narrative3overlay/quest-updated-text.webp)
 
 ### BranchesBox
 
@@ -34,4 +34,4 @@ The **BranchesBox** it a VerticalBox that is populated with [BP_QuestBranch's](.
 
 The dialogue section handles rendering the spoken text not the [PlayerOptions](./w_narrativemenu_dialogue.md).
 
-![dialogue-speaker-text.webp](/img/quests-and-dialogue/ui/bp_narrative3overlay/dialogue-speaker-text.webp)
+![dialogue-speaker-text.webp](//img/quests-and-dialogue/ui/bp_narrative3overlay/dialogue-speaker-text.webp)

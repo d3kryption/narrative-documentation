@@ -14,25 +14,25 @@ Below is a list of each section of the UI with links to the components that buil
 
 The quest info is displayed via the [BP_Narrative3Overlay](./bp_narrative3overlay.md#quests).
 
-![quest-info.webp](/img/quests-and-dialogue/ui/quest-info.webp)
+![quest-info.webp](//img/quests-and-dialogue/ui/quest-info.webp)
 
 ## Quest Journal
 
 The quest journal has its own widget via the [W_NarrativeMenu_QuestJournal](./w_narrativemenu_questjournal.md)
 
-![quest-journal.webp](/img/quests/journal/quest-journal.webp)
+![quest-journal.webp](//img/quests/journal/quest-journal.webp)
 
 ## NPC Dialogue
 
 The NPC dialogue is displayed via the [BP_Narrative3Overlay](./bp_narrative3overlay.md#dialogue).
 
-![npc-dialogue.webp](/img/quests-and-dialogue/ui/npc-dialogue.webp)
+![npc-dialogue.webp](//img/quests-and-dialogue/ui/npc-dialogue.webp)
 
 ## Player Dialogue
 
 The player dialogue has to take control of the players input so it uses a different widget to display the options. [W_NarrativeMenu_Dialogue](./w_narrativemenu_dialogue.md)
 
-![player-options.webp](/img/quests-and-dialogue/ui/player-options.webp)
+![player-options.webp](//img/quests-and-dialogue/ui/player-options.webp)
 
 ## Editor
 
@@ -44,10 +44,10 @@ You do not need to modify these for gameplay.
 
 This widget handles all nodes within dialogue. [WBP_DefaultDialogueNode](./wbp_defaultdialoguenode.md)
 
-![editor-dialogue-node.webp](/img/quests-and-dialogue/ui/editor-dialogue-node.webp)
+![editor-dialogue-node.webp](//img/quests-and-dialogue/ui/editor-dialogue-node.webp)
 
 ### Quest node
 
 This widget handles both QuestBranches and QuestStates. [WBP_DefaultQuestNode](./wbp_defaultquestnode.md)
 
-![editor-quest-node.webp](/img/quests-and-dialogue/ui/editor-quest-node.webp)
+![editor-quest-node.webp](//img/quests-and-dialogue/ui/editor-quest-node.webp)

@@ -6,7 +6,7 @@ import NarrativeCommonUiLink from '/src/components/narrative-common-ui-link.mdx'
 
 # Narrative Inventory Documentation
 
-![introduction.webp](/img/inventory/introduction.webp)
+![introduction.webp](//img/inventory/introduction.webp)
 
 Welcome to the Narrative Inventory's quick start guide. 
 

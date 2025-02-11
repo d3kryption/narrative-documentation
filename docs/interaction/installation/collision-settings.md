@@ -11,7 +11,7 @@ Unfortunately, Unreal's default collision settings ignore Visibility Traces for 
 
 Open your Unreal Project and go to **Edit** -> **Project Settings**. Under **Engine** select **Collision**.
 
-![engine-collision-settings.webp](/img/interaction/engine-collision-settings.webp)
+![engine-collision-settings.webp](//img/interaction/engine-collision-settings.webp)
 
 Open **Preset** under **Trace Channels** and double click **Pawn**. On the row of **Visibility**, change the tick from the **Ignore** column to the **Block** column and click **accept**.
 

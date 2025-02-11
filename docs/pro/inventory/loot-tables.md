@@ -10,7 +10,7 @@ Loot tables are used to provide items to Inventories, whether it's the players, 
 
 To create a new loot table, **Right Click** in the **Content Drawer** -> **Miscellaneous** -> **Data Table**.
 
-![loot-table-creation.webp](/img/inventory/loot-tables/loot-table-creation.webp)
+![loot-table-creation.webp](//img/inventory/loot-tables/loot-table-creation.webp)
 
 Select the **LootTableRow** data structure. 
 

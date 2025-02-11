@@ -12,7 +12,7 @@ This component is the driver that handles all [dialogue](../dialogue) or [quests
 
 This function will attempt to load the component from the target passed into it (self by default), then the owning controller then the pawn.
 
-![get-narrative-component.webp](/img/narrative-component/get-narrative-component.webp)
+![get-narrative-component.webp](//img/narrative-component/get-narrative-component.webp)
 
 :::note
 
@@ -34,7 +34,7 @@ Another method of getting hold of the [Narrative component](./index.md).
 
 This function allows you to specify which target you want to get the [Narrative Component](./index.md) from.
 
-![get-narrative-component-from-target.webp](/img/narrative-component/get-narrative-component-from-target.webp)
+![get-narrative-component-from-target.webp](//img/narrative-component/get-narrative-component-from-target.webp)
 
 :::note
 

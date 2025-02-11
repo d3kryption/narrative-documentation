@@ -13,7 +13,7 @@ import PlayerControllerSetup from '/src/components/player-controller-setup.mdx'
 
 Add the [Narrative Inventory](../inventory-component/index.md) component into your Player Controller.
 
-![inventory-component-player-controller.webp](/img/inventory/inventory-component-player-controller.webp)
+![inventory-component-player-controller.webp](//img/inventory/inventory-component-player-controller.webp)
 
 Now, you just need to get access to your HUD from the [CommonUI setup](../../common-ui/installation/narrative-hud.md) then call **OpenMenu** from a key press, passing the **WBP_Inventory** option.
 

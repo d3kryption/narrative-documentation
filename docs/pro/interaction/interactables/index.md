@@ -21,7 +21,7 @@ It is common to disable and enable an **interactable** item depending on your ga
 
 This can easily be toggled using Unreal's built in Activate and Deactivate events.
 
-![interactable_Activatedeactivate.webp](/img/interaction/interactable_Activatedeactivate.webp)
+![interactable_Activatedeactivate.webp](//img/interaction/interactable_Activatedeactivate.webp)
 
 ## Chaining interactable components
 

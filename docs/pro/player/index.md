@@ -20,9 +20,9 @@ To change the players mesh normally is easy enough as long as your new Skeletal 
 
 Firstly, Set the Body Mesh -> **Skeletal Mesh Asset** and the Mesh -> **Skeletal Mesh Asset**.
 
-![bodymesh.webp](/img/pro/player/bodymesh.webp)
+![bodymesh.webp](//img/pro/player/bodymesh.webp)
 
-![mesh.webp](/img/pro/player/mesh.webp)
+![mesh.webp](//img/pro/player/mesh.webp)
 
 ### Player Definition
 
@@ -32,7 +32,7 @@ This is useful if you have default classes in you game to pick from.
 
 From this section, open the Default [Appearance](../inventory/items/equipment/character-appearance.md) asset.
 
-![player-definitation.webp](/img/pro/player/player-definitation.webp)
+![player-definitation.webp](//img/pro/player/player-definitation.webp)
 
 ### Default Appearance
 
@@ -40,7 +40,7 @@ This asset contains all the meshes that set up the player. It allows you to crea
 
 Populate the meshes with your new custom player mesh.
 
-![apperance_player.webp](/img/pro/player/apperance_player.webp)
+![apperance_player.webp](//img/pro/player/apperance_player.webp)
 
 ### Animation Blueprints
 
@@ -58,7 +58,7 @@ The final step is to change the Animation Blueprints skeleton by right-clicking 
 
 Finally attach these new Animation Blueprints to the Default Appearance asset.
 
-![animation-blueprint.webp](/img/pro/player/animation-blueprint.webp)
+![animation-blueprint.webp](//img/pro/player/animation-blueprint.webp)
 
 ### Animations not working
 
@@ -72,11 +72,11 @@ Sometimes when using animations with different proportions to your character, Un
 
 However, you can override this functionality by opening your **Skeleton Mesh** and under **Skeleton Tree**, opening the **cog** and choosing **Show Retargeting Options**.
 
-![skeleton-retargeting.webp](/img/pro/player/skeleton-retargeting.webp)
+![skeleton-retargeting.webp](//img/pro/player/skeleton-retargeting.webp)
 
 Under the root of your actor (normally the **hips** or **pelvis**), open the Animation Scaled drop down and choose **Skeleton**. This should re-scale the animation to fit your skeleton instead.
 
-![skeleton-retargeting-skeleton.webp](/img/pro/player/skeleton-retargeting-skeleton.webp)
+![skeleton-retargeting-skeleton.webp](//img/pro/player/skeleton-retargeting-skeleton.webp)
 
 #### Animation Retargeting
 
@@ -92,7 +92,7 @@ This process is quite involved. It is recommended you have some experience with 
 
 Firstly select all the animations you wish to retarget, right click and choose **Retarget Animations**.
 
-![animation-retargeting.webp](/img/pro/player/animation-retargeting.webp)
+![animation-retargeting.webp](//img/pro/player/animation-retargeting.webp)
 
 Next, select your **Target Skeletal Mesh** and double-click on some animations to make sure it maps up correctly.
 

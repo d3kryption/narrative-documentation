@@ -23,7 +23,7 @@ The Capital **M** is required
 
 Now go into **Plugins** -> **NarrativePro** -> **Content** -> **Movies**
 
-![movieslist.webp](/img/pro/Installation/movies/movieslist.webp)
+![movieslist.webp](//img/pro/Installation/movies/movieslist.webp)
 
 Copy all the **MP4** files:
 
@@ -32,11 +32,11 @@ Copy all the **MP4** files:
 - `PistolAttack.mp4`
 - `WeaponBash.mp4`
 
-![moviescopy.webp](/img/pro/Installation/movies/moviescopy.webp)
+![moviescopy.webp](//img/pro/Installation/movies/moviescopy.webp)
 
 Into your **project** -> **Content** -> **Movies** then paste these files
 
-![moviespasted.webp](/img/pro/Installation/movies/moviespasted.webp)
+![moviespasted.webp](//img/pro/Installation/movies/moviespasted.webp)
 
 :::note
 

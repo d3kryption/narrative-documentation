@@ -11,7 +11,7 @@ Quests is a large part of the Narrative framework. It allows you to create rich,
 
 Create a new quest by right-clicking in the **Content Drawer** -> **Narrative** -> **Quest**.
 
-![quest-creation.webp](/img/quests/quest-creation.webp)
+![quest-creation.webp](//img/quests/quest-creation.webp)
 
 ### Tabs
 
@@ -21,17 +21,17 @@ Here you will see two tabs. The **Quest Graph** and the **Event Graph**.
 
 **The Quest Graph** is how you build up the quest with [quest branches](./branches.md) and [quest states](./states).
 
-![quest-tabs.webp](/img/quests/quest-tabs.webp)
+![quest-tabs.webp](//img/quests/quest-tabs.webp)
 
 ### Class Defaults
 
 Click the **Class Defaults** button at the top, and we can now populate the **Quests default settings**.
 
-![creation-default-settings-class.webp](/img/dialogue/creation-default-settings-class.webp)
+![creation-default-settings-class.webp](//img/dialogue/creation-default-settings-class.webp)
 
 The class defaults give you access to modify how your quest will work. It lets you change the quest title in the quest and more.
 
-![quest-defaults.webp](/img/quests/quest-defaults.webp)
+![quest-defaults.webp](//img/quests/quest-defaults.webp)
 
 ### Quest Properties
 
@@ -54,11 +54,11 @@ In Narrative, quests are made up of [branches](./branches.md) and [states](./sta
 
 Each quest will start with a State - the [QuestStart](./states.md#quest-start), a series of **branches** and connected **states**, and then it will end with a **State** the [QuestSuccess](./states.md#quest-success) or [QuestFailure](./states.md#quest-failure)
 
-![quest-logic-1.webp](/img/quests/quest-logic-1.webp)
+![quest-logic-1.webp](//img/quests/quest-logic-1.webp)
 
 A state can also have multiple branches to create different paths in the quest. We will explore this more later.
 
-![quest-logic-2.webp](/img/quests/quest-logic-2.webp)
+![quest-logic-2.webp](//img/quests/quest-logic-2.webp)
 
 :::note
 
@@ -66,14 +66,14 @@ A common description is to think of **states** as rooms and **branches** as door
 
 You enter the room (**state**) and wait. You then pick a door (**branch**) and go through it which is you completing the task.
 
-![quest-logic-3.webp](/img/quests/quest-logic-3.webp)
+![quest-logic-3.webp](//img/quests/quest-logic-3.webp)
 
 :::
 ## Begin Quest
 
 The main function to start quests is the **Begin Quest** function built into the [Narrative Component](../tales-component).
 
-![quests-beginquest.webp](/img/quests/quests-beginquest.webp)
+![quests-beginquest.webp](//img/quests/quests-beginquest.webp)
 
 ## Comments
 
@@ -81,7 +81,7 @@ You can add Unreal's comments around your quests to organise them or make them e
 
 Simply highlight your quest nodes and hit the **C** key to add the comment.
 
-![quest-comments.webp](/img/quests/quest-comments.webp)
+![quest-comments.webp](//img/quests/quest-comments.webp)
 
 ## Copy and pasting
 

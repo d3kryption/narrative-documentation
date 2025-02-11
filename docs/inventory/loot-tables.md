@@ -16,7 +16,7 @@ If you are coming from an older version of inventory, you will have used a Defau
 
 To create a new loot table, **Right Click** in the **Content Drawer** -> **Miscellaneous** -> **Data Table**.
 
-![loot-table-creation.webp](/img/inventory/loot-tables/loot-table-creation.webp)
+![loot-table-creation.webp](//img/inventory/loot-tables/loot-table-creation.webp)
 
 Select the **LootTableRow** data structure.
 

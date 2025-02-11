@@ -28,7 +28,7 @@ To begin dialogue shared across all members of the party you need to call BeginD
 
 During dialogue, options will be displayed to the players to advance the conversation. Narrative gives users the ability to decide which players can select the options.
 
-![party-dialogue-control-policy.webp](/img/quests-and-dialogue/parties/party-dialogue-control-policy.webp)
+![party-dialogue-control-policy.webp](//img/quests-and-dialogue/parties/party-dialogue-control-policy.webp)
 
 | Enumerator Name              | Description                                                                                                                                 |
 |------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------|
@@ -41,7 +41,7 @@ Events within dialogue & quests have an enum property called `Party Event Policy
 
 Changing this property will allow you to customise how events run for your dialogue or quests.
 
-![events.webp](/img/quests-and-dialogue/parties/events.webp)
+![events.webp](//img/quests-and-dialogue/parties/events.webp)
  
 | Enumerator Name   | Description                                                                                                                           |
 |-------------------|---------------------------------------------------------------------------------------------------------------------------------------|

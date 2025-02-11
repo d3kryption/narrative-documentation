@@ -28,7 +28,7 @@ It has been left here since there is a discussion in the community to whether it
 
 To add a condition to a node, simply select the node and in the details screen and add as many conditions to your Conditions list as you require.
 
-![conditions-list.webp](/img/conditions/conditions-list.webp)
+![conditions-list.webp](//img/conditions/conditions-list.webp)
 
 ## Default Conditions
 

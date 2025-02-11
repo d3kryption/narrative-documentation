@@ -8,16 +8,16 @@ By-default the Dialogue will render the dialogue vertically, but you also have t
 
 You can do this by going to **Edit** -> **Project Settings** -> **Narrative Dialogues - Editor** then unchecking **Vertical Wiring**.
 
-![dialogue_vertical_toggle.webp](/img/dialogue/dialogue_vertical_toggle.webp)
+![dialogue_vertical_toggle.webp](//img/dialogue/dialogue_vertical_toggle.webp)
 
 
 ## Horizontal
 
-![dialogue_horizontal.webp](/img/dialogue/dialogue_horizontal.webp)
+![dialogue_horizontal.webp](//img/dialogue/dialogue_horizontal.webp)
 
 ## Vertical
 
-![speaker-nodes-joining.webp](/img/dialogue/speaker-nodes-joining.webp)
+![speaker-nodes-joining.webp](//img/dialogue/speaker-nodes-joining.webp)
 
 ## Dialogue Order
 
@@ -39,10 +39,10 @@ But Tales will play them from left to right. Meaning it would be checked
 - Option 3
 - Option 2
 
-![speaker-nodes-joining.webp](/img/dialogue/vertical_dialogue_order.webp)
+![speaker-nodes-joining.webp](//img/dialogue/vertical_dialogue_order.webp)
 
 ### Horizontal Order
 
 If your dialogue is [horizontally set](./orientation.md#horizontal), then Tales will check the nodes [conditions](../../conditions) from top to bottom.
 
-![horizontal_dialogue_order.webp](/img/dialogue/horizontal_dialogue_order.webp)
+![horizontal_dialogue_order.webp](//img/dialogue/horizontal_dialogue_order.webp)

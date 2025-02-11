@@ -6,10 +6,10 @@ sidebar_label: 'Node Breakdown'
 
 The dialogue node is the base node that contains all the details you want in the specific line and shot that is being played. Its generic and used for both the Player and NPCs lines.
 
-![dialogue-node-created.webp](/img/dialogue/line/dialogue-node-created.webp)
+![dialogue-node-created.webp](//img/dialogue/line/dialogue-node-created.webp)
 
-![dialogue-line-base-id.webp](/img/dialogue/line/dialogue-line-base-id.webp)
-![dialogue-line-base-details.webp](/img/dialogue/line/dialogue-line-base-details.webp)
+![dialogue-line-base-id.webp](//img/dialogue/line/dialogue-line-base-id.webp)
+![dialogue-line-base-details.webp](//img/dialogue/line/dialogue-line-base-details.webp)
 
 ## Dialogue Node Properties
 
@@ -33,7 +33,7 @@ The dialogue line is the text, audio, camera and settings you want in the specif
 
 These are seperated from the Node as during dialogue, you only need the base settings in order to process the shot making it more lightweight.
 
-![dialogue-line-details.webp](/img/dialogue/line/dialogue-line-details.webp)
+![dialogue-line-details.webp](//img/dialogue/line/dialogue-line-details.webp)
 
 ### Properties
 
@@ -54,7 +54,7 @@ The line class is the standard for all dialogue nodes. This class inherits from 
 
 NPC's have specific extra fields for added functionality that the player does not need.
 
-![dialogue-line-npc.webp](/img/dialogue/line/dialogue-line-npc.webp)
+![dialogue-line-npc.webp](//img/dialogue/line/dialogue-line-npc.webp)
 
 ### Properties
 
@@ -69,7 +69,7 @@ The line class is the standard for all dialogue nodes. This class inherits from 
 
 Player's have specific extra fields for added functionality that the NPC does not need.
 
-![dialogue-line-player.webp](/img/dialogue/line/dialogue-line-player.webp)
+![dialogue-line-player.webp](//img/dialogue/line/dialogue-line-player.webp)
 
 ### Properties
 

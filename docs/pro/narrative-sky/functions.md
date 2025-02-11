@@ -15,7 +15,7 @@ Narrative Sky features a bunch of functions that allow you to control Blueprints
 
 This [latent](https://mikelis.net/easy-c-latent-functions-in-unreal-engine-blueprints/) node allows you to set a time start and end, with event driven call backs so you aren't having to tick or manually check the time.
 
-![wait-time-range.webp](/img/pro/narrative-sky/wait-time-range.webp)
+![wait-time-range.webp](//img/pro/narrative-sky/wait-time-range.webp)
 
 ### Inputs
 
@@ -41,7 +41,7 @@ This latent node allows you to be informed when NarrativeSky has started Sunrise
 
 Great for making lights or other events that come on at nighttime and shut off automatically.
 
-![wait-sunrise-and-sunset.webp](/img/pro/narrative-sky/wait-sunrise-and-sunset.webp)
+![wait-sunrise-and-sunset.webp](//img/pro/narrative-sky/wait-sunrise-and-sunset.webp)
 
 ### Outputs
 
@@ -64,7 +64,7 @@ This latent node allows you to be informed when NarrativeSky has reached a speci
 |------|-------|-----------------------------|
 | Time | int32 | The time to be notified by. |
 
-![wait-time-reached.webp](/img/pro/narrative-sky/wait-time-reached.webp)
+![wait-time-reached.webp](//img/pro/narrative-sky/wait-time-reached.webp)
 
 ### Outputs
 

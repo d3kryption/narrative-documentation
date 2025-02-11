@@ -12,7 +12,7 @@ You can adjust anything from speakers, cameras, text, audio, sequences with a bu
 
 Create a new dialogue by right-clicking in the **Content Drawer** -> **Narrative** -> **Dialogue**.
 
-![creation-new-dialogue.webp](/img/dialogue/creation-new-dialogue.webp)
+![creation-new-dialogue.webp](//img/dialogue/creation-new-dialogue.webp)
 
 ### Tabs
 
@@ -22,17 +22,17 @@ Here you will see two tabs. The **Dialogue Graph** and the **Event Graph**.
 
 **The Dialogue Graph** is how you build up the dialogue with **dialogue nodes**.
 
-![dialogue-graph.webp](/img/pro/dialogue/dialogue-graph.webp)
+![dialogue-graph.webp](//img/pro/dialogue/dialogue-graph.webp)
 
 ### Class Defaults
 
 Click the **Class Defaults** button at the top, and we can now populate the **Dialogues default settings**.
 
-![creation-default-settings-class.webp](/img/dialogue/creation-default-settings-class.webp)
+![creation-default-settings-class.webp](//img/dialogue/creation-default-settings-class.webp)
 
 The class defaults give you access to modify how your dialogue will work. It lets you change the speakers in the dialogue, camera settings, character settings and more.
 
-![creation-default-settings.webp](/img/dialogue/creation-default-settings.webp)
+![creation-default-settings.webp](//img/dialogue/creation-default-settings.webp)
 
 ### Dialogue Properties
 
@@ -105,4 +105,4 @@ You can add Unreal's comments around your dialogue to organise them or make them
 
 Simply highlight your dialogue nodes and hit the **C** key to add the comment.
 
-![dialogue-comments.webp](/img/dialogue/dialogue-comments.webp)
+![dialogue-comments.webp](//img/dialogue/dialogue-comments.webp)

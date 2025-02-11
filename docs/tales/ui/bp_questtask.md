@@ -10,4 +10,4 @@ This widget handles individual tasks to show the user the objectives.
 
 This widget is a RichTextBlock which handles showing the task's detail with update quantities.
 
-![task_desc.webp](/img/quests-and-dialogue/ui/bp_questtask/task_desc.webp)
+![task_desc.webp](//img/quests-and-dialogue/ui/bp_questtask/task_desc.webp)

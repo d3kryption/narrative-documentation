@@ -11,7 +11,7 @@ Whether its past or present quests, the player has the option to view all the de
 
 The Quest Journal contains a toggle for [Party Quests](../parties) too.
 
-![quest-journal.webp](/img/quests/journal/quest-journal.webp)
+![quest-journal.webp](//img/quests/journal/quest-journal.webp)
 
 ## Setup
 
