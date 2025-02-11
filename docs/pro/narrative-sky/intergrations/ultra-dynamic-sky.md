@@ -34,7 +34,7 @@ Make sure you use the Narrative - Get Time of Day function. Not the UDS one.
 
 ### UDS Weather saving
 
-We need to allow UDS Weather to be saved. Open **Ultra_Dynamic_Weather** and add the interface for saving, [Narrative Savable Actor](../saving/index.md).
+We need to allow UDS Weather to be saved. Open **Ultra_Dynamic_Weather** and add the interface for saving, [Narrative Savable Actor](../../saving/index.md).
 
 ![savable-actor.webp](//img/pro/narrative-sky/intergrations/savable-actor.webp)
 
