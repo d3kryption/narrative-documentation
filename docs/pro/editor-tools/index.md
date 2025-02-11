@@ -34,6 +34,19 @@ The give skill points command allows you to add a specific skill point amount to
 |--------|----------------------------------------|-------------------------------------|
 | Points | int32                                  | The amount of skill points to give. |
 
+### AdvanceTime
+
+Allows you to skip time by an incremental amount. Useful for testing time or delayed actions.
+
+![advance-time.webp](/img/pro/editor-tools/advance-time.webp)
+
+#### Inputs
+
+| Name | Type                                   | Description                                  |
+|------|----------------------------------------|----------------------------------------------|
+| Time | int32                                  | The amount of time to advance by in minutes. |
+
+
 ## C++
 
 ```

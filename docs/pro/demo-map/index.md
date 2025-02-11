@@ -227,8 +227,8 @@ Create [bandit camps](../settlements) where enemies will attack you on sight.
 
 ![settlement-banditcamps.webp](/img/pro/demo-map/settlement-banditcamps.webp)
 
-## Time & Weather
+## Narrative Sky
 
-A builtin and easy to use Time and Weather system to allow you to create time based quests and give NPC's schedules.
+A builtin and easy to use [Narrative Sky](../narrative-sky/index.md) system to allow you to create time based quests and give NPC's schedules.
 
 ![narrative-time-and-weather.webp](/img/pro/demo-map/narrative-time-and-weather.webp)

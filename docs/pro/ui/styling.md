@@ -6,6 +6,10 @@ sidebar_label: 'Styling'
 
 Narrative UI can easily be styled to change common items across the styling such as fonts and colours.
 
+## Video
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/jMakZex6M5s?si=8ffMoXrw3tTmmBPY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ## Font changing
 
 To change the font for every UI, go into **NarrativePro** -> **NarrativeCommonUI** -> **Style** -> **Master Styles** -> **Text**.
