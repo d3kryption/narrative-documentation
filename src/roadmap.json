@@ -2,7 +2,7 @@
     {
         "product": ["Tales"],
         "year": 2025,
-        "quarter": 1,
+        "quarter": 3,
         "type": "Feature",
         "name": "Improved dialogue camera",
         "desc": "A new camera system will be implemented making dialogue cameras far easier and higher quality."
@@ -14,6 +14,14 @@
         "type": "Feature",
         "name": "Product rename - Tales",
         "desc": "The Narrative Quests & Dialogues product will be renamed to Narrative Tales."
+    },
+    {
+        "product": ["Tales"],
+        "year": 2025,
+        "quarter": 1,
+        "type": "Feature",
+        "name": "Empty node durations",
+        "desc": "Nodes without any text can now have a custom duration set or events to play allowing you to add delays in the middle of dialogue."
     },
     {
         "product": ["Tales"],
@@ -56,7 +64,7 @@
     {
         "product": ["Tales", "Pro - Tales"],
         "year": 2025,
-        "quarter": 1,
+        "quarter": 2,
         "type": "Feature",
         "name": "Conditional dialogue lines",
         "desc": "Dialogue lines can now use conditions instead of dialogue nodes"
@@ -588,6 +596,14 @@
         "desc": "Massive improvements to AI, including NPC Activities that save blackboard and behavior tree state."
     },
     {
+        "product": ["Pro - Settlements"],
+        "year": 2025,
+        "quarter": 2,
+        "type": "Feature",
+        "name": "Spawning improvements",
+        "desc": "Settlement spawning will be easier to place in the world. Capsules instead of vector debugs."
+    },
+    {
         "product": ["Pro - AI"],
         "year": 2024,
         "quarter": 4,
@@ -748,7 +764,8 @@
         "name": "Pro updates 1.2",
         "descList": [
             "Quest conditions per tasks as well as branch",
-            "NPC Spawning improvements - Better visualisation, easier workflow"
+            "NPC Spawning improvements - Better visualisation, easier workflow",
+            "GASP movement system addition"
         ]
     }
 ]
