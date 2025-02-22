@@ -307,6 +307,16 @@ select *
   padding-left: 0.5rem;
 }
 
+.action-time p {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+
+.action-time p svg {
+  margin-right: .25rem;
+}
+
 @media (min-width: 576px) {
   .tabs {
     flex-direction: column;
