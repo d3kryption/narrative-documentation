@@ -97,7 +97,7 @@ Finally, we need to tell Narrative to play both animations on the same mesh.
 
 By default, Narrative stops any existing montages then plays the one that is required. This functionality won't work, but it can be overridden.
 
-Open your [master dialogue](../master-dialogue.md) and override the [PlayDialogueAnimation](../functions.md#play-dialogue-animation) function.
+
 
 Get access to your speakers mesh, then play both facial and body montages on this mesh.
 
