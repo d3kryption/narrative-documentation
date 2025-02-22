@@ -28,6 +28,18 @@ The world map gives the player the ability to add custom waypoints allowing them
 
 ![waypoint-world.webp](//img/pro/navigator/waypoint-world.webp)
 
+### Color
+
+To change the color of custom waypoints, as of the current version, it requires a C++ change to be made.
+
+Open the C++ file `CustomWaypointMarker.cpp`. Inside the Initliation function, you can change the IconTint.
+
+```cpp
+
+DefaultMarkerSettings.IconTint = FLinearColor(0.178507f, 0.538802f, 0.859375f, 1.000000f);
+
+```
+
 ## Waypoints on top of the world map
 
 If your waypoints are on top of your map, you need to change the render order of the widgets in your HUD. 
