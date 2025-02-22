@@ -17,14 +17,14 @@ This [latent](https://mikelis.net/easy-c-latent-functions-in-unreal-engine-bluep
 
 ![wait-time-range.webp](//img/pro/narrative-sky/wait-time-range.webp)
 
-### Inputs
+#### Inputs
 
 | Name       | Type                                   | Description                  |
 |------------|----------------------------------------|------------------------------|
 | Time Start | int32                                  | The start time of the range. |
 | Time End   | int32                                  | The end time of the range.   |
 
-### Outputs
+#### Output
 
 | Name                  | Type    | Description                                                     |
 |-----------------------|---------|-----------------------------------------------------------------|
@@ -43,7 +43,7 @@ Great for making lights or other events that come on at nighttime and shut off a
 
 ![wait-sunrise-and-sunset.webp](//img/pro/narrative-sky/wait-sunrise-and-sunset.webp)
 
-### Outputs
+#### Output
 
 | Name                  | Type    | Description                                                     |
 |-----------------------|---------|-----------------------------------------------------------------|
@@ -58,7 +58,7 @@ Great for making lights or other events that come on at nighttime and shut off a
 
 This latent node allows you to be informed when NarrativeSky has reached a specific time.
 
-### Inputs
+#### Inputs
 
 | Name | Type  | Description                 |
 |------|-------|-----------------------------|
@@ -66,7 +66,7 @@ This latent node allows you to be informed when NarrativeSky has reached a speci
 
 ![wait-time-reached.webp](//img/pro/narrative-sky/wait-time-reached.webp)
 
-### Outputs
+#### Output
 
 | Name                  | Type    | Description                                                     |
 |-----------------------|---------|-----------------------------------------------------------------|

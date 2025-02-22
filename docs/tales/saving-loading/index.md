@@ -16,7 +16,7 @@ To save a Narrative component, find a reference to the component then call the S
 
 <iframe src="https://blueprintue.com/render/k7ntc3nf/" width="100%" height="400" scrolling="no" allowfullscreen></iframe>
 
-### Inputs
+#### Inputs
 
 | Name     | Type                | Description                                                                             |
 |----------|---------------------|-----------------------------------------------------------------------------------------|
@@ -44,7 +44,7 @@ To load a Narrative component, find a reference to the component then call the L
 
 <iframe src="https://blueprintue.com/render/wsb9i2s_/" width="100%" height="400" scrolling="no" allowfullscreen></iframe>
 
-### Inputs
+#### Inputs
 
 | Name     | Type                | Description                                                                             |
 |----------|---------------------|-----------------------------------------------------------------------------------------|

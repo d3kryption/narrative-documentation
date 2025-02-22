@@ -22,7 +22,7 @@ If you are working in a multi-player environment with multiple Narrative compone
 
 :::
 
-### Output
+#### Output
 
 | Name         | Type                          | Description                                 |
 |--------------|-------------------------------|---------------------------------------------|
@@ -44,13 +44,13 @@ If you are working in a single player environment, [GetNarrativeComponent](#get-
 
 :::
 
-### Inputs
+#### Inputs
 
 | Name   | Type   | Description                                                     |
 |--------|--------|-----------------------------------------------------------------|
 | Target | AActor | The actor to try and find the [tales component](./index.md) on. |
 
-### Output
+#### Output
 
 | Name         | Type                          | Description                                 |
 |--------------|-------------------------------|---------------------------------------------|

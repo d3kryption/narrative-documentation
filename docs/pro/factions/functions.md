@@ -12,14 +12,14 @@ Allows you to get the current relationship of two factions.
 
 ![get-faction-attitude-towrads-faction.webp](//img/pro/factions/get-faction-attitude-towrads-faction.webp)
 
-### Inputs
+#### Inputs
 
 | Name           | Type        | Description                      |
 |----------------|-------------|----------------------------------|
 | Source Faction | GameplayTag | The source faction gameplay tag. |
 | Target Faction | GameplayTag | The target faction gameplay tag. |
 
-### Outputs
+#### Output
 
 | Name             | Type                                                 | Description                |
 |------------------|------------------------------------------------------|----------------------------|
@@ -31,14 +31,14 @@ Allows you to get the current relationship of multiple factions at once.
 
 ![get-faction-attitudes-towrads-faction.webp](//img/pro/factions/get-faction-attitudes-towrads-faction.webp)
 
-### Inputs
+#### Inputs
 
 | Name            | Type                 | Description                                  |
 |-----------------|----------------------|----------------------------------------------|
 | Source Factions | GameplayTagContainer | The source factions gameplay tags container. |
 | Target Factions | GameplayTagContainer | The target factions gameplay tags container. |
 
-### Outputs
+#### Output
 
 | Name             | Type                                                 | Description                |
 |------------------|------------------------------------------------------|----------------------------|
@@ -50,7 +50,7 @@ Allows you to set the current relationship of a faction.
 
 ![set-faction-attitude.webp](//img/pro/factions/set-faction-attitude.webp)
 
-### Inputs
+#### Inputs
 
 | Name           | Type                                                 | Description                      |
 |----------------|------------------------------------------------------|----------------------------------|

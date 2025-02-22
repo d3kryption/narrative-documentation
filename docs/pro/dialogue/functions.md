@@ -16,7 +16,7 @@ This function tells Narrative to start the specified dialogue. It will return a 
 
 ![dialogue-begin-dialogue.webp](//img/dialogue/dialogue-begin-dialogue.webp)
 
-### Inputs
+#### Inputs
 
 | Name        | Type                                   | Description                                                                                 |
 |-------------|----------------------------------------|---------------------------------------------------------------------------------------------|
@@ -26,7 +26,7 @@ This function tells Narrative to start the specified dialogue. It will return a 
 | StartFromID | FName                                  | The ID the dialogue should start playing from, if empty will play from root node.           |
 | Priority    | int32                                  | The priority we want to play this dialogue at. -1 means use the dialogues default priority. |
 
-### Output
+#### Output
 
 | Name         | Type | Description                            |
 |--------------|------|----------------------------------------|
@@ -45,7 +45,7 @@ This will return you a bool to whether calling BeginDialogue would successfully 
 
 ![dialogue-has-dialogue-available.webp](//img/dialogue/dialogue-has-dialogue-available.webp)
 
-### Inputs
+#### Inputs
 
 | Name        | Type                                   | Description                                                                                 |
 |-------------|----------------------------------------|---------------------------------------------------------------------------------------------|
@@ -54,7 +54,7 @@ This will return you a bool to whether calling BeginDialogue would successfully 
 | StartFromID | FName                                  | The ID the dialogue should start playing from, if empty will play from root node.           |
 | Priority    | int32                                  | The priority we want to play this dialogue at. -1 means use the dialogues default priority. |
 
-### Output
+#### Output
 
 | Name         | Type | Description                            |
 |--------------|------|----------------------------------------|
