@@ -2,13 +2,13 @@
 sidebar_label: 'Show UI'
 ---
 
+# Show UI
+
 import {Icon} from '@iconify/react';
 
 <div class="action-time">
     <Icon icon="mdi:clock-time-eight-outline" height="20"></Icon> Time required: 20 minutes
 </div>
-
-# Show UI
 
 Show UI is a mod commonly used in games to completely hide a quest from any UI. Basically making it a completely hidden quest.
 
@@ -22,7 +22,7 @@ There is two ways of adding the boolean. A blueprint only modification which tak
 
 ### Blueprint
 
-To add the blueprint boolean, create a [master quest](../quests/index.md#master-quest) then add a new boolean named `Show UI`.
+To add the blueprint boolean, create a [master quest](../quests/master-quest.md) then add a new boolean named `Show UI`.
 
 ![master-quest-show-ui-variable.webp](/img/quests/master-quest-show-ui-variable.webp)
 
@@ -30,7 +30,7 @@ Default this to true.
 
 ![master-quest-show-ui-variable-default.webp](/img/quests/master-quest-show-ui-variable-default.webp)
 
-Now add a function into your [master quest interface](../quests/index.md#master-quest-interface) to return this boolean.
+Now add a function into your [master quest interface](../quests/master-quest.md#interface) to return this boolean.
 
 ![show-ui-interface.webp](/img/quests/show-ui-interface.webp)
 
