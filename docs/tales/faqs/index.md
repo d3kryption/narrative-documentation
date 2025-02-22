@@ -12,6 +12,18 @@ import React from 'react';
     <p>Please see the guide [here](./show-dialogue-text-while-player-selection).</p>
 </div>
 <div>
+    <h3>Does Tales support dynamic quests?</h3>
+    <p>Yes and no depending on how you want it to work. You can randomise quantities, objectives built in tasks, but you cannot randomise which tasks that build up a quest.</p>
+</div>
+<div>
+    <h3>Does Tales support dynamic dialogue?</h3>
+    <p>Yes and no depending on how you want it to work. You can randomise text or add variables inside dialogue, but you cannot dynamically add new nodes.</p>
+</div>
+<div>
+    <h3>Does Tales come with any lip sync tools?</h3>
+    <p>No. You need to use external tools such as Nvidia Omniverse or LiveLink to record the lip sync animations, then use Tales to play it along-side the audio.</p>
+</div>
+<div>
     <h3>Does Tales support integration with XX inventory?</h3>
     <p>Most inventory systems can be integrated with Tales.</p>
     <p>The basic things you need to create are:</p>
