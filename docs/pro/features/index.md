@@ -11,9 +11,13 @@ Below is a list of all the features.
 
 :::note
 
-Pro is not built to be modular. It will take C++ knowledge and good Narrative Pro knowledge to remove / replace some aspects.
+Pro is a full framework and is not built to be modular. It will take C++ knowledge and good Narrative Pro knowledge to remove / replace some aspects.
 
 Some aspects such as the Character Creator can simply be turned off, but other aspects such as the inventory are CORE.
+
+If you do not want the vast majority of the below functionality, consider checking out the modular plugins instead.
+
+_**Please note we will not refund Narrative Pro if you are struggling to integrate it with another plugin or are finding it beyond your technical ability - it is up to you to figure out whether the plugin meets your needs , and if you have questions before purchase you can reach out in the [Discord](https://discord.gg/qyVJmpQ2Pn).**_ 
 
 :::
 
@@ -60,6 +64,10 @@ A builtin fully usable Character Creator to allow your users to customise their 
 ![character_creator.webp](//img/pro/demo-map/character_creator.webp)
 
 ![character_creator_2.webp](//img/pro/demo-map/character_creator_2.webp)
+
+## Combat
+
+Built in combat for melee, ranged or magic weapons using the gameplay ability system (GAS). Easy system to allow you to make the combat you need. Constantly being updated. 
 
 ## Dialogue
 
