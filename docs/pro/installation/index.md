@@ -20,7 +20,7 @@ C++ is not required, but it gives you the ability to debug any issues and make t
 
 Alternatively, you can get the download for the finished project here:
 
-[Project download link](https://drive.google.com/file/d/13DEqLIAsWdYjNCNcDfUGF7Dd_cP0adHG/view)
+[Project download link](https://bit.ly/4cOgPWY)
 
 Set up the project then download **Narrative Pro** from the Epic Marketplace and you can install it to the engine (default) or move it into your project's Plugins folder (you may have to create this folder).
 

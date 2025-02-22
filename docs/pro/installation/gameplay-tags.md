@@ -15,9 +15,9 @@ The gameplay tags **must** be named **exactly** the same name we state here. Fun
 
 Open your **Content Drawer** and navigate to **Content** -> **Cues**
 
-## GC_WeaponImpact
+## GC_WeaponFire_NoImpact
 
-Open **GC_WeaponImpact** and click **Class Defaults** 
+Open **GC_WeaponFire_NoImpact** and click **Class Defaults** 
 
 ![weaponimpact-classdefaults.webp](//img/pro/Installation/gameplaytags/weaponimpact-classdefaults.webp)
 
@@ -34,7 +34,7 @@ It will automatically open the **Gameplay Tag menu**. Click the **Green Plus** t
 Set the **Name** to:
 
 ```ini
-GameplayCue.Weapon.Impact
+GameplayCue.Weapon.FireNoImpact
 ```
  
 Set the Source to be the default `DefaultGameplayTags.ini` then click **Add New Tag**.
