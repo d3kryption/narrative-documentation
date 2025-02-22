@@ -1,6 +1,6 @@
 ---
 sidebar_label: 'Pro''s Features'
-sidebar_position: 1
+sidebar_position: 0
 ---
 
 # Pro's Features
@@ -8,6 +8,14 @@ sidebar_position: 1
 Narrative Pro comes packaged with a demo map containing all the features included.
 
 Below is a list of all the features.
+
+:::note
+
+Pro is not built to be modular. It will take C++ knowledge and good Narrative Pro knowledge to remove / replace some aspects.
+
+Some aspects such as the Character Creator can simply be turned off, but other aspects such as the inventory are CORE.
+
+:::
 
 ## Abilities
 
