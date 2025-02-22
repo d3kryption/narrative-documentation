@@ -8,6 +8,7 @@ A Master Dialogue is a middleware blueprint that sits in between the C++ Dialogu
 
 It allows you to create variables, functions and bulk change all dialogue assets that inherit from it.
 
+
 ![master-dialogue-plan.webp](/img/dialogue/master-dialogue-plan.webp)
 
 ### Creating a new Master Dialogue
