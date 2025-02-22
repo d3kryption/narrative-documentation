@@ -122,7 +122,7 @@ Standard Unreal sequences: By default, Unreal doesn't have a skip function, but 
 
 <div>
     <h3>Can you get the main character/NPC to talk during combats?</h3>
-    <p>Yes, this is already built in. Simply call [BeginDialogue](./dialogue/functions.md#begin-dialogue) at specific events, timer, after a specific ability, etc.</p>
+    <p>Yes, this is already built in. Simply call [BeginDialogue](./tales-component/functions.md#begin-dialogue) at specific events, timer, after a specific ability, etc.</p>
 </div>
 
 <div>

@@ -47,7 +47,7 @@ Now select the newly created tag then click **Compile**.
 
 ## GC_WeaponFire
 
-Open **GC_WeaponFire** and add a new tag using the exact method we used above in [above](#gc_weaponimpact) called:
+Open **GC_WeaponFire** and add a new tag using the exact method we used above in [above](#gc_weaponfire_noimpact) called:
 
 ```ini
 GameplayCue.Weapon.Fire
@@ -59,7 +59,7 @@ Now select the newly created tag then click **Compile**.
 
 ## GC_TakeDamage
 
-Open **GC_TakeDamage** and add a new tag using the exact method we used above in [above](#gc_weaponimpact) called:
+Open **GC_TakeDamage** and add a new tag using the exact method we used above in [above](#gc_weaponfire_noimpact) called:
 
 ```ini
 GameplayCue.TakeDamage

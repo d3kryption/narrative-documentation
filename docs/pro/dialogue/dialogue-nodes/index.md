@@ -16,7 +16,7 @@ To create new nodes to add new lines to your dialogue, either right click in the
 
 :::note
 
-You can join multiple [speakers](../speakers.md#speakers) nodes together, but you cannot join multiple [player nodes](../speakers.md#player-speakers). You have to separate them by an empty speaker node.
+You can join multiple [speakers](../speakers.md) nodes together, but you cannot join multiple [player nodes](../speakers.md#player-speakers). You have to separate them by an empty speaker node.
 
 ![speaker-nodes-joining.webp](//img/dialogue/speaker-nodes-joining.webp)
 
@@ -59,8 +59,8 @@ Each node has many variables that make it work. They are defined below.
 | OnPlayNodeFuncName      | FName                                                                        | Name of custom event to call when this node is reached.                                                                                                                                          |
 | DirectedAtSpeakerID     | FName                                                                        | The ID of the speaker we are saying this line to. Can be left empty.                                                                                                                             |
 | bIsSkippable            | bool                                                                         | Should pressing the enter key allow this line to be skipped?                                                                                                                                     |
-| conditions              | TArray\<[UNarrativeCondition](../../conditions/)\>                           | conditions are functions that run before this node is pending selection and contain boolean returns that allow this node to be run or ignored.                                                   |
-| Events                  | TArray\<[UNarrativeEvent](../../events)\>                                    | Events are functions that can run at specific states on [quests](../../quests) & [dialogue](../../dialogue).                                                                                     |
+| Conditions              | TArray\<[UNarrativeCondition](../../conditions/index.md)\>                   | Conditions are functions that run before this node is pending selection and contain boolean returns that allow this node to be run or ignored.                                                   |
+| Events                  | TArray\<[UNarrativeEvents](../../events/index.md)\>                          | Events are functions that can run at specific states on [quests](../../quests) & [dialogue](../../dialogue).                                                                                     |
 
 
 :::note
