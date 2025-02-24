@@ -765,7 +765,10 @@
         "descList": [
             "Quest conditions per tasks as well as branch",
             "NPC Spawning improvements - Better visualisation, easier workflow",
-            "GASP movement system addition"
+            "GASP movement system addition",
+            "Early true first person mode",
+            "Locomotion updates",
+            "GASP animation system added"
         ]
     }
 ]

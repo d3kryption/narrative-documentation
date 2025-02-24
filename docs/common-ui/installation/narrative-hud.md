@@ -29,6 +29,8 @@ Open this up and add two widgets to the **WBP_NarrativeHUD** and **BP_Narrative3
 
 Now open your PlayerController and on event begin play, create your HUD.
 
-![CreatingNarrativeHUD.webp](//img/common-ui/CreatingNarrativeHUD.webp)Docs wil
+![CreatingNarrativeHUD.webp](//img/common-ui/CreatingNarrativeHUD.webp)
 
 Make sure you promote it to a variable so you can reuse it later.
+
+Finally, you can go back to the installation step you were at. 
