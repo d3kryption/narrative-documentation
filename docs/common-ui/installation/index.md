@@ -5,7 +5,7 @@ sidebar_position: 1
 
 # Installation
 
-To get started, you need to download the Narrative Common UI from the Epic Marketplace and you can install it to the engine (default) or move it into your project's Plugins folder (you may have to create this folder).
+To get started, you need to download the Narrative Common UI from the Fab Marketplace and you can install it to the engine (default) or move it into your project's Plugins folder (you may have to create this folder).
 
 Make sure to enable the **Narrative Common UI** plugin by going to **Edit** -> **Plugins**, and checking the box next to **Narrative Common UI**. (you may have to restart Unreal)
 

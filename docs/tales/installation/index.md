@@ -13,7 +13,7 @@ https://drive.google.com/file/d/1-Ta3DrBDQqp26Q9f3c5YJgeG1s0kMCqQ/view?usp=shari
 Alternatively, you can download the finished project here:
 https://drive.google.com/file/d/1-UaJSERJ7OdpvLxzEYUvn_XCkn7gGo1r/view?usp=sharing
 
-Extract the project then download Narrative from the Epic Marketplace and you can install it to the engine (default) or move it into your project's Plugins folder (you may have to create this folder).
+Extract the project then download Narrative from the Fab Marketplace and you can install it to the engine (default) or move it into your project's Plugins folder (you may have to create this folder).
 
 ![Plugins folder](//img/installed_plugins_folder.webp)
 

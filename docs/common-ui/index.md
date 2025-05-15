@@ -16,4 +16,4 @@ A detailed video guide is also available here:
 
 ## Purchase
 
-You can download [Narrative Common UI here](https://www.unrealengine.com/marketplace/en-US/product/narrative-common-ui) from the Epic Marketplace.
+You can download [Narrative Common UI here](https://www.unrealengine.com/marketplace/en-US/product/narrative-common-ui) from the Fab Marketplace.

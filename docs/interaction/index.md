@@ -18,4 +18,4 @@ Detailed video guides are also available here:
 
 ## Purchase
 
-You can download [Narrative Interaction here](https://www.unrealengine.com/marketplace/en-US/product/narrative-interaction-rich-multiplayer-ready-interaction) from the Epic Marketplace.
+You can download [Narrative Interaction here](https://www.unrealengine.com/marketplace/en-US/product/narrative-interaction-rich-multiplayer-ready-interaction) from the Fab Marketplace.

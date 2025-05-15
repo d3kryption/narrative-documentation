@@ -13,7 +13,7 @@ Below is a list of all the features.
 
 Pro is a full framework and is not built to be modular. It will take C++ knowledge and good Narrative Pro knowledge to remove / replace some aspects.
 
-Some aspects such as the Character Creator can simply be turned off, but other aspects such as the inventory are CORE.
+Some aspects such as the Character Creator can simply be turned off, but other aspects are CORE.
 
 If you do not want the vast majority of the below functionality, consider checking out the modular plugins instead.
 
@@ -27,7 +27,7 @@ Full [skill tree and ability system](../abilities/index.md) using Unreal's fanta
 
 Unlockable abilities, skills all fully customisable to meet your games requirement.
 
-![abilities.webp](//img/pro/demo-map/abilities.webp)
+![abilities-v2.webp](//img/pro/demo-map/abilities-v2.webp)
 
 [Levels driven by XP](../ui/abilities/Player-stats.md) that can be granted by quests, dialogue or anything you need.
 
@@ -47,7 +47,7 @@ Unlockable abilities, skills all fully customisable to meet your games requireme
 
 Easily turn NPC's into [companions](../npcs/followers.md) who follow you anywhere you go. Fast travelling, battle, dialogue. All ready and built in.
 
-![companions.webp](//img/pro/demo-map/companions.webp)
+![companions_v2.webp](//img/pro/demo-map/companions_v2.webp)
 
 ## Books
 
@@ -67,21 +67,15 @@ A builtin fully usable Character Creator to allow your users to customise their 
 
 ## Combat
 
-Built in combat for melee, ranged or magic weapons using the gameplay ability system (GAS). Easy system to allow you to make the combat you need. Constantly being updated. 
+Built in combat for melee, ranged or magic weapons using the gameplay ability system (GAS). Easy system to allow you to make the combat you need. Constantly being updated.
+
+![combat.webp](//img/pro/demo-map/combat.webp)
 
 ## Dialogue
 
 Full [dialogue system](../dialogue/index.md) supported with flexible options, camera, lighting, sound and sequences.
 
 ![dialogue.webp](//img/pro/demo-map/dialogue.webp)
-
-### Companions
-
-Easily make NPC's follow you from a dialogue option
-
-![dialogue-companions.webp](//img/pro/demo-map/dialogue-companions.webp)
-
-![dialogue-companion-follow.webp](//img/pro/demo-map/dialogue-companion-follow.webp)
 
 ### Seamless transitions
 
@@ -117,6 +111,28 @@ An [integrated weapons system](../inventory/items/equipment/weapons/weapons.md) 
 
 ![weaponshooting.webp](//img/pro/demo-map/weaponshooting.webp)
 
+### Weapon Attachments
+
+A new system to attach equipment to weapons. Add scopes, silencers and more.
+
+Simply add the attachment to your inventory.
+
+![weapon-attach-1.webp](//img/pro/demo-map/weapon-attach-1.webp)
+
+Select it to choose which weapon to equip it to.
+
+![weapon-attach-2.webp](//img/pro/demo-map/weapon-attach-2.webp)
+
+The weapon will now have the attachment added.
+
+![weapon-attach-3.webp](//img/pro/demo-map/weapon-attach-3.webp)
+
+## First Person mode (FPS)
+
+Built in true first person mode. Fully playable, look around and see your own body not just the arms.
+
+![fps.webp](//img/pro/demo-map/fps.webp)
+
 ## Interaction
 
 [Interactions](../ui/interaction/index.md) will allow you to use, pickup and interact with objects in the world.
@@ -131,13 +147,13 @@ An [integrated weapons system](../inventory/items/equipment/weapons/weapons.md) 
 
 A replacement for Unreal's Smart Objects, that is fully replicated allowing you to assign capacities to interactable objects.
 
-![interaction-slots.webp](//img/pro/demo-map/interaction-slots.webp)
+![interaction-slots-v2.webp](//img/pro/demo-map/interaction-slots-v2.webp)
 
 ## Inventory
 
 Pressing the **TAB** key will show you your [inventory](../ui/inventory/index.md).
 
-![inventory.webp](//img/pro/demo-map/inventory.webp)
+![inventory-v2.webp](//img/pro/demo-map/inventory-v2.webp)
 
 ### Looting
 
@@ -157,6 +173,18 @@ Create [traders or shops](../inventory/looting/trading.md) in your world, so you
 
 ![npc-trading-shop-ui.webp](//img/pro/inventory/npc-trading-shop-ui.webp)
 
+## Narrative Sky
+
+A builtin and easy to use [Narrative Sky](../narrative-sky/index.md) system to allow you to create time based quests and give NPC's schedules.
+
+Daytime:
+
+![combat.webp](//img/pro/demo-map/combat.webp)
+
+Nighttime:
+
+![fps.webp](//img/pro/demo-map/fps.webp)
+
 ## Navigator
 
 You will also see the [compass](../ui/navigator/compass.md) and [minimap](../ui/navigator/minimap.md) showing your locations.
@@ -169,9 +197,11 @@ If you start the quest, there is also [on screen markers](../ui/navigator/onscre
 
 If you enter your menu, you have a [world map](../ui/navigator/worldmap.md) where you can see your entire map, place markers or see [points of interest](../navigator/points-of-interest.md).
 
-![navigator-pointsofinterest.webp](//img/pro/demo-map/navigator-pointsofinterest.webp)
+![world-map.webp](//img/pro/demo-map/world-map.webp)
 
-[Fast travel screen](../ui/navigator/fasttravelscreen.md) to hide teleporting
+![navigator-pointsofinterest-v2.webp](//img/pro/demo-map/navigator-pointsofinterest-v2.webp)
+
+[Fast travel screen](//img/pro/demo-map/fasttravelscreen.md) to hide teleporting
 
 ![navigator-fasttravelloading.webp](//img/pro/demo-map/navigator-fasttravelloading.webp)
 
@@ -185,7 +215,13 @@ A new [NPC manager tool](../npcs/index.md) has been added, so you can manage eve
 
 A new tool allowing you to schedule NPC's to perform certain tasks at specific times or in specific weather making your world come alive.
 
-![npc-schedules.webp](//img/pro/demo-map/npc-schedules.webp)
+![npc-schedules-v2.webp](//img/pro/demo-map/npc-schedules-v2.webp)
+
+## NPC spawners
+
+Replacing Narrative Pro 1.1.0's Settlements, NPC Spawners is the new method of managing NPC's in the world. Can be dynamically spawned in making for story based events, NPC spawning and more.
+
+![npc-spawners.webp](//img/pro/demo-map/npc-spawners.webp)
 
 ## Pause menu
 
@@ -204,6 +240,18 @@ Clicking the [Settings](../ui/settings/index.md) option will let you change basi
 The gameplay tab inside the Settings menu allows you to easily add [gameplay options](../ui/settings/gameplay-options.md) such as difficulty.
 
 ![settings-gameplay.webp](//img/pro/demo-map/settings-gameplay.webp)
+
+#### Input
+
+Fully configurable input built into the settings menu.
+
+![input-settings.webp](../../../static/img/pro/demo-map/input-settings.webp)
+
+#### Video
+
+The video tab inside the Settings menu allows you to easily modify the graphics settings for the game.
+
+![video-settings.webp](//img/pro/demo-map/video-settings.webp)
 
 ## Quests
 
@@ -232,19 +280,3 @@ As soon as you start the game, you will see a brief [loading screen](../ui/loadi
 Define how many [save slots](../saving/index.md) you want to allow the players to jump between games. Everything is saved, the entire world. Inventories, characters, equipment, states all of it. Highly customisable.
 
 ![save-slots.webp](//img/pro/demo-map/save-slots.webp)
-
-## Settlements
-
-Once loading has completed, you will instantly discover your [current location](../ui/settlements.md).
-
-![settlements.webp](//img/pro/demo-map/settlements.webp)
-
-Create [bandit camps](../settlements) where enemies will attack you on sight.
-
-![settlement-banditcamps.webp](//img/pro/demo-map/settlement-banditcamps.webp)
-
-## Narrative Sky
-
-A builtin and easy to use [Narrative Sky](../narrative-sky/index.md) system to allow you to create time based quests and give NPC's schedules.
-
-![narrative-time-and-weather.webp](//img/pro/demo-map/narrative-time-and-weather.webp)

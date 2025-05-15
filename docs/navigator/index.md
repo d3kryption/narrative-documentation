@@ -18,4 +18,4 @@ Detailed video guides are also available here:
 
 ## Purchase
 
-You can download [Narrative Navigator here](https://www.unrealengine.com/marketplace/en-US/product/narrative-navigator-maps-compasses-waypoints) from the Epic Marketplace.
+You can download [Narrative Navigator here](https://www.unrealengine.com/marketplace/en-US/product/narrative-navigator-maps-compasses-waypoints) from the Fab Marketplace.

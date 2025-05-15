@@ -22,4 +22,4 @@ An upgrade video guide is also available here to move to Common UI:
 
 ## Purchase
 
-You can download [Narrative Tales here](https://www.unrealengine.com/marketplace/en-US/product/narrative-quest-and-dialogue-editor) from the Epic Marketplace.
+You can download [Narrative Tales here](https://www.unrealengine.com/marketplace/en-US/product/narrative-quest-and-dialogue-editor) from the Fab Marketplace.

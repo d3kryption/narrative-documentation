@@ -18,11 +18,17 @@ C++ is not required, but it gives you the ability to debug any issues and make t
 
 :::
 
-Alternatively, you can get the download for the finished project here:
+## Downloads
 
-[Project download link](https://bit.ly/4cOgPWY)
+Alternatively, you can get the download for the finished projects here:
 
-Set up the project then download **Narrative Pro** from the Epic Marketplace and you can install it to the engine (default) or move it into your project's Plugins folder (you may have to create this folder).
+[Project 2.1.0 download link](https://drive.google.com/file/d/1PI4xvL3_-ounLFzp7k3AEYENJVmOHet_/view)
+
+[Project 1.1.0 download link](https://bit.ly/4cOgPWY)
+
+## Manual
+
+Set up the project, then download **Narrative Pro** from the Fab Marketplace and you can install it to the engine (default) or move it into your project's Plugins folder (you may have to create this folder).
 
 ![PluginsFolder.webp](//img/pro/Installation/PluginsFolder.webp)
 

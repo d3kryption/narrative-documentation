@@ -12,7 +12,7 @@ Alternatively, you can get the download for the finished project here:
 
 [Project download link](https://drive.google.com/file/d/1c-LYnYEInUOOJKnoSy--mmrxu5icZlP6/view)
 
-Set up the template project then download **Narrative Interaction** and **Narrative Common UI** from the Epic Marketplace and you can install it to the engine (default) or move it into your project's Plugins folder (you may have to create this folder).
+Set up the template project then download **Narrative Interaction** and **Narrative Common UI** from the Fab Marketplace and you can install it to the engine (default) or move it into your project's Plugins folder (you may have to create this folder).
 
 ![PluginsFolder.webp](//img/pro/Installation/PluginsFolder.webp)
 

@@ -22,4 +22,4 @@ Detailed video guides are also available here:
 
 ## Purchase
 
-You can download [Narrative Inventory here](https://www.unrealengine.com/marketplace/en-US/product/narrative-inventory-networked-lightweight-inventory-system) from the Epic Marketplace.
+You can download [Narrative Inventory here](https://www.unrealengine.com/marketplace/en-US/product/narrative-inventory-networked-lightweight-inventory-system) from the Fab Marketplace.

@@ -102,7 +102,7 @@ const config: Config = {
           title: 'Community',
           items: [
             {
-              label: 'Epic Marketplace',
+              label: 'Fab Marketplace',
               href: 'https://www.unrealengine.com/marketplace/en-US/profile/Narrative+Tools+Inc.',
             },
             {
