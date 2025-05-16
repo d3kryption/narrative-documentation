@@ -12,7 +12,7 @@ All NPC details are stored as data assets, then spawned and managed by the Subsy
 
 ## Creating a new NPC
 
-To create a new NPC, Narrative Pro comes packaged with a data asset type called ``.
+To create a new NPC, Narrative Pro comes packaged with a data asset type called `NPC definition`.
 
 Open Your **Content Drawer** -> Go to the folder where you want to store **NPC Data Assets** -> Right Click -> **Miscellaneous** -> **Data Asset**
 
