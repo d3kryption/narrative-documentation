@@ -12,6 +12,6 @@ There are many ways to trigger this functionality. The common method being via t
 
 Another method that you can use, is to start the [behavior tree](https://dev.epicgames.com/documentation/en-us/unreal-engine/behavior-tree-in-unreal-engine---quick-start-guide) yourself:
 
-[BT_FollowPlayer](ai.md#bt_followplayer)
+[BT_FollowPlayer](ai/index#bt_followplayer)
 
 ![bt-starting.webp](//img/pro/npcs/bt-starting.webp)

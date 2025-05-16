@@ -39,7 +39,7 @@ Unlockable abilities, skills all fully customisable to meet your games requireme
 
 ## AI
 
-[AI behaviour](../npcs/ai.md) built in that can be used as friendly or enemy. Can be used from dialogue, quests or many other methods.
+[AI behaviour](../npcs/ai/index) built in that can be used as friendly or enemy. Can be used from dialogue, quests or many other methods.
 
 ![ai-v2.webp](//img/pro/demo-map/ai-v2.webp)
 
