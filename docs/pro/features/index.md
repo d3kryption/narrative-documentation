@@ -41,7 +41,7 @@ Unlockable abilities, skills all fully customisable to meet your games requireme
 
 [AI behaviour](../npcs/ai.md) built in that can be used as friendly or enemy. Can be used from dialogue, quests or many other methods.
 
-![ai.webp](//img/pro/demo-map/ai.webp)
+![ai-v2.webp](//img/pro/demo-map/ai-v2.webp)
 
 ### Companions / followers
 
@@ -55,7 +55,7 @@ Easily turn NPC's into [companions](../npcs/followers.md) who follow you anywher
 
 ![bookpickup.webp](//img/pro/books/bookpickup.webp)
 
-![book-example.webp](//img/pro/demo-map/book-example.webp)
+![book-example-v2.webp](//img/pro/demo-map/book-example-v2.webp)
 
 ## Character Creator
 
@@ -75,19 +75,23 @@ Built in combat for melee, ranged or magic weapons using the gameplay ability sy
 
 Full [dialogue system](../dialogue/index.md) supported with flexible options, camera, lighting, sound and sequences.
 
-![dialogue.webp](//img/pro/demo-map/dialogue.webp)
+![dialogue-v2.webp](//img/pro/demo-map/dialogue-v2.webp)
 
 ### Seamless transitions
 
 Create [AAA quality transitions](../dialogue/index.md) when moving between gameplay and dialogue with ease.
 
-![dialogue-transistions.webp](//img/pro/demo-map/dialogue-transistions.webp)
+<video autoPlay muted loop playsinline width="100%">
+  <source src="/img/pro/demo-map/seamless-cinematic.mp4" type="video/mp4"/>
+  <source src="/img/pro/demo-map/seamless-cinematic.mov" type="video/mov"/>
+  Your browser does not support the video tag.
+</video>
 
 ## Equipment
 
 Any weapons you pick up can be [equipped](../inventory/items/equipment) to your character, so they can be used in combat.
 
-![equipment.webp](//img/pro/demo-map/equippment.webp)
+![equipment-v2.webp](//img/pro/demo-map/equipment-v2.webp)
 
 Easy to use [pickups](../interaction/interactables/default-interactables.md#item-pickup) for equipment or quest items.
 
