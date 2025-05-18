@@ -23,3 +23,15 @@ Select **Tagged Dialogue Set**.
 Populate the **Tagged Dialogue** then assign the asset into the NPC Definition.
 
 ![tagged-dialogue-npc.png](//img/pro/dialogue/tagged-dialogue-npc.png)
+
+## Properties
+
+| Name         | Type                                                                                                                                | Description                                                                                                                                       |
+|--------------|-------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|
+| Tag          | [FGameplayTag](https://dev.epicgames.com/documentation/en-us/unreal-engine/using-gameplay-tags-in-unreal-engine)                    | The tag that will kick off this dialogue.                                                                                                         |
+| Dialogue     | [UDialogue](./index.md)                                                                                                             | The dialogue to begin.                                                                                                                            |
+| Cooldown     | float                                                                                                                               | The amount of time we should cooldown before playing this dialogue again.                                                                         |
+| MaxDistance  | float                                                                                                                               | Tagged dialogue wont play unless we're within this range from it                                                                                  |
+| RequiredTags | [FGameplayTagContainer](https://dev.epicgames.com/documentation/en-us/unreal-engine/API/Runtime/GameplayTags/FGameplayTagContainer) | Tags that will be required for the NPC to begin this tagged dialogue                                                                              |
+| BlockedTags  | [FGameplayTagContainer](https://dev.epicgames.com/documentation/en-us/unreal-engine/API/Runtime/GameplayTags/FGameplayTagContainer) | Tags that if owned by the NPC, will prevent this dialogue beginning. For example, we wouldn't want to greet a player if we were fighting someone. |
+| LastPlayTime | float                                                                                                                               | Defines how long ago the last dialogue was played                                                                                                 |

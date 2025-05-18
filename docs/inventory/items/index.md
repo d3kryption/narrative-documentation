@@ -51,7 +51,7 @@ Opening the game and pressing the key you set during setup will bring up the inv
 | bToggleActiveOnUse  | bool                          | If checked, using this item will cause it to activate/deactivate.                        |
 | Description         | FText                         | An optional description for the item.                                                    |
 | DisplayName         | FText                         | The display name for this item in the inventory.                                         |
-| ItemTags            | FGameplayTagContainer         | Any gameplay tags we wish to give this item.                                             |
+| ItemTags            | [FGameplayTagContainer](https://dev.epicgames.com/documentation/en-us/unreal-engine/API/Runtime/GameplayTags/FGameplayTagContainer)         | Any gameplay tags we wish to give this item.                                             |
 | MaxStackSize        | int32                         | The maximum size that a stack of items can be.                                           |
 | PickupMesh          | TSoftObjectPtr\<UStaticMesh\> | The mesh to display for this item's pickup.                                              |
 | Quantity            | int32                         | The amount of the item.                                                                  |

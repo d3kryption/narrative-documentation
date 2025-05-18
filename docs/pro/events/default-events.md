@@ -34,7 +34,7 @@ Adds one or more gameplay tags to the Narrative player or party for use in the g
 Adds the specified item and its quantity to the player's or party's inventory.
 
 ### Properties
-
+ 
 | Name      | Type                           | Description                                    |
 |-----------|--------------------------------|------------------------------------------------|
 | ItemClass | [FNarrativeItem](../inventory) | The class of the item to add to the inventory. |
@@ -141,7 +141,7 @@ Commands selected NPCs to attack the player, using the specified behaviour tree.
 | Name           | Type                              | Description                               |
 |----------------|-----------------------------------|-------------------------------------------|
 | Behaviour Tree | Behaviour Tree                    | The behaviour tree to run for the NPCs.   |
-| NPCsToEffect   | TArray([UNPCDefinition](../npcs)) | List of NPC data assets that will attack. |
+| NPCsToEffect   | TArray\<[UNPCDefinition](../npcs)/> | List of NPC data assets that will attack. |
 
 
 ## NPC Behavior - Go to sequence start
@@ -153,7 +153,7 @@ Instructs selected NPCs to move to the starting point of a specified level seque
 | Name           | Type                              | Description                                            |
 |----------------|-----------------------------------|--------------------------------------------------------|
 | Behaviour Tree | Behaviour Tree                    | The behaviour tree to run for the NPCs.                |
-| NPCsToEffect   | TArray([UNPCDefinition](../npcs)) | List of NPC data assets to move.                       |
+| NPCsToEffect   | TArray\<[UNPCDefinition](../npcs)/> | List of NPC data assets to move.                       |
 | Delay          | Float                             | Time to wait before NPCs arrive at the sequence start. |
 
 
@@ -166,7 +166,7 @@ Commands selected NPCs to return to their designated settlement location using t
 | Name           | Type                              | Description                                      |
 |----------------|-----------------------------------|--------------------------------------------------|
 | Behaviour Tree | Behaviour Tree                    | The behaviour tree to execute for the NPCs.      |
-| NPCsToEffect   | TArray([UNPCDefinition](../npcs)) | List of NPCs that will return to the settlement. |
+| NPCsToEffect   | TArray\<[UNPCDefinition](../npcs)/> | List of NPCs that will return to the settlement. |
 | Destination    | Vector                            | The location of the settlement for the NPCs.     |
 
 
@@ -179,7 +179,7 @@ Commands selected NPCs to walk to a specified destination, with optional delay s
 | Name           | Type                              | Description                                        |
 |----------------|-----------------------------------|----------------------------------------------------|
 | Behaviour Tree | Behaviour Tree                    | The behaviour tree to run for the NPCs.            |
-| NPCsToEffect   | TArray([UNPCDefinition](../npcs)) | List of NPCs that will move to the destination.    |
+| NPCsToEffect   | TArray\<[UNPCDefinition](../npcs)/> | List of NPCs that will move to the destination.    |
 | Destination    | Vector                            | The target location where NPCs will be sent.       |
 | Delay          | Float                             | How long the event waits before NPCs start moving. |
 
@@ -193,7 +193,7 @@ Instructs the selected NPCs to start following the player, acting as companions.
 | Name           | Type                              | Description                                 |
 |----------------|-----------------------------------|---------------------------------------------|
 | Behaviour Tree | Behaviour Tree                    | The behaviour tree to execute for the NPCs. |
-| NPCsToEffect   | TArray([UNPCDefinition](../npcs)) | List of NPCs that will follow the player.   |
+| NPCsToEffect   | TArray\<[UNPCDefinition](../npcs)/> | List of NPCs that will follow the player.   |
 
 
 ## Play Narrative Sequence
@@ -205,7 +205,7 @@ Triggers a specific level sequence to play, involving selected NPCs.
 | Name                   | Type                              | Description                                            |
 |------------------------|-----------------------------------|--------------------------------------------------------|
 | SequencePlayerSettings | SequencePlayerSettings            | Settings that the sequencer will use for the sequence. |
-| NPCsToBind             | TArray([UNPCDefinition](../npcs)) | NPCs that will participate in the sequence.            |
+| NPCsToBind             | TArray\<[UNPCDefinition](../npcs)/> | NPCs that will participate in the sequence.            |
 
 
 ## Print String
@@ -270,7 +270,7 @@ Applies a specific behaviour tree to selected NPCs to define their actions and A
 | Name           | Type                              | Description                                   |
 |----------------|-----------------------------------|-----------------------------------------------|
 | Behaviour Tree | Behaviour Tree                    | The behaviour tree to assign to the NPCs.     |
-| NPCsToEffect   | TArray([UNPCDefinition](../npcs)) | List of NPCs that will receive this behavior. |
+| NPCsToEffect   | TArray\<[UNPCDefinition](../npcs)/> | List of NPCs that will receive this behavior. |
 
 
 ## Show Notification
@@ -295,3 +295,166 @@ Initiates a trading window with a specified NPC, useful for item exchanges or gi
 |-----------|---------------------------|------------------------------------------------|
 | SpeakerID | String                    | The specific ID of the NPC with whom to trade. |
 | NPC       | [UNPCDefinition](../npcs) | The NPC data asset to initiate trading with.   |
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Add Factions
+
+Adds one or more factions to the Narrative player or party.
+
+### Properties
+
+| Name     | Type                                                                                                             | Description                                 |
+|----------|------------------------------------------------------------------------------------------------------------------|---------------------------------------------|
+| Factions | [FGameplayTag](https://dev.epicgames.com/documentation/en-us/unreal-engine/using-gameplay-tags-in-unreal-engine) | The factions to add to the player or party. |
+
+---
+
+## Add Goal to NPC
+
+Adds a goal to the given NPC. You may prefer to use a BP Event to bind this instead, as that will pass you a pointer back to the created goal, meaning you can keep a reference to the goal, update it, or remove it.
+
+### Properties
+
+| Name      | Type                                | Description                    |
+|-----------|-------------------------------------|--------------------------------|
+| GoalToAdd | [UNPCGoalItem](../npcs/ai/goals.md) | The goal to send to the NPC.   |
+
+---
+
+## Add Multiple Goals
+
+Assigns multiple goals to an NPC in sequence or parallel depending on their configuration.
+
+### Properties
+
+| Name  | Type                                | Description                             |
+|-------|-------------------------------------|-----------------------------------------|
+| Goals | TArray\<[UNPCGoal](../npcs/goals)/> | The list of goals to assign to the NPC. |
+
+---
+
+## Add Multiple Goals Then Talk
+
+Assigns a sequence of goals to an NPC, then starts a dialogue when all goals are completed.
+
+### Properties
+
+| Name         | Type                                   | Description                                       |
+|--------------|----------------------------------------|---------------------------------------------------|
+| NPC          | [UNPCDefinition](../npcs)              | The NPC to perform the goals and dialogue.        |
+| Goals        | TArray\<[UNPCGoal](../npcs/goals)/>      | The goals the NPC should complete before talking. |
+| Dialogue     | TSubclassOf<[UDialogue](../dialogue)>  | The dialogue to begin after completing goals.     |
+
+---
+
+## Move To Dest and Talk
+
+Commands an NPC to move to a destination and initiate dialogue upon arrival.
+
+### Properties
+
+| Name         | Type                                   | Description                                 |
+|--------------|----------------------------------------|---------------------------------------------|
+| NPC          | [UNPCDefinition](../npcs)              | The NPC to move and speak.                  |
+| Destination  | Vector                                 | The location to move to.                    |
+| Dialogue     | TSubclassOf<[UDialogue](../dialogue)>  | The dialogue to begin once at destination.  |
+
+---
+
+## Sit and Talk
+
+Instructs an NPC to sit at a specified location and start a conversation.
+
+### Properties
+
+| Name         | Type                                   | Description                               |
+|--------------|----------------------------------------|-------------------------------------------|
+| NPC          | [UNPCDefinition](../npcs)              | The NPC to sit and begin a conversation.  |
+| SeatLocation | Vector                                 | The location where the NPC should sit.    |
+| Dialogue     | TSubclassOf<[UDialogue](../dialogue)>  | The dialogue to start after sitting.      |
+
+---
+
+## Begin Soft Dialogue
+
+Starts a dialogue with an NPC without ending the current conversation, useful for ambient or optional exchanges.
+
+### Properties
+
+| Name        | Type                                   | Description                                                                       |
+|-------------|----------------------------------------|-----------------------------------------------------------------------------------|
+| Dialogue    | TSubclassOf\<[UDialogue](../dialogue)\> | The dialogue class that you want to softly start.                                |
+| StartFromID | FName                                  | The ID the dialogue should start from, or root if left empty.                    |
+
+---
+
+## Remove Factions
+
+Removes one or more factions from the Narrative player or party.
+
+### Properties
+
+| Name        | Type                                                            | Description                                  |
+|-------------|-----------------------------------------------------------------|----------------------------------------------|
+| Factions    | [ENarrativeFactionID](../factions/index.md#enarrativefactionid-properties) | The factions to remove from the player.     |
+
+---
+
+## Remove Follow Goal
+
+Removes the “follow player” goal from an NPC, stopping them from tracking the player.
+
+### Properties
+
+| Name    | Type                      | Description                                |
+|---------|---------------------------|--------------------------------------------|
+| NPC     | [UNPCDefinition](../npcs) | The NPC who should stop following.         |
+
+---
+
+## Show Notification
+
+Displays an on-screen notification to the player, optionally with sound and duration.
+
+### Properties
+
+| Name           | Type   | Description                                  |
+|----------------|--------|----------------------------------------------|
+| Message        | String | The message text to display.                 |
+| Duration       | Float  | How long the notification should appear.     |
+| PlaySound      | Bool   | Whether to play a sound with the message.    |
+
+---
+
+## Start Trading with NPC
+
+Opens the trading interface with a specified NPC, allowing item exchange.
+
+### Properties
+
+| Name    | Type                      | Description                             |
+|---------|---------------------------|-----------------------------------------|
+| NPC     | [UNPCDefinition](../npcs) | The NPC to initiate trading with.       |
