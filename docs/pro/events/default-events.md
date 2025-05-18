@@ -362,11 +362,11 @@ Assigns a sequence of goals to an NPC, then starts a dialogue when all goals are
 
 ### Properties
 
-| Name         | Type                                   | Description                                       |
-|--------------|----------------------------------------|---------------------------------------------------|
-| NPC          | [UNPCDefinition](../npcs)              | The NPC to perform the goals and dialogue.        |
-| Goals        | TArray\<[UNPCGoal](../npcs/goals)/>      | The goals the NPC should complete before talking. |
-| Dialogue     | TSubclassOf<[UDialogue](../dialogue)>  | The dialogue to begin after completing goals.     |
+| Name         | Type                                    | Description                                       |
+|--------------|-----------------------------------------|---------------------------------------------------|
+| NPC          | [UNPCDefinition](../npcs)               | The NPC to perform the goals and dialogue.        |
+| Goals        | TArray\<[UNPCGoal](../npcs/goals)/>     | The goals the NPC should complete before talking. |
+| Dialogue     | TSubclassOf\<[UDialogue](../dialogue)\> | The dialogue to begin after completing goals.     |
 
 ---
 
@@ -376,11 +376,11 @@ Commands an NPC to move to a destination and initiate dialogue upon arrival.
 
 ### Properties
 
-| Name         | Type                                   | Description                                 |
-|--------------|----------------------------------------|---------------------------------------------|
-| NPC          | [UNPCDefinition](../npcs)              | The NPC to move and speak.                  |
-| Destination  | Vector                                 | The location to move to.                    |
-| Dialogue     | TSubclassOf<[UDialogue](../dialogue)>  | The dialogue to begin once at destination.  |
+| Name         | Type                                    | Description                                 |
+|--------------|-----------------------------------------|---------------------------------------------|
+| NPC          | [UNPCDefinition](../npcs)               | The NPC to move and speak.                  |
+| Destination  | Vector                                  | The location to move to.                    |
+| Dialogue     | TSubclassOf\<[UDialogue](../dialogue)\> | The dialogue to begin once at destination.  |
 
 ---
 
@@ -390,11 +390,11 @@ Instructs an NPC to sit at a specified location and start a conversation.
 
 ### Properties
 
-| Name         | Type                                   | Description                               |
-|--------------|----------------------------------------|-------------------------------------------|
-| NPC          | [UNPCDefinition](../npcs)              | The NPC to sit and begin a conversation.  |
-| SeatLocation | Vector                                 | The location where the NPC should sit.    |
-| Dialogue     | TSubclassOf<[UDialogue](../dialogue)>  | The dialogue to start after sitting.      |
+| Name         | Type                                    | Description                               |
+|--------------|-----------------------------------------|-------------------------------------------|
+| NPC          | [UNPCDefinition](../npcs)               | The NPC to sit and begin a conversation.  |
+| SeatLocation | Vector                                  | The location where the NPC should sit.    |
+| Dialogue     | TSubclassOf\<[UDialogue](../dialogue)\> | The dialogue to start after sitting.      |
 
 ---
 
@@ -404,10 +404,10 @@ Starts a dialogue with an NPC without ending the current conversation, useful fo
 
 ### Properties
 
-| Name        | Type                                   | Description                                                                       |
-|-------------|----------------------------------------|-----------------------------------------------------------------------------------|
-| Dialogue    | TSubclassOf\<[UDialogue](../dialogue)\> | The dialogue class that you want to softly start.                                |
-| StartFromID | FName                                  | The ID the dialogue should start from, or root if left empty.                    |
+| Name        | Type                                    | Description                                                   |
+|-------------|-----------------------------------------|---------------------------------------------------------------|
+| Dialogue    | TSubclassOf\<[UDialogue](../dialogue)\> | The dialogue class that you want to softly start.             |
+| StartFromID | FName                                   | The ID the dialogue should start from, or root if left empty. |
 
 ---
 
