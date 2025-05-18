@@ -9,11 +9,7 @@ Speakers are the people who are part of your dialogue.
 
 They don't have to speak and can just be visible, or they can have fully interactive dialogue.
 
-:::note
-
-The player does not count as a speaker. Instead, they are included in [Player Speakers](./speakers.md#player-speakers). 
-
-:::
+![dialogue-speakers.webp](//img/pro/dialogue/dialogue-speakers.webp)
 
 ### Speaker Properties
 
@@ -31,6 +27,8 @@ The player does not count as a speaker. Instead, they are included in [Player Sp
 Player Speakers are the users who are part of the dialogue. This can include the primary player, or [the party](../parties).
 
 They don't have to speak and can just be visible, or they can have fully interactive dialogue.
+
+![dialogue-player-speakers.webp](//img/pro/dialogue/dialogue-player-speakers.webp)
 
 ### Properties
 

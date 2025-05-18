@@ -16,7 +16,9 @@ sidebar_label: 'Changelog'
 - Updated combat
 - Re-organised C++ code for cleaner implementation
 - Added setup config ini files to Resources folder
-- 
+- Added motion matching with GASP
+- Added weapon attachments
+- Added conditions to dialogue node texts
 
 ### Bugfixes/Misc
 - Fixed bug with combat T posing

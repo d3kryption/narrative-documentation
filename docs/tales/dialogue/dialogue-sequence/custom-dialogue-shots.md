@@ -11,11 +11,25 @@ However, sometimes this just won’t work for your needs. You may need something
 
 You can add your own custom sequences to get the exact shot you want.
 
-## Level Sequence Asset
+## Level Sequence
 
-This shot is used when you want to use a custom sequence asset you have created. Really useful for cutscene-based dialogue.
+When you want to use a custom sequence without any Narrative control.
 
-![shots-level-sequence-asset.webp](//img/dialogue/shots/shots-level-sequence-asset.webp)
+<video autoPlay muted loop playsinline width="100%">
+  <source src="/img/pro/level-sequence-player-shot-v1.mp4" type="video/mp4"/>
+  <source src="/img/pro/level-sequence-player-shot-v1.mov" type="video/mov"/>
+  Your browser does not support the video tag.
+</video>
+
+## Narrative Dialogue Sequence
+
+When you want to use a custom sequence but let Narrative control its features.
+
+<video autoPlay muted loop playsinline width="100%">
+  <source src="/img/dialogue/shots/narrative-level-sequence-player-shot-v1.mp4" type="video/mp4"/>
+  <source src="/img/dialogue/shots/narrative-level-sequence-player-shot-v1.mov" type="video/mov"/>
+  Your browser does not support the video tag.
+</video>
 
 ## Named binding error / warning
 

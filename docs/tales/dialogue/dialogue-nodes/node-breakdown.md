@@ -6,7 +6,7 @@ sidebar_label: 'Node Breakdown'
 
 The dialogue node is the base node that contains all the details you want in the specific line and shot that is being played. Its generic and used for both the Player and NPCs lines.
 
-![dialogue-node-created.webp](//img/dialogue/line/dialogue-node-created.webp)
+![dialogue-node-created-v1.webp](//img/dialogue/line/dialogue-node-created-v1.webp)
 
 ![dialogue-line-base-id.webp](//img/dialogue/line/dialogue-line-base-id.webp)
 ![dialogue-line-base-details.webp](//img/dialogue/line/dialogue-line-base-details.webp)

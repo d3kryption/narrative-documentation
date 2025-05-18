@@ -6,7 +6,7 @@ sidebar_label: 'Dialogue Nodes'
 
 The dialogue node is the base node that contains all the details you want in the specific line and shot that is being played. Its generic and used for both the Player and NPCs lines.
 
-![dialogue-node-created.webp](//img/dialogue/line/dialogue-node-created.webp)
+![dialogue-node-created-v1.webp](//img/dialogue/line/dialogue-node-created-v1.webp)
 
 ## Creating a new node
 
@@ -18,13 +18,13 @@ To create new nodes to add new lines to your dialogue, either right click in the
 
 You can join multiple [speakers](../speakers.md) nodes together, but you cannot join multiple [player nodes](../speakers.md#player-speakers). You have to separate them by an empty speaker node.
 
-![speaker-nodes-joining.webp](//img/dialogue/speaker-nodes-joining.webp)
+![speaker-nodes-joining-v1.webp](//img/dialogue/speaker-nodes-joining-v1.webp)
 
 :::
 
 Now you can select the node to enter its details in the **Details** panel.
 
-![creation-node-details.webp](//img/dialogue/creation-node-details.webp)
+![creation-node-details-v1.webp](//img/dialogue/creation-node-details-v1.webp)
 
 :::note
 

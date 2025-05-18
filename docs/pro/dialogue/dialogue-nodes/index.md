@@ -6,7 +6,7 @@ sidebar_label: 'Dialogue Nodes'
 
 The dialogue node is the base node that contains all the details you want in the specific line and shot that is being played. Its generic and used for both the Player and NPCs lines.
 
-![dialogue-node-created.webp](//img/dialogue/line/dialogue-node-created.webp)
+![dialogue-node-created-v1.webp](//img/dialogue/line/dialogue-node-created-v1.webp)
 
 ## Creating a new node
 
@@ -18,13 +18,13 @@ To create new nodes to add new lines to your dialogue, either right click in the
 
 You can join multiple [speakers](../speakers.md) nodes together, but you cannot join multiple [player nodes](../speakers.md#player-speakers). You have to separate them by an empty speaker node.
 
-![speaker-nodes-joining.webp](//img/dialogue/speaker-nodes-joining.webp)
+![speaker-nodes-joining-v1.webp](//img/dialogue/speaker-nodes-joining-v1.webp)
 
 :::
 
 Now you can select the node to enter its details in the **Details** panel.
 
-![creation-node-details.webp](//img/dialogue/creation-node-details.webp)
+![creation-node-details-v1.webp](//img/dialogue/creation-node-details-v1.webp)
 
 :::note
 
@@ -36,15 +36,12 @@ The default node comes with some starting text. This can work for some dialogue,
 
 Each node has many variables that make it work. They are defined below.
 
+The below table is variables shared between both NPC and Player nodes.
+
 | Name                    | Type                                                                         | Description                                                                                                                                                                                      |
 |-------------------------|------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| SelectingReplyShot      | [UNarrativeDialogueSequence](../dialogue-sequence)                           | **(NPC node only)** The [UNarrativeDialogueSequence](../dialogue-sequence) that will be used while the user is selecting a player option.                                                        |
-|                         |
-| OptionText              | FText                                                                        | **(Player node only)** The shortened text to display for dialogue option when it shows up in the list of available responses. If left empty narrative will just use the main text.               |
-| HintText                | FText                                                                        | **(Player node only)** Optional hint text after the option text, ie (Lie, Persuade, Begin Quest) If left empty narrative will see if events have hint text.                                      |
-| bAutoSelect             | bool                                                                         | **(Player node only)** If true, this dialogue option will be automatically selected instead of the player having to select it from the UI as long as all [conditions](../../conditions) are met. |
-|                         |                                                                              |                                                                                                                                                                                                  |
 | Text                    | FText                                                                        | The text for this dialogue node.                                                                                                                                                                 |
+| TextConditions          | TArray\<[UNarrativeCondition](../../conditions/index.md)\>                   | Conditions are functions that run before this node is pending selection and contain boolean returns that allow this node to be run or ignored.                                                   |
 | Duration                | ELineDuration                                                                | The duration the line should play for.                                                                                                                                                           |
 | DurationSecondsOverride | float                                                                        | The overridden seconds the line should play for.                                                                                                                                                 |
 | DialogueSound           | USoundBase                                                                   | If a dialogue sound is selected, narrative will automatically play the sound for you in 3D space, at the location of the speaker.                                                                |
@@ -62,12 +59,48 @@ Each node has many variables that make it work. They are defined below.
 | Conditions              | TArray\<[UNarrativeCondition](../../conditions/index.md)\>                   | Conditions are functions that run before this node is pending selection and contain boolean returns that allow this node to be run or ignored.                                                   |
 | Events                  | TArray\<[UNarrativeEvents](../../events/index.md)\>                          | Events are functions that can run at specific states on [quests](../../quests) & [dialogue](../../dialogue).                                                                                     |
 
+#### Player only nodes
+
+The below table shows the variables only available on player nodes.
+
+| Name                    | Type                                                                         | Description                                                                                                                                                                                      |
+|-------------------------|------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| OptionText              | FText                                                                        | **(Player node only)** The shortened text to display for dialogue option when it shows up in the list of available responses. If left empty narrative will just use the main text.               |
+| HintText                | FText                                                                        | **(Player node only)** Optional hint text after the option text, ie (Lie, Persuade, Begin Quest) If left empty narrative will see if events have hint text.                                      |
+| bAutoSelect             | bool                                                                         | **(Player node only)** If true, this dialogue option will be automatically selected instead of the player having to select it from the UI as long as all [conditions](../../conditions) are met. |
+
+#### NPC only nodes
+
+The below table shows the variables only available on NPC nodes.
+
+| Name                    | Type                                                                         | Description                                                                                                                                                                                      |
+|-------------------------|------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| SelectingReplyShot      | [UNarrativeDialogueSequence](../dialogue-sequence)                           | **(NPC node only)** The [UNarrativeDialogueSequence](../dialogue-sequence) that will be used while the user is selecting a player option.                                                        |
+
 
 :::note
 
 To see a complete breakdown of the variables and how the nodes work, please see the [node breakdown](./node-breakdown.md). 
 
 :::
+
+## Alternative Lines
+
+Alternative Lines is a dialogue line within a dialogue line. It allows you to give a single dialogue node, the random chance of playing other lines in the same place.
+
+Very useful for greetings, off-hand comments or other same line-different text based nodes.
+
+A common example could be a node for gender or race specific characters. All saying the same thing, but having different sounds.
+
+Another example is using a flag to toggle on and off explicit language.
+
+![dialogue-alternative-lines.webp](//img/dialogue/dialogue-alternative-lines.webp)
+
+### Conditions
+
+Alternative lines also contain a condition array. Making it really useful to pick which text it should use. E.g. HasExplicitLanguage
+
+![dialogue-alternative-lines-conditions.webp](//img/dialogue/dialogue-alternative-lines-conditions.webp)
 
 ## Auto-selection
 
@@ -83,7 +116,7 @@ Back linking is the ability to make circular dialogue; Going back up (across) to
 
 This is very useful for creating questions or returning to menu style dialogue.
 
-![dialogue_backlinking.webp](//img/dialogue/dialogue_backlinking.webp)
+![dialogue_backlinking.webp](//img/dialogue/dialogue_backlinking.webp)**
 
 ## Colors
 

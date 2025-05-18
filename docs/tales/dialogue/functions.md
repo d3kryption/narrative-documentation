@@ -6,6 +6,12 @@ sidebar_label: 'Functions'
 
 Dialogue contains a bunch of functions to help you use dialogue in any way you need.
 
+## Adjust Player Transform
+
+Adjusts the player's position in one-on-one dialogues.
+
+![dialogue-adjust-player-transform.webp](//img/dialogue/functions/dialogue-adjust-player-transform.webp)
+
 ## Get Speaker Head Location
 
 Returns the location of the actor's head, where the dialogue camera will aim.
@@ -201,9 +207,3 @@ Resolves a variable name within a dialogue line.
 | Name | Type    | Description                |
 |------|---------|----------------------------|
 | -    | FString | The resolved string value. |
-
-## Adjust Player Transform
-
-Adjusts the player's position in one-on-one dialogues.
-
-![dialogue-adjust-player-transform.webp](//img/dialogue/functions/dialogue-adjust-player-transform.webp)

@@ -93,7 +93,7 @@ Set the `Default Username` to the name you want for the player.
 
 :::note
 
-If you want to use the default username, leave this blank, and it will load the platform name (steam username, PlayStation PSN) 
+If you don't want to use the default username, leave this blank, and it will load the platform name (steam username, PlayStation PSN) 
 
 You can also override this using the [ChangeName](https://dev.epicgames.com/documentation/en-us/unreal-engine/BlueprintAPI/Game/ChangeName?application_version=5.4) node.
 
@@ -106,3 +106,11 @@ You can add Unreal's comments around your dialogue to organise them or make them
 Simply highlight your dialogue nodes and hit the **C** key to add the comment.
 
 ![dialogue-comments.webp](//img/dialogue/dialogue-comments.webp)
+
+## Dialogue Sound Attenuation
+
+You can set a sound attenuation asset on your dialogue's class defaults to make the 3d, 2d or any other effect you wish to have.
+
+Commonly used to create echos inside caves or make sound 2D.
+
+![dialogue-sound-attenuation.webp](//img/dialogue/dialogue-sound-attenuation.webp)

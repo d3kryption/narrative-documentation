@@ -17,7 +17,7 @@ You can do this by going to **Edit** -> **Project Settings** -> **Narrative Dial
 
 ## Vertical
 
-![speaker-nodes-joining.webp](//img/dialogue/speaker-nodes-joining.webp)
+![speaker-nodes-joining-v1.webp](//img/dialogue/speaker-nodes-joining-v1.webp)
 
 ## Dialogue Order
 
@@ -39,7 +39,7 @@ But Tales will play them from left to right. Meaning it would be checked
 - Option 3
 - Option 2
 
-![speaker-nodes-joining.webp](//img/dialogue/vertical_dialogue_order.webp)
+![speaker-nodes-joining-v1.webp](//img/dialogue/vertical_dialogue_order.webp)
 
 ### Horizontal Order
 
