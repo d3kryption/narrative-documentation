@@ -19,8 +19,9 @@ sidebar_label: 'Changelog'
 - Added motion matching with GASP
 - Added weapon attachments
 - Added conditions to dialogue node texts
+- Added the new [Gameplay Camera](https://dev.epicgames.com/documentation/en-us/unreal-engine/gameplay-camera-system-quick-start)
 
 ### Bugfixes/Misc
 - Fixed bug with combat T posing
 - Fixed bug with build errors
-- 
+- Removed build breaking data table
