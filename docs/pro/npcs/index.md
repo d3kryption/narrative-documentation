@@ -49,3 +49,7 @@ Another method of spawning NPC's into the world is to use [Settlements](../settl
 | TradingItemLoadout      | TArray\<[FLootTableRoll](../inventory/loot-tables.md)\>                      | The items we should grant the character by default.                                                                                                                                                         |
 | ShopFriendlyName        | FText                                                                        | The name of the vendor's shop, if this NPC is a vendor.                                                                                                                                                     |
 | DefaultApperance        | [UCharacterAppearance](../inventory/items/equipment/character-appearance.md) | The characters default appearance                                                                                                                                                                           |
+
+A detailed video guide is also available here:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/aznT4ojWLwc?si=_N9sIalsbnBrg9zq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

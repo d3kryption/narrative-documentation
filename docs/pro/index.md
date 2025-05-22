@@ -18,7 +18,7 @@ Detailed video guides are also available here:
 
 ## Narrative 2.0.0
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/2KUnz7RFTQU?si=0_8JssZMEubDzspM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/zFe0x_4Okr0?si=ggUAVS1N7qQ532Xs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Narrative 1.1.0
 

@@ -28,7 +28,7 @@ This tree tells the NPC to walk to specific location.
 
 ## BT_GoToLocation_StayWithPlayer
 
-Very similar to the [BT_GoToLocation](ai.mdt_gotolocation) tree, but this NPC will stand idle and wait for the player to catch up.
+Very similar to the [BT_GoToLocation](./behavior-trees.md#bt_gotolocation) tree, but this NPC will stand idle and wait for the player to catch up.
 
 ## BT_FollowPlayer
 
