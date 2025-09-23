@@ -1,8 +1,8 @@
 [
     {
         "product": ["Tales"],
-        "year": 2025,
-        "quarter": 3,
+        "year": 2026,
+        "quarter": 1,
         "type": "Feature",
         "name": "Improved dialogue camera",
         "desc": "A new camera system will be implemented making dialogue cameras far easier and higher quality."
@@ -22,6 +22,39 @@
         "type": "Feature",
         "name": "Empty node durations",
         "desc": "Nodes without any text can now have a custom duration set or events to play allowing you to add delays in the middle of dialogue."
+    },
+    {
+        "product": ["Pro - Combat"],
+        "year": 2026,
+        "quarter": 1,
+        "type": "Feature",
+        "name": "2.2 (estimate)",
+        "descList": [
+            "Bow Weapon & Animation Set",
+            "Sword 1H & 2H Animation Sets, along with proper first person support for melee",
+            "New Wand Anim Sets, with proper first person support for wands",
+            "Full support for throwable weapons such as grenades"
+        ]
+    },
+    {
+        "product": ["Pro - Combat"],
+        "year": 2026,
+        "quarter": 1,
+        "type": "Bugfix",
+        "name": "2.2 (estimate)",
+        "descList": [
+            "Blocking fixed for melee"
+        ]
+    },
+    {
+        "product": ["Pro"],
+        "year": 2026,
+        "quarter": 1,
+        "type": "Feature",
+        "name": "2.2 (estimate)",
+        "descList": [
+            "Procedural Cover System with auto-generated cover using NavMesh data"
+        ]
     },
     {
         "product": ["Tales"],
@@ -247,8 +280,8 @@
     },
     {
         "product": ["Inventory"],
-        "year": 2024,
-        "quarter": 4,
+        "year": 2026,
+        "quarter": 1,
         "type": "Misc",
         "name": "Hotbar Delay Note",
         "desc": "Hotbar delayed; not ready yet."
@@ -284,14 +317,6 @@
         "type": "Bugfix",
         "name": "Equipment Cloth Physics",
         "desc": "Cloth Physics will now show in the inventory screen."
-    },
-    {
-        "product": ["Inventory"],
-        "year": 2025,
-        "quarter": 2,
-        "type": "Feature",
-        "name": "Hotbar",
-        "desc": "Inventory hotbar for quick switching equipment / items."
     },
     {
         "product": ["Inventory"],
@@ -685,7 +710,7 @@
     },
     {
         "product": ["Navigator"],
-        "year": 2025,
+        "year": 2026,
         "quarter": 2,
         "type": "Feature",
         "name": "Layers",
@@ -735,7 +760,7 @@
     {
         "product": ["Common UI"],
         "year": 2025,
-        "quarter": 2,
+        "quarter": 4,
         "type": "Feature",
         "name": "Enhanced Input Support / Docs",
         "desc": "Looking at the ability to add Enhanced Input support or documentation how to easily upgrade."
@@ -743,7 +768,7 @@
     {
         "product": ["Common UI"],
         "year": 2025,
-        "quarter": 2,
+        "quarter": 4,
         "type": "Feature",
         "name": "Common UI Migration Docs",
         "desc": "If using another plugin / system with CommonUI, you cannot have multiple CommonUI setups. These docs will guide how to migrate to another input."
@@ -751,7 +776,7 @@
     {
         "product": ["Common UI"],
         "year": 2025,
-        "quarter": 2,
+        "quarter": 4,
         "type": "Feature",
         "name": "Pro Styles Migration",
         "desc": "Migrating the Pro styling system to Narrative Common UI"
