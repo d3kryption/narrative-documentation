@@ -37,6 +37,16 @@
         ]
     },
     {
+        "product": ["Pro - NPC"],
+        "year": 2026,
+        "quarter": 1,
+        "type": "Feature",
+        "name": "2.2 (estimate)",
+        "descList": [
+            "NPC Traffic system for laying out simple grid-based traffic "
+        ]
+    },
+    {
         "product": ["Pro - Combat"],
         "year": 2026,
         "quarter": 1,
@@ -53,7 +63,27 @@
         "type": "Feature",
         "name": "2.2 (estimate)",
         "descList": [
-            "Procedural Cover System with auto-generated cover using NavMesh data"
+            "Bow Weapon & Animation Set",
+            "Sword 1H & 2H Animation Sets, along with proper first person support for melee",
+            "New Wand Anim Sets, with proper first person support for wands",
+            "Procedural Cover System with auto-generated cover using NavMesh data",
+            "Full support for throwable weapons such as grenades",
+            "NPC Traffic system for laying out simple grid-based traffic"
+        ]
+    },
+    {
+        "product": ["Pro"],
+        "year": 2026,
+        "quarter": 1,
+        "type": "Bugfix",
+        "name": "2.2 (estimate)",
+        "descList": [
+            "Blocking fixed for melee",
+            "Bug with AI running in place if punched with unarmed fixed",
+            "AI will no longer fire rifle once and then get stuck",
+            "Ragdolling into water now correctly transitions to swimming",
+            "Swimming outside of a physics volume now correct removes swimming anim layer",
+            "Saving now restores the level you saved in properly"
         ]
     },
     {
@@ -277,14 +307,6 @@
         "type": "Bugfix",
         "name": "Inventory Save Fail",
         "desc": "Inventory now returns false if save fails."
-    },
-    {
-        "product": ["Inventory"],
-        "year": 2026,
-        "quarter": 1,
-        "type": "Misc",
-        "name": "Hotbar Delay Note",
-        "desc": "Hotbar delayed; not ready yet."
     },
     {
         "product": ["Navigator"],
