@@ -10,7 +10,7 @@ export function Tabs(columns) {
     function SetProductTabHeadings() {
         // default products
         let tabs = [
-            { product: "Pro", subTabs: [] },
+            //{ product: "Pro", subTabs: [] },
             { product: "Interaction", subTabs: [] },
             { product: "Inventory", subTabs: [] },
             { product: "Tales", subTabs: [], oldName: "Tales (Quests & Dialogue)" },
@@ -20,11 +20,18 @@ export function Tabs(columns) {
 
         // find any custom product names and add them
         RoadmapData?.forEach(item => {
+
+            if (item.product === "Pro")
+                return;
+
             // does the product already exist in the list?
             item.product.forEach(product => {
                 // check if the item is a child item
                 const parentItem = product.split(' - ')[0];
                 let productExist = undefined;
+
+                if (parentItem === "Pro")
+                    return;
 
                 // if a parent item needs to be found, add that as a subTab
                 if (product.indexOf("-") !== -1) {
