@@ -4,6 +4,58 @@ sidebar_label: 'Changelog'
 
 # Changelog
 
+## Version 3.7.0
+
+You can see the [code changes](./version-3.7.0.md) here.
+
+### Features
+- Added ability to load in the middle of quest dialogue
+- Added bool to auto select if only reply instead of showing 1 reply
+- Added BoundLevelSequence to automatically add NPCs
+- Added BPT_FollowNPCToLocation task
+- Added conditions to lines as well as nodes
+- Added conditions to Narrative Events
+- Added DialogueStarted/OnDialogueEnd delegate (for dialogue debugger)
+- Added end dialogue distance for when characters are walking away / free movement
+- Added FailQuest node to instantly fail the quest
+- Added function for OnQuestPostLoad
+- Added GetCurrentNode function to dialogue
+- Added GetDialogueText function to return soundwave subtitles if they exist for node ID
+- Added int to LinkSpeakerAvatar to return specific speakers from the array
+- Added OnActivate/OnDeactivate function to NarrativeEvents
+- Added output bool to TryExitDialogue
+- Added PlayParams to dialogue with unskippable, freemovement and stop movement overrides
+- Added priority to dialogue for multiple dialogue files
+- Added QuestDialogue to hold quest specific dialogue
+- Added QuestRequirements to quests
+- Added reason to ExitDialogue
+- Added override to CanSkipDialogue for specific cases
+- Added StayNearActor quest requirement
+- Added TaggedDialogue with TaggedDialougeComponent
+- Added track button to quest journal
+- Added gameplay tags to speakers for state updates
+- Added editor button to quests to return QuestDialogue class
+- Converted sounds, animations to pointers instead of hard references
+- Dialogue input key selections
+- Updated default node ID when generating new nodes
+- Updated to Unreal 5.7
+
+### Bugfixes
+- Added checks around broken states / branches to stop crashes
+- Added fix for copy and pasting nodes (Dialogue + Quests)
+- Added fix to dialogue comments
+- Blocked copying / duplicating root nodes
+- Fixed a bunch of variable clean ups for better memory management
+- Fixed bug where avatars would spawn in and player wouldn't stop movement
+- Fixed bug where freemovement would autostop - shouldn't really happen
+- Fixed bug with camera positioning on dialogue nodes
+- Fixed call to EndDialogue after sequence stops to prevent camera glitches
+- Fixed head rotation for different height based characters
+- Fixed missing transaction flags on nodes
+- Fixed quest journal text not wrapping description.
+- Fixed vertical wiring offset
+
+
 ## Version 3.6.0
 
 You can see the [code changes](./version-3.6.0.md) here.
