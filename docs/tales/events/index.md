@@ -4,17 +4,18 @@ sidebar_label: 'Events'
 
 # Events
 
-Events are a powerful tool that truly makes Narrative suit your game's requirements. Narrative is a framework that lets you expand upon its features and Events are one of the key ways to do it.
+Events are a powerful tool that truly makes Narrative suit your game's requirements. Narrative is a framework that lets you expand upon its features, and Events are one of the key ways to do it.
 
 They are small portions of code (mainly generic and reusable, but they can also be specific) that allow you to run code from any node across Narrative; be it [Quests](../quests) or [Dialogue](../dialogue).
 
 - Need a quest to start when you select a dialogue option? Add an event.
 - Need to give an item to your player after finishing a quest? Add an event.
 - Need to spawn an NPC, set their AI behavior, or give them a weapon? Add 3 events!
+- Need to hook into another non-Narrative plugin to perform a function? Add an event.
 
 :::note
 
-A key thing to remember with Events is to **always make it return**. If you don’t it can cause issues with Narrative waiting for the event to finish.
+A key thing to remember with Events is to **always make it return**. If you don’t, it can cause issues with Narrative waiting for the event to finish.
 
 :::
 
@@ -36,7 +37,7 @@ Narrative comes with a bunch of [default events](./default-events) to help kicks
 
 It is very common to create your own events to implement logic. This could be to interface with other plugins or to do something unique for your game.
 
-Creating Events are really easy. Create a new event by right-clicking in the **Content Drawer** -> **Narrative** -> **Event**.
+Creating Events is really easy. Create a new event by right-clicking in the **Content Drawer** -> **Narrative** -> **Event**.
 
 Simply override `ExecuteEvent` and action your request.
 

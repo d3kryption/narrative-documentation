@@ -4,15 +4,16 @@ sidebar_label: 'Conditions'
 
 # Conditions
 
-Conditions are a powerful tool that allows you to control the flow of dialogue based on any condition you require.
+Conditions are a powerful tool that allows you to control the flow of dialogue or events based on any condition you require.
 
-They are small portions of code (mainly generic and reusable, but they can also be specific) that allow you to check a value and have it act as the gate to the next [dialogue node](../dialogue/dialogue-nodes) to enter.
+They are small portions of code (mainly generic and reusable, but they can also be specific) that allow you to check a value and have it act as the gate to the next [dialogue node](../dialogue/dialogue-nodes) to enter, [dialogue line](../dialogue/dialogue-nodes/node-breakdown#dialogue-line) to pick or what [events](../events) to run.
 
-- Should a node only be used if the player has a specific item? Add a condition.
-- Do you want to only go down a nodes route if the player has completed a quest? Add a condition.
+- Should pick a line only be used if the player has a specific item? Add a condition.
+- Do you want to only go down a nodes-route if the player has completed a quest? Add a condition.
 - Want to only play a node a single time? Add a condition.
+- Want to only pick a line if it's a time of day? Add a condition.
 
-Conditions allow you to add multiple conditions to a node. All of these conditions must be met for [Dialogue](../dialogue) to proceed. 
+Conditions allow you to add multiple queries to a bunch of places in dialogue. All of these conditions must be met for it to be considered for proceeding. 
 
 If even one is not met, the node will be rejected for use. If you require "this or that" logic, use two nodes instead.
 
@@ -26,7 +27,7 @@ It has been left here since there is a discussion in the community to whether it
 
 ## Using Conditions
 
-To add a condition to a node, simply select the node and in the details screen and add as many conditions to your Conditions list as you require.
+To add a condition, simply select the node/line/event and in the details panel and add as many conditions to your Conditions list as you require.
 
 ![conditions-list.webp](//img/conditions/conditions-list.webp)
 
@@ -38,7 +39,7 @@ Narrative comes with a bunch of [default conditions](./default-conditions.md) to
 
 It is very common to create your own conditions to implement logic. This could be to interface with other plugins or to do something unique for your game.
 
-Creating Conditions are really easy. Create a new condition by right-clicking in the **Content Drawer** -> **Narrative** -> **Condition**.
+Creating Conditions is really easy. Create a new condition by right-clicking in the **Content Drawer** -> **Narrative** -> **Condition**.
 
 Simply override `CheckCondition` and action your request.
 

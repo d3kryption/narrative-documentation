@@ -41,6 +41,22 @@ This allows you to create objectives such as `Go and talk to Reubs` and upon exi
 |---------------|-----------------------------|---------------------------------------------------------------------------------------------------------------|
 | Dialogue      | [UDialogue](../../dialogue) | This is the dialogue which the task needs to check to complete the task.                                      |
 
+## Follow NPC to Location
+
+This task makes an NPC walk to a location and then complete itself if the player is close enough.
+
+### Properties
+
+| Name                   | Type   | Description                                                                                                                                                                                           |
+|------------------------|--------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Goal Location          | vector | This is the vector location that the player needs to reach to complete the task.                                                                                                                      |
+| Distance Tolerance     | float  | This is how close or far away the player needs to get to the goal location.                                                                                                                           |
+| Friendly Location Name | string | The location name that will display on the UI for the player. For example, The House would display on the UI as Go to The House.                                                                      |
+| Invert                 | bool   | By default, the task will wait for the player to arrive at the location. However, you may have scenarios where the player needs to get away from a location. You can use this to change this setting. |
+| Actor                  | Actor  | GoalLocation can optionally be derived from a actors location if required.                                                                                                                            |
+| NPCClass               | Actor  | The actor class to find.                                                                                                                                                                              |
+| NPCTag                 | Name   | The tag of the actor to find specifically.                                                                                                                                                            |
+
 ## Go To Location
 
 A very common node which allows you to complete an objective when the player arrives at a destination using the location vector. You can customize how often it checks the distance to save performance.
@@ -74,5 +90,4 @@ This allows you to create objectives with dialogue, but unlike the Finish Dialog
 | Name           | Type   | Description                                                            |
 |----------------|--------|------------------------------------------------------------------------|
 | DialogueNodeID | string | The ID of the dialogue node that needs to finish to complete this task |
-
 

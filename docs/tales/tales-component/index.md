@@ -1,5 +1,5 @@
 ---
-sidebar_label: 'Narrative Component'
+sidebar_label: 'Narrative Tales Component'
 sidebar_position: 1
 ---
 

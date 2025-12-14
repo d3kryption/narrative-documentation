@@ -12,6 +12,37 @@ Adjusts the player's position in one-on-one dialogues.
 
 ![dialogue-adjust-player-transform.webp](//img/dialogue/functions/dialogue-adjust-player-transform.webp)
 
+## Can Skip Dialogue
+
+Returns whether skipping is allowed for the current dialogue.
+
+This function determines if the dialogue **as a whole** permits skipping, regardless of the current line.
+
+It is commonly used to:
+- Globally disable skipping for important conversations
+- Control skip behavior for cinematic or story-critical dialogue
+- Gate UI controls such as *Skip* or *Fast Forward*
+
+![dialogue-can-skip-dialogue.png](//img/dialogue/functions/dialogue-can-skip-dialogue.png)
+
+#### Output
+
+| Name         | Type | Description                                   |
+|--------------|------|-----------------------------------------------|
+| Return Value | bool | Whether dialogue skipping is allowed.         |
+
+:::note
+
+This function is evaluated **in addition to** per-line skip checks.
+
+For a line to be skippable:
+- `CanSkipDialogue` must return `true`
+- `CanSkipCurrentLine` must also return `true`
+
+:::
+
+
+
 ## Get Speaker Head Location
 
 Returns the location of the actor's head, where the dialogue camera will aim.
@@ -46,21 +77,53 @@ Called every tick to update the dialogue.
 
 ## Link Speaker Avatar
 
-Links a speaker ID to its avatar in the world.
+Links a dialogue speaker to a Speaker Avatar actor.
 
-![dialogue-link-speaker-avatar.webp](//img/dialogue/functions/dialogue-link-speaker-avatar.webp)
+Narrative uses Speaker Avatars to determine:
+- Where to point the camera
+- Which actor should play animations
+- Who dialogue lines are associated with in the world
+
+This function attempts to resolve the correct avatar for a speaker using the following order:
+
+1. **Spawn an actor** if the speaker has an `AvatarActorClass` set
+2. **Find an existing actor** in the world with the speaker’s `SpeakerID` set as a tag
+3. **Fallback behavior**
+    - NPC speakers → `DefaultNPCAvatar`
+    - Player speakers → The player’s Pawn
+
+If none of these methods succeed, no avatar will be linked.
+
+:::note
+If this default behavior does not suit your game, you can **override this function** in Blueprint or C++ to implement custom avatar resolution.
+:::
+
+![dialogue-link-speaker-avatar.png](//img/dialogue/functions/dialogue-link-speaker-avatar.png)
 
 #### Inputs
 
-| Name | Type         | Description              |
-|------|--------------|--------------------------|
-| Info | FSpeakerInfo | The speaker information. |
+| Name | Type         | Description                                                               |
+|-----:|--------------|---------------------------------------------------------------------------|
+| Info | FSpeakerInfo | Information about the speaker being linked, including ID and avatar data. |
+|  Idx | int32        | The index of the speaker within the dialogue’s speaker list.              |
 
 #### Output
 
-| Name | Type    | Description                |
-|------|---------|----------------------------|
-| -    | AActor* | The linked speaker avatar. |
+| Name         | Type    | Description                                                  |
+|--------------|---------|--------------------------------------------------------------|
+| Return Value | AActor* | The actor linked as the Speaker Avatar, or `null` if none.   |
+
+:::note
+
+Speaker Avatars are cached after linking and reused throughout the dialogue.
+
+Overriding this function allows for:
+- Custom spawn logic
+- Dynamic actor selection
+- Integration with existing NPC systems
+
+:::
+
 
 ## Destroy Speaker Avatar
 

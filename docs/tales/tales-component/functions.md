@@ -105,3 +105,38 @@ This will return you a bool to whether calling BeginDialogue would successfully 
 | Name         | Type | Description                            |
 |--------------|------|----------------------------------------|
 | Return Value | bool | Whether or not the dialogue can begin. |
+
+## Try Exit Dialogue
+
+Attempts to exit the currently playing dialogue.
+
+This function performs an **authoritative check** to ensure the dialogue is allowed to exit before actually doing so.
+
+This is useful when:
+- The player attempts to manually exit a dialogue
+- Dialogue flow depends on exit conditions
+- You want to prevent exiting during critical moments
+
+If the exit is not allowed, the dialogue will continue playing.
+
+![try-exit-dialogue.png](//img/tales/functions/try-exit-dialogue.png)
+
+#### Inputs
+
+| Name   | Type                     | Description                                               |
+|--------|--------------------------|-----------------------------------------------------------|
+| Reason | EExitDialogueReason      | The reason the dialogue is attempting to exit.            |
+
+#### Output
+
+| Name         | Type | Description                                           |
+|--------------|------|-------------------------------------------------------|
+| Return Value | bool | Whether the dialogue was successfully exited.         |
+
+:::note
+
+This function performs internal validation before exiting the dialogue.
+
+If you need to **forcefully exit** a dialogue without checks, use the appropriate low-level dialogue shutdown function instead.
+
+:::

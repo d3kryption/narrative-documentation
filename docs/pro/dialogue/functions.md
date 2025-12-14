@@ -46,21 +46,52 @@ Called every tick to update the dialogue.
 
 ## Link Speaker Avatar
 
-Links a speaker ID to its avatar in the world.
+Links a dialogue speaker to a Speaker Avatar actor.
 
-![dialogue-link-speaker-avatar.webp](//img/dialogue/functions/dialogue-link-speaker-avatar.webp)
+Narrative uses Speaker Avatars to determine:
+- Where to point the camera
+- Which actor should play animations
+- Who dialogue lines are associated with in the world
+
+This function attempts to resolve the correct avatar for a speaker using the following order:
+
+1. **Spawn an actor** if the speaker has an `AvatarActorClass` set
+2. **Find an existing actor** in the world with the speaker’s `SpeakerID` set as a tag
+3. **Fallback behavior**
+    - NPC speakers → `DefaultNPCAvatar`
+    - Player speakers → The player’s Pawn
+
+If none of these methods succeed, no avatar will be linked.
+
+:::note
+If this default behavior does not suit your game, you can **override this function** in Blueprint or C++ to implement custom avatar resolution.
+:::
+
+![dialogue-link-speaker-avatar.png](//img/dialogue/functions/dialogue-link-speaker-avatar.png)
 
 #### Inputs
 
-| Name | Type         | Description              |
-|------|--------------|--------------------------|
-| Info | FSpeakerInfo | The speaker information. |
+| Name | Type         | Description                                                               |
+|-----:|--------------|---------------------------------------------------------------------------|
+| Info | FSpeakerInfo | Information about the speaker being linked, including ID and avatar data. |
+|  Idx | int32        | The index of the speaker within the dialogue’s speaker list.              |
 
 #### Output
 
-| Name | Type    | Description                |
-|------|---------|----------------------------|
-| -    | AActor* | The linked speaker avatar. |
+| Name         | Type    | Description                                                  |
+|--------------|---------|--------------------------------------------------------------|
+| Return Value | AActor* | The actor linked as the Speaker Avatar, or `null` if none.   |
+
+:::note
+
+Speaker Avatars are cached after linking and reused throughout the dialogue.
+
+Overriding this function allows for:
+- Custom spawn logic
+- Dynamic actor selection
+- Integration with existing NPC systems
+
+:::
 
 ## Destroy Speaker Avatar
 
