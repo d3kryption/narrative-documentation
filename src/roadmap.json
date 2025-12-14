@@ -2,7 +2,7 @@
     {
         "product": ["Tales"],
         "year": 2026,
-        "quarter": 1,
+        "quarter": 3,
         "type": "Feature",
         "name": "Improved dialogue camera",
         "desc": "A new camera system will be implemented making dialogue cameras far easier and higher quality."

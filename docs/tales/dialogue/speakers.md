@@ -19,7 +19,7 @@ The player does not count as a speaker. Instead, they are included in [Player Sp
 
 | Name                   | Type                                                         | Description                                                                                                                                 |
 |------------------------|--------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------|
-| SpeakerID              | Text                                                         | The speakers NPC data asset - if this is set to something, we'll use the NPC subsystem to grab this speaker.                                |
+| SpeakerID              | Text                                                         | The unique ID for the speaker. This MUST be on the speaker as an actor tag for Narrative to use GetAllActorsWithTag.                        |
 | DefaultSpeakerShot     | [UNarrativeDialogueSequence](../dialogue/dialogue-sequence/) | Sequence to use whenever this speaker is talking (will be overridden by shot set on line).                                                  |
 | SpeakerAvatarClass     | TSubclassOf\<AActor\>                                        | Set this to a valid actor class if you want narrative to automatically spawn your speaker avatar in, and destroy it when the dialogue ends. |
 | SpeakerAvatarTransform | FTransform                                                   | The transform for the SpeakerActor that gets spawned in, if one is set. (world location)                                                    |
