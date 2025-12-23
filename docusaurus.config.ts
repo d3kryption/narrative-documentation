@@ -8,6 +8,9 @@ const config: Config = {
   favicon: 'img/favicon.ico',
   markdown: {
     mermaid: true,
+    hooks: {
+      onBrokenMarkdownLinks: 'warn',
+    }
   },
   themes: ['@docusaurus/theme-mermaid'],
 
@@ -23,7 +26,6 @@ const config: Config = {
   projectName: 'narrative', // Usually your repo name.
 
   onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
