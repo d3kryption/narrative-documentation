@@ -4,6 +4,11 @@ sidebar_label: 'Changelog'
 
 # Changelog
 
+# Narrative Tales 3.7.1
+
+### Bugfixes
+- Fixed bug with Data task load order for standalone mode
+
 ## Version 3.7.0
 
 You can see the [code changes](./version-3.7.0.md) here.

@@ -4,6 +4,12 @@ sidebar_label: 'Changelog'
 
 # Changelog
 
+## Version 1.1.3
+
+### Bugfixes
+- Converted marker type enum to gameplay tags
+- Removed SetVisibility for markers to SetDomain for gameplay tags
+
 ## Version 1.1.1
 
 ### Features
