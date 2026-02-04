@@ -4,6 +4,12 @@ sidebar_label: 'Changelog'
 
 # Changelog
 
+## Version 1.2.4
+
+### Bug fixes
+- Fixed bug with Pulse material not showing
+- Fixed bug with GetInteractionStartTransform not being called
+
 ## Version 1.2.1
 
 ### Features
