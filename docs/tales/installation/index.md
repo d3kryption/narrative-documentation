@@ -7,10 +7,17 @@ sidebar_position: 0
 
 To get started, we will be using the Narrative Tutorial Template project and Unreal Engine version 5.3. This template is a duplication of the Third Person template and contains a bunch of pre-setup features such as Metahumans to make this tutorial easier.
 
-You can get the Narrative Tutorial Template here:
+You can download a [demo project (compiled, windows) here:](https://mega.nz/file/sJlGwADC#utEIXvr7tZcw9qzReWOxkp6VLIxta0epOuGeV_GpWmA)
+
+You can get the [Narrative Tales Tutorial Template here:](https://mega.nz/file/ZVMFkJSC#K2AgzSdsfydhj13-s4FPAoLjviffhvCV4cfQn3H6c94)
+
+Alternatively, you can download the [finished project here](https://mega.nz/file/9VV1VCbQ#WulGzeA6kOcIQ17gfj8NNOvj1mnuzXczxAN1vRKCtP8)
+
+
+You can get the OLD Narrative Tutorial Template here:
 https://drive.google.com/file/d/1-Ta3DrBDQqp26Q9f3c5YJgeG1s0kMCqQ/view?usp=sharing
 
-Alternatively, you can download the finished project here:
+Alternatively, you can download the OLD finished project here:
 https://drive.google.com/file/d/1-UaJSERJ7OdpvLxzEYUvn_XCkn7gGo1r/view?usp=sharing
 
 Extract the project then download Narrative from the Fab Marketplace and you can install it to the engine (default) or move it into your project's Plugins folder (you may have to create this folder).
