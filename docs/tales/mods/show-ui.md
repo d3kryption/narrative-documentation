@@ -1,20 +1,26 @@
 ---
-sidebar_label: 'Show UI'
+sidebar_label: 'Hidden Quests'
 ---
 
-# Show UI
+# Hidden Quests
 
 import {Icon} from '@iconify/react';
 
 <div class="action-time">
-    <Icon icon="mdi:clock-time-eight-outline" height="20"></Icon> Time required: 20 minutes
+    <Icon icon="mdi:clock-time-eight-outline" height="20"></Icon> Time required: 10 minutes
 </div>
 
-Show UI is a mod commonly used in games to completely hide a quest from any UI. Basically making it a completely hidden quest.
+Hidden Quests is a mod commonly used in games to completely hide a quest from any UI. Basically making it a completely hidden quest.
 
 This is useful when creating sub-quests that run in the background of a main quest or creating game concepts such as Achievements or Trophies.
 
 ![quest-show-ui-usage.webp](/img/quests/quest-show-ui-usage.webp)
+
+## Video
+
+Below is a video showing the same process.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/2XgXv8axVw8?si=OP7KBHlfO5aT2LaR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Adding the boolean
 
@@ -22,7 +28,7 @@ There is two ways of adding the boolean. A blueprint only modification which tak
 
 ### Blueprint
 
-To add the blueprint boolean, create a [master quest](../quests/master-quest.md) then add a new boolean named `Show UI`.
+To add the blueprint boolean, create a [master quest](../quests/master-quest.md) then add a new boolean named `Hidden Quests`.
 
 ![master-quest-show-ui-variable.webp](/img/quests/master-quest-show-ui-variable.webp)
 
@@ -73,7 +79,7 @@ Finally compile your C++ and re-open Unreal to make the UI changes.
 
 This section needs to be done whether you have added the C++ or Blueprint changes.
 
-In order to make the UI hidden, we need to update the Quest widget to ignore any broadcasts that come from a quest with `Show UI` disabled.
+In order to make the UI hidden, we need to update the Quest widget to ignore any broadcasts that come from a quest with `Hidden Quests` disabled.
 
 Go into the plugins folder and open `BP_Narrative3Overlay`. Go into the **Graph**.
 
@@ -103,7 +109,7 @@ Then add two outputs:
 
 #### Blueprint
 
-If you added the blueprint Show UI flag, drag off the quest node and call your **GetShowUI** interface call.
+If you added the blueprint Hidden Quests flag, drag off the quest node and call your **GetShowUI** interface call.
 
 Connect this to a branch node.
 

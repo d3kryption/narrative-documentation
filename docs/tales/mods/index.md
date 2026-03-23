@@ -12,6 +12,6 @@ Suggestions that can be used by the vast majority of people can be added directl
 
 Below is a list of common mods people add in for their games.
 
-| Name                    | Description                                                                                                                          |
-|-------------------------|--------------------------------------------------------------------------------------------------------------------------------------|
-| [Show UI](./show-ui.md) | Adds a tick box that allows you to hide the quest from all UI. Useful for hidden quests such as achievements/trophies or sub-quests. |
+| Name                          | Description                                                                                                                          |
+|-------------------------------|--------------------------------------------------------------------------------------------------------------------------------------|
+| [Hidden Quests](./show-ui.md) | Adds a tick box that allows you to hide the quest from all UI. Useful for hidden quests such as achievements/trophies or sub-quests. |
