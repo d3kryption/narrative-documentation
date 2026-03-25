@@ -4,6 +4,12 @@ sidebar_label: 'Changelog'
 
 # Changelog
 
+## Version 1.2.5
+
+### Feature
+- Updated C++ Delegates to be public for extended usage
+
+
 ## Version 1.2.4
 
 ### Bug fixes

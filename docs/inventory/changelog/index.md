@@ -4,12 +4,18 @@ sidebar_label: 'Changelog'
 
 # Changelog
 
+## Version 2.0.5
+
+### Bugfixes
+- Fixed bug with pickup blueprint not spawning Mesh on spawn
+- Fixed bug with item being used not updating quantity
+
 ## Version 2.0.1
 
 ### Features
 - Updated to Unreal 5.5
 - Narrative Quests & Dialogue 3.6 update integration
-- 
+
 ### Bugfixes/Misc
 - Fixed missing textures bug (T_Vignette, T_Marker)
 

@@ -4,6 +4,14 @@ sidebar_label: 'Changelog'
 
 # Changelog
 
+# Narrative Tales 3.7.2
+
+### Bugfixes
+- Fixed bug with conditions crashing with nothing entered (null array)
+- Fixed bug dialogue distance not ending audio / animations
+- Fixed bug with NC_HasNarrativeDataTask not connected events
+- Fixed bug with looping options
+
 # Narrative Tales 3.7.1
 
 ### Bugfixes
