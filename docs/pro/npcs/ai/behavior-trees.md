@@ -16,12 +16,6 @@ This is the idle state for the NPC. They will holster their weapon and stand idl
 
 This is the tree used when the NPC hears a sound and needs to investigate it. This isn't used in Combat or with friendly [factions](../../factions).
 
-## BT_ReturnToSettlement
-
-This tree simply tells the NPC to walk back to their assigned [settlement](../../settlements).
-
-The code also contains logic for when the settlement hasn't been [loaded](../../settlements/settlement-loaders.md) by making the NPC walk in the direction then teleporting there if the player is far enough away.
-
 ## BT_GoToLocation
 
 This tree tells the NPC to walk to specific location.

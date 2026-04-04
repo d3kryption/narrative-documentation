@@ -28,8 +28,6 @@ Using the NPC Manager you can spawn NPCs by getting the **Narrative NPC Subsyste
 
 ![npc-spawning.webp](//img/pro/npcs/npc-spawning.webp)
 
-Another method of spawning NPC's into the world is to use [Settlements](../settlements)
-
 
 ## Data Asset Properties
 

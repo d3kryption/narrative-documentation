@@ -24,7 +24,7 @@ When you are ready, open the [NPC Spawn](./npc-spawn.md) to choose where and wha
 
 ## Properties
 
-| Name                 | Type  | Description                                                            |
-|----------------------|-------|------------------------------------------------------------------------|
-| SpawnerSaveGUID      | FGuid | The GUID that the save system uses to identify and save the settlement |
-| bActivateOnBeginPlay | bool  | Whether the spawner is enabled or not.                                 |
+| Name                 | Type  | Description                                                         |
+|----------------------|-------|---------------------------------------------------------------------|
+| SpawnerSaveGUID      | FGuid | The GUID that the save system uses to identify and save the spawner |
+| bActivateOnBeginPlay | bool  | Whether the spawner is enabled or not.                              |

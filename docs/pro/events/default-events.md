@@ -139,17 +139,13 @@ Instructs selected NPCs to move to the starting point...
 | NPCsToEffect   | TArray\<[UNPCDefinition](../npcs)/> | List of NPC data assets to move.                       |
 | Delay          | Float                               | Time to wait before NPCs arrive at the sequence start. |
 
-## NPC Behavior - Return to settlement
-
-Commands selected NPCs to return to their designated settlement...
-
 ### Properties
 
-| Name           | Type                                | Description                                      |
-|----------------|-------------------------------------|--------------------------------------------------|
-| Behaviour Tree | Behaviour Tree                      | The behaviour tree to execute for the NPCs.      |
-| NPCsToEffect   | TArray\<[UNPCDefinition](../npcs)/> | List of NPCs that will return to the settlement. |
-| Destination    | Vector                              | The location of the settlement for the NPCs.     |
+| Name           | Type                                | Description                                     |
+|----------------|-------------------------------------|-------------------------------------------------|
+| Behaviour Tree | Behaviour Tree                      | The behaviour tree to execute for the NPCs.     |
+| NPCsToEffect   | TArray\<[UNPCDefinition](../npcs)/> | List of NPCs that will return.                  |
+| Destination    | Vector                              | The location of the NPCs.                       |
 
 ## NPC Behavior - Send to destination
 

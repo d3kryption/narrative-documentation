@@ -221,12 +221,6 @@ A new tool allowing you to schedule NPC's to perform certain tasks at specific t
 
 ![npc-schedules-v2.webp](//img/pro/demo-map/npc-schedules-v2.webp)
 
-## NPC spawners
-
-Replacing Narrative Pro 1.1.0's Settlements, NPC Spawners is the new method of managing NPC's in the world. Can be dynamically spawned in making for story based events, NPC spawning and more.
-
-![npc-spawners.webp](//img/pro/demo-map/npc-spawners.webp)
-
 ## Pause menu
 
 Pressing **ESCAPE** (or in the editor **SHIFT + ESCAPE**) will open the [pause menu](../ui/pause-menu.md).

@@ -397,7 +397,6 @@
             "AI improvements include NPC Activities for saved blackboard states.",
             "NPC Activities manage saved blackboard and behavior tree states.",
             "NPC Schedules allow time-based NPC activities.",
-            "Settlement Schedules define activities for groups of NPCs.",
             "Inventory Quick Use menu allows quick access to favorited items.",
             "Inventory items are now automatically saved with specified variables."
         ]
@@ -643,14 +642,6 @@
         "desc": "Massive improvements to AI, including NPC Activities that save blackboard and behavior tree state."
     },
     {
-        "product": ["Pro - Settlements"],
-        "year": 2025,
-        "quarter": 2,
-        "type": "Feature",
-        "name": "Spawning improvements",
-        "desc": "Settlement spawning will be easier to place in the world. Capsules instead of vector debugs."
-    },
-    {
         "product": ["Pro - AI"],
         "year": 2024,
         "quarter": 4,
@@ -665,14 +656,6 @@
         "type": "Feature",
         "name": "NPC Schedules",
         "desc": "NPC Schedules use the Time of Day system for timed activities, like NPC sleep and work cycles."
-    },
-    {
-        "product": ["Pro - AI"],
-        "year": 2024,
-        "quarter": 4,
-        "type": "Feature",
-        "name": "Settlement Schedules",
-        "desc": "Schedules can define group activities at the settlement level, synchronizing NPC interactions."
     },
     {
         "product": ["Pro - Inventory"],

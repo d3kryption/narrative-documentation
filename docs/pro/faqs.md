@@ -141,18 +141,8 @@ Standard Unreal sequences: By default, Unreal doesn't have a skip function, but 
 </div>
 
 <div>
-    <h3>Does this framework support level streaming?</h3>
-    <p>The plugin uses world partition for most of the fast jumping ([Navigator fast travel](./navigator)) or the long-distance loading/unloading ([settlements](./settlements)).</p>
-</div>
-
-<div>
     <h3>What if I want a chest opening animation instead of getting immediately to the Inventory UI?</h3>
     <p>You simply need to create a custom [Narrative Interaction](./interaction) that interacts with the chest -> freezes the player -> tells it to open -> once it's opened -> open the [inventory](./inventory).</p>
-</div>
-
-<div>
-    <h3>Is the framework already optimized to run open-world adventures?</h3>
-    <p>There are a bunch of optimizations built in to load and unload [settlements](./settlements) (areas, bandit camps, etc.). It's also built on World partition which should hide and show from distances as well.</p>
 </div>
 </div>
 `

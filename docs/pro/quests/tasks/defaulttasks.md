@@ -17,16 +17,6 @@ When an [Ability](../../abilities) is activated, this task will complete.
 |---------|---------------------------------------------|-----------------------------------------------------------|
 | Ability | [NarrativeGameplayAbility](../../abilities) | The ability that this task needs to wait to be activated. |
 
-## Clear Settlement
-
-When a [settlement](../../settlements) is marked as cleared (all enemies destroyed), it will complete this task.
-
-### Properties
-
-| Name              | Type                                                                                                             | Description                                            |
-|-------------------|------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------|
-| SettlementToClear | [FGameplayTag](https://dev.epicgames.com/documentation/en-us/unreal-engine/using-gameplay-tags-in-unreal-engine) | The settlement's gameplay tag that needs to be cleared |
-
 ## Complete Narrative Data Task
 
 Data Tasks can be completed from any blueprint that has access to the [NarrativeComponent](../../tales-component) and does not require a task to be created.
