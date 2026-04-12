@@ -33,8 +33,6 @@ Either call [activate / deactivate](../index.md#activate--deactivate) on the **i
 
 Interactables are fully replicated right out of the box. Make sure any variables you use are replicated to make it work.
 
-There is an example in the [door example](../door-example.md#multiplayer) where we replicate the door.
-
 ## Focused Overlay Material
 
 By default, when an item is interactable, Narrative will apply a material to indicate its intractability. This however can be set to anything you require or cleared out to simply be ignored.
