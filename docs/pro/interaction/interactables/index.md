@@ -13,8 +13,6 @@ For example, if you add the interactable 'Interactable_ItemPickup' that actor wi
 
 To start creating a new interaction right click in the **Content Drawer** -> **Blueprint Class** -> **Narrative Interactable**.
 
-There is an example of a custom interaction for a [Door here](../door-example.md).
-
 ## Activate / Deactivate
 
 It is common to disable and enable an **interactable** item depending on your games state. For example a character holding an item might not be able to pick things up, or they might not have unlocked the right ability just yet.
