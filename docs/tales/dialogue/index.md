@@ -88,7 +88,7 @@ It was causing corruption in assets and until it can be resolved up to the high 
 
 ## Player Name
 
-Narrative Pro allows you to set a default name for your player. Simply go to **Edit** -> **Project Settings** -> **Narrative Pro**.
+Narrative allows you to set a default name for your player. Simply go to **Edit** -> **Project Settings** -> **Narrative**.
 
 Set the `Default Username` to the name you want for the player.
 
