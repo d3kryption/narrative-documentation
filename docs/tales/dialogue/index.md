@@ -77,14 +77,6 @@ Narrative will take this and automatically create the speakers if they do not ex
 
 Narrative does not let you import from Excel files, CSV’s or any other media.
 
-:::warning
-
-Copying and pasting dialogue nodes have been disabled until further notice. 
-
-It was causing corruption in assets and until it can be resolved up to the high Narrative standard, it has been removed.
-
-:::
-
 
 ## Player Name
 

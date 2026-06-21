@@ -16,7 +16,6 @@ The dialogue node is the base node that contains all the details you want in the
 | Name                | Type                                                                         | Description                                                                                                                                    |
 |---------------------|------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------|
 | Line                | [FDialogueLine](../dialogue-nodes/node-breakdown.md#dialogue-line)           | The dialogue line associated with this node.                                                                                                   |
-| AlternativeLines    | TArray\<[FDialogueLine](../dialogue-nodes/node-breakdown.md#dialogue-line)\> | If alternative lines are added in here, narrative will randomly select either the main line or one of the alternatives.                        |
 | OnDialogueFinished  | FOnDialogueNodeFinishedPlaying                                               | Delegate that is called when the dialogue node finishes playing.                                                                               |
 | PlayedLine          | [FDialogueLine](../dialogue-nodes/node-breakdown.md#dialogue-line)           | The last line the dialogue node played.                                                                                                        |
 | NPCReplies          | TArray\<[UDialogueNode_NPC](./node-breakdown.md#npc-dialogue-line)\>         | Array of NPC replies for debugging purposes.                                                                                                   |
@@ -31,22 +30,29 @@ The dialogue node is the base node that contains all the details you want in the
 
 The dialogue line is the text, audio, camera and settings you want in the specific line that is being played.
 
-These are seperated from the Node as during dialogue, you only need the base settings in order to process the shot making it more lightweight.
+These are separated from the Node as during dialogue, you only need the base settings in order to process the shot making it more lightweight.
+
+Note, the conditions on the line are not the same as the conditions on the node. The conditions on the node are the conditions that are run before the line is pending selection.
+
+The conditons on the line are the conditions that are select which line to use.
+
+Common examples for line based conditions are to select swearing or not swearing modes, or nice and nasty modes or gender based nodes.
 
 ![dialogue-line-details.webp](//img/dialogue/line/dialogue-line-details.webp)
 
 ### Properties
 
-| Name                    | Type                                               | Description                                                                                                                       |
-|-------------------------|----------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
-| Text                    | FText                                              | The text for this dialogue node.                                                                                                  |
-| Duration                | ELineDuration                                      | The duration the line should play for.                                                                                            |
-| DurationSecondsOverride | float                                              | The overridden seconds the line should play for.                                                                                  |
-| DialogueSound           | USoundBase                                         | If a dialogue sound is selected, narrative will automatically play the sound for you in 3D space, at the location of the speaker. |
-| DialogueMontage         | UAnimMontage                                       | Narrative will play this montage on the first skeletal mesh component found on your speaker with the tag "Body" added to it.      |
-| FacialAnimation         | UAnimMontage                                       | Narrative will play this montage on the first skeletal mesh component found on your speaker with the tag "Face" added to it.      |
-| Shot                    | [UNarrativeDialogueSequence](../dialogue-sequence) | Shot to play for this line. Overrides speaker shot if one is set.                                                                 |
-
+| Name                    | Type                                                                         | Description                                                                                                                                    |
+|-------------------------|------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------|
+| Text                    | FText                                                                        | The text for this dialogue node.                                                                                                               |
+| Duration                | ELineDuration                                                                | The duration the line should play for.                                                                                                         |
+| DurationSecondsOverride | float                                                                        | The overridden seconds the line should play for.                                                                                               |
+| DialogueSound           | USoundBase                                                                   | If a dialogue sound is selected, narrative will automatically play the sound for you in 3D space, at the location of the speaker.              |
+| DialogueMontage         | UAnimMontage                                                                 | Narrative will play this montage on the first skeletal mesh component found on your speaker with the tag "Body" added to it.                   |
+| FacialAnimation         | UAnimMontage                                                                 | Narrative will play this montage on the first skeletal mesh component found on your speaker with the tag "Face" added to it.                   |
+| Shot                    | [UNarrativeDialogueSequence](../dialogue-sequence)                           | Shot to play for this line. Overrides speaker shot if one is set.                                                                              |
+| Conditions              | TArray\<[UNarrativeCondition](../../conditions/index.md)\>                   | Conditions are functions that run before this line is pending selection and contain boolean returns that allow this node to be run or ignored. |
+| AlternativeLines        | TArray\<[FDialogueLine](../dialogue-nodes/node-breakdown.md#dialogue-line)\> | If alternative lines are added in here, narrative will randomly select either the main line or one of the alternatives.                        |
 
 ## NPC Dialogue Line
 
