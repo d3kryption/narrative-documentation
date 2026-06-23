@@ -9,11 +9,11 @@ To get started, we will be using the Narrative Tutorial Template project and Unr
 
 ## Project downloads
 
-You can download a [demo project (compiled, windows) here:](https://mega.nz/file/5NtRnAqI#utEIXvr7tZcw9qzReWOxkp6VLIxta0epOuGeV_GpWmA)
+You can download a [demo project (compiled, windows) here:](https://mega.nz/file/EYt0SRiQ#utEIXvr7tZcw9qzReWOxkp6VLIxta0epOuGeV_GpWmA)
 
-You can get the [Narrative Tales Tutorial Template here:](https://mega.nz/file/9F8FzDhD#K2AgzSdsfydhj13-s4FPAoLjviffhvCV4cfQn3H6c94)
+You can get the [Narrative Tales Tutorial Template here:](https://mega.nz/file/tAtk0b7D#K2AgzSdsfydhj13-s4FPAoLjviffhvCV4cfQn3H6c94)
 
-Alternatively, you can download the [finished project here](https://mega.nz/file/EFsjAKpR#WulGzeA6kOcIQ17gfj8NNOvj1mnuzXczxAN1vRKCtP8)
+Alternatively, you can download the [finished project here](https://mega.nz/file/kQVjFBrK#mk1j50FierT14NSN5l5dZR1XjbIhqbCy7iW_5xnuWt0)
 
 ## Older versions
 
