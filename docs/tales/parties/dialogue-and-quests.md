@@ -55,7 +55,7 @@ Conditions within dialogue have an enum property called `Party Condition Policy`
 
 Changing this property will allow you to customise how / what conditions check for your dialogue.
 
-![conditions.webp](../../../static/img/quests-and-dialogue/parties/conditions.webp)
+![conditions.webp](//img/quests-and-dialogue/parties/conditions.webp)
 
 | Enumerator Name         | Description                                                                                                                 |
 |-------------------------|-----------------------------------------------------------------------------------------------------------------------------|

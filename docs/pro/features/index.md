@@ -243,7 +243,7 @@ The gameplay tab inside the Settings menu allows you to easily add [gameplay opt
 
 Fully configurable input built into the settings menu.
 
-![input-settings.webp](../../../static/img/pro/demo-map/input-settings.webp)
+![input-settings.webp](//img/pro/demo-map/input-settings.webp)
 
 #### Video
 

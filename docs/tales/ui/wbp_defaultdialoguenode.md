@@ -18,7 +18,7 @@ These widgets display which camera shot is set as the shot is playing.
 
 This widget is built up of icons and TextBoxes. It's used for identifying who is speaking to who for aiming and rotation purposes.
 
-![speakers.webp](../../../static/img/quests-and-dialogue/ui/wbp_defaultdialoguenode/speakers.webp)
+![speakers.webp](//img/quests-and-dialogue/ui/wbp_defaultdialoguenode/speakers.webp)
 
 ## TB_ConditionsTitle
 

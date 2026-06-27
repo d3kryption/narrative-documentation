@@ -108,7 +108,7 @@ Finally open the animation blueprint and head into the Details panel.
 
 Throughout this you will see a variety of options that control the animations for this character. Change these to your new animations.
 
-![animation-blueprints-animations.webp](../../../static/img/pro/player/animation-blueprints-animations.webp)
+![animation-blueprints-animations.webp](//img/pro/player/animation-blueprints-animations.webp)
 
 :::note
 
