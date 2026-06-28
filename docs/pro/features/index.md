@@ -7,35 +7,35 @@ sidebar_position: 0
 
 Narrative Pro comes packaged with a demo map containing all the features included.
 
-Below is a list of all the features.
+Below is a list of alot the features that make Narrative Pro so powerful.
 
-:::note
+:::warning
 
-Pro is a full framework and is not built to be modular. It will take C++ knowledge and good Narrative Pro knowledge to remove / replace some aspects.
+Pro is a full framework and is **not built** to be modular. It will take C++ knowledge and good Narrative Pro knowledge to remove / replace some aspects.
 
 Some aspects such as the Character Creator can simply be turned off, but other aspects are CORE.
 
 If you do not want the vast majority of the below functionality, consider checking out the modular plugins instead.
 
-_**Please note we will not refund Narrative Pro if you are struggling to integrate it with another plugin or are finding it beyond your technical ability - it is up to you to figure out whether the plugin meets your needs , and if you have questions before purchase you can reach out in the [Discord](https://discord.gg/qyVJmpQ2Pn).**_ 
+_**Please note we will not refund Narrative Pro if you are struggling to integrate it with another plugin or are finding it beyond your technical ability – it is up to you to figure out whether the plugin meets your needs, and if you have questions before purchase you can reach out in the [Discord](https://discord.gg/qyVJmpQ2Pn).**_ 
 
 :::
 
 ## Abilities
 
-Full [skill tree and ability system](../abilities/index.md) using Unreal's fantastic [Gameplay Ability System (GAS)](https://dev.epicgames.com/documentation/en-us/unreal-engine/gameplay-ability-system-for-unreal-engine)
+Full [skill trees](../skill-tree/index.md) and [ability system](../abilities/index.md) using Unreal's fantastic [Gameplay Ability System (GAS)](https://dev.epicgames.com/documentation/en-us/unreal-engine/gameplay-ability-system-for-unreal-engine)
 
-Unlockable abilities, skills all fully customisable to meet your games requirement.
+Unlockable abilities, skills are all fully customisable to meet your game's requirement.
 
 ![abilities-v2.webp](//img/pro/demo-map/abilities-v2.webp)
 
-[Levels driven by XP](../ui/abilities/Player-stats.md) that can be granted by quests, dialogue or anything you need.
+[Levels driven by XP](../skill-tree/skill-points.md) that can be granted by quests, dialogue or anything you need.
 
-![abilities-levels.webp](//img/pro/demo-map/abilities-levels.webp)
+<img src="/img/pro/demo-map/abilities-levels.webp" alt="abilities-levels.webp" style={{width: 400}} />
 
-[Videos](../abilities/movies.md) can be provided to show the users exactly what each skill will do.
+[Videos](../skill-tree/adding-new-perks.md#functionality) can be provided to show the users exactly what each skill will do.
 
-![abuilities-skillvideos.webp](//img/pro/demo-map/abuilities-skillvideos.webp)
+<img src="/img/pro/demo-map/abuilities-skillvideos.webp" alt="abuilities-skillvideos.webp" style={{width: 400}} />
 
 ## AI
 
@@ -45,9 +45,18 @@ Unlockable abilities, skills all fully customisable to meet your games requireme
 
 ### Companions / followers
 
-Easily turn NPC's into [companions](../npcs/followers.md) who follow you anywhere you go. Fast travelling, battle, dialogue. All ready and built in.
+Turn NPC's into [companions](../npcs/followers.md) who follow you anywhere you go. Fast travelling, battle, driving, climbing or dialogue. All ready and built-in.
 
 ![companions_v2.webp](//img/pro/demo-map/companions_v2.webp)
+
+### Mass AI
+
+100% customisable [mass AI](https://dev.epicgames.com/community/learning/tutorials/zqZZ/unreal-engine-epic-for-indies-designing-scalable-crowds-with-mass-ai-a-comprehensive-ue-guide) that can be used to create a large number of NPC's at once. All fully interactable.
+
+<video autoPlay muted loop playsinline width="100%">
+  <source src="/img/pro/ai/mass/massai.mp4" type="video/mp4"/>
+  Your browser does not support the video tag.
+</video>
 
 ## Books
 
@@ -69,6 +78,8 @@ A builtin fully usable Character Creator to allow your users to customise their 
 
 Built in combat for melee, ranged or magic weapons using the gameplay ability system (GAS). Easy system to allow you to make the combat you need. Constantly being updated.
 
+All fully [first](./index.md#first-person-mode-fps) and third person supported.
+
 ![combat.webp](//img/pro/demo-map/combat.webp)
 
 ## Dialogue
@@ -83,7 +94,17 @@ Create [AAA quality transitions](../dialogue/index.md) when moving between gamep
 
 <video autoPlay muted loop playsinline width="100%">
   <source src="/img/pro/demo-map/seamless-cinematic.mp4" type="video/mp4"/>
-  <source src="/img/pro/demo-map/seamless-cinematic.mov" type="video/mov"/>
+  Your browser does not support the video tag.
+</video>
+
+## Driving
+
+A full driving system that allows you to create driving experiences that are fully customizable.
+
+AI will also use cars to follow you around or enter and drive with you.
+
+<video autoPlay muted loop playsinline width="100%">
+  <source src="/img/pro/driving/driving.mp4" type="video/mp4"/>
   Your browser does not support the video tag.
 </video>
 
@@ -93,7 +114,7 @@ Any weapons you pick up can be [equipped](../inventory/items/equipment) to your 
 
 ![equipment-v2.webp](//img/pro/demo-map/equipment-v2.webp)
 
-Easy to use [pickups](../interaction/interactables/default-interactables.md#item-pickup) for equipment or quest items.
+Easy-to-use [pickups](../interaction/interactables/default-interactables.md#item-pickup) for equipment or quest items.
 
 ![equipment-armourpickup.webp](//img/pro/demo-map/equipment-armourpickup.webp)
 
@@ -133,9 +154,32 @@ The weapon will now have the attachment added.
 
 ## First Person mode (FPS)
 
-Built in true first person mode. Fully playable, look around and see your own body not just the arms.
+Built in true first-person mode. Fully playable, look around and see your own body, not just the arms with every aspect of the game supporting third and first person.
 
 ![fps.webp](//img/pro/demo-map/fps.webp)
+
+### Combat
+
+#### Bow & Arrows
+
+<video autoPlay muted loop playsinline width="100%">
+  <source src="/img/pro/demo-map/first-person/bows.mp4" type="video/mp4"/>
+  Your browser does not support the video tag.
+</video>
+
+#### Guns
+
+<video autoPlay muted loop playsinline width="100%">
+  <source src="/img/pro/demo-map/first-person/guns.mp4" type="video/mp4"/>
+  Your browser does not support the video tag.
+</video>
+
+#### Swords
+
+<video autoPlay muted loop playsinline width="100%">
+  <source src="/img/pro/demo-map/first-person/swords.mp4" type="video/mp4"/>
+  Your browser does not support the video tag.
+</video>
 
 ## Interaction
 
@@ -147,7 +191,7 @@ Built in true first person mode. Fully playable, look around and see your own bo
 
 ![interaction-bodies.webp](//img/pro/demo-map/interaction-bodies.webp)
 
-## Interaction Slots
+### Interaction Slots
 
 A replacement for Unreal's Smart Objects, that is fully replicated allowing you to assign capacities to interactable objects.
 
@@ -177,29 +221,61 @@ Create [traders or shops](../inventory/looting/trading.md) in your world, so you
 
 ![npc-trading-shop-ui.webp](//img/pro/inventory/npc-trading-shop-ui.webp)
 
+## Ladders
+
+A simple [ladder](../ladders/index.md) component that allows you to climb up and down ladders at any length in the world.
+
+<video autoPlay muted loop playsinline width="100%">
+  <source src="/img/pro/ladders/ladders.mp4" type="video/mp4"/>
+  Your browser does not support the video tag.
+</video>
+
+## Locomotion system
+
+A hugely upgraded [Game Animation Sample Pack (GASP)](https://dev.epicgames.com/community/learning/tutorials/l3Vz/unreal-engine-5-5-new-game-animation-sample-gasp-motion-matching-update-android-build-test) system for movement and more.
+
+<video autoPlay muted loop playsinline width="100%">
+  <source src="/img/pro/locomotion/locomotion.mp4" type="video/mp4"/>
+  Your browser does not support the video tag.
+</video>
+
+### Climbing
+
+<video autoPlay muted loop playsinline width="100%">
+  <source src="/img/pro/climbing/climbing.mp4" type="video/mp4"/>
+  Your browser does not support the video tag.
+</video>
+
+### Swimming
+
+<video autoPlay muted loop playsinline width="100%">
+  <source src="/img/pro/swimming/swimming.mp4" type="video/mp4"/>
+  Your browser does not support the video tag.
+</video>
+
 ## Narrative Sky
 
 A builtin and easy to use [Narrative Sky](../narrative-sky/index.md) system to allow you to create time based quests and give NPC's schedules.
 
-Daytime:
+Day time:
 
 ![combat.webp](//img/pro/demo-map/combat.webp)
 
-Nighttime:
+Night time:
 
 ![fps.webp](//img/pro/demo-map/fps.webp)
 
 ## Navigator
 
-You will also see the [compass](../ui/navigator/compass.md) and [minimap](../ui/navigator/minimap.md) showing your locations.
+You will also see the compass and minimap showing your locations.
 
 ![navigator-minimapcompass.webp](//img/pro/demo-map/navigator-minimapcompass.webp)
 
-If you start the quest, there is also [on screen markers](../ui/navigator/onscreenmarker.md)
+If you start the quest, there are also on screen markers
 
 ![navigator-onscreenmarker.webp](//img/pro/demo-map/navigator-onscreenmarker.webp)
 
-If you enter your menu, you have a [world map](../ui/navigator/worldmap.md) where you can see your entire map, place markers or see [points of interest](../navigator/points-of-interest.md).
+If you enter your menu, you have a world map where you can see your entire map, place markers or see [points of interest](../navigator/points-of-interest.md).
 
 ![world-map.webp](//img/pro/demo-map/world-map.webp)
 
@@ -229,13 +305,13 @@ Pressing **ESCAPE** (or in the editor **SHIFT + ESCAPE**) will open the [pause m
 
 ### Settings
 
-Clicking the [Settings](../ui/settings/index.md) option will let you change basic game options for audio and video.
+Clicking the Settings option will let you change basic game options for audio and video.
 
 ![settings.webp](//img/pro/demo-map/settings.webp)
 
 #### Gameplay
 
-The gameplay tab inside the Settings menu allows you to easily add [gameplay options](../ui/settings/gameplay-options.md) such as difficulty.
+The gameplay tab inside the Settings menu allows you to easily add gameplay options such as difficulty.
 
 ![settings-gameplay.webp](//img/pro/demo-map/settings-gameplay.webp)
 
@@ -278,3 +354,13 @@ As soon as you start the game, you will see a brief [loading screen](../ui/loadi
 Define how many [save slots](../saving/index.md) you want to allow the players to jump between games. Everything is saved, the entire world. Inventories, characters, equipment, states all of it. Highly customisable.
 
 ![save-slots.webp](//img/pro/demo-map/save-slots.webp)
+
+## Flexible UI
+
+The UI system is fully customizable and can be used to create any UI you want.
+
+Style classes to easily change the look and feel of the UI and easy to use widgets for everything else.
+
+![weapon-attach-1.webp](//img/pro/demo-map/weapon-attach-1.webp)
+
+![input-settings.webp](//img/pro/demo-map/input-settings.webp)

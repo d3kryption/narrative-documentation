@@ -51,7 +51,6 @@ When you want to use a custom sequence without any Narrative control.
 
 <video autoPlay muted loop playsinline width="100%">
   <source src="/img/dialogue/shots/level-sequence-player-shot-v1.mp4" type="video/mp4"/>
-  <source src="/img/dialogue/shots/level-sequence-player-shot-v1.mov" type="video/mov"/>
   Your browser does not support the video tag.
 </video>
 
@@ -73,7 +72,6 @@ This shot is animated. It's the same as the Medium Close Up, but slowly pans in 
 
 <video autoPlay muted loop playsinline width="100%">
   <source src="/img/dialogue/shots/medium-close-up-dolly1-shot-v1.mp4" type="video/mp4"/>
-  <source src="/img/dialogue/shots/medium-close-up-dolly1-shot-v1.mov" type="video/mov"/>
   Your browser does not support the video tag.
 </video>
 
@@ -95,7 +93,6 @@ When you want to use a custom sequence but let Narrative control its features.
 
 <video autoPlay muted loop playsinline width="100%">
   <source src="/img/dialogue/shots/narrative-level-sequence-player-shot-v1.mp4" type="video/mp4"/>
-  <source src="/img/dialogue/shots/narrative-level-sequence-player-shot-v1.mov" type="video/mov"/>
   Your browser does not support the video tag.
 </video>
 
