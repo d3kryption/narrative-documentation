@@ -1,5 +1,6 @@
 ---
 sidebar_label: 'F.A.Qs'
+sidebar_position: 1
 ---
 
 import React from 'react';
@@ -145,4 +146,3 @@ Standard Unreal sequences: By default, Unreal doesn't have a skip function, but 
     <p>You simply need to create a custom [Narrative Interaction](./interaction) that interacts with the chest -> freezes the player -> tells it to open -> once it's opened -> open the [inventory](./inventory).</p>
 </div>
 </div>
-`

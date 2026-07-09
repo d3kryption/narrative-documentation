@@ -1,6 +1,6 @@
 ---
 sidebar_label: 'Installation'
-sidebar_position: 0
+sidebar_position: 2
 ---
 import MustEnablePluginViewContent from '/src/components/must-enable-plugin-view-content.mdx'
 

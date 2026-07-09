@@ -17,6 +17,16 @@ Welcome to the Narrative Pro quick start guide. This guide will show you how to 
 
 You can purchase [Narrative Pro here](https://www.fab.com/listings/954b0610-9c29-4dd6-9900-d3c855b26741) from the Fab Marketplace.
 
+### Before you buy
+
+Before purchasing Narrative Pro it's important to understand the features and benefits of the product, as well as any potential limitations or requirements. 
+
+It's also recommended to read reviews and ask questions from other users to get a better understanding of the product before making a purchase decision.
+
+We have a video here talking about what potential limitations you might run into.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/aIfRCenBTTE?si=hHmHWT-06wLNO5YO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ## Quick start guides
 
 Detailed getting started video guides are available here:
