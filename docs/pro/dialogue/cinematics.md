@@ -12,6 +12,11 @@ Narrative features Sequencer additions to make it easier to create cinematic sty
 
 Firstly, create a new or open your existing sequencer.
 
+<video autoPlay muted loop playsinline width="100%">
+  <source src="/img/dialogue/cinematics/cinematics.mp4" type="video/mp4"/>
+  Your browser does not support the video tag.
+</video>
+
 ## Player Controller
 
 Narrative's Player Controller is expanded to give the sequencer extra control over the characters.
@@ -61,3 +66,20 @@ This track is used to add dialogue options onto the screen for the players to se
 Add the dialogue track and add a keyframe to it. You can now right-click on it and choose its dialogue options to select which options are available and which sequence it takes you to. 
 
 ![cinematics-dialogue-track-settings.webp](//img/dialogue/cinematics/cinematics-dialogue-track-settings.webp)
+
+The dialogue track has several settings that allow you to create better sequences:
+
+- Blend Anims Between Sequences: This allows you to blend between animations when the dialogue track changes sequence. This is useful for creating smooth transitions between sequences.
+- Keep Existing Sequence Settings: Ticking this will use the same sequencer settings as the previous sequence (start times, looping, binding configs). Unticking it will allow you to override them.
+
+### Looping
+
+The dialogue track has also built to loop the sequence at that point for the length of the dialogue track. This allows you to watch that part of the sequence on loop, until the player selects an option.
+
+## Characters
+
+Narrative includes a blueprint class called BP_SequenceChar that you can use inside sequences to give you a preview of the character in the sequence.
+
+This is a lightweight character that lets you build your sequence without having to create a full character.
+
+![sequencechars.webp](//img/dialogue/cinematics/sequencechars.webp)
