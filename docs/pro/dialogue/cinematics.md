@@ -17,6 +17,7 @@ Below are the features added via Narrative with some context on how to use them 
   Your browser does not support the video tag.
 </video>
 
+
 :::note
 
 CTRL + / is the Unreal hot key for splitting a track. It will be invaluable for creating sequences.
@@ -29,11 +30,11 @@ Firstly, create a new or open your existing sequencer.
 
 Add a new [BP_SequenceChar](./cinematics.md#characters) into the world to control your player. Make sure to right-click the track, Tags -> add a new tag of `Player` for Narrative to bind correctly.
 
-[screenshot of player track with tag]
+![cinematics_playertag.webp](//img/dialogue/cinematics/cinematics_playertag.webp)
 
 Click the Plus icon next to the PlayerChar track and add the CharacterMesh track and add the ABP_Biped from that track.
 
-[screenshot of tracks]
+![cinematics_playercharactermesh.webp](//img/dialogue/cinematics/cinematics_playercharactermesh.webp)
 
 To add animations, click the plus icon next to the CharacterMesh track and add the animation you want.
 
@@ -41,39 +42,39 @@ To add animations, click the plus icon next to the CharacterMesh track and add t
 
 Animations by default will not fade between animations when they are played. 
 
-[screenshot of animation fading]
+![cinematics_animation_fading.webp](//img/dialogue/cinematics/cinematics_animation_fading.webp)
 
 :::
 
-[screenshot of animation in track]
+![cinematics_animation_track.webp](//img/dialogue/cinematics/cinematics_animation_track.webp)
 
 You can add audio directly to the [BP_SequenceChar](./cinematics.md#characters) track to play it.
 
-[screenshot of audio]
+![cinematics_audio_track.webp](//img/dialogue/cinematics/cinematics_audio_track.webp)
 
 Add another new [BP_SequenceChar](./cinematics.md#characters) into the world to control your NPC. Make sure to right-click the track, Tags -> add a new tag that is the Speaker ID of your NPC for Narrative to bind correctly.
 
 E.g. If your speaker ID is "Sinny", add "Sinny" as a gameplay tag.
 
-[screenshot of NPC sequencer]
+![cinematics_npc_tag.webp](//img/dialogue/cinematics/cinematics_npc_tag.webp)
 
 Since both characters are built using the [BP_SequenceChar](./cinematics.md#characters) you can copy and paste the CharacterMesh, ABP_Biped, Animation and audio tracks (transform too if you added that) onto the NPC from the Player to make it eaiser.
 
-[screenshot of NPC tracks]
+![cinematics_npc_tracks.webp](//img/dialogue/cinematics/cinematics_npc_tracks.webp)
 
-When you are ready to show the player options to select you can use the [Dialogue Track](./cinematics.md#dialogue-track)
+When you are ready to show the player options to select, you can use the [Dialogue Track](./cinematics.md#dialogue-track)
 
-[screenshot of dialogue track]
+![cinematics_dialogue_Track.webp](//img/dialogue/cinematics/cinematics_dialogue_Track.webp)
 
 ## Playing sequences
 
 Narrative contains a built-in trigger to play a cutscene when the player walks into it. Drag `BP_Trigger_Cutscene` into your world to play a sequence using Narrative.
 
-[screenshot of bp trigger cutscene]
+![cinematics_trigger_cutscene.webp](//img/dialogue/cinematics/cinematics_trigger_cutscene.webp)
 
 You can then set the Level Sequence and other options in the details panel of the `BP_Trigger_Cutscene`.
 
-[screenshot of sequence settings]
+![cinematics_trigger_cutscene_settings.webp](//img/dialogue/cinematics/cinematics_trigger_cutscene_settings.webp)
 
 :::note
 
@@ -127,15 +128,27 @@ Some examples of this could be telling characters to unequip weapons, abilities,
 
 This track is a blueprint class located in `/Narrative/Pro/Core/BP/Sequencer/Tracks/UI`.
 
+:::note
+
+You add the skip track onto the BP_SequenceChar.
+
+:::
+
 ## Skip Track
 
 The skip-track controls where a sequence skips to when the player presses the skip button.
 
 This lets you control exactly where the sequence skips to when the player presses the skip button instead of just skipping the entire sequence.
 
-[screenshot of skip track]
+![cinematics_trigger_skip.webp](//img/dialogue/cinematics/cinematics_trigger_skip.webp)
 
 This track is a blueprint class located in `/Narrative/Pro/Core/BP/Sequencer/Tracks/UI`.
+
+:::note
+
+You add the skip track onto the player controller.
+
+:::
 
 ## Dialogue Track
 
@@ -162,7 +175,7 @@ The dialogue track has also built to loop the sequence at that point for the len
 
 The widget track allows you to add widgets to the UI inside a sequence. This is useful for adding UI elements to show the player such as buttons, text, and images.
 
-[screenshot of widget track]
+![cinematics_widget_track.webp](//img/dialogue/cinematics/cinematics_widget_track.webp)
 
 You can set the length of the track to automatically handle hiding the widget.
 
@@ -196,53 +209,47 @@ You can make a camera fade in or out by using the normal sequencer Camera Cuts t
 
 Now drag the top yellow arrow forward or backward to make the camera fade in or out.
 
-[screenshot of camera fading]
+![cinematics_camera_fading.webp](//img/dialogue/cinematics/cinematics_camera_fading.webp)
 
 ### Camera Focus
 
-Sometimes your camera won't focus on the right actor in the scene causing the shot to be blurry.
+Sometimes your camera won't focus on the right actor in the scene, causing the shot to be blurry.
 
-[screenshot of camera focus]
+![cinematics_camera_focus.webp](//img/dialogue/cinematics/cinematics_camera_focus.webp)
 
 You can fix this by selecting the camera in the sequence and either selecting the actor you want to focus on in the scene or setting the camera Manual Focus Distance on the camera or using keyframes.
 
-[screenshot of camera focus settings]
+![cinematics_camera_focus_settings.webp](//img/dialogue/cinematics/cinematics_camera_focus_settings.webp)
 
 ### Camera Black Bars
 
 By default, Unreal cine cameras have large black bars either side of the screen to add a cinematographic look. This isn't for everyone.
 
-[screenshot of camera black bars]
-
 To fix this, select your camera and untick the `Constrain Aspect Ratio` flag.
 
-[screenshot of cameras fixed]
+![cinematics_camera_blackbars_setting.webp](//img/dialogue/cinematics/cinematics_camera_blackbars_setting.webp)
 
 ## Custom variables
 
 You might want to sometimes allow the sequencer to control or see a variable stored on your characters. You can do this by selecting the variable and ticking the Expose to Cinematics flag.
 
-[screenshot of exposing variables]
+![cinematics_camera_custom_varaibles.webp](//img/dialogue/cinematics/cinematics_camera_custom_varaibles.webp)
 
-[screenhost of sequencer]
+![cinematics_sequence_exposed_variables.webp](//img/dialogue/cinematics/cinematics_sequence_exposed_variables.webp)
 
 ## Blending between sequences
 
 When using multiple sequences, it is common that you will run into issues with cameras or animations not blending correctly.
 
-[screenshot of bad blending]
-
 You can fix this by using the custom features `Sequencer Blend In` and `Sequence Blend Out` options.
 
-[screenshot of options]
+![cinematics_sequencer_blend_tracks.webp](//img/dialogue/cinematics/cinematics_sequencer_blend_tracks.webp)
 
 These will let you control how the camera and animations blend between sequences instead of snapping.
 
-[screenshot of good blending]
+## Slot-based animations
 
-## Slot based animations
+You can also play animations in a specific animation slot. This lets you play animation on specific parts of the body instead of a full-body controlled animation.
 
-You can also play animations on a specific animation slot. This lets you play animation on specific parts of the body instead of a full body controlled animations.
-
-[screenshot of settings]
+![cinematics_animation_slot.webp](//img/dialogue/cinematics/cinematics_animation_slot.webp)
 
