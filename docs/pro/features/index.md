@@ -118,7 +118,7 @@ Easy-to-use [pickups](../interaction/interactables/default-interactables.md#item
 
 ![equipment-armourpickup.webp](//img/pro/demo-map/equipment-armourpickup.webp)
 
-[Live preview](../ui/inventory/equipment.md) of your character when equipping armour and weapons.
+Live preview of your character when equipping armour and weapons.
 
 ![equipment-livepreview.webp](//img/pro/demo-map/equipment-livepreview.webp)
 
@@ -183,7 +183,7 @@ Built in true first-person mode. Fully playable, look around and see your own bo
 
 ## Interaction
 
-[Interactions](../ui/interaction/index.md) will allow you to use, pickup and interact with objects in the world.
+Interactions will allow you to use, pickup and interact with objects in the world.
 
 ![interactions.webp](//img/pro/demo-map/interactions.webp)
 
@@ -199,7 +199,7 @@ A replacement for Unreal's Smart Objects, that is fully replicated allowing you 
 
 ## Inventory
 
-Pressing the **TAB** key will show you your [inventory](../ui/inventory/index.md).
+Pressing the **TAB** key will show you your inventory.
 
 ![inventory-v2.webp](//img/pro/demo-map/inventory-v2.webp)
 
@@ -299,7 +299,7 @@ A new tool allowing you to schedule NPC's to perform certain tasks at specific t
 
 ## Pause menu
 
-Pressing **ESCAPE** (or in the editor **SHIFT + ESCAPE**) will open the [pause menu](../ui/pause-menu.md).
+Pressing **ESCAPE** (or in the editor **SHIFT + ESCAPE**) will open the pause menu.
 
 ![pausemenu.webp](//img/pro/demo-map/pausemenu.webp)
 
@@ -347,7 +347,7 @@ Some objectives just aren't required but are nice to have. [Optional quests](../
 
 ## Save & Loading
 
-As soon as you start the game, you will see a brief [loading screen](../ui/loading-screen.md).
+As soon as you start the game, you will see a brief loading screen.
 
 ![save-load.webp](//img/pro/demo-map/save-load.webp)
 
